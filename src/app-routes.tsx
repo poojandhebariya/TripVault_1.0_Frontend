@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import AppLayout from "./layout/app-layout";
 import SignIn from "./pages/sign-in/sign-in";
 import SignUp from "./pages/sign-up/sign-up";
+import ProfileSetup from "./pages/profile-setup/profile-setup";
 
 const AppRoutes = () => {
   return (
@@ -10,6 +11,7 @@ const AppRoutes = () => {
         <Route index element={<>Home</>} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/profile-setup" element={<ProfileSetup />} />
       </Route>
     </Routes>
   );

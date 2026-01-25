@@ -46,7 +46,7 @@ const SignUp = () => {
             disabled={false}
             icon={faGoogle}
             variant="outline"
-            className="w-full"
+            outlineClassName="w-full"
           />
           <Button
             text="Apple"
@@ -54,7 +54,7 @@ const SignUp = () => {
             disabled={false}
             icon={faApple}
             variant="outline"
-            className="w-full"
+            outlineClassName="w-full"
           />
         </div>
       </div>

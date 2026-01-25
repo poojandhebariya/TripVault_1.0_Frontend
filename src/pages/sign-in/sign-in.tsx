@@ -47,7 +47,7 @@ const SignIn = () => {
             disabled={false}
             icon={faGoogle}
             variant="outline"
-            className="w-full"
+            outlineClassName="w-full"
           />
           <Button
             text="Apple"
@@ -55,7 +55,7 @@ const SignIn = () => {
             disabled={false}
             icon={faApple}
             variant="outline"
-            className="w-full"
+            outlineClassName="w-full"
           />
         </div>
         <hr className="w-full border border-gray-200 my-2" />
