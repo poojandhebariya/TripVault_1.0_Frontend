@@ -4,6 +4,7 @@
 * {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
+  -webkit-tap-highlight-color: transparent;
 }
 
 *::-webkit-scrollbar {
@@ -72,3 +73,21 @@
   }
 }
 
+@keyframes bounceClick {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.active\:bounce-click:active {
+  animation: bounceClick 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

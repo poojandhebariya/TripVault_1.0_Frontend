@@ -3,7 +3,15 @@ import Button from "../../../components/ui/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCamera, faImage, faUser } from "@fortawesome/free-solid-svg-icons";
 
-const ProfileSetupStep3 = ({ onNext }: { onNext: () => void }) => {
+const ProfileSetupStep3 = ({
+  onNext,
+  // profileData,
+  // setProfileData,
+}: {
+  onNext: () => void;
+  // profileData: Partial<User>;
+  // setProfileData: (data: Partial<User>) => void;
+}) => {
   const [coverPhoto, setCoverPhoto] = useState<string | null>(null);
   const [profilePic, setProfilePic] = useState<string | null>(null);
 
@@ -22,7 +30,7 @@ const ProfileSetupStep3 = ({ onNext }: { onNext: () => void }) => {
   };
 
   return (
-    <div className="w-4xl flex flex-col items-center justify-center border border-gray-200 rounded-lg shadow-lg animate-[slideDown_0.3s_ease-out] bg-white overflow-hidden">
+    <div className="w-full lg:w-4xl flex flex-col items-center justify-center lg:border border-gray-200 rounded-lg lg:shadow-lg animate-[slideDown_0.3s_ease-out] bg-white overflow-hidden">
       <div className="py-6 w-full px-5 text-center">
         <p className="text-2xl font-semibold gradient-text w-fit mx-auto">
           Let's setup your appearance!

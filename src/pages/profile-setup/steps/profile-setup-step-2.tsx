@@ -7,11 +7,22 @@ import { clsx } from "clsx";
 import type { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { interestsData } from "../../../utils/interest-data";
 import { tripTypesData } from "../../../utils/trip-type-data";
+import type { User } from "../../types/user";
+import { PreferredTripType } from "../../types/preferred-trip-type";
 
-const ProfileSetupStep2 = ({ onNext }: { onNext: () => void }) => {
+const ProfileSetupStep2 = ({
+  onNext,
+  profileData,
+  setProfileData,
+}: {
+  onNext: () => void;
+  profileData: Partial<User>;
+  setProfileData: (data: Partial<User>) => void;
+}) => {
   const [step, setStep] = useState(1);
   const [selectedInterests, setSelectedInterests] = useState<string[]>([]);
-  const [selectedTripTypes, setSelectedTripTypes] = useState<string>();
+  const [selectedTripTypes, setSelectedTripTypes] =
+    useState<PreferredTripType>();
 
   const toggleInterest = (id: string) => {
     setSelectedInterests((prev) => {
@@ -25,21 +36,23 @@ const ProfileSetupStep2 = ({ onNext }: { onNext: () => void }) => {
     });
   };
 
-  const toggleTripType = (id: string) => {
-    setSelectedTripTypes((prev) => (prev === id ? "" : id));
+  const toggleTripType = (id: PreferredTripType) => {
+    setSelectedTripTypes((prev) => (prev === id ? undefined : id));
   };
 
   const handleNext = () => {
     if (step === 1) {
+      setProfileData({ ...profileData, interests: selectedInterests });
       setStep(2);
     } else {
+      setProfileData({ ...profileData, preferredTripType: selectedTripTypes });
       onNext();
     }
   };
 
   return (
-    <div className="w-4xl flex border border-gray-200 rounded-lg shadow-lg animate-[slideDown_0.3s_ease-out] bg-white min-h-[520px]">
-      <div className="w-1/2 flex flex-col p-8">
+    <div className="w-full lg:w-4xl flex lg:border border-gray-200 rounded-lg lg:shadow-lg animate-[slideDown_0.3s_ease-out] bg-white min-h-[520px]">
+      <div className="w-full lg:w-1/2 flex flex-col p-5">
         <div className="space-y-2 mb-6">
           <h2 className="text-2xl font-semibold gradient-text w-fit">
             Customise your travel preferences
@@ -106,7 +119,9 @@ const ProfileSetupStep2 = ({ onNext }: { onNext: () => void }) => {
               {tripTypesData.map((tripType) => (
                 <button
                   key={tripType.id}
-                  onClick={() => toggleTripType(tripType.id)}
+                  onClick={() =>
+                    toggleTripType(tripType.id as PreferredTripType)
+                  }
                   className={clsx(
                     "flex items-center gap-2 px-3 py-2 rounded-xl border transition-all duration-200 cursor-pointer outline-none w-full sm:w-auto",
                     selectedTripTypes === tripType.id
@@ -161,7 +176,7 @@ const ProfileSetupStep2 = ({ onNext }: { onNext: () => void }) => {
           />
         </div>
       </div>
-      <div className="w-1/2 relative">
+      <div className="lg:w-1/2 relative hidden lg:block">
         <img
           src={profileSetupStep2Image}
           alt="Travel interests"
