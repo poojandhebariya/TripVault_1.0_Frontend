@@ -21,8 +21,43 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import useIsMobile from "../hooks/isMobile";
 import { useState, useRef, useEffect } from "react";
+import { userQueries } from "../tanstack/auth/user/queries";
+import { useQuery } from "@tanstack/react-query";
 
 const NOTIFICATION_COUNT = 3;
+
+const NonloggedInNavigation = [
+  { label: "Explore", href: ROUTES.EXPLORE },
+  { label: "Sign In", href: ROUTES.AUTH.SIGN_IN },
+  { label: "Sign Up", href: ROUTES.AUTH.SIGN_UP },
+];
+
+const LoggedInNavigation = [
+  { label: "Explore", href: ROUTES.EXPLORE },
+  { label: "Plan Trip", href: ROUTES.PLAN_TRIP },
+];
+
+const LoggedInProfileNavigation = [
+  { label: "My Profile", href: ROUTES.USER.PROFILE, icon: faUser },
+  { label: "Bucket List", href: ROUTES.PLAN_TRIP, icon: faList },
+  { label: "Saved", href: ROUTES.EXPLORE, icon: faHeart },
+  { label: "Map", href: ROUTES.EXPLORE, icon: faMap },
+  { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
+  { label: "Logout", href: ROUTES.EXPLORE, icon: faSignOut },
+];
+
+const LoggedInMobileNavigation = [
+  { label: "Bucket List", href: ROUTES.PLAN_TRIP, icon: faList },
+  { label: "Saved", href: ROUTES.EXPLORE, icon: faHeart },
+  { label: "Map", href: ROUTES.EXPLORE, icon: faMap },
+  { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
+  { label: "Logout", href: ROUTES.EXPLORE, icon: faSignOut },
+];
+
+const NonloggedInMobileNavigation = [
+  { label: "Sign In", href: ROUTES.AUTH.SIGN_IN, icon: faSignIn },
+  { label: "Sign Up", href: ROUTES.AUTH.SIGN_UP, icon: faUserPlus },
+];
 
 const Header = () => {
   const navigate = useNavigate();
@@ -32,6 +67,12 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
+
+  const { getProfile } = userQueries();
+  const { data: profileData } = useQuery({
+    ...getProfile(),
+    enabled: isLoggedIn,
+  });
 
   // Close profile dropdown on outside click
   useEffect(() => {
@@ -46,30 +87,6 @@ const Header = () => {
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
   }, []);
-
-  const NonloggedInNavigation = [
-    { label: "Explore", href: ROUTES.EXPLORE },
-    { label: "Sign In", href: ROUTES.AUTH.SIGN_IN },
-    { label: "Sign Up", href: ROUTES.AUTH.SIGN_UP },
-  ];
-
-  const LoggedInNavigation = [
-    { label: "Explore", href: ROUTES.EXPLORE },
-    { label: "Plan Trip", href: ROUTES.PLAN_TRIP },
-  ];
-
-  const LoggedInMobileNavigation = [
-    { label: "Bucket List", href: ROUTES.PLAN_TRIP, icon: faList },
-    { label: "Saved", href: ROUTES.EXPLORE, icon: faHeart },
-    { label: "Map", href: ROUTES.EXPLORE, icon: faMap },
-    { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
-    { label: "Logout", href: ROUTES.EXPLORE, icon: faSignOut },
-  ];
-
-  const NonloggedInMobileNavigation = [
-    { label: "Sign In", href: ROUTES.AUTH.SIGN_IN, icon: faSignIn },
-    { label: "Sign Up", href: ROUTES.AUTH.SIGN_UP, icon: faUserPlus },
-  ];
 
   return (
     <div className="py-4 border-b border-gray-200 shadow-sm px-5">
@@ -158,7 +175,15 @@ const Header = () => {
                     }`}
                     title="Profile"
                   >
-                    <FontAwesomeIcon icon={faUser} />
+                    {profileData?.profilePicUrl ? (
+                      <img
+                        src={profileData?.profilePicUrl}
+                        alt="Profile"
+                        className="w-8.5 h-8.5 rounded-full aspect-square"
+                      />
+                    ) : (
+                      <FontAwesomeIcon icon={faUser} />
+                    )}
                   </button>
 
                   <div
@@ -177,14 +202,14 @@ const Header = () => {
                     />
                     <div className="py-2">
                       {isLoggedIn
-                        ? LoggedInMobileNavigation.map((item) => (
+                        ? LoggedInProfileNavigation.map((item) => (
                             <button
                               key={item.label}
                               onClick={() => {
                                 navigate(item.href, { replace: true });
                                 setProfileOpen(false);
                               }}
-                              className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors duration-150 text-left ${
+                              className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors duration-150 text-left cursor-pointer ${
                                 item.label === "Logout"
                                   ? "text-red-500 hover:bg-red-50"
                                   : "text-gray-700 hover:bg-gray-50"

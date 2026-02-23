@@ -29,6 +29,12 @@ const App = () => {
     };
 
     return new QueryClient({
+      defaultOptions: {
+        queries: {
+          staleTime: 90 * 1000, // 1.5 minutes
+          refetchOnWindowFocus: false, // Prevents refetch when user switches tabs
+        },
+      },
       queryCache: new QueryCache({
         onError: (error: Error) => handleError(error),
       }),

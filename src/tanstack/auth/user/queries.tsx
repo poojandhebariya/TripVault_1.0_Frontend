@@ -7,11 +7,11 @@ import { userKeys } from "./keys";
 export const userQueries = () => {
   const getProfile = () => ({
     queryKey: userKeys.getProfile(),
-    queryFn: async (): Promise<ApiResponse<User>> => {
+    queryFn: async (): Promise<User> => {
       const response =
         await axiosInstance.get<ApiResponse<User>>("/user/profile");
       await set("user", response.data.data);
-      return response.data;
+      return response.data.data as User;
     },
   });
 

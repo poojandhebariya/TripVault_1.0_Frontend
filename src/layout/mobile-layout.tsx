@@ -39,7 +39,7 @@ const MobileLayout = () => {
       isCenter: true,
     },
     { icon: faMapLocation, label: "Plan", path: "/saved" },
-    { icon: faUser, label: "Profile", path: "/profile" },
+    { icon: faUser, label: "Profile", path: ROUTES.USER.PROFILE },
   ];
 
   const handleNavigation = (path: string) => {
@@ -66,7 +66,7 @@ const MobileLayout = () => {
           {bottomNavItems.map((item) => {
             const isModalActive =
               activeModal !== null && MODAL_ROUTES[item.path] === activeModal;
-            const isRouteActive = location.pathname === item.path;
+            const isRouteActive = location.pathname.startsWith(item.path);
             const isActive = isModalActive || isRouteActive;
 
             if (item.isCenter) {

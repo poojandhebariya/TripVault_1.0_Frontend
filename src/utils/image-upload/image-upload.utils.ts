@@ -65,7 +65,7 @@ export const COVER_PHOTO_CONFIG: ImageUploadConfig = {
     fileType: "image/webp",
     initialQuality: 0.82,
   },
-  crop: { aspect: 16 / 5, shape: "rect", minZoom: 1, maxZoom: 3 },
+  crop: { aspect: 16 / 4, shape: "rect", minZoom: 1, maxZoom: 3 },
 };
 
 /**

@@ -185,7 +185,7 @@ const ProfileSetupStep3 = ({
                     Upload Cover Photo
                   </span>
                   <span className="text-xs text-gray-300">
-                    16:5 ratio · auto-compressed
+                    4:1 ratio · auto-compressed
                   </span>
                 </div>
               )}

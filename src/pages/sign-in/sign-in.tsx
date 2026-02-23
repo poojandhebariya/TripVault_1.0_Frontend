@@ -52,8 +52,8 @@ const SignIn = () => {
       classname: "text-white",
     });
     const { data: profileData } = await refetchUser();
-    if (profileData?.data) {
-      await updateUser(profileData.data);
+    if (profileData) {
+      await updateUser(profileData);
     }
     navigate(ROUTES.HOME);
   };

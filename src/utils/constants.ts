@@ -8,6 +8,9 @@ export const ROUTES = {
   },
   USER: {
     PROFILE_SETUP: "/user/profile-setup",
+    PROFILE: "/user/profile",
+    PROFILE_VAULTS: "/user/profile/vaults",
+    PROFILE_TAGGED: "/user/profile/tagged",
   },
   CREATE_VAULT: "/create-vault",
   PLAN_TRIP: "/plan-trip",
