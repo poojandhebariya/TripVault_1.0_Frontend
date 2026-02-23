@@ -8,4 +8,6 @@ export interface User {
   country: string;
   interests: string[];
   preferredTripType: PreferredTripType;
+  coverPhotoUrl?: string;
+  profilePicUrl?: string;
 }

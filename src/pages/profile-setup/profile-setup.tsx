@@ -1,7 +1,9 @@
 import { useState } from "react";
 import ProfileSetupStep1 from "./steps/profile-setup-step-1";
 import ProfileSetupStep2 from "./steps/profile-setup-step-2";
-import ProfileSetupStep3 from "./steps/profile-setup-step-3";
+import ProfileSetupStep3, {
+  type ProfileImageUrls,
+} from "./steps/profile-setup-step-3";
 import { useNavigate } from "react-router-dom";
 import { userMutation } from "../../tanstack/auth/user/mutation";
 import { useMutation } from "@tanstack/react-query";
@@ -25,8 +27,18 @@ const ProfileSetup = () => {
   const { profileMutation } = userMutation();
   const { mutateAsync: profileMutate } = useMutation(profileMutation);
 
-  const handleProfileSubmit = async () => {
-    await profileMutate(profileData);
+  const handleProfileSubmit = async (imageUrls: ProfileImageUrls) => {
+    const payload: Partial<User> = {
+      ...profileData,
+      ...(imageUrls.coverPhotoUrl
+        ? { coverPhotoUrl: imageUrls.coverPhotoUrl }
+        : {}),
+      ...(imageUrls.profilePicUrl
+        ? { profilePicUrl: imageUrls.profilePicUrl }
+        : {}),
+    };
+
+    await profileMutate(payload);
     showSnackbar({
       message: "Profile created successfully",
       variant: "success",
@@ -61,13 +73,7 @@ const ProfileSetup = () => {
             setProfileData={setProfileData}
           />
         )}
-        {step === 3 && (
-          <ProfileSetupStep3
-            onNext={handleProfileSubmit}
-            // profileData={profileData}
-            // setProfileData={setProfileData}
-          />
-        )}
+        {step === 3 && <ProfileSetupStep3 onNext={handleProfileSubmit} />}
       </div>
     </div>
   );
