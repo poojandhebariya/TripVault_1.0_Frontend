@@ -12,6 +12,7 @@ import useIsMobile from "./hooks/isMobile";
 import Profile from "./pages/profile/profile";
 import Vaults from "./pages/profile/vaults";
 import Tagged from "./pages/profile/tagged";
+import EditProfile from "./pages/profile/edit-profile";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -41,6 +42,7 @@ const AppRoutes = () => {
           <Route path="vaults" element={<Vaults />} />
           <Route path="tagged" element={<Tagged />} />
         </Route>
+        <Route path={ROUTES.USER.PROFILE_EDIT} element={<EditProfile />} />
       </Route>
     </Routes>
   );

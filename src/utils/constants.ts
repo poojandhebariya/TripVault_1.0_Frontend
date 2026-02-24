@@ -11,8 +11,11 @@ export const ROUTES = {
     PROFILE: "/user/profile",
     PROFILE_VAULTS: "/user/profile/vaults",
     PROFILE_TAGGED: "/user/profile/tagged",
+    PROFILE_EDIT: "/user/profile/edit",
   },
-  CREATE_VAULT: "/create-vault",
+  VAULT: {
+    CREATE_VAULT: "/create-vault",
+  },
   PLAN_TRIP: "/plan-trip",
   EXPLORE: "/explore",
   SEARCH: "/search",

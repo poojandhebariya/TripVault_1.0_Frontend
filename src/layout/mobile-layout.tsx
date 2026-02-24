@@ -35,7 +35,7 @@ const MobileLayout = () => {
     {
       icon: faPlus,
       label: "Create",
-      path: ROUTES.CREATE_VAULT,
+      path: ROUTES.VAULT.CREATE_VAULT,
       isCenter: true,
     },
     { icon: faMapLocation, label: "Plan", path: "/saved" },

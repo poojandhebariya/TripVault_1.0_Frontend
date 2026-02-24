@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import { userQueries } from "../../tanstack/auth/user/queries";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { interestsData } from "../../utils/interest-data";
@@ -22,6 +22,7 @@ import ImagePreviewModal from "../../components/ui/image-preview-modal";
 import Button from "../../components/ui/button";
 
 const Profile = () => {
+  const navigate = useNavigate();
   const { getProfile } = userQueries();
   const { data: profile } = useQuery(getProfile());
 
@@ -143,6 +144,7 @@ const Profile = () => {
                 icon={faPen}
                 className="text-sm py-2 px-4 w-full rounded-lg"
                 outlineClassName="w-full"
+                onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
               />
               <Button
                 variant="default"
@@ -185,6 +187,7 @@ const Profile = () => {
               icon={faPen}
               className="text-xs py-[5.2px] px-3 rounded-full w-auto"
               outlineClassName="w-auto rounded-full"
+              onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
             />
             <Button
               variant="default"

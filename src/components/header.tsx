@@ -62,7 +62,7 @@ const NonloggedInMobileNavigation = [
 const Header = () => {
   const navigate = useNavigate();
   const isMobile = useIsMobile();
-  const { isLoggedIn } = useUserContext();
+  const { isLoggedIn, clearUser } = useUserContext();
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
@@ -73,6 +73,14 @@ const Header = () => {
     ...getProfile(),
     enabled: isLoggedIn,
   });
+
+  const handleLogout = async () => {
+    localStorage.clear();
+    await clearUser();
+    setProfileOpen(false);
+    setMenuOpen(false);
+    navigate(ROUTES.AUTH.SIGN_IN, { replace: true });
+  };
 
   // Close profile dropdown on outside click
   useEffect(() => {
@@ -103,7 +111,7 @@ const Header = () => {
             {isLoggedIn && (
               <Button
                 className="w-fit py-2 px-4"
-                onClick={() => navigate(ROUTES.CREATE_VAULT)}
+                onClick={() => navigate(ROUTES.VAULT.CREATE_VAULT)}
                 icon={faPlus}
                 text="Create"
               />
@@ -206,8 +214,12 @@ const Header = () => {
                             <button
                               key={item.label}
                               onClick={() => {
-                                navigate(item.href, { replace: true });
-                                setProfileOpen(false);
+                                if (item.label === "Logout") {
+                                  handleLogout();
+                                } else {
+                                  navigate(item.href, { replace: true });
+                                  setProfileOpen(false);
+                                }
                               }}
                               className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors duration-150 text-left cursor-pointer ${
                                 item.label === "Logout"
@@ -331,8 +343,12 @@ const Header = () => {
                           }`}
                           style={{ transitionDelay: `${index * 50}ms` }}
                           onClick={() => {
-                            navigate(item.href, { replace: true });
-                            setMenuOpen(false);
+                            if (item.label === "Logout") {
+                              handleLogout();
+                            } else {
+                              navigate(item.href, { replace: true });
+                              setMenuOpen(false);
+                            }
                           }}
                         >
                           <div className="flex items-center gap-3">
@@ -354,7 +370,7 @@ const Header = () => {
                     <Button
                       className="mt-4 py-4 text-lg font-bold shadow-lg"
                       onClick={() => {
-                        navigate(ROUTES.CREATE_VAULT);
+                        navigate(ROUTES.VAULT.CREATE_VAULT);
                         setMenuOpen(false);
                       }}
                       icon={faPlus}
