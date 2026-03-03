@@ -13,6 +13,8 @@ import Profile from "./pages/profile/profile";
 import Vaults from "./pages/profile/vaults";
 import Tagged from "./pages/profile/tagged";
 import EditProfile from "./pages/profile/edit-profile";
+import CreateVault from "./pages/vault/create-vault";
+import ProtectedRoute from "./components/protected-route";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -34,15 +36,19 @@ const AppRoutes = () => {
 
         <Route path={ROUTES.USER.PROFILE_SETUP} element={<ProfileSetup />} />
 
-        <Route path={ROUTES.USER.PROFILE} element={<Profile />}>
-          <Route
-            index
-            element={<Navigate to={ROUTES.USER.PROFILE_VAULTS} replace />}
-          />
-          <Route path="vaults" element={<Vaults />} />
-          <Route path="tagged" element={<Tagged />} />
+        {/* Protected Routes */}
+        <Route element={<ProtectedRoute />}>
+          <Route path={ROUTES.USER.PROFILE} element={<Profile />}>
+            <Route
+              index
+              element={<Navigate to={ROUTES.USER.PROFILE_VAULTS} replace />}
+            />
+            <Route path="vaults" element={<Vaults />} />
+            <Route path="tagged" element={<Tagged />} />
+          </Route>
+          <Route path={ROUTES.USER.PROFILE_EDIT} element={<EditProfile />} />
+          <Route path={ROUTES.VAULT.CREATE_VAULT} element={<CreateVault />} />
         </Route>
-        <Route path={ROUTES.USER.PROFILE_EDIT} element={<EditProfile />} />
       </Route>
     </Routes>
   );

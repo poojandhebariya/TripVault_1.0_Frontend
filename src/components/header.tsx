@@ -20,9 +20,11 @@ import {
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 import useIsMobile from "../hooks/isMobile";
-import { useState, useRef, useEffect } from "react";
-import { userQueries } from "../tanstack/auth/user/queries";
-import { useQuery } from "@tanstack/react-query";
+import { useState } from "react";
+import { userQueries } from "../tanstack/user/queries";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
+import { clear } from "idb-keyval";
+import DropdownMenu, { type DropdownMenuItem } from "./ui/dropdown-menu";
 
 const NOTIFICATION_COUNT = 3;
 
@@ -63,10 +65,8 @@ const Header = () => {
   const navigate = useNavigate();
   const isMobile = useIsMobile();
   const { isLoggedIn, clearUser } = useUserContext();
-
+  const queryClient = useQueryClient();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [profileOpen, setProfileOpen] = useState(false);
-  const profileRef = useRef<HTMLDivElement>(null);
 
   const { getProfile } = userQueries();
   const { data: profileData } = useQuery({
@@ -75,34 +75,21 @@ const Header = () => {
   });
 
   const handleLogout = async () => {
+    await queryClient.clear();
     localStorage.clear();
     await clearUser();
-    setProfileOpen(false);
+    await clear();
     setMenuOpen(false);
     navigate(ROUTES.AUTH.SIGN_IN, { replace: true });
   };
 
-  // Close profile dropdown on outside click
-  useEffect(() => {
-    const handler = (e: MouseEvent) => {
-      if (
-        profileRef.current &&
-        !profileRef.current.contains(e.target as Node)
-      ) {
-        setProfileOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
-  }, []);
-
   return (
-    <div className="py-4 border-b border-gray-200 shadow-sm px-5">
+    <div className="py-4 border-b border-gray-200 shadow-sm px-5 md:mb-[1px]">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <img
           src={Logo}
           alt="TripVault"
-          className="h-12 cursor-pointer"
+          className="h-10 md:h-12 cursor-pointer"
           onClick={() => navigate(ROUTES.HOME, { replace: true })}
         />
 
@@ -172,87 +159,47 @@ const Header = () => {
                   )}
                 </button>
 
-                <div ref={profileRef} className="relative">
-                  <button
-                    id="header-profile-btn"
-                    onClick={() => setProfileOpen((prev) => !prev)}
-                    className={`w-9 h-9 rounded-full cursor-pointer flex items-center justify-center text-gray-600 transition-all duration-200 active:scale-95 border-2 ${
-                      profileOpen
-                        ? "border-purple-500 bg-purple-50 text-purple-700"
-                        : "border-gray-200 bg-gray-50 hover:border-gray-400"
-                    }`}
-                    title="Profile"
-                  >
-                    {profileData?.profilePicUrl ? (
-                      <img
-                        src={profileData?.profilePicUrl}
-                        alt="Profile"
-                        className="w-8.5 h-8.5 rounded-full aspect-square"
-                      />
-                    ) : (
-                      <FontAwesomeIcon icon={faUser} />
-                    )}
-                  </button>
-
-                  <div
-                    className={`absolute right-0 mt-2 w-56 bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden transition-all duration-200 origin-top-right ${
-                      profileOpen
-                        ? "opacity-100 scale-100 pointer-events-auto"
-                        : "opacity-0 scale-95 pointer-events-none"
-                    }`}
-                  >
-                    <div
-                      className="h-1 w-full"
-                      style={{
-                        background:
-                          "linear-gradient(to right, #0219b3, #7d0299)",
-                      }}
-                    />
-                    <div className="py-2">
-                      {isLoggedIn
-                        ? LoggedInProfileNavigation.map((item) => (
-                            <button
-                              key={item.label}
-                              onClick={() => {
-                                if (item.label === "Logout") {
-                                  handleLogout();
-                                } else {
-                                  navigate(item.href, { replace: true });
-                                  setProfileOpen(false);
-                                }
-                              }}
-                              className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors duration-150 text-left cursor-pointer ${
-                                item.label === "Logout"
-                                  ? "text-red-500 hover:bg-red-50"
-                                  : "text-gray-700 hover:bg-gray-50"
-                              }`}
-                            >
-                              <FontAwesomeIcon
-                                icon={item.icon}
-                                className={`w-4 ${item.label === "Logout" ? "text-red-400" : "text-gray-400"}`}
-                              />
-                              {item.label}
-                            </button>
-                          ))
-                        : NonloggedInMobileNavigation.map((item) => (
-                            <button
-                              key={item.label}
-                              onClick={() => {
-                                navigate(item.href, { replace: true });
-                                setProfileOpen(false);
-                              }}
-                              className="w-full flex items-center gap-3 px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors duration-150 text-left"
-                            >
-                              <FontAwesomeIcon
-                                icon={item.icon}
-                                className="w-4 text-gray-400"
-                              />
-                              {item.label}
-                            </button>
-                          ))}
-                    </div>
-                  </div>
-                </div>
+                <DropdownMenu
+                  width="w-56"
+                  trigger={(isOpen) => (
+                    <button
+                      id="header-profile-btn"
+                      className={`w-9 h-9 rounded-full cursor-pointer flex items-center justify-center text-gray-600 transition-all duration-200 active:scale-95 border-2 ${
+                        isOpen
+                          ? "border-purple-500 bg-purple-50 text-purple-700"
+                          : "border-gray-200 bg-gray-50 hover:border-gray-400"
+                      }`}
+                      title="Profile"
+                    >
+                      {profileData?.profilePicUrl ? (
+                        <img
+                          src={profileData.profilePicUrl}
+                          alt="Profile"
+                          className="w-8.5 h-8.5 rounded-full aspect-square"
+                        />
+                      ) : (
+                        <FontAwesomeIcon icon={faUser} />
+                      )}
+                    </button>
+                  )}
+                  items={(isLoggedIn
+                    ? LoggedInProfileNavigation
+                    : NonloggedInMobileNavigation
+                  ).map(
+                    (item): DropdownMenuItem => ({
+                      label: item.label,
+                      icon: item.icon,
+                      onClick: () => {
+                        if (item.label === "Logout") {
+                          handleLogout();
+                        } else {
+                          navigate(item.href, { replace: true });
+                        }
+                      },
+                      variant: item.label === "Logout" ? "danger" : "default",
+                    }),
+                  )}
+                />
               </>
             )}
           </div>

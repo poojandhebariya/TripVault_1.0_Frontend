@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { useQuery, useMutation } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowLeft,
   faCamera,
   faImage,
   faUser,
@@ -16,8 +15,8 @@ import {
 import { clsx } from "clsx";
 import type { IconProp } from "@fortawesome/fontawesome-svg-core";
 
-import { userQueries } from "../../tanstack/auth/user/queries";
-import { userMutation } from "../../tanstack/auth/user/mutation";
+import { userQueries } from "../../tanstack/user/queries";
+import { userMutation } from "../../tanstack/user/mutation";
 import { mediaMutation } from "../../tanstack/media/mutation";
 import { interestsData } from "../../utils/interest-data";
 import { tripTypesData } from "../../utils/trip-type-data";
@@ -33,6 +32,7 @@ import {
 import Button from "../../components/ui/button";
 import Input from "../../components/ui/input";
 import { useSnackbar } from "react-snackify";
+import MobileStickyHeader from "../../components/mobile-sticky-header";
 
 const SectionLabel = ({ children }: { children: React.ReactNode }) => (
   <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">
@@ -42,7 +42,6 @@ const SectionLabel = ({ children }: { children: React.ReactNode }) => (
 
 const EditProfile = () => {
   const navigate = useNavigate();
-  const queryClient = useQueryClient();
   const { showSnackbar } = useSnackbar();
 
   const { getProfile } = userQueries();
@@ -182,25 +181,18 @@ const EditProfile = () => {
       />
 
       <div className="min-h-screen pb-20">
-        <div className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 block md:hidden">
-          <div className="max-w-2xl mx-auto px-4 h-14 flex items-center justify-between">
-            <button
-              onClick={() => navigate(-1)}
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors text-sm font-medium"
-            >
-              <FontAwesomeIcon icon={faArrowLeft} />
-              <span className="hidden sm:inline">Back</span>
-            </button>
-            <h1 className="text-base font-bold text-gray-900">Edit Profile</h1>
+        <MobileStickyHeader
+          title="Edit Profile"
+          rightAction={
             <Button
               text="Save"
               loading={isSaving}
               disabled={isBusy}
-              className="py-1.5 px-5 text-sm rounded-full w-auto"
+              className="px-4 py-1.5 rounded-full"
               onClick={handleSubmit(onSubmit)}
             />
-          </div>
-        </div>
+          }
+        />
 
         <div className="max-w-2xl mx-auto px-4 pt-6 space-y-6 animate-[slideDown_0.3s_ease-out]">
           <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">

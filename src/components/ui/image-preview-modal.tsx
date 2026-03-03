@@ -34,6 +34,8 @@ const ImagePreviewModal = ({
   const [visible, setVisible] = useState(false);
   const [scale, setScale] = useState(1);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
+  // swipe-down-to-close state
+  const [swipeDy, setSwipeDy] = useState(0);
 
   // Refs for gesture state (not in state to avoid re-renders during fast events)
   const isDragging = useRef(false);
@@ -41,6 +43,10 @@ const ImagePreviewModal = ({
   const offsetAtDragStart = useRef({ x: 0, y: 0 });
   const lastPinchDist = useRef<number | null>(null);
   const lastTapTime = useRef(0);
+  // swipe-to-close tracking
+  const swipeStartY = useRef<number | null>(null);
+  const swipeStartTime = useRef(0);
+  const isSwipeCandidate = useRef(false);
   const overlayRef = useRef<HTMLDivElement>(null);
   const imgContainerRef = useRef<HTMLDivElement>(null);
 
@@ -154,19 +160,29 @@ const ImagePreviewModal = ({
   // ── Touch: pinch-to-zoom + drag + double-tap ──────────────────────────────
   const onTouchStart = (e: React.TouchEvent) => {
     if (e.touches.length === 2) {
-      // Start of pinch gesture
+      // Start of pinch gesture — not a swipe
+      isSwipeCandidate.current = false;
       const dx = e.touches[0].clientX - e.touches[1].clientX;
       const dy = e.touches[0].clientY - e.touches[1].clientY;
       lastPinchDist.current = Math.hypot(dx, dy);
     } else if (e.touches.length === 1) {
-      // Single touch — drag setup
+      // Single touch — drag setup + swipe-to-close setup
       dragStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
       offsetAtDragStart.current = offset;
+      // Swipe-to-close only when not zoomed
+      if (scale <= 1) {
+        swipeStartY.current = e.touches[0].clientY;
+        swipeStartTime.current = Date.now();
+        isSwipeCandidate.current = true;
+      } else {
+        isSwipeCandidate.current = false;
+      }
       // Double-tap detection
       const now = Date.now();
       if (now - lastTapTime.current < 300) {
         setScale(1);
         setOffset({ x: 0, y: 0 });
+        isSwipeCandidate.current = false;
       }
       lastTapTime.current = now;
     }
@@ -176,6 +192,7 @@ const ImagePreviewModal = ({
     e.preventDefault(); // Prevent browser native pinch-zoom on the whole page
     if (e.touches.length === 2) {
       // Pinch zoom
+      isSwipeCandidate.current = false;
       const dx = e.touches[0].clientX - e.touches[1].clientX;
       const dy = e.touches[0].clientY - e.touches[1].clientY;
       const dist = Math.hypot(dx, dy);
@@ -188,20 +205,72 @@ const ImagePreviewModal = ({
         });
       }
       lastPinchDist.current = dist;
-    } else if (e.touches.length === 1 && scale > 1) {
-      // Single-touch pan
-      const dx = e.touches[0].clientX - dragStart.current.x;
-      const dy = e.touches[0].clientY - dragStart.current.y;
-      const next = {
-        x: offsetAtDragStart.current.x + dx,
-        y: offsetAtDragStart.current.y + dy,
-      };
-      setOffset(clampOffset(scale, next));
+    } else if (e.touches.length === 1) {
+      const currentY = e.touches[0].clientY;
+
+      // Swipe-to-close: track vertical drag visually (only when not zoomed)
+      if (
+        isSwipeCandidate.current &&
+        swipeStartY.current !== null &&
+        scale <= 1
+      ) {
+        const dy = currentY - swipeStartY.current;
+        // Downward drag only — start tracking once past 5px to avoid jitter
+        if (dy > 5) {
+          setSwipeDy(dy);
+          return; // don't pan while doing swipe-to-close
+        }
+        // If user moved horizontally / up, cancel swipe
+        const dx = Math.abs(e.touches[0].clientX - dragStart.current.x);
+        if (dx > 10) {
+          isSwipeCandidate.current = false;
+          setSwipeDy(0);
+        }
+      }
+
+      // Single-touch pan (when zoomed)
+      if (scale > 1) {
+        const dx2 = e.touches[0].clientX - dragStart.current.x;
+        const dy2 = e.touches[0].clientY - dragStart.current.y;
+        const next = {
+          x: offsetAtDragStart.current.x + dx2,
+          y: offsetAtDragStart.current.y + dy2,
+        };
+        setOffset(clampOffset(scale, next));
+      }
     }
   };
 
+  const SWIPE_CLOSE_THRESHOLD = 80; // px
+  const SWIPE_VELOCITY_THRESHOLD = 0.4; // px/ms
+
   const onTouchEnd = () => {
     lastPinchDist.current = null;
+
+    if (isSwipeCandidate.current && swipeDy > 0) {
+      const elapsed = Date.now() - swipeStartTime.current;
+      const velocity = swipeDy / Math.max(elapsed, 1);
+      if (
+        swipeDy >= SWIPE_CLOSE_THRESHOLD ||
+        velocity >= SWIPE_VELOCITY_THRESHOLD
+      ) {
+        // Close the preview
+        setSwipeDy(0);
+        onClose();
+      } else {
+        // Snap back
+        setSwipeDy(0);
+      }
+    }
+
+    isSwipeCandidate.current = false;
+    swipeStartY.current = null;
+  };
+
+  // ── Click image to close (when not zoomed) ─────────────────────────────────
+  const onImageClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // don't also fire backdrop click
+    if (scale <= 1) onClose();
   };
 
   // ── Backdrop click closes only when not zoomed ───────────────────────────
@@ -267,17 +336,20 @@ const ImagePreviewModal = ({
           src={src}
           alt={alt}
           draggable={false}
-          className={`max-h-[90vh] max-w-[90vw] w-auto h-auto rounded-xl object-contain shadow-2xl transition-[opacity,scale] duration-300 ${
-            isZoomed ? "cursor-grab" : "cursor-zoom-in"
-          } ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
+          onClick={onImageClick}
+          className={`max-h-[90vh] max-w-[90vw] w-auto h-auto rounded-xl object-contain shadow-2xl ${
+            isZoomed ? "cursor-grab" : "cursor-pointer"
+          } ${visible ? "opacity-100" : "opacity-0"}`}
           style={{
-            transform: `scale(${scale}) translate(${offset.x / scale}px, ${offset.y / scale}px)`,
-            // Only animate opacity/entry — not the zoom transform (would feel laggy)
+            transform: `scale(${scale}) translate(${offset.x / scale}px, ${offset.y / scale}px) translateY(${swipeDy}px)`,
             transition:
-              scale === 1 && offset.x === 0 && offset.y === 0
-                ? "opacity 0.3s, transform 0.3s"
-                : "opacity 0.3s",
-            willChange: "transform",
+              swipeDy > 0
+                ? "none" // no transition while finger is dragging
+                : scale === 1 && offset.x === 0 && offset.y === 0
+                  ? "opacity 0.3s, transform 0.35s cubic-bezier(0.32,0.72,0,1)"
+                  : "opacity 0.3s",
+            opacity: visible ? Math.max(0, 1 - swipeDy / 220) : 0,
+            willChange: "transform, opacity",
           }}
         />
       </div>

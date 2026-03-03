@@ -5,7 +5,7 @@ import ProfileSetupStep3, {
   type ProfileImageUrls,
 } from "./steps/profile-setup-step-3";
 import { useNavigate } from "react-router-dom";
-import { userMutation } from "../../tanstack/auth/user/mutation";
+import { userMutation } from "../../tanstack/user/mutation";
 import { useMutation } from "@tanstack/react-query";
 import { PreferredTripType } from "../types/preferred-trip-type";
 

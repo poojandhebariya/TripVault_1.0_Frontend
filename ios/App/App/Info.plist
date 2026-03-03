@@ -47,5 +47,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to show nearby vaults and travellers.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to show nearby vaults and travellers.</string>
 </dict>
 </plist>

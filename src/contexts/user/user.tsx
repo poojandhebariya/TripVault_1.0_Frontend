@@ -1,11 +1,12 @@
 import { createContext, useContext, useState, useEffect } from "react";
 import type { User } from "../../pages/types/user";
-import { del, get, set } from "idb-keyval";
+import { del, get, set, clear } from "idb-keyval";
 
 interface UserContextProps {
   user?: User;
   updateUser: (user: User) => Promise<void>;
   clearUser: () => Promise<void>;
+  clearAll: () => Promise<void>;
   isLoggedIn: boolean;
 }
 
@@ -23,11 +24,13 @@ export const useUserContext = () => {
 
 export const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<User | undefined>(undefined);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
     get("user").then((user: User | undefined) => {
       if (user) {
         setUser(user);
+        setIsLoggedIn(true);
       }
     });
   }, []);
@@ -35,17 +38,25 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const updateUser = async (user: User) => {
     setUser(user);
     await set("user", user);
+    setIsLoggedIn(true);
   };
 
   const clearUser = async () => {
     setUser(undefined);
     await del("user");
+    setIsLoggedIn(false);
   };
 
-  const isLoggedIn = !!user;
+  const clearAll = async () => {
+    await clear();
+    setUser(undefined);
+    setIsLoggedIn(false);
+  };
 
   return (
-    <UserContext.Provider value={{ user, updateUser, clearUser, isLoggedIn }}>
+    <UserContext.Provider
+      value={{ user, updateUser, clearUser, clearAll, isLoggedIn }}
+    >
       {children}
     </UserContext.Provider>
   );

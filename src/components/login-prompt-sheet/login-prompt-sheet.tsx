@@ -9,7 +9,7 @@ export const LoginPrompt = ({
   context,
 }: {
   onClose: () => void;
-  context: "profile" | "plan";
+  context: "profile" | "plan" | "create";
 }) => {
   const navigate = useNavigate();
 
@@ -23,6 +23,11 @@ export const LoginPrompt = ({
       emoji: "🗺️",
       headline: "Start planning adventures",
       body: "Sign in to create trip plans, save routes, and build your ultimate bucket list.",
+    },
+    create: {
+      emoji: "✈️",
+      headline: "Share your travel story",
+      body: "Sign in to create vaults, upload photos, and inspire others with your adventures around the world.",
     },
   }[context];
 

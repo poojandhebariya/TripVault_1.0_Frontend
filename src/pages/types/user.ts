@@ -10,4 +10,6 @@ export interface User {
   preferredTripType: PreferredTripType;
   coverPhotoUrl?: string;
   profilePicUrl?: string;
+  countriesVisited: string[];
+  placesVisited: string[];
 }

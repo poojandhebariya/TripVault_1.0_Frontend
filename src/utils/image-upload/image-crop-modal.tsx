@@ -87,6 +87,7 @@ const ImageCropModal = ({
       y: Math.round(croppedAreaPixels.y),
       width: Math.round(croppedAreaPixels.width),
       height: Math.round(croppedAreaPixels.height),
+      rotation,
     });
   };
 

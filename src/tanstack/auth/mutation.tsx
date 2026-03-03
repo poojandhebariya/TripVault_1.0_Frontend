@@ -1,7 +1,6 @@
 import { authKeys } from "./keys";
-import axiosInstance from "../../utils/axios-instance";
+import axiosInstance, { saveTokens } from "../../utils/axios-instance";
 import type { AuthResponse } from "../../pages/types/auth-response";
-import { set } from "idb-keyval";
 import type { ApiResponse } from "../../pages/types/api-response";
 
 export const authMutation = () => {
@@ -15,7 +14,7 @@ export const authMutation = () => {
       return response.data;
     },
     onSuccess: async (data: ApiResponse<AuthResponse>) => {
-      await set("bearerToken", data.data);
+      await saveTokens(data.data);
     },
   };
 
@@ -29,7 +28,7 @@ export const authMutation = () => {
       return response.data;
     },
     onSuccess: async (data: ApiResponse<AuthResponse>) => {
-      await set("bearerToken", data.data);
+      await saveTokens(data.data);
     },
   };
 

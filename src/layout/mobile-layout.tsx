@@ -15,11 +15,12 @@ import BottomNavModal from "../components/ui/bottom-nav-modal";
 import { useUserContext } from "../contexts/user/user";
 import { LoginPrompt } from "../components/login-prompt-sheet/login-prompt-sheet";
 
-type ModalKey = "profile" | "plan";
+type ModalKey = "profile" | "plan" | "create";
 
 const MODAL_ROUTES: Record<string, ModalKey> = {
-  "/profile": "profile",
+  [ROUTES.USER.PROFILE]: "profile",
   "/saved": "plan",
+  [ROUTES.VAULT.CREATE_VAULT]: "create",
 };
 
 const MobileLayout = () => {
@@ -66,15 +67,18 @@ const MobileLayout = () => {
           {bottomNavItems.map((item) => {
             const isModalActive =
               activeModal !== null && MODAL_ROUTES[item.path] === activeModal;
-            const isRouteActive = location.pathname.startsWith(item.path);
+            const isRouteActive =
+              item.path === "/"
+                ? location.pathname === "/" // exact match for home
+                : location.pathname.startsWith(item.path); // prefix match for others
             const isActive = isModalActive || isRouteActive;
 
             if (item.isCenter) {
               return (
                 <Button
                   key={item.label}
-                  // onClick={() => handleNavigation(item.path)}
-                  className="relative -mt-12 p-4 px-5 rounded-full w-fit aspect-square flex-shrink-0"
+                  onClick={() => handleNavigation(item.path)}
+                  className="relative -mt-12 p-4 px-5 rounded-full w-fit aspect-square shrink-0"
                   icon={item.icon}
                 />
               );
@@ -125,6 +129,15 @@ const MobileLayout = () => {
         icon={faMapLocation}
       >
         <LoginPrompt onClose={closeModal} context="plan" />
+      </BottomNavModal>
+
+      <BottomNavModal
+        isOpen={activeModal === "create"}
+        onClose={closeModal}
+        title="Create Vault"
+        icon={faPlus}
+      >
+        <LoginPrompt onClose={closeModal} context="create" />
       </BottomNavModal>
     </div>
   );

@@ -1,8 +1,8 @@
 import { userKeys } from "./keys";
 import { set } from "idb-keyval";
-import type { User } from "../../../pages/types/user";
-import axiosInstance from "../../../utils/axios-instance";
-import type { ApiResponse } from "../../../pages/types/api-response";
+import type { User } from "../../pages/types/user";
+import axiosInstance from "../../utils/axios-instance";
+import type { ApiResponse } from "../../pages/types/api-response";
 import { useQueryClient } from "@tanstack/react-query";
 
 export const userMutation = () => {

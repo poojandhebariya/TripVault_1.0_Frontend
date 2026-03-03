@@ -14,7 +14,7 @@ export const ROUTES = {
     PROFILE_EDIT: "/user/profile/edit",
   },
   VAULT: {
-    CREATE_VAULT: "/create-vault",
+    CREATE_VAULT: "/vault/create",
   },
   PLAN_TRIP: "/plan-trip",
   EXPLORE: "/explore",

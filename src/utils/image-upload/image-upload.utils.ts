@@ -5,6 +5,8 @@ export interface PixelCrop {
   y: number;
   width: number;
   height: number;
+  /** Rotation in degrees (from react-easy-crop). Default: 0 */
+  rotation?: number;
 }
 
 export interface CompressionConfig {
@@ -68,8 +70,25 @@ export const COVER_PHOTO_CONFIG: ImageUploadConfig = {
   crop: { aspect: 16 / 4, shape: "rect", minZoom: 1, maxZoom: 3 },
 };
 
+export const VAULT_IMAGE_CONFIG: ImageUploadConfig = {
+  compression: {
+    maxSizeMB: 1,
+    maxWidthOrHeight: 2400,
+    fileType: "image/webp",
+    initialQuality: 0.88,
+  },
+  crop: { aspect: 4 / 3, shape: "rect", minZoom: 1, maxZoom: 4 },
+};
+
 /**
- * Creates a cropped image blob from a source image URL and a pixel crop region.
+ * Creates a cropped (and optionally rotated) image blob from a source image
+ * URL and the pixel crop region reported by react-easy-crop.
+ *
+ * react-easy-crop reports the crop box in the *rotated* image's coordinate
+ * space, so we must:
+ *  1. Create an off-screen canvas large enough to hold the rotated source.
+ *  2. Rotate + draw the full source onto it.
+ *  3. Read back the pixels at the crop position to get the final region.
  */
 export async function getCroppedImageBlob(
   imageSrc: string,
@@ -77,15 +96,34 @@ export async function getCroppedImageBlob(
   outputType: string = "image/webp",
 ): Promise<Blob> {
   const image = await loadImage(imageSrc);
+  const rotation = pixelCrop.rotation ?? 0;
+
+  // ── Step 1: rotate the full image onto an intermediate canvas ──────────────
+  const angleRad = (rotation * Math.PI) / 180;
+  const sin = Math.abs(Math.sin(angleRad));
+  const cos = Math.abs(Math.cos(angleRad));
+  const rotW = Math.round(image.width * cos + image.height * sin);
+  const rotH = Math.round(image.width * sin + image.height * cos);
+
+  const rotCanvas = document.createElement("canvas");
+  rotCanvas.width = rotW;
+  rotCanvas.height = rotH;
+  const rotCtx = rotCanvas.getContext("2d");
+  if (!rotCtx) throw new Error("Could not get canvas context");
+
+  rotCtx.translate(rotW / 2, rotH / 2);
+  rotCtx.rotate(angleRad);
+  rotCtx.drawImage(image, -image.width / 2, -image.height / 2);
+
+  // ── Step 2: cut out the crop region from the rotated canvas ────────────────
   const canvas = document.createElement("canvas");
   canvas.width = pixelCrop.width;
   canvas.height = pixelCrop.height;
   const ctx = canvas.getContext("2d");
-
   if (!ctx) throw new Error("Could not get canvas context");
 
   ctx.drawImage(
-    image,
+    rotCanvas,
     pixelCrop.x,
     pixelCrop.y,
     pixelCrop.width,

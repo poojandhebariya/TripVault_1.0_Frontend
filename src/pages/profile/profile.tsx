@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Outlet, useNavigate } from "react-router-dom";
-import { userQueries } from "../../tanstack/auth/user/queries";
+import { userQueries } from "../../tanstack/user/queries";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { interestsData } from "../../utils/interest-data";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
@@ -57,26 +57,26 @@ const Profile = () => {
       <div className="hidden lg:block animate-[slideDown_0.3s_ease-out]">
         <div className="relative h-64 w-full overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-t from-white via-white/10 to-transparent z-10 pointer-events-none" />
-          <img
-            src={profile?.coverPhotoUrl}
-            alt="Cover"
-            onClick={() =>
-              profile?.coverPhotoUrl && setPreviewSrc(profile.coverPhotoUrl)
-            }
-            className="w-full h-full object-cover border-b-4 border-gray-300 cursor-zoom-in"
-          />
+          {profile?.coverPhotoUrl && (
+            <img
+              src={profile.coverPhotoUrl}
+              alt="Cover"
+              onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
+              className="w-full h-full object-cover border-b-4 border-gray-300 cursor-zoom-in"
+            />
+          )}
         </div>
 
         <div className="flex justify-center px-4">
           <div className="relative z-20 -mt-16 w-full max-w-4xl bg-white rounded-xl border-2 border-gray-300 p-8 shadow-lg flex gap-10">
-            <img
-              src={profile?.profilePicUrl}
-              alt="Profile"
-              onClick={() =>
-                profile?.profilePicUrl && setPreviewSrc(profile.profilePicUrl)
-              }
-              className="rounded-full h-32 w-32 shrink-0 self-start object-cover ring-4 ring-white shadow cursor-zoom-in"
-            />
+            {profile?.profilePicUrl && (
+              <img
+                src={profile.profilePicUrl}
+                alt="Profile"
+                onClick={() => setPreviewSrc(profile.profilePicUrl!)}
+                className="rounded-full h-32 w-32 shrink-0 self-start object-cover ring-4 ring-white shadow cursor-zoom-in"
+              />
+            )}
             <div className="flex-1 min-w-0">
               <p className="font-semibold text-2xl">{profile?.name}</p>
               <p className="text-gray-500 mt-1">@{profile?.username}</p>
@@ -159,26 +159,26 @@ const Profile = () => {
 
       <div className="lg:hidden animate-[slideDown_0.3s_ease-out]">
         <div className="relative h-52 w-full overflow-hidden">
-          <img
-            src={profile?.coverPhotoUrl}
-            alt="Cover"
-            onClick={() =>
-              profile?.coverPhotoUrl && setPreviewSrc(profile.coverPhotoUrl)
-            }
-            className="w-full h-full object-cover cursor-zoom-in"
-          />
+          {profile?.coverPhotoUrl && (
+            <img
+              src={profile.coverPhotoUrl}
+              alt="Cover"
+              onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
+              className="w-full h-full object-cover cursor-zoom-in"
+            />
+          )}
           <div className="absolute inset-0 bg-linear-to-t from-white via-transparent to-transparent pointer-events-none" />
         </div>
 
         <div className="relative -mt-14 px-4 flex items-end justify-between">
-          <img
-            src={profile?.profilePicUrl}
-            alt={profile?.name ?? "Profile"}
-            onClick={() =>
-              profile?.profilePicUrl && setPreviewSrc(profile.profilePicUrl)
-            }
-            className="h-[88px] w-[88px] rounded-full object-cover ring-[3px] ring-white shadow-md cursor-zoom-in"
-          />
+          {profile?.profilePicUrl && (
+            <img
+              src={profile.profilePicUrl}
+              alt={profile?.name ?? "Profile"}
+              onClick={() => setPreviewSrc(profile.profilePicUrl!)}
+              className="h-[88px] w-[88px] rounded-full object-cover ring-[3px] ring-white shadow-md cursor-zoom-in"
+            />
+          )}
 
           <div className="flex items-center gap-2 mt-5">
             <Button
@@ -288,7 +288,7 @@ const Profile = () => {
                 />
               </div>
               <span className="text-xl font-bold text-gray-900 leading-none">
-                12
+                {profile?.countriesVisited.length}
               </span>
               <span className="text-[11px] text-gray-500 font-medium text-center leading-tight">
                 Countries
@@ -305,7 +305,7 @@ const Profile = () => {
                 />
               </div>
               <span className="text-xl font-bold text-gray-900 leading-none">
-                84
+                {profile?.placesVisited.length}
               </span>
               <span className="text-[11px] text-gray-500 font-medium text-center leading-tight">
                 Places

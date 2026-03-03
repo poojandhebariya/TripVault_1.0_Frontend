@@ -18,7 +18,7 @@ import { useForm } from "react-hook-form";
 import { ROUTES } from "../../utils/constants";
 import { useSnackbar } from "react-snackify";
 import { useUserContext } from "../../contexts/user/user";
-import { userQueries } from "../../tanstack/auth/user/queries";
+import { userQueries } from "../../tanstack/user/queries";
 
 interface FormData {
   email: string;
