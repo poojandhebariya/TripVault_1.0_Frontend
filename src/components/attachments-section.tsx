@@ -68,11 +68,12 @@ const AttachmentsSection = ({
               />
             ) : (
               <video
-                src={primary.previewUrl}
+                src={`${primary.previewUrl}#t=0.001`}
                 className="w-full h-full object-cover"
                 muted
                 playsInline
                 controls
+                preload="metadata"
               />
             )}
 
@@ -154,10 +155,11 @@ const AttachmentsSection = ({
                   />
                 ) : (
                   <video
-                    src={att.previewUrl}
+                    src={`${att.previewUrl}#t=0.001`}
                     className="w-full h-full object-cover"
                     muted
                     playsInline
+                    preload="metadata"
                   />
                 )}
 

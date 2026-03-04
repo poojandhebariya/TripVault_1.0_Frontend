@@ -8,6 +8,7 @@ interface UserContextProps {
   clearUser: () => Promise<void>;
   clearAll: () => Promise<void>;
   isLoggedIn: boolean;
+  isLoading: boolean;
 }
 
 export const UserContext = createContext<UserContextProps | undefined>(
@@ -25,6 +26,7 @@ export const useUserContext = () => {
 export const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<User | undefined>(undefined);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     get("user").then((user: User | undefined) => {
@@ -32,6 +34,7 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
         setUser(user);
         setIsLoggedIn(true);
       }
+      setIsLoading(false);
     });
   }, []);
 
@@ -55,7 +58,7 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <UserContext.Provider
-      value={{ user, updateUser, clearUser, clearAll, isLoggedIn }}
+      value={{ user, updateUser, clearUser, clearAll, isLoggedIn, isLoading }}
     >
       {children}
     </UserContext.Provider>
