@@ -17,6 +17,7 @@ import { useMutation } from "@tanstack/react-query";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../utils/constants";
 import { useSnackbar } from "react-snackify";
+import { useUserContext } from "../../contexts/user/user";
 
 interface FormData {
   email: string;
@@ -27,6 +28,7 @@ interface FormData {
 const SignUp = () => {
   const navigate = useNavigate();
   const { showSnackbar } = useSnackbar();
+  const { markLoggedIn } = useUserContext();
 
   const { signUpMutation } = authMutation();
   const { mutateAsync: signUpMutate, isPending: signUpPending } =
@@ -41,6 +43,8 @@ const SignUp = () => {
 
   const onSubmit = async (data: FormData) => {
     await signUpMutate(data);
+    // Immediately reflect the auth (bearer token) state in memory
+    markLoggedIn();
     showSnackbar({
       message: "Account created successfully",
       variant: "success",

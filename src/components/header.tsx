@@ -64,14 +64,15 @@ const NonloggedInMobileNavigation = [
 const Header = () => {
   const navigate = useNavigate();
   const isMobile = useIsMobile();
-  const { isLoggedIn, clearUser } = useUserContext();
+  const { isLoggedIn, isProfileSetup, clearUser } = useUserContext();
   const queryClient = useQueryClient();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const { getProfile } = userQueries();
   const { data: profileData } = useQuery({
     ...getProfile(),
-    enabled: isLoggedIn,
+    // Only fetch profile when the user is fully onboarded
+    enabled: isLoggedIn && isProfileSetup,
   });
 
   const handleLogout = async () => {

@@ -15,6 +15,8 @@ import Tagged from "./pages/profile/tagged";
 import EditProfile from "./pages/profile/edit-profile";
 import CreateVault from "./pages/vault/create-vault";
 import ProtectedRoute from "./components/protected-route";
+import ProfileSetupRoute from "./components/profile-setup-route";
+import HomeRoute from "./components/home-route";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -24,19 +26,28 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path={ROUTES.AUTH.SIGN_IN} element={<SignIn />} />
-        <Route path={ROUTES.AUTH.SIGN_UP} element={<SignUp />} />
-        <Route
-          path={ROUTES.AUTH.FORGOT_PASSWORD}
-          element={<ForgotPassword />}
-        />
-        <Route path={ROUTES.AUTH.RESET_PASSWORD} element={<ResetPassword />} />
-        <Route path={ROUTES.SEARCH} element={<>Search </>} />
+        {/* Public routes — but redirect to profile-setup if logged in without a profile */}
+        <Route element={<HomeRoute />}>
+          <Route index element={<Home />} />
+          <Route path={ROUTES.AUTH.SIGN_IN} element={<SignIn />} />
+          <Route path={ROUTES.AUTH.SIGN_UP} element={<SignUp />} />
+          <Route
+            path={ROUTES.AUTH.FORGOT_PASSWORD}
+            element={<ForgotPassword />}
+          />
+          <Route
+            path={ROUTES.AUTH.RESET_PASSWORD}
+            element={<ResetPassword />}
+          />
+          <Route path={ROUTES.SEARCH} element={<>Search </>} />
+        </Route>
 
-        <Route path={ROUTES.USER.PROFILE_SETUP} element={<ProfileSetup />} />
+        {/* Profile Setup — only accessible when logged in but profile not yet complete */}
+        <Route element={<ProfileSetupRoute />}>
+          <Route path={ROUTES.USER.PROFILE_SETUP} element={<ProfileSetup />} />
+        </Route>
 
-        {/* Protected Routes */}
+        {/* Protected Routes — requires login AND completed profile setup */}
         <Route element={<ProtectedRoute />}>
           <Route path={ROUTES.USER.PROFILE} element={<Profile />}>
             <Route

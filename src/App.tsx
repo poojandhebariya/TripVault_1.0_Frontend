@@ -21,6 +21,14 @@ const App = () => {
         (axiosError?.response?.data as any)?.message ??
         axiosError?.message ??
         "Something went wrong";
+
+      if (
+        message === "Profile not found" ||
+        message?.toLowerCase().includes("profile not found")
+      ) {
+        return;
+      }
+
       showSnackbar({
         message,
         variant: "error",
@@ -31,8 +39,9 @@ const App = () => {
     return new QueryClient({
       defaultOptions: {
         queries: {
-          staleTime: 90 * 1000, // 1.5 minutes
-          refetchOnWindowFocus: false, // Prevents refetch when user switches tabs
+          staleTime: 10 * 60 * 1000, // 10 minutes — prevents unnecessary refetches
+          retry: false, // Don't auto-retry failed requests
+          refetchOnWindowFocus: false,
         },
       },
       queryCache: new QueryCache({

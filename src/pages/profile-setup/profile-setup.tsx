@@ -8,13 +8,14 @@ import { useNavigate } from "react-router-dom";
 import { userMutation } from "../../tanstack/user/mutation";
 import { useMutation } from "@tanstack/react-query";
 import { PreferredTripType } from "../types/preferred-trip-type";
-
 import type { User } from "../types/user";
 import { useSnackbar } from "react-snackify";
+import { useUserContext } from "../../contexts/user/user";
 
 const ProfileSetup = () => {
   const navigate = useNavigate();
   const { showSnackbar } = useSnackbar();
+  const { updateUser } = useUserContext();
   const [step, setStep] = useState(1);
   const [profileData, setProfileData] = useState<Partial<User>>({
     name: "",
@@ -38,7 +39,11 @@ const ProfileSetup = () => {
         : {}),
     };
 
-    await profileMutate(payload);
+    const result = await profileMutate(payload);
+    // Update context so isProfileSetup flips to true immediately
+    if (result?.data) {
+      await updateUser(result.data as User);
+    }
     showSnackbar({
       message: "Profile created successfully",
       variant: "success",

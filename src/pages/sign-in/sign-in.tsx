@@ -36,7 +36,7 @@ const SignIn = () => {
     ...getProfile(),
     enabled: false,
   });
-  const { updateUser } = useUserContext();
+  const { updateUser, markLoggedIn } = useUserContext();
 
   const {
     register,
@@ -46,16 +46,26 @@ const SignIn = () => {
 
   const onSubmit = async (data: FormData) => {
     await loginMutate(data);
+    // Immediately reflect the auth (bearer token) state in memory
+    markLoggedIn();
     showSnackbar({
       message: "Login successful!",
       variant: "success",
       classname: "text-white",
     });
-    const { data: profileData } = await refetchUser();
-    if (profileData) {
-      await updateUser(profileData);
+    try {
+      const { data: profileData } = await refetchUser();
+      if (profileData) {
+        await updateUser(profileData);
+        navigate(ROUTES.HOME);
+      } else {
+        // Profile not found — redirect to setup
+        navigate(ROUTES.USER.PROFILE_SETUP);
+      }
+    } catch {
+      // API returned error (e.g. 404 — no profile exists yet)
+      navigate(ROUTES.USER.PROFILE_SETUP);
     }
-    navigate(ROUTES.HOME);
   };
 
   return (

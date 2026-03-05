@@ -3,17 +3,20 @@ import { useUserContext } from "../contexts/user/user";
 import { ROUTES } from "../utils/constants";
 
 const ProtectedRoute = () => {
-  const { isLoggedIn, isLoading } = useUserContext();
+  const { isLoggedIn, isProfileSetup, isLoading } = useUserContext();
 
   if (isLoading) {
-    return null; // Or a spinner if you prefer
+    return null;
   }
 
+  // Not authenticated at all → go home
   if (!isLoggedIn) {
-    // On mobile, we handle this via modals in MobileLayout,
-    // but as a fallback/security for direct URL access,
-    // we redirect to Home or Sign In.
     return <Navigate to={ROUTES.HOME} replace />;
+  }
+
+  // Authenticated but profile not set up → force profile setup first
+  if (!isProfileSetup) {
+    return <Navigate to={ROUTES.USER.PROFILE_SETUP} replace />;
   }
 
   return <Outlet />;

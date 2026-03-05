@@ -15,11 +15,84 @@ import {
   faImages,
   faPen,
   faShareNodes,
+  faCamera,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import Tabs from "../../components/ui/tabs";
 import { ROUTES } from "../../utils/constants";
 import ImagePreviewModal from "../../components/ui/image-preview-modal";
 import Button from "../../components/ui/button";
+
+const CoverPlaceholder = ({ onClick }: { onClick?: () => void }) => (
+  <div
+    onClick={onClick}
+    className={`relative w-full h-full flex flex-col items-center justify-center gap-2 select-none group ${
+      onClick ? "cursor-pointer" : ""
+    }`}
+    style={{
+      background:
+        "linear-gradient(135deg, #dbeafe 0%, #ede9fe 50%, #fce7f3 100%)",
+    }}
+    title={onClick ? "Add cover photo" : undefined}
+  >
+    <svg
+      className="absolute inset-0 w-full h-full opacity-20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <pattern
+          id="cover-dots"
+          x="0"
+          y="0"
+          width="20"
+          height="20"
+          patternUnits="userSpaceOnUse"
+        >
+          <circle cx="2" cy="2" r="1.5" fill="#6366f1" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#cover-dots)" />
+    </svg>
+    <div className="relative z-10 flex flex-col items-center gap-2 text-indigo-400 transition-transform duration-200 group-hover:scale-110">
+      <FontAwesomeIcon icon={faCamera} className="text-3xl drop-shadow" />
+      {onClick ? (
+        <span className="text-xs font-semibold tracking-widest uppercase opacity-90">
+          Add cover photo
+        </span>
+      ) : (
+        <span className="text-xs font-semibold tracking-widest uppercase opacity-60">
+          No cover photo
+        </span>
+      )}
+    </div>
+  </div>
+);
+
+const AvatarPlaceholder = ({
+  className = "",
+  onClick,
+}: {
+  className?: string;
+  onClick?: () => void;
+}) => (
+  <div
+    onClick={onClick}
+    className={`relative flex items-center justify-center shrink-0 select-none group overflow-hidden bg-gray-50 border-2 border-gray-200 text-gray-600 ${
+      onClick ? "cursor-pointer" : ""
+    } ${className}`}
+    title={onClick ? "Upload profile photo" : undefined}
+  >
+    <FontAwesomeIcon icon={faUser} className="text-5xl"/>
+    {onClick && (
+      <div className="absolute inset-0 bg-black/25 flex flex-col items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-full">
+        <FontAwesomeIcon icon={faCamera} className="text-white" />
+        <span className="text-white text-[10px] font-semibold tracking-wide leading-tight text-center px-2">
+          Upload
+        </span>
+      </div>
+    )}
+  </div>
+);
 
 const Profile = () => {
   const navigate = useNavigate();
@@ -57,26 +130,36 @@ const Profile = () => {
       <div className="hidden lg:block animate-[slideDown_0.3s_ease-out]">
         <div className="relative h-64 w-full overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-t from-white via-white/10 to-transparent z-10 pointer-events-none" />
-          {profile?.coverPhotoUrl && (
+          {profile?.coverPhotoUrl ? (
             <img
               src={profile.coverPhotoUrl}
               alt="Cover"
               onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
               className="w-full h-full object-cover border-b-4 border-gray-300 cursor-zoom-in"
             />
+          ) : (
+            <CoverPlaceholder
+              onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
+            />
           )}
         </div>
 
         <div className="flex justify-center px-4">
           <div className="relative z-20 -mt-16 w-full max-w-4xl bg-white rounded-xl border-2 border-gray-300 p-8 shadow-lg flex gap-10">
-            {profile?.profilePicUrl && (
+            {profile?.profilePicUrl ? (
               <img
                 src={profile.profilePicUrl}
                 alt="Profile"
                 onClick={() => setPreviewSrc(profile.profilePicUrl!)}
                 className="rounded-full h-32 w-32 shrink-0 self-start object-cover ring-4 ring-white shadow cursor-zoom-in"
               />
+            ) : (
+              <AvatarPlaceholder
+                className="rounded-full h-32 w-32 ring-4 ring-white shadow self-start"
+                onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
+              />
             )}
+
             <div className="flex-1 min-w-0">
               <p className="font-semibold text-2xl">{profile?.name}</p>
               <p className="text-gray-500 mt-1">@{profile?.username}</p>
@@ -159,24 +242,33 @@ const Profile = () => {
 
       <div className="lg:hidden animate-[slideDown_0.3s_ease-out]">
         <div className="relative h-52 w-full overflow-hidden">
-          {profile?.coverPhotoUrl && (
+          {profile?.coverPhotoUrl ? (
             <img
               src={profile.coverPhotoUrl}
               alt="Cover"
               onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
               className="w-full h-full object-cover cursor-zoom-in"
             />
+          ) : (
+            <CoverPlaceholder
+              onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
+            />
           )}
           <div className="absolute inset-0 bg-linear-to-t from-white via-transparent to-transparent pointer-events-none" />
         </div>
 
         <div className="relative -mt-14 px-4 flex items-end justify-between">
-          {profile?.profilePicUrl && (
+          {profile?.profilePicUrl ? (
             <img
               src={profile.profilePicUrl}
               alt={profile?.name ?? "Profile"}
               onClick={() => setPreviewSrc(profile.profilePicUrl!)}
               className="h-[88px] w-[88px] rounded-full object-cover ring-[3px] ring-white shadow-md cursor-zoom-in"
+            />
+          ) : (
+            <AvatarPlaceholder
+              className="h-[88px] w-[88px] rounded-full ring-[3px] ring-white shadow-md"
+              onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
             />
           )}
 
