@@ -17,15 +17,22 @@ import {
   faArrowUpRightFromSquare,
   faShare,
   faClock,
+  faSpinner,
 } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import type { Vault } from "../../types/vault";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { vaultMutation } from "../../../tanstack/vault/mutation";
+import { useSnackbar } from "react-snackify";
+import type { AxiosError } from "axios";
 
 interface ActionBtnProps {
   icon: IconDefinition;
   label: string;
   onClick?: () => void;
   danger?: boolean;
+  active?: boolean;
+  loading?: boolean;
 }
 
 const ActionBtn = ({
@@ -33,24 +40,34 @@ const ActionBtn = ({
   label,
   onClick,
   danger = false,
+  active = false,
+  loading = false,
 }: ActionBtnProps) => (
   <button
     title={label}
     onClick={onClick}
-    className={`group flex flex-col items-center gap-1 cursor-pointer transition-all duration-150 active:scale-90 ${
+    disabled={loading}
+    className={`group flex flex-col items-center gap-1 cursor-pointer transition-all duration-150 active:scale-90 disabled:opacity-60 disabled:cursor-not-allowed ${
       danger
         ? "text-rose-400 hover:text-rose-300"
-        : "text-white/80 hover:text-white"
+        : active
+          ? "text-amber-400 hover:text-amber-300"
+          : "text-white/80 hover:text-white"
     }`}
   >
     <div
       className={`w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center backdrop-blur-sm border transition-all duration-150 ${
         danger
           ? "bg-rose-500/20 border-rose-500/30 group-hover:bg-rose-500/35"
-          : "bg-white/10 border-white/15 group-hover:bg-white/20"
+          : active
+            ? "bg-amber-400/20 border-amber-400/30 group-hover:bg-amber-400/35"
+            : "bg-white/10 border-white/15 group-hover:bg-white/20"
       }`}
     >
-      <FontAwesomeIcon icon={icon} className="text-sm" />
+      <FontAwesomeIcon
+        icon={loading ? faSpinner : icon}
+        className={`text-sm ${loading ? "animate-spin" : ""}`}
+      />
     </div>
     <span className="text-[9px] font-semibold uppercase tracking-widest opacity-70 leading-none">
       {label}
@@ -73,17 +90,21 @@ const VaultViewer = ({
 }: VaultViewerProps) => {
   const [mediaIdx, setMediaIdx] = useState(0);
   const touchStartX = useRef<number | null>(null);
+  const { showSnackbar } = useSnackbar();
+
+  const { togglePinMutation } = vaultMutation();
+  const { mutate: togglePin, isPending: isPinning } =
+    useMutation(togglePinMutation);
 
   const idx = allVaults.findIndex((v) => v.id === vault.id);
   const hasPrev = idx > 0;
   const hasNext = idx < allVaults.length - 1;
   const attachments = vault.attachments ?? [];
   const current = attachments[mediaIdx];
+  const isPinned = !!vault.isPinned;
 
-  /* reset media on vault change */
   useEffect(() => setMediaIdx(0), [vault.id]);
 
-  /* lock body scroll */
   useEffect(() => {
     document.body.style.overflow = "hidden";
     return () => {
@@ -91,7 +112,6 @@ const VaultViewer = ({
     };
   }, []);
 
-  /* keyboard */
   const handleKey = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -121,7 +141,6 @@ const VaultViewer = ({
     return () => document.removeEventListener("keydown", handleKey);
   }, [handleKey]);
 
-  /* touch swipe */
   const onTouchStart = (e: TouchEvent) => {
     touchStartX.current = e.touches[0].clientX;
   };
@@ -136,9 +155,43 @@ const VaultViewer = ({
     touchStartX.current = null;
   };
 
+  const handlePin = () => {
+    if (!vault.id) return;
+    togglePin(vault.id, {
+      onSuccess: (updated) => {
+        const nowPinned = updated.isPinned;
+        showSnackbar({
+          message: nowPinned ? "Post pinned to your profile" : "Post unpinned",
+          variant: "success",
+          classname: "text-white",
+        });
+        onNavigate({ ...vault, isPinned: nowPinned });
+      },
+      onError: (err) => {
+        const axiosErr = err as AxiosError<{ message: string }>;
+        const msg = axiosErr?.response?.data?.message ?? "Failed to pin post";
+        showSnackbar({
+          message: msg,
+          variant: "error",
+          classname: "text-white",
+        });
+      },
+    });
+  };
+
   const ownerActions: ActionBtnProps[] = [
     { icon: faPen, label: "Edit", onClick: () => console.log("edit") },
-    { icon: faThumbTack, label: "Pin", onClick: () => console.log("pin") },
+    ...(vault.status === "publish"
+      ? [
+          {
+            icon: faThumbTack,
+            label: isPinned ? "Unpin" : "Pin",
+            onClick: handlePin,
+            active: isPinned,
+            loading: isPinning,
+          },
+        ]
+      : []),
     {
       icon: faChartSimple,
       label: "Insights",
@@ -167,11 +220,7 @@ const VaultViewer = ({
       onClick={onClose}
     >
       <div
-        className="
-          relative flex flex-col
-          w-full max-w-[420px] md:max-w-[600px]
-          animate-[popIn_0.2s_cubic-bezier(0.34,1.56,0.64,1)]
-        "
+        className="relative flex flex-col w-full max-w-[420px] md:max-w-[600px] animate-[popIn_0.2s_cubic-bezier(0.34,1.56,0.64,1)]"
         onClick={(e) => e.stopPropagation()}
       >
         <div
@@ -258,7 +307,6 @@ const VaultViewer = ({
               <ActionBtn key={a.label} {...a} />
             ))}
           </div>
-
           <div className="flex items-center gap-2 sm:gap-4">
             {viewActions.map((a) => (
               <ActionBtn key={a.label} {...a} />

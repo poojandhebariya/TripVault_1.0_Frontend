@@ -28,6 +28,8 @@ export interface Vault {
   distance?: number;
   likesCount?: number;
   commentsCount?: number;
+  isPinned?: boolean;
+  pinnedAt?: string | null;
 }
 
 export type VaultVisibility = "public" | "friends" | "private";

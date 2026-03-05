@@ -18,6 +18,7 @@ export interface PostMenuProps {
   isFollowing?: boolean;
   hasLocation?: boolean;
   isPinned?: boolean;
+  isPublished?: boolean;
   onFollow?: () => void;
   onReport?: () => void;
   onNavigateMap?: () => void;
@@ -33,6 +34,7 @@ const VaultPostMenu = ({
   isFollowing = false,
   hasLocation = false,
   isPinned = false,
+  isPublished = false,
   onFollow,
   onReport,
   onNavigateMap,
@@ -85,11 +87,15 @@ const VaultPostMenu = ({
           },
         ]
       : []),
-    {
-      icon: faThumbTack,
-      label: isPinned ? "Unpin Post" : "Pin Post",
-      onClick: () => onPin?.(),
-    },
+    ...(isPublished
+      ? [
+          {
+            icon: faThumbTack,
+            label: isPinned ? "Unpin Post" : "Pin Post",
+            onClick: () => onPin?.(),
+          },
+        ]
+      : []),
     {
       icon: faChartBar,
       label: "View Insights",

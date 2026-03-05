@@ -5,6 +5,7 @@ import {
   faImage,
   faVideo,
   faClock,
+  faThumbTack,
 } from "@fortawesome/free-solid-svg-icons";
 import type { Vault } from "../../types/vault";
 
@@ -78,6 +79,26 @@ const VaultGridItem = ({ vault, onClick }: VaultGridItemProps) => {
             className="text-[8px]"
           />
           {vault.status === "draft" ? "Draft" : "Sched"}
+        </div>
+      )}
+
+      {vault.isPinned && (
+        <div
+          className="absolute top-2 right-2 w-[22px] h-[22px] rounded-full flex items-center justify-center pointer-events-none"
+          style={{
+            background: "linear-gradient(135deg, #fbbf24, #f97316)",
+            boxShadow:
+              "0 0 0 2px rgba(255,255,255,0.75), 0 3px 10px rgba(251,147,36,0.65)",
+          }}
+        >
+          <FontAwesomeIcon
+            icon={faThumbTack}
+            className="text-white text-[9px]"
+            style={{
+              transform: "rotate(45deg)",
+              filter: "drop-shadow(0 1px 1px rgba(0,0,0,0.25))",
+            }}
+          />
         </div>
       )}
     </div>

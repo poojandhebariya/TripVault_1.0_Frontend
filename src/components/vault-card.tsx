@@ -180,6 +180,8 @@ const VaultCard = ({ vault, variant = "desktop" }: VaultCardProps) => {
         <VaultPostMenu
           isOwner={isOwner}
           hasLocation={!!vault.location}
+          isPinned={!!vault.isPinned}
+          isPublished={vault.status === "publish"}
           onFollow={() => console.log("follow")}
           onReport={() => console.log("report")}
           onNavigateMap={handleNavigateMap}

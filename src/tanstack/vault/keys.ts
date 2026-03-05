@@ -9,4 +9,5 @@ export const vaultKeys = {
     radius?: number,
     page?: number,
   ) => [...vaultKeys.all(), "nearby", lat, lng, radius ?? 50, page ?? 1],
+  togglePin: () => [...vaultKeys.all(), "toggle-pin"],
 };
