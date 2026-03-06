@@ -28,6 +28,8 @@ export interface Vault {
   distance?: number;
   likesCount?: number;
   commentsCount?: number;
+  impressionsCount?: number;
+  topCountries?: string[];
   isPinned?: boolean;
   pinnedAt?: string | null;
 }

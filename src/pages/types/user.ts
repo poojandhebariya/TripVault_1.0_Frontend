@@ -12,4 +12,6 @@ export interface User {
   profilePicUrl?: string;
   countriesVisited: string[];
   placesVisited: string[];
+  totalImpressions: number;
+  topCountries: string[];
 }

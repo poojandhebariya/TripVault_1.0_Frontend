@@ -106,7 +106,7 @@ const Modal = ({
           "relative w-full bg-white shadow-2xl overflow-hidden transition-all duration-300 ease-out",
           isBottom
             ? cn(
-                "rounded-t-3xl",
+                "rounded-t-3xl flex flex-col",
                 isAnimating ? "translate-y-0" : "translate-y-full",
               )
             : cn(

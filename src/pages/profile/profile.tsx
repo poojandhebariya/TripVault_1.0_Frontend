@@ -82,7 +82,7 @@ const AvatarPlaceholder = ({
     } ${className}`}
     title={onClick ? "Upload profile photo" : undefined}
   >
-    <FontAwesomeIcon icon={faUser} className="text-5xl"/>
+    <FontAwesomeIcon icon={faUser} className="text-5xl" />
     {onClick && (
       <div className="absolute inset-0 bg-black/25 flex flex-col items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-full">
         <FontAwesomeIcon icon={faCamera} className="text-white" />
@@ -414,7 +414,9 @@ const Profile = () => {
                 />
               </div>
               <span className="text-xl font-bold text-gray-900 leading-none">
-                24.3k
+                {profile && profile.totalImpressions >= 1000
+                  ? (profile.totalImpressions / 1000).toFixed(1) + "k"
+                  : (profile?.totalImpressions ?? 0)}
               </span>
               <span className="text-[11px] text-gray-500 font-medium text-center leading-tight">
                 Total
@@ -425,6 +427,28 @@ const Profile = () => {
           </div>
         </div>
       </div>
+
+      {profile?.topCountries && profile.topCountries.length > 0 && (
+        <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto animate-[slideDown_0.3s_ease-out]">
+          <div className="rounded-2xl border border-gray-200 bg-white p-4">
+            <p className="text-[11px] font-black uppercase tracking-widest text-gray-400 mb-3 ml-1">
+              Top Audience Regions
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {profile.topCountries.map((country: string) => (
+                <div
+                  key={country}
+                  className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 border border-gray-100 rounded-xl"
+                >
+                  <span className="text-xs font-bold text-gray-700">
+                    {country}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
         <Tabs

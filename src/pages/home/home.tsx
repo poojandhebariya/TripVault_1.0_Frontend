@@ -237,7 +237,12 @@ const Home = () => {
             ) : (
               <div className={isMobile ? "" : "space-y-5"}>
                 {vaults.map((vault) => (
-                  <VaultCard key={vault.id} vault={vault} variant={variant} />
+                  <VaultCard
+                    key={vault.id}
+                    vault={vault}
+                    variant={variant}
+                    trackImpression={true}
+                  />
                 ))}
               </div>
             )}

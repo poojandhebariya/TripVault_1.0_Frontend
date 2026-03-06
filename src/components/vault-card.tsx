@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHeart,
@@ -16,11 +16,15 @@ import type { Vault } from "../pages/types/vault";
 import VaultPostMenu from "./vault-post-menu";
 import { useUserContext } from "../contexts/user/user";
 import ImagePreviewModal from "./ui/image-preview-modal";
+import VaultInsightsModal from "./ui/vault-insights-modal";
 import { MOODS } from "../utils/moods";
+import { useMutation } from "@tanstack/react-query";
+import { vaultMutation } from "../tanstack/vault/mutation";
 
 interface VaultCardProps {
   vault: Vault;
   variant?: "mobile" | "desktop";
+  trackImpression?: boolean;
 }
 
 /** Pretty-print a createdAt ISO string as relative time ("2h ago") */
@@ -68,16 +72,69 @@ const openGoogleMaps = (lat: number, lon: number, label?: string) => {
   );
 };
 
-const VaultCard = ({ vault, variant = "desktop" }: VaultCardProps) => {
+const VaultCard = ({
+  vault,
+  variant = "desktop",
+  trackImpression = false,
+}: VaultCardProps) => {
   const [activeImg, setActiveImg] = useState(0);
   const [liked, setLiked] = useState(false);
   const [saved, setSaved] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
+  const cardRef = useRef<HTMLElement>(null);
+  const hasTracked = useRef(false);
 
   const [previewSrc, setPreviewSrc] = useState<string | null>(null);
+  const [showInsights, setShowInsights] = useState(false);
 
   const { user } = useUserContext();
+  const { incrementViewMutation } = vaultMutation();
+  const { mutate: incrementView } = useMutation({
+    ...incrementViewMutation,
+    mutationKey: [...(incrementViewMutation.mutationKey as any[]), vault.id],
+  });
+
+  useEffect(() => {
+    if (
+      !trackImpression ||
+      !cardRef.current ||
+      hasTracked.current ||
+      !vault.id ||
+      isOwner
+    )
+      return;
+
+    // Use a session-level global to ensure we only track this vault ID once per session
+    if (!(window as any)._trackedVaultIds)
+      (window as any)._trackedVaultIds = new Set();
+    if ((window as any)._trackedVaultIds.has(vault.id)) {
+      hasTracked.current = true;
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            if (!hasTracked.current) {
+              incrementView(vault.id!);
+              hasTracked.current = true;
+              (window as any)._trackedVaultIds.add(vault.id);
+            }
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.5 },
+    );
+
+    observer.observe(cardRef.current);
+
+    return () => {
+      if (cardRef.current) observer.unobserve(cardRef.current);
+    };
+  }, [trackImpression, vault.id]);
 
   const images = vault.attachments.filter((a) => a.type === "image");
   const country = vault.location?.label
@@ -130,7 +187,7 @@ const VaultCard = ({ vault, variant = "desktop" }: VaultCardProps) => {
   const commentCount = vault.commentsCount ?? 0;
 
   return (
-    <article className={wrapper}>
+    <article ref={cardRef} className={wrapper}>
       {/* ── Author row ── */}
       <div className="flex items-center gap-3 px-4 pt-4 pb-3">
         {/* Avatar */}
@@ -189,9 +246,16 @@ const VaultCard = ({ vault, variant = "desktop" }: VaultCardProps) => {
           onEdit={() => console.log("edit")}
           onDelete={() => console.log("delete")}
           onPin={() => console.log("pin")}
-          onViewInsights={() => console.log("insights")}
+          onViewInsights={() => setShowInsights(true)}
         />
       </div>
+
+      {/* ── Insights Modal ── */}
+      <VaultInsightsModal
+        isOpen={showInsights}
+        onClose={() => setShowInsights(false)}
+        vault={vault}
+      />
 
       {/* ── Image carousel ── */}
       {images.length > 0 && (

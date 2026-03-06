@@ -94,5 +94,15 @@ export const vaultMutation = () => {
     },
   };
 
-  return { createVaultMutation, togglePinMutation };
+  const incrementViewMutation = {
+    mutationKey: vaultKeys.incrementView(),
+    mutationFn: async (vaultId: string): Promise<Vault> => {
+      const response = await axiosInstance.post<ApiResponse<Vault>>(
+        `/vault/${vaultId}/view`,
+      );
+      return response.data.data;
+    },
+  };
+
+  return { createVaultMutation, togglePinMutation, incrementViewMutation };
 };

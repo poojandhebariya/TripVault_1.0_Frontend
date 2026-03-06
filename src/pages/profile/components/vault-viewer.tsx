@@ -25,6 +25,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { vaultMutation } from "../../../tanstack/vault/mutation";
 import { useSnackbar } from "react-snackify";
 import type { AxiosError } from "axios";
+import VaultInsightsModal from "../../../components/ui/vault-insights-modal";
 
 interface ActionBtnProps {
   icon: IconDefinition;
@@ -89,6 +90,7 @@ const VaultViewer = ({
   onNavigate,
 }: VaultViewerProps) => {
   const [mediaIdx, setMediaIdx] = useState(0);
+  const [showInsights, setShowInsights] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const { showSnackbar } = useSnackbar();
 
@@ -195,7 +197,7 @@ const VaultViewer = ({
     {
       icon: faChartSimple,
       label: "Insights",
-      onClick: () => console.log("insights"),
+      onClick: () => setShowInsights(true),
     },
     {
       icon: faTrash,
@@ -215,106 +217,114 @@ const VaultViewer = ({
   ];
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 animate-[fadeIn_0.15s_ease]"
-      onClick={onClose}
-    >
+    <>
       <div
-        className="relative flex flex-col w-full max-w-[420px] md:max-w-[600px] animate-[popIn_0.2s_cubic-bezier(0.34,1.56,0.64,1)]"
-        onClick={(e) => e.stopPropagation()}
+        className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 animate-[fadeIn_0.15s_ease]"
+        onClick={onClose}
       >
         <div
-          className="relative w-full rounded-2xl overflow-hidden select-none"
-          onTouchStart={onTouchStart}
-          onTouchEnd={onTouchEnd}
+          className="relative flex flex-col w-full max-w-[420px] md:max-w-[600px] animate-[popIn_0.2s_cubic-bezier(0.34,1.56,0.64,1)]"
+          onClick={(e) => e.stopPropagation()}
         >
-          {current ? (
-            current.type === "video" ? (
-              <video
-                key={current.url}
-                src={`${current.url}#t=0.001`}
-                controls
-                playsInline
-                preload="metadata"
-                className="w-full max-h-[65vh] h-auto object-contain bg-transparent block"
-              />
+          <div
+            className="relative w-full rounded-2xl overflow-hidden select-none"
+            onTouchStart={onTouchStart}
+            onTouchEnd={onTouchEnd}
+          >
+            {current ? (
+              current.type === "video" ? (
+                <video
+                  key={current.url}
+                  src={`${current.url}#t=0.001`}
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="w-full max-h-[65vh] h-auto object-contain bg-transparent block"
+                />
+              ) : (
+                <img
+                  key={current.url}
+                  src={current.url}
+                  alt={vault.title}
+                  draggable={false}
+                  className="w-full max-h-[65vh] h-auto object-contain bg-transparent block"
+                />
+              )
             ) : (
-              <img
-                key={current.url}
-                src={current.url}
-                alt={vault.title}
-                draggable={false}
-                className="w-full max-h-[65vh] h-auto object-contain bg-transparent block"
-              />
-            )
-          ) : (
-            <div className="w-full aspect-square flex items-center justify-center text-white/15 text-7xl rounded-2xl bg-white/5">
-              <FontAwesomeIcon icon={faImage} />
+              <div className="w-full aspect-square flex items-center justify-center text-white/15 text-7xl rounded-2xl bg-white/5">
+                <FontAwesomeIcon icon={faImage} />
+              </div>
+            )}
+
+            {mediaIdx > 0 && (
+              <button
+                onClick={() => setMediaIdx((p) => p - 1)}
+                className="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-black/55 backdrop-blur-sm text-white flex items-center justify-center hover:bg-black/75 hover:scale-110 transition-all cursor-pointer shadow-lg"
+              >
+                <FontAwesomeIcon icon={faChevronLeft} className="text-sm" />
+              </button>
+            )}
+
+            {mediaIdx < attachments.length - 1 && (
+              <button
+                onClick={() => setMediaIdx((p) => p + 1)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-black/55 backdrop-blur-sm text-white flex items-center justify-center hover:bg-black/75 hover:scale-110 transition-all cursor-pointer shadow-lg"
+              >
+                <FontAwesomeIcon icon={faChevronRight} className="text-sm" />
+              </button>
+            )}
+
+            {attachments.length > 1 && (
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+                {attachments.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setMediaIdx(i)}
+                    className={`rounded-full transition-all duration-200 cursor-pointer ${
+                      i === mediaIdx
+                        ? "w-4 h-1.5 bg-white"
+                        : "w-1.5 h-1.5 bg-white/50"
+                    }`}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+
+          {vault.status === "schedule" && vault.scheduledAt && (
+            <div className="absolute top-3 left-1/2 -translate-x-1/2 bg-black/60 backdrop-blur-md text-white text-xs font-semibold px-3 py-1.5 rounded-full flex items-center gap-2 shadow-lg z-20">
+              <FontAwesomeIcon icon={faClock} className="text-amber-400" />
+              <span>
+                Scheduled for{" "}
+                {new Date(vault.scheduledAt).toLocaleString([], {
+                  dateStyle: "medium",
+                  timeStyle: "short",
+                })}
+              </span>
             </div>
           )}
 
-          {mediaIdx > 0 && (
-            <button
-              onClick={() => setMediaIdx((p) => p - 1)}
-              className="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-black/55 backdrop-blur-sm text-white flex items-center justify-center hover:bg-black/75 hover:scale-110 transition-all cursor-pointer shadow-lg"
-            >
-              <FontAwesomeIcon icon={faChevronLeft} className="text-sm" />
-            </button>
-          )}
-
-          {mediaIdx < attachments.length - 1 && (
-            <button
-              onClick={() => setMediaIdx((p) => p + 1)}
-              className="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-black/55 backdrop-blur-sm text-white flex items-center justify-center hover:bg-black/75 hover:scale-110 transition-all cursor-pointer shadow-lg"
-            >
-              <FontAwesomeIcon icon={faChevronRight} className="text-sm" />
-            </button>
-          )}
-
-          {attachments.length > 1 && (
-            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
-              {attachments.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setMediaIdx(i)}
-                  className={`rounded-full transition-all duration-200 cursor-pointer ${
-                    i === mediaIdx
-                      ? "w-4 h-1.5 bg-white"
-                      : "w-1.5 h-1.5 bg-white/50"
-                  }`}
-                />
+          <div className="flex items-center justify-between gap-2 mt-4 px-2">
+            <div className="flex items-center gap-2 sm:gap-4">
+              {ownerActions.map((a) => (
+                <ActionBtn key={a.label} {...a} />
               ))}
             </div>
-          )}
-        </div>
-
-        {vault.status === "schedule" && vault.scheduledAt && (
-          <div className="absolute top-3 left-1/2 -translate-x-1/2 bg-black/60 backdrop-blur-md text-white text-xs font-semibold px-3 py-1.5 rounded-full flex items-center gap-2 shadow-lg z-20">
-            <FontAwesomeIcon icon={faClock} className="text-amber-400" />
-            <span>
-              Scheduled for{" "}
-              {new Date(vault.scheduledAt).toLocaleString([], {
-                dateStyle: "medium",
-                timeStyle: "short",
-              })}
-            </span>
-          </div>
-        )}
-
-        <div className="flex items-center justify-between gap-2 mt-4 px-2">
-          <div className="flex items-center gap-2 sm:gap-4">
-            {ownerActions.map((a) => (
-              <ActionBtn key={a.label} {...a} />
-            ))}
-          </div>
-          <div className="flex items-center gap-2 sm:gap-4">
-            {viewActions.map((a) => (
-              <ActionBtn key={a.label} {...a} />
-            ))}
+            <div className="flex items-center gap-2 sm:gap-4">
+              {viewActions.map((a) => (
+                <ActionBtn key={a.label} {...a} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <VaultInsightsModal
+        isOpen={showInsights}
+        onClose={() => setShowInsights(false)}
+        vault={vault}
+      />
+    </>
   );
 };
 
