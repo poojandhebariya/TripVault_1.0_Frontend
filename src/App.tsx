@@ -8,11 +8,42 @@ import {
 import type { AxiosError } from "axios";
 import { useSnackbar } from "react-snackify";
 import "react-snackify/styles/snack-bar.css";
-import { useMemo } from "react";
+import { useMemo, useEffect } from "react";
 import { UserProvider } from "./contexts/user/user";
+import { App as CapacitorApp } from "@capacitor/app";
+import { useNavigate, useLocation } from "react-router-dom";
+import { ROUTES } from "./utils/constants";
 
 const App = () => {
   const { showSnackbar } = useSnackbar();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleBackButton = async () => {
+      if (
+        location.pathname === "/" ||
+        location.pathname === ROUTES.AUTH.SIGN_IN
+      ) {
+        CapacitorApp.exitApp();
+      } else {
+        navigate(-1);
+      }
+    };
+
+    const registration = CapacitorApp.addListener("backButton", (data) => {
+      // If data.canGoBack is false, it means we're at the root of the history stack
+      if (!data.canGoBack) {
+        CapacitorApp.exitApp();
+      } else {
+        handleBackButton();
+      }
+    });
+
+    return () => {
+      registration.then((r) => r.remove());
+    };
+  }, [location.pathname, navigate]);
 
   const queryClient = useMemo(() => {
     const handleError = (error: Error) => {

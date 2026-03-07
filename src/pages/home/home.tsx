@@ -12,9 +12,7 @@ import {
 import { vaultQueries } from "../../tanstack/vault/queries";
 import { useUserContext } from "../../contexts/user/user";
 import useIsMobile from "../../hooks/isMobile";
-import useGeolocation, {
-  type PermissionState,
-} from "../../hooks/useGeolocation";
+import useGeolocation from "../../hooks/useGeolocation";
 
 import VaultCard from "../../components/vault-card";
 import VaultCardSkeleton from "../../components/vault-card-skeleton";
