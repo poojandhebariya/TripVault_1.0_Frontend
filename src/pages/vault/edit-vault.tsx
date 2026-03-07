@@ -1,19 +1,20 @@
-import { useState, useRef, type ChangeEvent } from "react";
-import { useNavigate } from "react-router-dom";
-import { useMutation } from "@tanstack/react-query";
+import { useState, useRef, useEffect, type ChangeEvent } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
   faFloppyDisk,
   faPaperPlane,
   faXmark,
+  faSpinner,
 } from "@fortawesome/free-solid-svg-icons";
 import { useSnackbar } from "react-snackify";
 
-import { cn } from "../../lib/cn-merge";
 import { ImageCropModal } from "../../utils/image-upload";
 import { mediaMutation } from "../../tanstack/media/mutation";
 import { vaultMutation } from "../../tanstack/vault/mutation";
+import { vaultQueries } from "../../tanstack/vault/queries";
 import Button from "../../components/ui/button";
 import Input from "../../components/ui/input";
 import RichTextEditor from "../../components/ui/rich-text-editor";
@@ -42,7 +43,8 @@ const FieldLabel = ({ children }: { children: React.ReactNode }) => (
 
 const Divider = () => <div className="h-px bg-gray-100 my-1" />;
 
-const CreateVault = () => {
+const EditVault = () => {
+  const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { showSnackbar } = useSnackbar();
 
@@ -63,16 +65,119 @@ const CreateVault = () => {
   const [attachments, setAttachments] = useState<AttachmentItem[]>([]);
   const [activeCropId, setActiveCropId] = useState<string | null>(null);
   const [isUploadingAll, setIsUploadingAll] = useState(false);
+
+  // For dirty check: since we use refs for performance, we also track values for comparison
+  const [currentTitle, setCurrentTitle] = useState("");
+  const [currentDesc, setCurrentDesc] = useState("");
+
   const isAttachmentBusy = attachments.some(
     (a) => a.isProcessing || a.isUploading,
+  );
+
+  const { getVaultDetails } = vaultQueries();
+  const { data: vault, isLoading: isLoadingVault } = useQuery(
+    getVaultDetails(id!),
   );
 
   const { uploadImageMutation } = mediaMutation();
   const { mutateAsync: uploadImage } = useMutation(uploadImageMutation);
 
-  const { createVaultMutation } = vaultMutation();
-  const { mutateAsync: createVault, isPending: isCreatingVault } =
-    useMutation(createVaultMutation);
+  const { updateVaultMutation } = vaultMutation();
+  const { mutateAsync: updateVault, isPending: isUpdatingVault } =
+    useMutation(updateVaultMutation);
+
+  // Pre-populate data
+  useEffect(() => {
+    if (vault) {
+      if (titleRef.current) titleRef.current.value = vault.title;
+      setCurrentTitle(vault.title);
+
+      if (descRef.current) descRef.current.innerHTML = vault.description ?? "";
+      setCurrentDesc(vault.description ?? "");
+
+      setTags(vault.tags || []);
+      setMood(vault.mood);
+      setLocation(
+        vault.location
+          ? {
+              placeId: 0,
+              name: vault.location.label,
+              lat: vault.location.lat,
+              lon: vault.location.lon,
+            }
+          : null,
+      );
+      setVisibility((vault.visibility as Visibility) || "public");
+      setAudience((vault.audience as Audience) || "everyone");
+      setAllowComments(vault.allowComments ?? true);
+      setFriendUsername(vault.friendUsername?.join(", ") ?? "");
+      setScheduledAt(vault.scheduledAt);
+
+      // Map existing attachments to AttachmentItem
+      const existingAtts: AttachmentItem[] = vault.attachments.map(
+        (att, idx) => ({
+          id: `existing-${idx}`,
+          file: new File([], "existing"), // Dummy file object
+          previewUrl: att.url,
+          type: att.type as "image" | "video",
+          uploadedUrl: att.url,
+          isUploading: false,
+          isProcessing: false,
+          cropSrc: att.url,
+          isCropOpen: false,
+          processedFile: null,
+        }),
+      );
+      setAttachments(existingAtts);
+    }
+  }, [vault]);
+
+  // DIRTY CHECK LOGIC
+  const checkIsDirty = () => {
+    if (!vault) return false;
+
+    const titleChanged = currentTitle.trim() !== (vault.title || "").trim();
+    const descChanged = currentDesc.trim() !== (vault.description || "").trim();
+    const tagsChanged =
+      JSON.stringify(tags) !== JSON.stringify(vault.tags || []);
+    const moodChanged = mood !== vault.mood;
+    const locationChanged =
+      JSON.stringify(
+        location
+          ? { label: location.name, lat: location.lat, lon: location.lon }
+          : null,
+      ) !== JSON.stringify(vault.location);
+    const visibilityChanged = visibility !== vault.visibility;
+    const audienceChanged = audience !== vault.audience;
+    const commentsChanged = allowComments !== (vault.allowComments ?? true);
+    const friendsChanged =
+      friendUsername.trim() !== (vault.friendUsername?.join(", ") ?? "").trim();
+    const scheduleChanged = scheduledAt !== vault.scheduledAt;
+
+    // Attachments check: simple check if same URLs and same count
+    const currentUrls = attachments.map((a) => a.uploadedUrl).filter(Boolean);
+    const originalUrls = vault.attachments.map((a) => a.url);
+    const attachmentsChanged =
+      attachments.length !== vault.attachments.length ||
+      JSON.stringify(currentUrls) !== JSON.stringify(originalUrls) ||
+      attachments.some((a) => !a.uploadedUrl); // New ones not yet uploaded count as change
+
+    return (
+      titleChanged ||
+      descChanged ||
+      tagsChanged ||
+      moodChanged ||
+      locationChanged ||
+      visibilityChanged ||
+      audienceChanged ||
+      commentsChanged ||
+      friendsChanged ||
+      scheduleChanged ||
+      attachmentsChanged
+    );
+  };
+
+  const isDirty = checkIsDirty();
 
   const openFilePicker = (accept: string) => {
     if (!fileInputRef.current) return;
@@ -115,7 +220,6 @@ const CreateVault = () => {
           },
         ]);
       } else {
-        // Add the item immediately with isProcessing=true so UI shows a spinner
         setAttachments((p) => [
           ...p,
           {
@@ -125,14 +229,13 @@ const CreateVault = () => {
             type: "image",
             uploadedUrl: null,
             isUploading: false,
-            isProcessing: true, // ← compressing in background
+            isProcessing: true,
             cropSrc: null,
             isCropOpen: false,
             processedFile: null,
           },
         ]);
 
-        // Auto-compress + auto-center-crop to 4:3 in background
         (async () => {
           try {
             const {
@@ -142,18 +245,13 @@ const CreateVault = () => {
               getCroppedImageBlob,
             } = await import("../../utils/image-upload");
 
-            // 1. Compress first
             const compressed = await compressImageBlob(
               file,
               `vault-${id}.webp`,
               VAULT_IMAGE_CONFIG.compression,
             );
 
-            // 2. Read as data URL so we can draw to canvas
             const cropSrc = await readFileAsDataUrl(compressed);
-
-            // 3. Auto-apply a center 4:3 crop so the image already has the
-            //    correct ratio even if the user never opens the crop modal.
             const TARGET_ASPECT = VAULT_IMAGE_CONFIG.crop?.aspect ?? 4 / 3;
             const img = new Image();
             await new Promise<void>((res) => {
@@ -163,11 +261,9 @@ const CreateVault = () => {
             const { naturalWidth: w, naturalHeight: h } = img;
             let cropW: number, cropH: number;
             if (w / h > TARGET_ASPECT) {
-              // image is wider than target → crop width
               cropH = h;
               cropW = Math.round(h * TARGET_ASPECT);
             } else {
-              // image is taller than target → crop height
               cropW = w;
               cropH = Math.round(w / TARGET_ASPECT);
             }
@@ -185,7 +281,6 @@ const CreateVault = () => {
               VAULT_IMAGE_CONFIG.compression,
             );
             const finalPreview = createPreviewUrl(finalFile);
-            // Re-read cropSrc from finalFile so the crop modal also shows the correct image
             const finalCropSrc = await readFileAsDataUrl(finalFile);
 
             setAttachments((p) =>
@@ -202,11 +297,7 @@ const CreateVault = () => {
               ),
             );
           } catch (err) {
-            console.error(
-              "Auto-compression/crop failed, falling back to original",
-              err,
-            );
-            // Fallback: use original file uncompressed
+            console.error("Auto-compression/crop failed", err);
             const cropSrc = await new Promise<string>((resolve) => {
               const reader = new FileReader();
               reader.onload = (ev) => resolve(ev.target?.result as string);
@@ -231,9 +322,6 @@ const CreateVault = () => {
     if (e.target) e.target.value = "";
   };
 
-  // ── crop ─────────────────────────────────────────────────────────────────
-
-  /** Called from preview "Crop" button */
   const openCrop = (id: string) => {
     setAttachments((p) =>
       p.map((a) => (a.id === id ? { ...a, isCropOpen: true } : a)),
@@ -305,9 +393,6 @@ const CreateVault = () => {
     }
   };
 
-  // ── upload all ───────────────────────────────────────────────────────────
-
-  /** Upload every pending (not yet uploaded) attachment sequentially. */
   const uploadAllAttachments = async (): Promise<AttachmentItem[] | null> => {
     const pending = attachments.filter(
       (a) => !a.uploadedUrl && !a.isUploading && !a.isProcessing,
@@ -353,68 +438,38 @@ const CreateVault = () => {
   const removeAttachment = (id: string) =>
     setAttachments((p) => p.filter((a) => a.id !== id));
 
-  // ── submit ───────────────────────────────────────────────────────────────
-
-  /**
-   * @param mode      - "publish" | "draft" | "schedule"
-   * @param chosenAt  - ISO datetime string chosen from the schedule modal.
-   *                    When provided, skips the modal-open gate and uses
-   *                    this value directly as scheduledAt.
-   */
   const validateAndSubmit = async (
     mode: "publish" | "draft" | "schedule",
     chosenAt?: string,
   ) => {
     const title = titleRef.current?.value?.trim() ?? "";
     if (!title) {
-      showSnackbar({
-        message: "Please add a title for your vault.",
-        variant: "warning",
-      });
+      showSnackbar({ message: "Please add a title.", variant: "warning" });
       return;
     }
 
-    // At least one attachment is required for publish / schedule
     if (mode !== "draft" && attachments.length === 0) {
       showSnackbar({
-        message: "Please add at least one photo or video before publishing.",
+        message: "Please add at least one photo or video.",
         variant: "warning",
       });
       return;
     }
 
-    // If scheduling and no datetime provided yet, open the modal so the
-    // user can pick one (the modal's onConfirm will re-call this function
-    // with the chosen datetime).
     if (mode === "schedule" && !chosenAt && !scheduledAt) {
       setScheduleOpen(true);
       return;
     }
 
-    // Resolve the final scheduledAt: prefer the freshly-chosen value,
-    // then fall back to the previously stored state.
     const resolvedScheduledAt = chosenAt ?? scheduledAt;
 
-    // Block if any attachment is still being processed (compressed)
-    const stillProcessing = attachments.some((a) => a.isProcessing);
-    if (stillProcessing) {
+    if (attachments.some((a) => a.isProcessing || a.isUploading)) {
       showSnackbar({
-        message: "Please wait until all images finish processing.",
+        message: "Please wait for processing/uploading.",
         variant: "warning",
       });
       return;
     }
-
-    // Block if any attachment is currently uploading
-    const stillUploading = attachments.some((a) => a.isUploading);
-    if (stillUploading) {
-      showSnackbar({
-        message: "Please wait until all attachments finish uploading.",
-        variant: "warning",
-      });
-      return;
-    }
-
     // Auto-upload any pending (selected but not yet uploaded) attachments
     let finalAttachments = attachments;
     const hasPending = attachments.some(
@@ -426,13 +481,12 @@ const CreateVault = () => {
       finalAttachments = result;
     }
 
-    // Re-read state to get latest uploadedUrls after the upload
     const uploadedAttachments: VaultAttachment[] = finalAttachments
       .map((a) => ({
         url: a.uploadedUrl ?? "",
         type: a.type,
       }))
-      .filter((a) => a.url);
+      .filter((a) => a.url); // Safety: filter out any empty URLs
 
     const description = descRef.current?.innerHTML?.trim() ?? "";
 
@@ -447,7 +501,6 @@ const CreateVault = () => {
       visibility,
       audience,
       allowComments,
-      // Friends tagging is independent of visibility — always send if set
       friendUsername: friendUsername.trim()
         ? friendUsername
             .split(",")
@@ -460,18 +513,9 @@ const CreateVault = () => {
     };
 
     try {
-      await createVault(payload);
-      // Also persist into state so the UI indicator updates
-      if (mode === "schedule" && resolvedScheduledAt) {
-        setScheduledAt(resolvedScheduledAt);
-      }
+      await updateVault({ id: id!, payload });
       showSnackbar({
-        message:
-          mode === "draft"
-            ? "Vault saved as draft!"
-            : mode === "schedule"
-              ? `Scheduled for ${new Date(resolvedScheduledAt!).toLocaleString()}`
-              : "Vault published! 🎉",
+        message: "Vault updated successfully! 🎉",
         variant: "success",
       });
       navigate(-1);
@@ -485,9 +529,22 @@ const CreateVault = () => {
 
   const activeCropAtt = attachments.find((a) => a.id === activeCropId);
 
+  if (isLoadingVault) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-white">
+        <div className="flex flex-col items-center gap-4">
+          <FontAwesomeIcon
+            icon={faSpinner}
+            className="animate-spin text-4xl text-blue-500"
+          />
+          <p className="text-gray-500 font-medium">Loading vault details...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <>
-      {/* Crop modal */}
       {activeCropAtt && (
         <ImageCropModal
           open={activeCropAtt.isCropOpen}
@@ -501,23 +558,17 @@ const CreateVault = () => {
         />
       )}
 
-      {/* Schedule modal */}
       <ScheduleModal
         open={scheduleOpen}
         onClose={() => setScheduleOpen(false)}
         onConfirm={(dt) => {
           setScheduleOpen(false);
-          // Normalise "YYYY-MM-DDTHH:mm" → "YYYY-MM-DDTHH:mm:ss" so the
-          // Spring ISO_DATE_TIME parser always gets a valid value.
           const iso = dt.length === 16 ? `${dt}:00` : dt;
           setScheduledAt(iso);
-          // Immediately submit — passes the datetime directly so we don't
-          // depend on the state update being flushed first.
           validateAndSubmit("schedule", iso);
         }}
       />
 
-      {/* Hidden file input */}
       <input
         ref={fileInputRef}
         type="file"
@@ -526,46 +577,45 @@ const CreateVault = () => {
         onChange={handleFileSelect}
       />
 
-      {/* ── Page ── */}
       <div className="min-h-screen bg-white">
         <MobileStickyHeader
-          title="Create Vault"
+          title="Edit Vault"
           rightAction={
             <Button
               text={
                 isAttachmentBusy
                   ? "Processing…"
-                  : isCreatingVault
-                    ? "Publishing…"
-                    : "Publish"
+                  : isUpdatingVault
+                    ? "Saving…"
+                    : "Save"
               }
-              disabled={isCreatingVault || isAttachmentBusy}
-              onClick={() => validateAndSubmit("publish")}
+              disabled={isUpdatingVault || isAttachmentBusy || !isDirty}
+              onClick={() =>
+                validateAndSubmit((vault?.status as any) || "publish")
+              }
               className="px-4 py-1.5 rounded-full"
             />
           }
         />
 
-        {/* Form body */}
         <div className="max-w-2xl mx-auto px-4 pt-5 pb-10 md:pb-16 space-y-6">
-          {/* Title */}
           <Input
             ref={titleRef}
             label="Title"
-            placeholder="Give your trip a catchy title…"
+            placeholder="Catchy title…"
             maxLength={100}
+            onChange={(e) => setCurrentTitle(e.target.value)}
           />
 
-          {/* Description */}
           <RichTextEditor
             label="Description"
-            placeholder="Describe your trip experience — what made it special?"
+            placeholder="Describe your trip..."
             contentRef={descRef}
+            onChange={(html: string) => setCurrentDesc(html)}
           />
 
           <Divider />
 
-          {/* Tags */}
           <div>
             <FieldLabel>Tags</FieldLabel>
             <TagInput
@@ -577,7 +627,6 @@ const CreateVault = () => {
 
           <Divider />
 
-          {/* Mood */}
           <div>
             <FieldLabel>Trip Mood</FieldLabel>
             <MoodPicker value={mood} onChange={setMood} />
@@ -585,7 +634,6 @@ const CreateVault = () => {
 
           <Divider />
 
-          {/* Location */}
           <div>
             <FieldLabel>Location</FieldLabel>
             <LocationSearch
@@ -597,7 +645,6 @@ const CreateVault = () => {
 
           <Divider />
 
-          {/* Attachments */}
           <div>
             <div className="flex items-center justify-between mb-2">
               <FieldLabel>Photos &amp; Videos</FieldLabel>
@@ -618,13 +665,13 @@ const CreateVault = () => {
 
           <Divider />
 
-          {/* Visibility */}
           <div>
             <FieldLabel>Visibility</FieldLabel>
             <VisibilitySection
               visibility={visibility}
               onVisibilityChange={(v) => {
                 setVisibility(v);
+                // If switching to public, reset audience to a valid public option
                 if (v === "public") {
                   setAudience("everyone");
                 }
@@ -638,13 +685,8 @@ const CreateVault = () => {
             />
           </div>
 
-          {/* Scheduled indicator */}
           {scheduledAt && (
-            <div
-              className={cn(
-                "flex items-center gap-2 px-3 py-2.5 bg-amber-50 border border-amber-100 rounded-md text-sm text-amber-700 font-medium animate-[popIn_0.2s_ease-out]",
-              )}
-            >
+            <div className="flex items-center gap-2 px-3 py-2.5 bg-amber-50 border border-amber-100 rounded-md text-sm text-amber-700 font-medium">
               <FontAwesomeIcon icon={faClock} className="shrink-0" />
               <span className="flex-1 truncate">
                 Scheduled · {new Date(scheduledAt).toLocaleString()}
@@ -659,11 +701,10 @@ const CreateVault = () => {
             </div>
           )}
 
-          {/* Desktop bottom actions */}
           <div className="hidden md:flex gap-3 pt-2">
             <button
               type="button"
-              disabled={isCreatingVault}
+              disabled={isUpdatingVault}
               onClick={() => validateAndSubmit("draft")}
               className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
             >
@@ -672,7 +713,7 @@ const CreateVault = () => {
             </button>
             <button
               type="button"
-              disabled={isCreatingVault || isAttachmentBusy}
+              disabled={isUpdatingVault || isAttachmentBusy}
               onClick={() => setScheduleOpen(true)}
               className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
             >
@@ -680,34 +721,12 @@ const CreateVault = () => {
               Schedule
             </button>
             <Button
-              text={isCreatingVault ? "Publishing…" : "Publish Trip"}
+              text={isUpdatingVault ? "Saving…" : "Save Changes"}
               icon={faPaperPlane}
               className="flex-1 py-3"
               onClick={() => validateAndSubmit("publish")}
-              disabled={isCreatingVault || isAttachmentBusy}
+              disabled={isUpdatingVault || isAttachmentBusy || !isDirty}
             />
-          </div>
-        </div>
-
-        {/* Mobile bottom action bar */}
-        <div className="md:hidden px-4 py-2 bg-white border-t border-gray-100 shadow-[0_-1px_8px_rgba(0,0,0,0.06)]">
-          <div className="flex gap-2 mx-auto">
-            <button
-              type="button"
-              disabled={isCreatingVault}
-              onClick={() => validateAndSubmit("draft")}
-              className="flex items-center justify-center gap-1.5 w-1/2 px-3 py-2.5 border border-gray-200 rounded-md text-xs font-semibold text-gray-600 bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer shrink-0 disabled:opacity-50"
-            >
-              <FontAwesomeIcon icon={faFloppyDisk} /> Draft
-            </button>
-            <button
-              type="button"
-              disabled={isCreatingVault || isAttachmentBusy}
-              onClick={() => setScheduleOpen(true)}
-              className="flex items-center justify-center gap-1.5 w-1/2 px-3 py-2.5 border border-gray-200 rounded-md text-xs font-semibold text-gray-600 bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer shrink-0 disabled:opacity-50"
-            >
-              <FontAwesomeIcon icon={faClock} /> Schedule
-            </button>
           </div>
         </div>
       </div>
@@ -715,4 +734,4 @@ const CreateVault = () => {
   );
 };
 
-export default CreateVault;
+export default EditVault;

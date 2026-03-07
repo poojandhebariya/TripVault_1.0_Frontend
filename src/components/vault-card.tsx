@@ -1,4 +1,6 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useLayoutEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import DOMPurify from "dompurify";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHeart,
@@ -20,6 +22,9 @@ import VaultInsightsModal from "./ui/vault-insights-modal";
 import { MOODS } from "../utils/moods";
 import { useMutation } from "@tanstack/react-query";
 import { vaultMutation } from "../tanstack/vault/mutation";
+import { useSnackbar } from "react-snackify";
+import type { AxiosError } from "axios";
+import DeleteConfirmModal from "./ui/delete-confirm-modal";
 
 interface VaultCardProps {
   vault: Vault;
@@ -87,9 +92,16 @@ const VaultCard = ({
 
   const [previewSrc, setPreviewSrc] = useState<string | null>(null);
   const [showInsights, setShowInsights] = useState(false);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [canExpand, setCanExpand] = useState(false);
+  const descRef = useRef<HTMLDivElement>(null);
 
   const { user } = useUserContext();
-  const { incrementViewMutation } = vaultMutation();
+  const { showSnackbar } = useSnackbar();
+  const { incrementViewMutation, deleteVaultMutation } = vaultMutation();
+  const { mutate: deleteVault, isPending: isDeleting } =
+    useMutation(deleteVaultMutation);
   const { mutate: incrementView } = useMutation({
     ...incrementViewMutation,
     mutationKey: [...(incrementViewMutation.mutationKey as any[]), vault.id],
@@ -136,6 +148,24 @@ const VaultCard = ({
     };
   }, [trackImpression, vault.id]);
 
+  // Check if truncation is actually happening
+  useLayoutEffect(() => {
+    const checkTruncation = () => {
+      if (descRef.current) {
+        const { scrollHeight, clientHeight } = descRef.current;
+        setCanExpand(scrollHeight > clientHeight);
+      }
+    };
+
+    checkTruncation();
+
+    // Also observe resize just in case window size changes
+    const observer = new ResizeObserver(checkTruncation);
+    if (descRef.current) observer.observe(descRef.current);
+
+    return () => observer.disconnect();
+  }, [vault.description]);
+
   const images = vault.attachments.filter((a) => a.type === "image");
   const country = vault.location?.label
     ? vault.location.label.split(",").at(-1)?.trim()
@@ -146,6 +176,30 @@ const VaultCard = ({
 
   // Is the logged-in user the owner of this vault?
   const isOwner = !!user?.username && user.username === vault.author?.username;
+  const navigate = useNavigate();
+
+  const handleDelete = () => {
+    if (!vault.id) return;
+    deleteVault(vault.id, {
+      onSuccess: () => {
+        showSnackbar({
+          message: "Vault deleted",
+          variant: "success",
+          classname: "text-white",
+        });
+      },
+      onError: (err) => {
+        const axiosErr = err as AxiosError<{ message: string }>;
+        const msg =
+          axiosErr?.response?.data?.message ?? "Failed to delete vault";
+        showSnackbar({
+          message: msg,
+          variant: "error",
+          classname: "text-white",
+        });
+      },
+    });
+  };
 
   const prevImg = () =>
     setActiveImg((p) => (p - 1 + images.length) % images.length);
@@ -191,7 +245,7 @@ const VaultCard = ({
       {/* ── Author row ── */}
       <div className="flex items-center gap-3 px-4 pt-4 pb-3">
         {/* Avatar */}
-        <div className="w-10 h-10 rounded-full overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm">
+        <div className="w-10 h-10 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm">
           {vault.author?.profilePicUrl && vault.author.profilePicUrl !== "" ? (
             <img
               src={vault.author.profilePicUrl}
@@ -243,8 +297,8 @@ const VaultCard = ({
           onReport={() => console.log("report")}
           onNavigateMap={handleNavigateMap}
           onNotInterested={() => console.log("not interested")}
-          onEdit={() => console.log("edit")}
-          onDelete={() => console.log("delete")}
+          onEdit={() => navigate(`/vault/edit/${vault.id}`)}
+          onDelete={() => setShowDeleteConfirm(true)}
           onPin={() => console.log("pin")}
           onViewInsights={() => setShowInsights(true)}
         />
@@ -354,7 +408,7 @@ const VaultCard = ({
       {moodMeta && images.length === 0 && (
         <div className="px-4 pt-1">
           <span
-            className={`inline-flex items-center gap-1.5 bg-gradient-to-r ${moodMeta.bg} text-white text-[11px] font-semibold px-2.5 py-1 rounded-full shadow-sm`}
+            className={`inline-flex items-center gap-1.5 bg-linear-to-r ${moodMeta.bg} text-white text-[11px] font-semibold px-2.5 py-1 rounded-full shadow-sm`}
           >
             {moodMeta.emoji} {moodMeta.label}
           </span>
@@ -419,10 +473,43 @@ const VaultCard = ({
         </h2>
 
         {vault.description && (
-          <p
-            className="text-sm text-gray-500 line-clamp-2 leading-relaxed"
-            dangerouslySetInnerHTML={{ __html: vault.description }}
-          />
+          <div className="relative text-sm text-gray-500 leading-relaxed">
+            <div
+              ref={descRef}
+              className={`rich-editor-content selection:bg-blue-100 ${
+                !isExpanded ? "line-clamp-2" : "inline"
+              }`}
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(vault.description),
+              }}
+            />
+
+            {canExpand && (
+              <>
+                {!isExpanded ? (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setIsExpanded(true);
+                    }}
+                    className="absolute bottom-0.5 right-0 pl-10 pr-0 bg-linear-to-l from-white from-70% via-white/80 to-transparent text-xs font-bold text-blue-600 cursor-pointer pt-0.5"
+                  >
+                    more
+                  </button>
+                ) : (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setIsExpanded(false);
+                    }}
+                    className="inline-block ml-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 cursor-pointer transition-colors"
+                  >
+                    Show Less
+                  </button>
+                )}
+              </>
+            )}
+          </div>
         )}
 
         {vault.tags.length > 0 && (
@@ -444,6 +531,18 @@ const VaultCard = ({
         src={previewSrc ?? undefined}
         isOpen={!!previewSrc}
         onClose={() => setPreviewSrc(null)}
+      />
+
+      <DeleteConfirmModal
+        isOpen={showDeleteConfirm}
+        onClose={() => setShowDeleteConfirm(false)}
+        onConfirm={() => {
+          setShowDeleteConfirm(false);
+          handleDelete();
+        }}
+        itemName={vault.title}
+        itemType="vault"
+        isLoading={isDeleting}
       />
     </article>
   );

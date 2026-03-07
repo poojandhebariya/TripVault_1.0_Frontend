@@ -11,4 +11,7 @@ export const vaultKeys = {
   ) => [...vaultKeys.all(), "nearby", lat, lng, radius ?? 50, page ?? 1],
   togglePin: () => [...vaultKeys.all(), "toggle-pin"],
   incrementView: () => [...vaultKeys.all(), "increment-view"],
+  deleteVault: () => [...vaultKeys.all(), "delete"],
+  getVaultDetails: (id: string) => [...vaultKeys.all(), "detail", id],
+  updateVault: (id: string) => [...vaultKeys.all(), "update", id],
 };

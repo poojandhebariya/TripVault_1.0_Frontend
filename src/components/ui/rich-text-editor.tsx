@@ -14,6 +14,7 @@ interface RichTextEditorProps {
   error?: string;
   className?: string;
   contentRef?: React.RefObject<HTMLDivElement | null>;
+  onChange?: (html: string) => void;
 }
 
 const RichTextEditor = ({
@@ -22,13 +23,18 @@ const RichTextEditor = ({
   error,
   className,
   contentRef,
+  onChange,
 }: RichTextEditorProps) => {
   const internalRef = useRef<HTMLDivElement>(null);
   const editorRef = contentRef ?? internalRef;
 
   const exec = (cmd: string, value?: string) => {
     document.execCommand(cmd, false, value);
-    (editorRef as React.RefObject<HTMLDivElement>).current?.focus();
+    const el = (editorRef as React.RefObject<HTMLDivElement>).current;
+    if (el) {
+      el.focus();
+      onChange?.(el.innerHTML);
+    }
   };
 
   const handleLink = () => {
@@ -78,7 +84,8 @@ const RichTextEditor = ({
           contentEditable
           suppressContentEditableWarning
           data-placeholder={placeholder}
-          className="min-h-[120px] px-3 py-2.5 text-sm text-gray-800 outline-none leading-relaxed empty:before:content-[attr(data-placeholder)] empty:before:text-gray-400 empty:before:pointer-events-none"
+          onInput={(e) => onChange?.(e.currentTarget.innerHTML)}
+          className="rich-editor-content min-h-[120px] px-3 py-2.5 text-sm text-gray-800 outline-none leading-relaxed empty:before:content-[attr(data-placeholder)] empty:before:text-gray-400 empty:before:pointer-events-none"
         />
       </div>
 

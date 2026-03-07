@@ -5,6 +5,7 @@ import {
   useRef,
   type TouchEvent,
 } from "react";
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -21,11 +22,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import type { Vault } from "../../types/vault";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { useMutation } from "@tanstack/react-query";
 import { vaultMutation } from "../../../tanstack/vault/mutation";
 import { useSnackbar } from "react-snackify";
 import type { AxiosError } from "axios";
 import VaultInsightsModal from "../../../components/ui/vault-insights-modal";
+import DeleteConfirmModal from "../../../components/ui/delete-confirm-modal";
 
 interface ActionBtnProps {
   icon: IconDefinition;
@@ -89,14 +91,18 @@ const VaultViewer = ({
   onClose,
   onNavigate,
 }: VaultViewerProps) => {
+  const navigate = useNavigate();
   const [mediaIdx, setMediaIdx] = useState(0);
   const [showInsights, setShowInsights] = useState(false);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const { showSnackbar } = useSnackbar();
 
-  const { togglePinMutation } = vaultMutation();
+  const { togglePinMutation, deleteVaultMutation } = vaultMutation();
   const { mutate: togglePin, isPending: isPinning } =
     useMutation(togglePinMutation);
+  const { mutate: deleteVault, isPending: isDeleting } =
+    useMutation(deleteVaultMutation);
 
   const idx = allVaults.findIndex((v) => v.id === vault.id);
   const hasPrev = idx > 0;
@@ -181,8 +187,36 @@ const VaultViewer = ({
     });
   };
 
+  const handleDelete = () => {
+    if (!vault.id) return;
+    deleteVault(vault.id, {
+      onSuccess: () => {
+        showSnackbar({
+          message: "Vault deleted",
+          variant: "success",
+          classname: "text-white",
+        });
+        onClose();
+      },
+      onError: (err) => {
+        const axiosErr = err as AxiosError<{ message: string }>;
+        const msg =
+          axiosErr?.response?.data?.message ?? "Failed to delete vault";
+        showSnackbar({
+          message: msg,
+          variant: "error",
+          classname: "text-white",
+        });
+      },
+    });
+  };
+
   const ownerActions: ActionBtnProps[] = [
-    { icon: faPen, label: "Edit", onClick: () => console.log("edit") },
+    {
+      icon: faPen,
+      label: "Edit",
+      onClick: () => navigate(`/vault/edit/${vault.id}`),
+    },
     ...(vault.status === "publish"
       ? [
           {
@@ -202,8 +236,9 @@ const VaultViewer = ({
     {
       icon: faTrash,
       label: "Delete",
-      onClick: () => console.log("delete"),
+      onClick: () => setShowDeleteConfirm(true),
       danger: true,
+      loading: isDeleting,
     },
   ];
 
@@ -323,6 +358,18 @@ const VaultViewer = ({
         isOpen={showInsights}
         onClose={() => setShowInsights(false)}
         vault={vault}
+      />
+
+      <DeleteConfirmModal
+        isOpen={showDeleteConfirm}
+        onClose={() => setShowDeleteConfirm(false)}
+        onConfirm={() => {
+          setShowDeleteConfirm(false);
+          handleDelete();
+        }}
+        itemName={vault.title}
+        itemType="vault"
+        isLoading={isDeleting}
       />
     </>
   );

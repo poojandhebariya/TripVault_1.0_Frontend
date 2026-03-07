@@ -104,5 +104,95 @@ export const vaultMutation = () => {
     },
   };
 
-  return { createVaultMutation, togglePinMutation, incrementViewMutation };
+  const deleteVaultMutation = {
+    mutationKey: vaultKeys.deleteVault(),
+    mutationFn: async (vaultId: string): Promise<void> => {
+      await axiosInstance.delete(`/vault/${vaultId}`);
+    },
+    onMutate: async (vaultId: string) => {
+      // Cancel any in-flight refetches
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+
+      // Snapshot current data for all vault queries
+      const queryCache = queryClient.getQueryCache();
+      const allVaultQueries = queryCache.findAll({ queryKey: vaultKeys.all() });
+
+      const previousQueries = allVaultQueries.map((query) => ({
+        queryKey: query.queryKey,
+        data: query.state.data,
+      }));
+
+      // Optimistically update each query
+      allVaultQueries.forEach((query) => {
+        const queryKey = query.queryKey;
+        const data = query.state.data;
+
+        if (!data) return;
+
+        // Case 1: Simple array (like getMyVaults)
+        if (Array.isArray(data)) {
+          queryClient.setQueryData(queryKey, (old: any) =>
+            Array.isArray(old) ? old.filter((v: any) => v.id !== vaultId) : old,
+          );
+        }
+        // Case 2: PaginatedResponse (like getPublicVaults, getNearbyVaults)
+        else if (
+          typeof data === "object" &&
+          "data" in data &&
+          Array.isArray((data as any).data)
+        ) {
+          queryClient.setQueryData(queryKey, (old: any) => {
+            if (!old || !old.data) return old;
+            return {
+              ...old,
+              data: old.data.filter((v: any) => v.id !== vaultId),
+              // We could decrement totalElements but it might be safer to leave it
+              // as count is usually what matters for pagination UI
+            };
+          });
+        }
+      });
+
+      return { previousQueries };
+    },
+    onError: (_err: unknown, _vaultId: string, context: any) => {
+      // Roll back all queries to their previous snapshots
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) => {
+          queryClient.setQueryData(queryKey, data);
+        });
+      }
+    },
+  };
+
+  const updateVaultMutation = {
+    mutationKey: vaultKeys.all(), // Generic or more specific if you prefer
+    mutationFn: async ({
+      id,
+      payload,
+    }: {
+      id: string;
+      payload: Vault;
+    }): Promise<Vault> => {
+      const response = await axiosInstance.put<ApiResponse<Vault>>(
+        `/vault/${id}`,
+        payload,
+      );
+      return response.data.data;
+    },
+    onSuccess: (_data: any, { id }: { id: string }) => {
+      queryClient.invalidateQueries({ queryKey: vaultKeys.all() });
+      queryClient.invalidateQueries({
+        queryKey: vaultKeys.getVaultDetails(id),
+      });
+    },
+  };
+
+  return {
+    createVaultMutation,
+    togglePinMutation,
+    incrementViewMutation,
+    deleteVaultMutation,
+    updateVaultMutation,
+  };
 };

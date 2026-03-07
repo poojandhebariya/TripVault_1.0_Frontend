@@ -44,5 +44,16 @@ export const vaultQueries = () => {
     },
   });
 
-  return { getMyVaults, getPublicVaults, getNearbyVaults };
+  const getVaultDetails = (id: string) => ({
+    queryKey: vaultKeys.getVaultDetails(id),
+    queryFn: async (): Promise<Vault> => {
+      const response = await axiosInstance.get<ApiResponse<Vault>>(
+        `/vault/${id}`,
+      );
+      return response.data.data;
+    },
+    enabled: !!id,
+  });
+
+  return { getMyVaults, getPublicVaults, getNearbyVaults, getVaultDetails };
 };
