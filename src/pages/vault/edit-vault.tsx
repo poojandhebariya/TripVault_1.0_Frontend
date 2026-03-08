@@ -8,6 +8,7 @@ import {
   faPaperPlane,
   faXmark,
   faSpinner,
+  faPen,
 } from "@fortawesome/free-solid-svg-icons";
 import { useSnackbar } from "react-snackify";
 
@@ -83,8 +84,9 @@ const EditVault = () => {
   const { mutateAsync: uploadImage } = useMutation(uploadImageMutation);
 
   const { updateVaultMutation } = vaultMutation();
-  const { mutateAsync: updateVault, isPending: isUpdatingVault } =
-    useMutation(updateVaultMutation);
+  const { mutateAsync: updateVault, isPending: isUpdatingVault } = useMutation(
+    updateVaultMutation(id!),
+  );
 
   // Pre-populate data
   useEffect(() => {
@@ -448,12 +450,35 @@ const EditVault = () => {
       return;
     }
 
-    if (mode !== "draft" && attachments.length === 0) {
-      showSnackbar({
-        message: "Please add at least one photo or video.",
-        variant: "warning",
-      });
-      return;
+    if (mode !== "draft") {
+      if (tags.length < 3) {
+        showSnackbar({
+          message: "Please add at least 3 tags.",
+          variant: "warning",
+        });
+        return;
+      }
+      if (!mood) {
+        showSnackbar({
+          message: "Please select a trip mood.",
+          variant: "warning",
+        });
+        return;
+      }
+      if (!location) {
+        showSnackbar({
+          message: "Please add a location.",
+          variant: "warning",
+        });
+        return;
+      }
+      if (attachments.length === 0) {
+        showSnackbar({
+          message: "Please add at least one photo or video.",
+          variant: "warning",
+        });
+        return;
+      }
     }
 
     if (mode === "schedule" && !chosenAt && !scheduledAt) {
@@ -560,6 +585,7 @@ const EditVault = () => {
 
       <ScheduleModal
         open={scheduleOpen}
+        initialDate={scheduledAt}
         onClose={() => setScheduleOpen(false)}
         onConfirm={(dt) => {
           setScheduleOpen(false);
@@ -693,8 +719,17 @@ const EditVault = () => {
               </span>
               <button
                 type="button"
+                onClick={() => setScheduleOpen(true)}
+                title="Edit Scheduled Time"
+                className="shrink-0 text-amber-500 hover:text-amber-700 cursor-pointer mr-2 transition-colors"
+              >
+                <FontAwesomeIcon icon={faPen} />
+              </button>
+              <button
+                type="button"
                 onClick={() => setScheduledAt(null)}
-                className="shrink-0 text-amber-400 hover:text-amber-600 cursor-pointer"
+                title="Remove Schedule"
+                className="shrink-0 text-amber-400 hover:text-amber-600 cursor-pointer transition-colors"
               >
                 <FontAwesomeIcon icon={faXmark} />
               </button>
@@ -702,29 +737,55 @@ const EditVault = () => {
           )}
 
           <div className="hidden md:flex gap-3 pt-2">
-            <button
-              type="button"
-              disabled={isUpdatingVault}
-              onClick={() => validateAndSubmit("draft")}
-              className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
-            >
-              <FontAwesomeIcon icon={faFloppyDisk} className="text-gray-400" />{" "}
-              Save Draft
-            </button>
-            <button
-              type="button"
-              disabled={isUpdatingVault || isAttachmentBusy}
-              onClick={() => setScheduleOpen(true)}
-              className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
-            >
-              <FontAwesomeIcon icon={faClock} className="text-amber-400" />{" "}
-              Schedule
-            </button>
+            {vault?.status === "draft" && (
+              <>
+                {/* 
+                  SAVE DRAFT (Appears only if the Vault is currently a Draft)
+                  Updates content without changing the status. 
+                */}
+                <button
+                  type="button"
+                  disabled={isUpdatingVault}
+                  onClick={() => validateAndSubmit("draft")}
+                  className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
+                >
+                  <FontAwesomeIcon
+                    icon={faFloppyDisk}
+                    className="text-gray-400"
+                  />{" "}
+                  Save Draft
+                </button>
+                {/* 
+                  SCHEDULE (Appears only if the Vault is currently a Draft)
+                  Opens modal to pick time, sets status to 'schedule' via update API.
+                */}
+                <button
+                  type="button"
+                  disabled={isUpdatingVault || isAttachmentBusy}
+                  onClick={() => setScheduleOpen(true)}
+                  className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
+                >
+                  <FontAwesomeIcon icon={faClock} className="text-amber-400" />{" "}
+                  Schedule
+                </button>
+              </>
+            )}
+            {/* 
+              SAVE CHANGES / PUBLISH NOW
+              If currently Draft: Sets status to 'publish' (Publish Now).
+              If already Published/Scheduled: Retains current status, just updates content (Save Changes).
+            */}
             <Button
-              text={isUpdatingVault ? "Saving…" : "Save Changes"}
-              icon={faPaperPlane}
+              text={
+                isUpdatingVault
+                  ? "Saving…"
+                  : vault?.status === "draft"
+                    ? "Publish Now"
+                    : "Save Changes"
+              }
+              icon={vault?.status === "draft" ? faPaperPlane : faFloppyDisk}
               className="flex-1 py-3"
-              onClick={() => validateAndSubmit("publish")}
+              onClick={() => validateAndSubmit(vault?.status ?? "publish")}
               disabled={isUpdatingVault || isAttachmentBusy || !isDirty}
             />
           </div>

@@ -7,17 +7,36 @@ interface ScheduleModalProps {
   open: boolean;
   onClose: () => void;
   onConfirm: (dt: string) => void;
+  initialDate?: string | null;
 }
 
-const ScheduleModal = ({ open, onClose, onConfirm }: ScheduleModalProps) => {
+const ScheduleModal = ({
+  open,
+  onClose,
+  onConfirm,
+  initialDate,
+}: ScheduleModalProps) => {
   const [dt, setDt] = useState("");
 
-  // Reset datetime input when modal opens
+  const getCurrentLocalISOTime = () => {
+    const tzOffsetMs = new Date().getTimezoneOffset() * 60000;
+    return new Date(Date.now() - tzOffsetMs).toISOString().slice(0, 16);
+  };
+
+  // Reset or pre-fill datetime input when modal opens
   useEffect(() => {
     if (open) {
-      setDt("");
+      if (initialDate) {
+        setDt(initialDate.slice(0, 16));
+      } else {
+        // Pre-fill with the next hour
+        const nextHour = new Date(
+          Date.now() - new Date().getTimezoneOffset() * 60000 + 3600000,
+        );
+        setDt(nextHour.toISOString().slice(0, 16));
+      }
     }
-  }, [open]);
+  }, [open, initialDate]);
 
   return (
     <Modal
@@ -32,6 +51,7 @@ const ScheduleModal = ({ open, onClose, onConfirm }: ScheduleModalProps) => {
         <input
           type="datetime-local"
           value={dt}
+          min={getCurrentLocalISOTime()}
           onChange={(e) => setDt(e.target.value)}
           className="w-full px-3 py-2.5 border border-gray-200 rounded-md text-sm focus:outline-none focus:ring focus:ring-blue-700 transition-all cursor-pointer"
         />

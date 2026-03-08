@@ -13,6 +13,7 @@ import { vaultQueries } from "../../tanstack/vault/queries";
 import { useUserContext } from "../../contexts/user/user";
 import useIsMobile from "../../hooks/isMobile";
 import useGeolocation from "../../hooks/useGeolocation";
+import { useScheduledVaultPublisher } from "../../hooks/useScheduledVaultPublisher";
 
 import VaultCard from "../../components/vault-card";
 import VaultCardSkeleton from "../../components/vault-card-skeleton";
@@ -35,6 +36,9 @@ const Home = () => {
   const isMobile = useIsMobile();
   const { location, permissionState, requestPermission } = useGeolocation();
 
+  // Frontend "cron job": auto-promote scheduled vaults and push public ones to the home feed
+  useScheduledVaultPublisher(user);
+
   const locationGranted = permissionState === "granted" && location !== null;
 
   const { getPublicVaults, getNearbyVaults } = vaultQueries();
@@ -44,13 +48,13 @@ const Home = () => {
     enabled: activeFilter !== "nearby",
   });
 
+  // Round coordinates to 3 decimal places (~110 meters) to deliberately debounce
+  // constant React Query cache invalidations when the raw GPS float jitters.
+  const roundedLat = location ? Number(location.lat.toFixed(3)) : 0;
+  const roundedLng = location ? Number(location.lng.toFixed(3)) : 0;
+
   const { data: nearbyData, isLoading: nearbyLoading } = useQuery({
-    ...getNearbyVaults(
-      location?.lat ?? 0,
-      location?.lng ?? 0,
-      radius,
-      nearbyPage,
-    ),
+    ...getNearbyVaults(roundedLat, roundedLng, radius, nearbyPage),
     enabled: activeFilter === "nearby" && locationGranted,
   });
 

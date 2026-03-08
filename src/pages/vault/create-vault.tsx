@@ -7,6 +7,7 @@ import {
   faFloppyDisk,
   faPaperPlane,
   faXmark,
+  faPen,
 } from "@fortawesome/free-solid-svg-icons";
 import { useSnackbar } from "react-snackify";
 
@@ -374,13 +375,35 @@ const CreateVault = () => {
       return;
     }
 
-    // At least one attachment is required for publish / schedule
-    if (mode !== "draft" && attachments.length === 0) {
-      showSnackbar({
-        message: "Please add at least one photo or video before publishing.",
-        variant: "warning",
-      });
-      return;
+    if (mode !== "draft") {
+      if (tags.length < 3) {
+        showSnackbar({
+          message: "Please add at least 3 tags before publishing.",
+          variant: "warning",
+        });
+        return;
+      }
+      if (!mood) {
+        showSnackbar({
+          message: "Please select a trip mood before publishing.",
+          variant: "warning",
+        });
+        return;
+      }
+      if (!location) {
+        showSnackbar({
+          message: "Please add a location before publishing.",
+          variant: "warning",
+        });
+        return;
+      }
+      if (attachments.length === 0) {
+        showSnackbar({
+          message: "Please add at least one photo or video before publishing.",
+          variant: "warning",
+        });
+        return;
+      }
     }
 
     // If scheduling and no datetime provided yet, open the modal so the
@@ -504,6 +527,7 @@ const CreateVault = () => {
       {/* Schedule modal */}
       <ScheduleModal
         open={scheduleOpen}
+        initialDate={scheduledAt}
         onClose={() => setScheduleOpen(false)}
         onConfirm={(dt) => {
           setScheduleOpen(false);
@@ -651,8 +675,17 @@ const CreateVault = () => {
               </span>
               <button
                 type="button"
+                onClick={() => setScheduleOpen(true)}
+                title="Edit Scheduled Time"
+                className="shrink-0 text-amber-500 hover:text-amber-700 cursor-pointer mr-2 transition-colors"
+              >
+                <FontAwesomeIcon icon={faPen} />
+              </button>
+              <button
+                type="button"
                 onClick={() => setScheduledAt(null)}
-                className="shrink-0 text-amber-400 hover:text-amber-600 cursor-pointer"
+                title="Remove Schedule"
+                className="shrink-0 text-amber-400 hover:text-amber-600 cursor-pointer transition-colors"
               >
                 <FontAwesomeIcon icon={faXmark} />
               </button>

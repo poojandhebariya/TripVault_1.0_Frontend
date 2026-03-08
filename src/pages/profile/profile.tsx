@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Outlet, useNavigate } from "react-router-dom";
 import { userQueries } from "../../tanstack/user/queries";
+import { useUserContext } from "../../contexts/user/user";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { interestsData } from "../../utils/interest-data";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
@@ -22,6 +23,7 @@ import Tabs from "../../components/ui/tabs";
 import { ROUTES } from "../../utils/constants";
 import ImagePreviewModal from "../../components/ui/image-preview-modal";
 import Button from "../../components/ui/button";
+import { useScheduledVaultPublisher } from "../../hooks/useScheduledVaultPublisher";
 
 const CoverPlaceholder = ({ onClick }: { onClick?: () => void }) => (
   <div
@@ -96,8 +98,12 @@ const AvatarPlaceholder = ({
 
 const Profile = () => {
   const navigate = useNavigate();
+  const { user: currentUser } = useUserContext();
   const { getProfile } = userQueries();
   const { data: profile } = useQuery(getProfile());
+
+  // Frontend "cron job": auto-promote scheduled vaults to published once their time is reached
+  useScheduledVaultPublisher(currentUser);
 
   const preferredTrip =
     profile?.preferredTripType &&

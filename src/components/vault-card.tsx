@@ -167,9 +167,6 @@ const VaultCard = ({
   }, [vault.description]);
 
   const images = vault.attachments.filter((a) => a.type === "image");
-  const country = vault.location?.label
-    ? vault.location.label.split(",").at(-1)?.trim()
-    : null;
 
   const moodMeta = getMoodMeta(vault.mood);
   const timeAgo = relativeTime(vault.createdAt);
@@ -262,27 +259,41 @@ const VaultCard = ({
           <p className="text-sm font-bold text-gray-900 truncate leading-tight">
             {vault.author?.name ?? vault.author?.username ?? "Traveller"}
           </p>
-          <div className="flex items-center gap-2 mt-0.5 flex-wrap">
-            {country && (
-              <p className="text-xs text-gray-500 flex items-center gap-1">
+          <div className="flex items-center gap-1.5 mt-[3px] text-[12px] text-gray-500 overflow-hidden whitespace-nowrap">
+            {vault.location?.label && (
+              <>
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   className="text-rose-400 text-[10px] shrink-0"
                 />
-                <span className="truncate max-w-[120px]">{country}</span>
-              </p>
+                <span
+                  className="truncate shrink min-w-0"
+                  title={vault.location.label}
+                >
+                  {vault.location.label}
+                </span>
+                {timeAgo && (
+                  <span className="shrink-0 text-gray-300 mx-0.5 font-bold leading-none -translate-y-px">
+                    ·
+                  </span>
+                )}
+              </>
             )}
-            {timeAgo && (
-              <span className="text-[10px] text-gray-400 shrink-0">
-                · {timeAgo}
-              </span>
-            )}
-            {/* Distance badge */}
+
+            {timeAgo && <span className="shrink-0 text-[11px]">{timeAgo}</span>}
             {typeof vault.distance === "number" && (
-              <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-1.5 py-0.5 bg-emerald-50 text-emerald-600 rounded-full border border-emerald-100 shrink-0">
-                <FontAwesomeIcon icon={faRoute} className="text-[8px]" />
-                {formatDistance(vault.distance)}
+              <span className="shrink-0 text-gray-300 mx-0.5 font-bold leading-none -translate-y-px">
+                ·
               </span>
+            )}
+            {/* Distance badge inline if exists */}
+            {typeof vault.distance === "number" && (
+              <>
+                <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-1.5 py-0.5 bg-emerald-50 text-emerald-600 rounded-full border border-emerald-100 shrink-0">
+                  <FontAwesomeIcon icon={faRoute} className="text-[8px]" />
+                  {formatDistance(vault.distance)}
+                </span>
+              </>
             )}
           </div>
         </div>

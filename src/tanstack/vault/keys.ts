@@ -14,4 +14,5 @@ export const vaultKeys = {
   deleteVault: () => [...vaultKeys.all(), "delete"],
   getVaultDetails: (id: string) => [...vaultKeys.all(), "detail", id],
   updateVault: (id: string) => [...vaultKeys.all(), "update", id],
+  publishVault: (id: string) => [...vaultKeys.all(), "publish", id],
 };

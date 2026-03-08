@@ -19,6 +19,7 @@ import {
   faShare,
   faClock,
   faSpinner,
+  faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import type { Vault } from "../../types/vault";
@@ -98,11 +99,15 @@ const VaultViewer = ({
   const touchStartX = useRef<number | null>(null);
   const { showSnackbar } = useSnackbar();
 
-  const { togglePinMutation, deleteVaultMutation } = vaultMutation();
+  const { togglePinMutation, deleteVaultMutation, publishVaultMutation } =
+    vaultMutation();
   const { mutate: togglePin, isPending: isPinning } =
     useMutation(togglePinMutation);
   const { mutate: deleteVault, isPending: isDeleting } =
     useMutation(deleteVaultMutation);
+  const { mutate: publishVault, isPending: isPublishing } = useMutation(
+    publishVaultMutation(vault.id!),
+  );
 
   const idx = allVaults.findIndex((v) => v.id === vault.id);
   const hasPrev = idx > 0;
@@ -187,6 +192,30 @@ const VaultViewer = ({
     });
   };
 
+  const handlePublish = () => {
+    if (!vault.id) return;
+    publishVault(undefined as any, {
+      onSuccess: () => {
+        showSnackbar({
+          message: "Vault published! 🎉",
+          variant: "success",
+          classname: "text-white",
+        });
+        onNavigate({ ...vault, status: "publish", scheduledAt: null });
+      },
+      onError: (err) => {
+        const axiosErr = err as AxiosError<{ message: string }>;
+        const msg =
+          axiosErr?.response?.data?.message ?? "Failed to publish vault";
+        showSnackbar({
+          message: msg,
+          variant: "error",
+          classname: "text-white",
+        });
+      },
+    });
+  };
+
   const handleDelete = () => {
     if (!vault.id) return;
     deleteVault(vault.id, {
@@ -217,6 +246,16 @@ const VaultViewer = ({
       label: "Edit",
       onClick: () => navigate(`/vault/edit/${vault.id}`),
     },
+    ...(vault.status === "draft"
+      ? [
+          {
+            icon: faPaperPlane,
+            label: "Publish",
+            onClick: handlePublish,
+            loading: isPublishing,
+          },
+        ]
+      : []),
     ...(vault.status === "publish"
       ? [
           {
@@ -226,13 +265,13 @@ const VaultViewer = ({
             active: isPinned,
             loading: isPinning,
           },
+          {
+            icon: faChartSimple,
+            label: "Insights",
+            onClick: () => setShowInsights(true),
+          },
         ]
       : []),
-    {
-      icon: faChartSimple,
-      label: "Insights",
-      onClick: () => setShowInsights(true),
-    },
     {
       icon: faTrash,
       label: "Delete",

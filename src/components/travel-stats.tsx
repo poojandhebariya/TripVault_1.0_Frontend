@@ -5,7 +5,13 @@ import {
   faMapLocationDot,
   faSuitcaseRolling,
   faUsers,
+  faPlus,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
+import { vaultQueries } from "../tanstack/vault/queries";
+import { ROUTES } from "../utils/constants";
+import Button from "./ui/button";
 
 interface Props {
   name: string;
@@ -14,10 +20,16 @@ interface Props {
 }
 
 const TravelStats = ({ name, countriesVisited, placesVisited }: Props) => {
+  const navigate = useNavigate();
+  const { getMyVaults } = vaultQueries();
+  const { data: myVaults, isLoading } = useQuery(getMyVaults());
+
+  const vaultCount = myVaults?.length || 0;
+
   const stats = [
     { icon: faGlobe, label: "Countries", value: countriesVisited.length },
     { icon: faMapLocationDot, label: "Places", value: placesVisited.length },
-    { icon: faSuitcaseRolling, label: "Vaults", value: 0 },
+    { icon: faSuitcaseRolling, label: "Vaults", value: vaultCount },
     { icon: faUsers, label: "Followers", value: 0 },
   ];
 
@@ -45,9 +57,20 @@ const TravelStats = ({ name, countriesVisited, placesVisited }: Props) => {
         ))}
       </div>
 
-      <p className="text-center text-white/60 text-xs mt-3 font-medium italic">
-        Keep exploring, {name?.split(" ")[0] ?? "traveller"}! ✈️
-      </p>
+      {!isLoading && vaultCount === 0 ? (
+        <div className="mt-4 text-center">
+          <Button
+            text="Add your first Vault"
+            icon={faPlus}
+            onClick={() => navigate(ROUTES.VAULT.CREATE_VAULT)}
+            className="w-full"
+          />
+        </div>
+      ) : (
+        <p className="text-center text-white/60 text-xs mt-3 font-medium italic">
+          Keep exploring, {name?.split(" ")[0] ?? "traveller"}! ✈️
+        </p>
+      )}
     </div>
   );
 };
