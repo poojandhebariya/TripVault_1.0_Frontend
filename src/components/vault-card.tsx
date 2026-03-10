@@ -50,9 +50,16 @@ const VaultCard = ({
 
   const { user } = useUserContext();
   const { showSnackbar } = useSnackbar();
-  const { incrementViewMutation, deleteVaultMutation } = vaultMutation();
+  const {
+    incrementViewMutation,
+    deleteVaultMutation,
+    likeVaultMutation,
+    unlikeVaultMutation,
+  } = vaultMutation();
   const { mutate: deleteVault, isPending: isDeleting } =
     useMutation(deleteVaultMutation);
+  const { mutate: likeVault } = useMutation(likeVaultMutation);
+  const { mutate: unlikeVault } = useMutation(unlikeVaultMutation);
   const { mutate: incrementView } = useMutation({
     ...incrementViewMutation,
     mutationKey: [...(incrementViewMutation.mutationKey as any[]), vault.id],
@@ -238,6 +245,11 @@ const VaultCard = ({
       <VaultEngagementBar
         likesCount={vault.likesCount}
         commentsCount={vault.commentsCount}
+        isInitialLiked={vault.isLiked}
+        onLike={(liked) => {
+          if (liked && vault.id) likeVault(vault.id);
+          else if (!liked && vault.id) unlikeVault(vault.id);
+        }}
         allowComments={vault.allowComments}
         className="pt-2.5 pb-0"
         onCommentClick={() =>

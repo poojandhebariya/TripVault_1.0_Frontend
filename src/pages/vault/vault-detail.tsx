@@ -1,9 +1,10 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useMutation } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faImage } from "@fortawesome/free-solid-svg-icons";
 
 import { vaultQueries } from "../../tanstack/vault/queries";
+import { vaultMutation } from "../../tanstack/vault/mutation";
 import VaultDetailSkeleton from "../../components/skeletons/vault-detail-skeleton";
 import VaultDetailTab from "./vault-detail-tab";
 import RelatedVaultsSection from "./related-vaults-section";
@@ -18,6 +19,10 @@ const VaultDetail = () => {
   const navigate = useNavigate();
   const { getVaultDetails } = vaultQueries();
   const { data: vault, isLoading, isError } = useQuery(getVaultDetails(id!));
+
+  const { likeVaultMutation, unlikeVaultMutation } = vaultMutation();
+  const { mutate: likeVault } = useMutation(likeVaultMutation);
+  const { mutate: unlikeVault } = useMutation(unlikeVaultMutation);
 
   if (isLoading) return <VaultDetailSkeleton />;
 
@@ -87,8 +92,13 @@ const VaultDetail = () => {
             <VaultEngagementBar
               likesCount={vault.likesCount}
               commentsCount={vault.commentsCount}
+              isInitialLiked={vault.isLiked}
+              onLike={(liked) => {
+                if (liked && vault.id) likeVault(vault.id);
+                else if (!liked && vault.id) unlikeVault(vault.id);
+              }}
               allowComments={vault.allowComments}
-              className="py-3 border-y border-gray-100 my-4 md:my-5 px-4 md:px-0"
+              className="py-3 border-y border-gray-100 my-4 md:my-5"
               onCommentClick={() => {
                 const tabsEl = document.getElementById("vault-tabs-section");
                 if (tabsEl) {

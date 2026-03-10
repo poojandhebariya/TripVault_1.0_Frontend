@@ -15,4 +15,6 @@ export const vaultKeys = {
   getVaultDetails: (id: string) => [...vaultKeys.all(), "detail", id],
   updateVault: (id: string) => [...vaultKeys.all(), "update", id],
   publishVault: (id: string) => [...vaultKeys.all(), "publish", id],
+  likeVault: (id: string) => [...vaultKeys.all(), "like", id],
+  unlikeVault: (id: string) => [...vaultKeys.all(), "unlike", id],
 };

@@ -499,6 +499,150 @@ export const vaultMutation = () => {
     },
   });
 
+  const likeVaultMutation = {
+    mutationKey: vaultKeys.all(),
+    mutationFn: async (vaultId: string): Promise<void> => {
+      await axiosInstance.post(`/vault/${vaultId}/like`);
+    },
+    onMutate: async (vaultId: string) => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+      const queryCache = queryClient.getQueryCache();
+      const allVaultQueries = queryCache.findAll({ queryKey: vaultKeys.all() });
+
+      const previousQueries = allVaultQueries.map((query) => ({
+        queryKey: query.queryKey,
+        data: query.state.data,
+      }));
+
+      allVaultQueries.forEach((query) => {
+        const queryKey = query.queryKey;
+        const data = query.state.data;
+        if (!data) return;
+
+        if (Array.isArray(data)) {
+          queryClient.setQueryData(queryKey, (old: any) =>
+            Array.isArray(old)
+              ? old.map((v: any) =>
+                  v.id === vaultId
+                    ? {
+                        ...v,
+                        likesCount: (v.likesCount ?? 0) + 1,
+                        isLiked: true,
+                      }
+                    : v,
+                )
+              : old,
+          );
+        } else if (
+          typeof data === "object" &&
+          "data" in data &&
+          Array.isArray((data as any).data)
+        ) {
+          queryClient.setQueryData(queryKey, (old: any) => {
+            if (!old || !old.data) return old;
+            return {
+              ...old,
+              data: old.data.map((v: any) =>
+                v.id === vaultId
+                  ? { ...v, likesCount: (v.likesCount ?? 0) + 1, isLiked: true }
+                  : v,
+              ),
+            };
+          });
+        } else if (typeof data === "object" && (data as any).id === vaultId) {
+          queryClient.setQueryData(queryKey, (old: any) => ({
+            ...old,
+            likesCount: (old.likesCount ?? 0) + 1,
+            isLiked: true,
+          }));
+        }
+      });
+
+      return { previousQueries };
+    },
+    onError: (_err: unknown, _vars: unknown, context: any) => {
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) => {
+          queryClient.setQueryData(queryKey, data);
+        });
+      }
+    },
+  };
+
+  const unlikeVaultMutation = {
+    mutationKey: vaultKeys.all(),
+    mutationFn: async (vaultId: string): Promise<void> => {
+      await axiosInstance.delete(`/vault/${vaultId}/like`);
+    },
+    onMutate: async (vaultId: string) => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+      const queryCache = queryClient.getQueryCache();
+      const allVaultQueries = queryCache.findAll({ queryKey: vaultKeys.all() });
+
+      const previousQueries = allVaultQueries.map((query) => ({
+        queryKey: query.queryKey,
+        data: query.state.data,
+      }));
+
+      allVaultQueries.forEach((query) => {
+        const queryKey = query.queryKey;
+        const data = query.state.data;
+        if (!data) return;
+
+        if (Array.isArray(data)) {
+          queryClient.setQueryData(queryKey, (old: any) =>
+            Array.isArray(old)
+              ? old.map((v: any) =>
+                  v.id === vaultId
+                    ? {
+                        ...v,
+                        likesCount: Math.max((v.likesCount ?? 0) - 1, 0),
+                        isLiked: false,
+                      }
+                    : v,
+                )
+              : old,
+          );
+        } else if (
+          typeof data === "object" &&
+          "data" in data &&
+          Array.isArray((data as any).data)
+        ) {
+          queryClient.setQueryData(queryKey, (old: any) => {
+            if (!old || !old.data) return old;
+            return {
+              ...old,
+              data: old.data.map((v: any) =>
+                v.id === vaultId
+                  ? {
+                      ...v,
+                      likesCount: Math.max((v.likesCount ?? 0) - 1, 0),
+                      isLiked: false,
+                    }
+                  : v,
+              ),
+            };
+          });
+        } else if (typeof data === "object" && (data as any).id === vaultId) {
+          queryClient.setQueryData(queryKey, (old: any) => ({
+            ...old,
+            likesCount: Math.max((old.likesCount ?? 0) - 1, 0),
+            isLiked: false,
+          }));
+        }
+      });
+
+      return { previousQueries };
+    },
+    onError: (_err: unknown, _vars: unknown, context: any) => {
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) => {
+          queryClient.setQueryData(queryKey, data);
+        });
+      }
+    },
+  };
+
   return {
     createVaultMutation,
     togglePinMutation,
@@ -506,5 +650,7 @@ export const vaultMutation = () => {
     deleteVaultMutation,
     updateVaultMutation,
     publishVaultMutation,
+    likeVaultMutation,
+    unlikeVaultMutation,
   };
 };

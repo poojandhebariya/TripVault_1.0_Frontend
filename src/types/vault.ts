@@ -27,6 +27,7 @@ export interface Vault {
   createdAt?: string;
   distance?: number;
   likesCount?: number;
+  isLiked?: boolean;
   commentsCount?: number;
   impressionsCount?: number;
   topCountries?: string[];
