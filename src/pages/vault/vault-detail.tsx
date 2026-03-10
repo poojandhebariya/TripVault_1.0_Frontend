@@ -71,10 +71,11 @@ const VaultDetail = () => {
             <VaultMediaCarousel
               media={vault.attachments ?? []}
               className="md:rounded-2xl"
+              dotsPosition="right"
               overlayElement={
                 <>
                   <div className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-black/80 to-transparent pointer-events-none lg:hidden" />
-                  <div className="absolute bottom-0 inset-x-0 px-4 pb-4 md:px-5 md:pb-5 pointer-events-none lg:hidden">
+                  <div className="absolute bottom-0 inset-x-0 pl-4 pr-20 pb-4 md:px-5 md:pb-5 pointer-events-none lg:hidden">
                     <h1 className="text-white font-medium leading-tight drop-shadow-lg text-xl md:text-3xl md:font-semibold line-clamp-2 mt-0.5">
                       {vault.title}
                     </h1>

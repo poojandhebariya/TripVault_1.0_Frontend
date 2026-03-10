@@ -24,6 +24,7 @@ interface VaultMediaCarouselProps {
   showCounter?: boolean;
   showDots?: boolean;
   showArrows?: boolean;
+  dotsPosition?: "center" | "right";
   onMediaClick?: (media: MediaAttachment) => void;
   overlayElement?: React.ReactNode;
 }
@@ -37,6 +38,7 @@ const VaultMediaCarousel = ({
   showCounter = true,
   showDots = true,
   showArrows = true,
+  dotsPosition = "center",
   overlayElement,
 }: VaultMediaCarouselProps) => {
   const [activeImg, setActiveImg] = useState(0);
@@ -147,7 +149,14 @@ const VaultMediaCarousel = ({
 
       {/* Dot indicators */}
       {showDots && media.length > 1 && (
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:right-5 flex gap-1.5 z-10">
+        <div
+          className={cn(
+            "absolute bottom-4 px-1 flex gap-1.5 z-10 transition-all duration-300",
+            dotsPosition === "center"
+              ? "left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:right-5"
+              : "right-4 md:right-5",
+          )}
+        >
           {media.map((_, i) => (
             <button
               key={i}
