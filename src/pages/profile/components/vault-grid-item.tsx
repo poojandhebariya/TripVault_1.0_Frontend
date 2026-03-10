@@ -7,7 +7,7 @@ import {
   faClock,
   faThumbTack,
 } from "@fortawesome/free-solid-svg-icons";
-import type { Vault } from "../../types/vault";
+import type { Vault } from "../../../types/vault";
 
 interface VaultGridItemProps {
   vault: Vault;

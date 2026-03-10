@@ -6,7 +6,7 @@ import {
   faEye,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import type { Vault } from "../../pages/types/vault";
+import type { Vault } from "../../types/vault";
 import Modal from "./modal";
 
 interface VaultInsightsModalProps {

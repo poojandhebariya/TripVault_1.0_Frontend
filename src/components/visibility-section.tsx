@@ -3,8 +3,8 @@ import { faGlobe, faLock, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import { cn } from "../lib/cn-merge";
 import { ToggleButtonGroup } from "./ui/toggle-button";
 import Input from "./ui/input";
-import type { Visibility } from "../pages/types/attachment-item";
-import type { Audience } from "../pages/types/attachment-item";
+import type { Visibility } from "../types/attachment-item";
+import type { Audience } from "../types/attachment-item";
 
 interface VisibilitySectionProps {
   visibility: Visibility;

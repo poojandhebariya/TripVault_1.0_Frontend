@@ -1,9 +1,6 @@
 import axiosInstance from "../../utils/axios-instance";
-import type {
-  ApiResponse,
-  PaginatedResponse,
-} from "../../pages/types/api-response";
-import type { Vault } from "../../pages/types/vault";
+import type { ApiResponse, PaginatedResponse } from "../../types/api-response";
+import type { Vault } from "../../types/vault";
 import { vaultKeys } from "./keys";
 
 export const vaultQueries = () => {

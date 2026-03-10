@@ -16,7 +16,7 @@ import useGeolocation from "../../hooks/useGeolocation";
 import { useScheduledVaultPublisher } from "../../hooks/useScheduledVaultPublisher";
 
 import VaultCard from "../../components/vault-card";
-import VaultCardSkeleton from "../../components/vault-card-skeleton";
+import VaultCardSkeleton from "../../components/skeletons/vault-card-skeleton";
 import FeedFilter, {
   type FeedFilter as FeedFilterType,
 } from "../../components/feed-filter";

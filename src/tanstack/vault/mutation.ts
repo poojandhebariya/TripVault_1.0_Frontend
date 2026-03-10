@@ -1,9 +1,9 @@
 import { vaultKeys } from "./keys";
 import { userKeys } from "../user/keys";
 import axiosInstance from "../../utils/axios-instance";
-import type { ApiResponse } from "../../pages/types/api-response";
-import type { Vault } from "../../pages/types/vault";
-import type { User } from "../../pages/types/user";
+import type { ApiResponse } from "../../types/api-response";
+import type { Vault } from "../../types/vault";
+import type { User } from "../../types/user";
 import { useQueryClient } from "@tanstack/react-query";
 
 export const vaultMutation = () => {

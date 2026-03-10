@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import type { User } from "../../pages/types/user";
+import type { User } from "../../types/user";
 import { del, get, set, clear } from "idb-keyval";
-import type { AuthResponse } from "../../pages/types/auth-response";
+import type { AuthResponse } from "../../types/auth-response";
 
 interface UserContextProps {
   user?: User;

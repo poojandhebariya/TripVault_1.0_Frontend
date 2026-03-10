@@ -1,7 +1,7 @@
 import { authKeys } from "./keys";
 import axiosInstance, { saveTokens } from "../../utils/axios-instance";
-import type { AuthResponse } from "../../pages/types/auth-response";
-import type { ApiResponse } from "../../pages/types/api-response";
+import type { AuthResponse } from "../../types/auth-response";
+import type { ApiResponse } from "../../types/api-response";
 
 export const authMutation = () => {
   const loginMutation = {

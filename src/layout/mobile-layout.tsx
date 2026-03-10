@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -27,6 +27,13 @@ const MobileLayout = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { isLoggedIn } = useUserContext();
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollTo(0, 0);
+    }
+  }, [location.pathname]);
 
   const [activeModal, setActiveModal] = useState<ModalKey | null>(null);
 
@@ -55,10 +62,10 @@ const MobileLayout = () => {
   const closeModal = () => setActiveModal(null);
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen overflow-hidden">
       <Header />
 
-      <div className="flex-1 overflow-y-auto pb-24">
+      <div ref={scrollRef} className="flex-1 overflow-y-auto pb-24">
         <Outlet />
       </div>
 

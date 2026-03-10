@@ -25,7 +25,7 @@ import {
   type AttachmentItem,
   type Visibility,
   type Audience,
-} from "../types/attachment-item";
+} from "../../types/attachment-item";
 import TagInput from "../../components/ui/tag-input";
 import MoodPicker from "../../components/mood-picker";
 import LocationSearch, {
@@ -34,7 +34,7 @@ import LocationSearch, {
 import AttachmentsSection from "../../components/attachments-section";
 import VisibilitySection from "../../components/visibility-section";
 import ScheduleModal from "../../components/schedule-modal";
-import type { Vault, VaultAttachment } from "../types/vault";
+import type { Vault, VaultAttachment } from "../../types/vault";
 import { VAULT_IMAGE_CONFIG } from "../../utils/image-upload/image-upload.utils";
 import MobileStickyHeader from "../../components/mobile-sticky-header";
 

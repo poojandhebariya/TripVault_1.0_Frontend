@@ -16,6 +16,7 @@ export const ROUTES = {
   VAULT: {
     CREATE_VAULT: "/vault/create",
     EDIT_VAULT: "/vault/edit/:id",
+    VAULT_DETAIL: "/vault/:id",
   },
   PLAN_TRIP: "/plan-trip",
   EXPLORE: "/explore",

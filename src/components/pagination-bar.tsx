@@ -3,7 +3,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import type { Pagination } from "../pages/types/pagination";
+import type { Pagination } from "../types/pagination";
 
 export default function Pagination({
   page,

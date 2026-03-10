@@ -3,7 +3,7 @@ import axios, {
   type InternalAxiosRequestConfig,
 } from "axios";
 import { del, get, set } from "idb-keyval";
-import type { AuthResponse } from "../pages/types/auth-response";
+import type { AuthResponse } from "../types/auth-response";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const REFRESH_TOKEN_EXPIRY_DAYS = 3;

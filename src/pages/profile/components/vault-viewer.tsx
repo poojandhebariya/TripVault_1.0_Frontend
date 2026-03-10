@@ -22,7 +22,7 @@ import {
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import type { Vault } from "../../types/vault";
+import type { Vault } from "../../../types/vault";
 import { useMutation } from "@tanstack/react-query";
 import { vaultMutation } from "../../../tanstack/vault/mutation";
 import { useSnackbar } from "react-snackify";
@@ -285,7 +285,7 @@ const VaultViewer = ({
     {
       icon: faArrowUpRightFromSquare,
       label: "Detail",
-      onClick: () => console.log("detail"),
+      onClick: () => navigate(`/vault/${vault.id}`),
     },
     { icon: faShare, label: "Share", onClick: () => console.log("share") },
   ];

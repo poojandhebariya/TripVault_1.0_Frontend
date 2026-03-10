@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import Button from "../../../components/ui/button";
 import Input from "../../../components/ui/input";
-import type { User } from "../../types/user";
+import type { User } from "../../../types/user";
 import profileSetupStep1Image from "/images/profile_setup_1.png";
 
 const ProfileSetupStep1 = ({

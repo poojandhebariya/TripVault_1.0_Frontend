@@ -7,8 +7,8 @@ import ProfileSetupStep3, {
 import { useNavigate } from "react-router-dom";
 import { userMutation } from "../../tanstack/user/mutation";
 import { useMutation } from "@tanstack/react-query";
-import { PreferredTripType } from "../types/preferred-trip-type";
-import type { User } from "../types/user";
+import { PreferredTripType } from "../../types/preferred-trip-type";
+import type { User } from "../../types/user";
 import { useSnackbar } from "react-snackify";
 import { useUserContext } from "../../contexts/user/user";
 

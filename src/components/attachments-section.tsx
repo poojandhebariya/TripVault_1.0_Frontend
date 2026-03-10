@@ -11,10 +11,7 @@ import {
   faCrop,
 } from "@fortawesome/free-solid-svg-icons";
 import { cn } from "../lib/cn-merge";
-import {
-  MAX_ATTACHMENTS,
-  type AttachmentItem,
-} from "../pages/types/attachment-item";
+import { MAX_ATTACHMENTS, type AttachmentItem } from "../types/attachment-item";
 
 interface AttachmentsSectionProps {
   attachments: AttachmentItem[];

@@ -7,8 +7,8 @@ import { clsx } from "clsx";
 import type { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { interestsData } from "../../../utils/interest-data";
 import { tripTypesData } from "../../../utils/trip-type-data";
-import type { User } from "../../types/user";
-import { PreferredTripType } from "../../types/preferred-trip-type";
+import type { User } from "../../../types/user";
+import { PreferredTripType } from "../../../types/preferred-trip-type";
 
 const ProfileSetupStep2 = ({
   onNext,

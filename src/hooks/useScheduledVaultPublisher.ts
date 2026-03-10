@@ -2,8 +2,8 @@ import { useEffect, useRef } from "react";
 import { useQueryClient } from "@tanstack/react-query";
 import { vaultKeys } from "../tanstack/vault/keys";
 import { userKeys } from "../tanstack/user/keys";
-import type { Vault } from "../pages/types/vault";
-import type { User } from "../pages/types/user";
+import type { Vault } from "../types/vault";
+import type { User } from "../types/user";
 
 const POLL_INTERVAL_MS = 60_000; // Check every 60 seconds
 

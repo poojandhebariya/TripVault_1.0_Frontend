@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
 import { vaultQueries } from "../../tanstack/vault/queries";
-import type { Vault } from "../types/vault";
+import type { Vault } from "../../types/vault";
 import VaultGridItem from "./components/vault-grid-item";
 import VaultViewer from "./components/vault-viewer";
 
@@ -16,17 +16,7 @@ const STATUS_TABS: { key: StatusFilter; label: string }[] = [
   { key: "schedule", label: "Scheduled" },
 ];
 
-const SkeletonGrid = () => (
-  <>
-    {Array.from({ length: 9 }).map((_, i) => (
-      <div
-        key={i}
-        className="aspect-square bg-gray-100 animate-pulse"
-        style={{ animationDelay: `${i * 55}ms` }}
-      />
-    ))}
-  </>
-);
+import VaultGridSkeleton from "../../components/skeletons/vault-grid-skeleton";
 
 const EmptyState = ({ filter }: { filter: StatusFilter }) => (
   <div className="col-span-3 flex flex-col items-center justify-center py-20 text-center px-6">
@@ -89,7 +79,7 @@ const Vaults = () => {
       </div>
 
       <div className="grid grid-cols-3 gap-px mt-2 md:max-w-4xl md:mx-auto md:gap-0.5 md:bg-transparent">
-        {isLoading && <SkeletonGrid />}
+        {isLoading && <VaultGridSkeleton />}
 
         {isError && (
           <p className="col-span-3 text-center py-16 text-[13px] text-red-400 font-medium">

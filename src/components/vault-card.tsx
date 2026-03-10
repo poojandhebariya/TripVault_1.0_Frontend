@@ -1,20 +1,8 @@
 import { useState, useRef, useEffect, useLayoutEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import DOMPurify from "dompurify";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHeart,
-  faComment,
-  faShare,
-  faBookmark,
-  faLocationDot,
-  faUser,
-  faChevronLeft,
-  faChevronRight,
-  faImage,
-  faRoute,
-} from "@fortawesome/free-solid-svg-icons";
-import type { Vault } from "../pages/types/vault";
+import { cn } from "../lib/cn-merge";
+import type { Vault } from "../types/vault";
 import VaultPostMenu from "./vault-post-menu";
 import { useUserContext } from "../contexts/user/user";
 import ImagePreviewModal from "./ui/image-preview-modal";
@@ -25,47 +13,15 @@ import { vaultMutation } from "../tanstack/vault/mutation";
 import { useSnackbar } from "react-snackify";
 import type { AxiosError } from "axios";
 import DeleteConfirmModal from "./ui/delete-confirm-modal";
+import VaultAuthorHeader from "./vault-author-header";
+import VaultMediaCarousel from "./vault-media-carousel";
+import VaultEngagementBar from "./vault-engagement-bar";
 
 interface VaultCardProps {
   vault: Vault;
   variant?: "mobile" | "desktop";
   trackImpression?: boolean;
 }
-
-/** Pretty-print a createdAt ISO string as relative time ("2h ago") */
-const relativeTime = (iso?: string): string => {
-  if (!iso) return "";
-  const diff = Date.now() - new Date(iso).getTime();
-  const m = Math.floor(diff / 60000);
-  if (m < 1) return "just now";
-  if (m < 60) return `${m}m ago`;
-  const h = Math.floor(m / 60);
-  if (h < 24) return `${h}h ago`;
-  const d = Math.floor(h / 24);
-  if (d < 7) return `${d}d ago`;
-  return new Date(iso).toLocaleDateString(undefined, {
-    month: "short",
-    day: "numeric",
-  });
-};
-
-const getMoodMeta = (mood: string | null) => {
-  if (!mood) return null;
-  return (
-    MOODS.find(
-      (m) =>
-        m.id === mood.toLowerCase() ||
-        m.label.toLowerCase() === mood.toLowerCase(),
-    ) ?? null
-  );
-};
-
-/** Format distance: < 1 km → "X m", >= 1km → "X.X km" */
-const formatDistance = (km: number): string => {
-  if (km < 1) return `${Math.round(km * 1000)} m`;
-  if (km < 10) return `${km.toFixed(1)} km`;
-  return `${Math.round(km)} km`;
-};
 
 /** Open Google Maps at the given coordinates */
 const openGoogleMaps = (lat: number, lon: number, label?: string) => {
@@ -82,11 +38,6 @@ const VaultCard = ({
   variant = "desktop",
   trackImpression = false,
 }: VaultCardProps) => {
-  const [activeImg, setActiveImg] = useState(0);
-  const [liked, setLiked] = useState(false);
-  const [saved, setSaved] = useState(false);
-  const touchStartX = useRef<number | null>(null);
-  const touchStartY = useRef<number | null>(null);
   const cardRef = useRef<HTMLElement>(null);
   const hasTracked = useRef(false);
 
@@ -106,6 +57,9 @@ const VaultCard = ({
     ...incrementViewMutation,
     mutationKey: [...(incrementViewMutation.mutationKey as any[]), vault.id],
   });
+
+  // Is the logged-in user the owner of this vault?
+  const isOwner = !!user?.username && user.username === vault.author?.username;
 
   useEffect(() => {
     if (
@@ -168,11 +122,13 @@ const VaultCard = ({
 
   const images = vault.attachments.filter((a) => a.type === "image");
 
-  const moodMeta = getMoodMeta(vault.mood);
-  const timeAgo = relativeTime(vault.createdAt);
+  const mood =
+    MOODS.find(
+      (m) =>
+        m.id === vault.mood?.toLowerCase() ||
+        m.label.toLowerCase() === vault.mood?.toLowerCase(),
+    ) ?? null;
 
-  // Is the logged-in user the owner of this vault?
-  const isOwner = !!user?.username && user.username === vault.author?.username;
   const navigate = useNavigate();
 
   const handleDelete = () => {
@@ -198,26 +154,6 @@ const VaultCard = ({
     });
   };
 
-  const prevImg = () =>
-    setActiveImg((p) => (p - 1 + images.length) % images.length);
-  const nextImg = () => setActiveImg((p) => (p + 1) % images.length);
-
-  const onTouchStart = (e: React.TouchEvent) => {
-    touchStartX.current = e.touches[0].clientX;
-    touchStartY.current = e.touches[0].clientY;
-  };
-
-  const onTouchEnd = (e: React.TouchEvent) => {
-    if (touchStartX.current === null || touchStartY.current === null) return;
-    const dx = touchStartX.current - e.changedTouches[0].clientX;
-    const dy = Math.abs(touchStartY.current - e.changedTouches[0].clientY);
-    if (Math.abs(dx) > 40 && Math.abs(dx) > dy) {
-      dx > 0 ? nextImg() : prevImg();
-    }
-    touchStartX.current = null;
-    touchStartY.current = null;
-  };
-
   const isMobile = variant === "mobile";
 
   const wrapper = isMobile
@@ -234,86 +170,29 @@ const VaultCard = ({
     }
   };
 
-  const likeCount = vault.likesCount ?? 0;
-  const commentCount = vault.commentsCount ?? 0;
-
   return (
     <article ref={cardRef} className={wrapper}>
       {/* ── Author row ── */}
-      <div className="flex items-center gap-3 px-4 pt-4 pb-3">
-        {/* Avatar */}
-        <div className="w-10 h-10 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm">
-          {vault.author?.profilePicUrl && vault.author.profilePicUrl !== "" ? (
-            <img
-              src={vault.author.profilePicUrl}
-              alt={vault.author.name ?? "Author"}
-              className="w-full h-full object-cover"
-            />
-          ) : (
-            <FontAwesomeIcon icon={faUser} className="text-white text-sm" />
-          )}
-        </div>
-
-        {/* Name + location + distance */}
-        <div className="min-w-0 flex-1">
-          <p className="text-sm font-bold text-gray-900 truncate leading-tight">
-            {vault.author?.name ?? vault.author?.username ?? "Traveller"}
-          </p>
-          <div className="flex items-center gap-1.5 mt-[3px] text-[12px] text-gray-500 overflow-hidden whitespace-nowrap">
-            {vault.location?.label && (
-              <>
-                <FontAwesomeIcon
-                  icon={faLocationDot}
-                  className="text-rose-400 text-[10px] shrink-0"
-                />
-                <span
-                  className="truncate shrink min-w-0"
-                  title={vault.location.label}
-                >
-                  {vault.location.label}
-                </span>
-                {timeAgo && (
-                  <span className="shrink-0 text-gray-300 mx-0.5 font-bold leading-none -translate-y-px">
-                    ·
-                  </span>
-                )}
-              </>
-            )}
-
-            {timeAgo && <span className="shrink-0 text-[11px]">{timeAgo}</span>}
-            {typeof vault.distance === "number" && (
-              <span className="shrink-0 text-gray-300 mx-0.5 font-bold leading-none -translate-y-px">
-                ·
-              </span>
-            )}
-            {/* Distance badge inline if exists */}
-            {typeof vault.distance === "number" && (
-              <>
-                <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-1.5 py-0.5 bg-emerald-50 text-emerald-600 rounded-full border border-emerald-100 shrink-0">
-                  <FontAwesomeIcon icon={faRoute} className="text-[8px]" />
-                  {formatDistance(vault.distance)}
-                </span>
-              </>
-            )}
-          </div>
-        </div>
-
-        {/* ⋮ 3-dot menu */}
-        <VaultPostMenu
-          isOwner={isOwner}
-          hasLocation={!!vault.location}
-          isPinned={!!vault.isPinned}
-          isPublished={vault.status === "publish"}
-          onFollow={() => console.log("follow")}
-          onReport={() => console.log("report")}
-          onNavigateMap={handleNavigateMap}
-          onNotInterested={() => console.log("not interested")}
-          onEdit={() => navigate(`/vault/edit/${vault.id}`)}
-          onDelete={() => setShowDeleteConfirm(true)}
-          onPin={() => console.log("pin")}
-          onViewInsights={() => setShowInsights(true)}
-        />
-      </div>
+      <VaultAuthorHeader
+        vault={vault}
+        className="px-4 pt-4 pb-3"
+        rightElement={
+          <VaultPostMenu
+            isOwner={isOwner}
+            hasLocation={!!vault.location}
+            isPinned={!!vault.isPinned}
+            isPublished={vault.status === "publish"}
+            onFollow={() => console.log("follow")}
+            onReport={() => console.log("report")}
+            onNavigateMap={handleNavigateMap}
+            onNotInterested={() => console.log("not interested")}
+            onEdit={() => navigate(`/vault/edit/${vault.id}`)}
+            onDelete={() => setShowDeleteConfirm(true)}
+            onPin={() => console.log("pin")}
+            onViewInsights={() => setShowInsights(true)}
+          />
+        }
+      />
 
       {/* ── Insights Modal ── */}
       <VaultInsightsModal
@@ -322,164 +201,56 @@ const VaultCard = ({
         vault={vault}
       />
 
-      {/* ── Image carousel ── */}
-      {images.length > 0 && (
-        <div
-          className={`relative w-full overflow-hidden bg-gray-100 select-none ${
-            isMobile ? "h-full" : "h-[400px]"
-          }`}
-          onTouchStart={onTouchStart}
-          onTouchEnd={onTouchEnd}
-        >
-          {/* Sliding strip */}
-          <div
-            className="flex h-full transition-transform duration-300 ease-in-out"
-            style={{ transform: `translateX(-${activeImg * 100}%)` }}
-          >
-            {images.map((img, i) =>
-              img.url ? (
-                <img
-                  key={i}
-                  src={img.url}
-                  alt={`${vault.title} photo ${i + 1}`}
-                  className="w-full h-full object-cover shrink-0 cursor-zoom-in"
-                  draggable={false}
-                  onClick={() => setPreviewSrc(img.url)}
-                />
-              ) : (
-                <div
-                  key={i}
-                  className="w-full h-full bg-gray-200 flex items-center justify-center shrink-0"
-                >
-                  <FontAwesomeIcon
-                    icon={faImage}
-                    className="text-gray-400 text-3xl"
-                  />
-                </div>
-              ),
+      {/* ── Media Carousel ── */}
+      <VaultMediaCarousel
+        media={vault.attachments}
+        aspectRatio={isMobile ? "4/3" : "auto"}
+        maxHeight={isMobile ? "auto" : "400px"}
+        className={cn(isMobile ? "" : "h-[400px]")}
+        showCounter={images.length > 1}
+        overlayElement={
+          <>
+            {/* Mood badge (bottom-left, over image) */}
+            {mood && images.length > 0 && (
+              <div
+                className={`absolute bottom-2.5 left-2.5 z-10 flex items-center gap-1.5 bg-linear-to-r ${mood.bg} text-white text-[11px] font-semibold px-2.5 py-1 rounded-full shadow-2xl`}
+              >
+                <span>{mood.emoji}</span>
+                <span>{mood.label}</span>
+              </div>
             )}
-          </div>
-
-          {/* Attachment count badge (top-right) */}
-          {images.length > 1 && (
-            <div className="absolute top-2.5 right-2.5 flex items-center gap-1 bg-black/50 backdrop-blur-sm text-white text-[11px] font-semibold px-2 py-0.5 rounded-full">
-              <FontAwesomeIcon icon={faImage} className="text-[9px]" />
-              {activeImg + 1}/{images.length}
-            </div>
-          )}
-
-          {/* Mood badge (bottom-left, over image) */}
-          {moodMeta && (
-            <div
-              className={`absolute bottom-2.5 left-2.5 flex items-center gap-1.5 bg-linear-to-r ${moodMeta.bg} text-white text-[11px] font-semibold px-2.5 py-1 rounded-full shadow-2xl`}
-            >
-              <span>{moodMeta.emoji}</span>
-              <span>{moodMeta.label}</span>
-            </div>
-          )}
-
-          {/* Prev/Next arrows — desktop only */}
-          {images.length > 1 && (
-            <>
-              <button
-                onClick={prevImg}
-                className="hidden md:flex absolute left-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/85 backdrop-blur-sm items-center justify-center shadow-md text-gray-700 hover:bg-white hover:scale-105 transition-all cursor-pointer"
-              >
-                <FontAwesomeIcon icon={faChevronLeft} className="text-xs" />
-              </button>
-              <button
-                onClick={nextImg}
-                className="hidden md:flex absolute right-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/85 backdrop-blur-sm items-center justify-center shadow-md text-gray-700 hover:bg-white hover:scale-105 transition-all cursor-pointer"
-              >
-                <FontAwesomeIcon icon={faChevronRight} className="text-xs" />
-              </button>
-            </>
-          )}
-
-          {/* Dot indicators */}
-          {images.length > 1 && (
-            <div className="absolute bottom-2.5 left-1/2 -translate-x-1/2 flex gap-1.5">
-              {images.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setActiveImg(i)}
-                  className={`rounded-full transition-all duration-200 cursor-pointer ${
-                    i === activeImg
-                      ? "w-4 h-1.5 bg-white"
-                      : "w-1.5 h-1.5 bg-white/50"
-                  }`}
-                />
-              ))}
-            </div>
-          )}
-        </div>
-      )}
+          </>
+        }
+      />
 
       {/* Mood pill below image (when no image) */}
-      {moodMeta && images.length === 0 && (
+      {mood && images.length === 0 && (
         <div className="px-4 pt-1">
           <span
-            className={`inline-flex items-center gap-1.5 bg-linear-to-r ${moodMeta.bg} text-white text-[11px] font-semibold px-2.5 py-1 rounded-full shadow-sm`}
+            className={`inline-flex items-center gap-1.5 bg-linear-to-r ${mood.bg} text-white text-[11px] font-semibold px-2.5 py-1 rounded-full shadow-sm`}
           >
-            {moodMeta.emoji} {moodMeta.label}
+            {mood.emoji} {mood.label}
           </span>
         </div>
       )}
 
-      {/* ── Engagement bar (below image, above title) ── */}
-      <div className="flex items-center gap-0.5 pt-2.5 pb-0">
-        {/* Like */}
-        <button
-          onClick={() => setLiked((p) => !p)}
-          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer active:scale-95 ${
-            liked
-              ? "bg-rose-50 text-rose-500"
-              : "text-gray-500 hover:bg-gray-50"
-          }`}
-        >
-          <FontAwesomeIcon
-            icon={faHeart}
-            className={`text-base md:text-lg cursor-pointer transition-transform duration-150 ${liked ? "scale-125" : ""}`}
-          />
-          <span className="text-xs">{likeCount > 0 ? likeCount : 0}</span>
-        </button>
-
-        {/* Comment */}
-        <button className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-gray-500 hover:bg-gray-50 transition-all duration-200 cursor-pointer active:scale-95">
-          <FontAwesomeIcon
-            icon={faComment}
-            className="text-base md:text-lg cursor-pointer"
-          />
-          <span className="text-xs">{commentCount > 0 ? commentCount : 0}</span>
-        </button>
-
-        {/* Share */}
-        <button className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-gray-500 hover:bg-gray-50 transition-all duration-200 cursor-pointer active:scale-95">
-          <FontAwesomeIcon
-            icon={faShare}
-            className="text-base md:text-lg cursor-pointer"
-          />
-        </button>
-
-        {/* Save — pushed to right */}
-        <button
-          onClick={() => setSaved((p) => !p)}
-          className={`ml-auto flex items-center justify-center w-8 h-8 rounded-full transition-all duration-200 cursor-pointer active:scale-95 ${
-            saved
-              ? "bg-blue-50 text-blue-600"
-              : "text-gray-400 hover:bg-gray-50"
-          }`}
-        >
-          <FontAwesomeIcon
-            icon={faBookmark}
-            className="text-base md:text-lg cursor-pointer"
-          />
-        </button>
-      </div>
+      {/* ── Engagement Bar ── */}
+      <VaultEngagementBar
+        likesCount={vault.likesCount}
+        commentsCount={vault.commentsCount}
+        allowComments={vault.allowComments}
+        className="pt-2.5 pb-0"
+        onCommentClick={() =>
+          vault.id && navigate(`/vault/${vault.id}?tab=comments`)
+        }
+      />
 
       {/* ── Content: title → description → tags ── */}
       <div className="px-4 pt-2.5 pb-4 space-y-2">
-        <h2 className="text-base font-bold text-gray-900 leading-snug line-clamp-2">
+        <h2
+          onClick={() => vault.id && navigate(`/vault/${vault.id}`)}
+          className="text-base font-bold text-gray-900 leading-snug line-clamp-2 cursor-pointer hover:text-blue-700 transition-colors duration-150"
+        >
           {vault.title}
         </h2>
 

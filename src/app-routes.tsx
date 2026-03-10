@@ -15,6 +15,7 @@ import Tagged from "./pages/profile/tagged";
 import EditProfile from "./pages/profile/edit-profile";
 import CreateVault from "./pages/vault/create-vault";
 import EditVault from "./pages/vault/edit-vault";
+import VaultDetail from "./pages/vault/vault-detail";
 import ProtectedRoute from "./components/protected-route";
 import ProfileSetupRoute from "./components/profile-setup-route";
 import HomeRoute from "./components/home-route";
@@ -61,6 +62,7 @@ const AppRoutes = () => {
           <Route path={ROUTES.USER.PROFILE_EDIT} element={<EditProfile />} />
           <Route path={ROUTES.VAULT.CREATE_VAULT} element={<CreateVault />} />
           <Route path={ROUTES.VAULT.EDIT_VAULT} element={<EditVault />} />
+          <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
         </Route>
       </Route>
     </Routes>

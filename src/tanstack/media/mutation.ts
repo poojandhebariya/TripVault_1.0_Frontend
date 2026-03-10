@@ -1,6 +1,6 @@
 import { mediaKeys } from "./keys";
 import axiosInstance from "../../utils/axios-instance";
-import type { ApiResponse } from "../../pages/types/api-response";
+import type { ApiResponse } from "../../types/api-response";
 
 export interface UploadImagePayload {
   file: File;
