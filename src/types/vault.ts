@@ -42,3 +42,11 @@ export interface VaultAttachment {
   url: string;
   type: "image" | "video";
 }
+
+export interface VaultComment {
+  id: string;
+  vaultId: string;
+  text: string;
+  author: VaultAuthor;
+  createdAt: string;
+}

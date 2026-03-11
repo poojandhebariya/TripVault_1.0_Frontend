@@ -17,7 +17,7 @@ const MobileStickyHeader = ({
   const navigate = useNavigate();
 
   return (
-    <div className="sticky md:hidden top-0 z-30 bg-white/90 backdrop-blur-md border-b border-gray-100">
+    <div className="sticky md:hidden top-0 z-40 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm">
       <div className="max-w-2xl mx-auto px-4 h-14 flex items-center gap-3">
         <button
           type="button"

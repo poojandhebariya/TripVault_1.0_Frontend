@@ -230,7 +230,7 @@ const VaultEngagementBar = ({
             key={`save-${saved}-${saveBurst}`}
             icon={faBookmark}
             className={cn(
-              "text-lg md:text-2xl relative z-10",
+              "text-lg md:text-2xl relative z-10 mr-3 md:mr-5",
               saved && saveBurst && "heart-pop",
             )}
           />

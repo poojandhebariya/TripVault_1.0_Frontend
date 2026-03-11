@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMapLocationDot,
@@ -19,7 +20,22 @@ interface VaultDetailTabProps {
 }
 
 const VaultDetailTab = ({ vault }: VaultDetailTabProps) => {
-  const [activeTab, setActiveTab] = useState<string>("details");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const urlTab = searchParams.get("tab");
+
+  const [activeTab, setActiveTab] = useState<string>(urlTab || "details");
+
+  // Sync state with URL search params
+  useEffect(() => {
+    if (urlTab && urlTab !== activeTab) {
+      setActiveTab(urlTab);
+    }
+  }, [urlTab, activeTab]);
+
+  const handleTabChange = (id: string) => {
+    setActiveTab(id);
+    setSearchParams({ tab: id }, { replace: true });
+  };
 
   const tabs: StateTabItem[] = [
     {
@@ -50,7 +66,7 @@ const VaultDetailTab = ({ vault }: VaultDetailTabProps) => {
       <StateTabs
         tabs={tabs}
         activeTab={activeTab}
-        onChange={setActiveTab}
+        onChange={handleTabChange}
         className="px-4 md:px-5"
       />
 
@@ -58,7 +74,9 @@ const VaultDetailTab = ({ vault }: VaultDetailTabProps) => {
       <div className="mt-2">
         {activeTab === "details" && <DetailsTab vault={vault} />}
         {activeTab === "map" && <MapTab vault={vault} />}
-        {activeTab === "comments" && <CommentsTab />}
+        {activeTab === "comments" && vault.id && (
+          <CommentsTab vaultId={vault.id} />
+        )}
       </div>
     </div>
   );

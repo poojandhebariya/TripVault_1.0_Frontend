@@ -16,6 +16,8 @@ import DeleteConfirmModal from "./ui/delete-confirm-modal";
 import VaultAuthorHeader from "./vault-author-header";
 import VaultMediaCarousel from "./vault-media-carousel";
 import VaultEngagementBar from "./vault-engagement-bar";
+import CommentPanel from "./comment-panel";
+import Modal from "./ui/modal";
 
 interface VaultCardProps {
   vault: Vault;
@@ -46,6 +48,8 @@ const VaultCard = ({
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const [canExpand, setCanExpand] = useState(false);
+  const [showComments, setShowComments] = useState(false);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const descRef = useRef<HTMLDivElement>(null);
 
   const { user } = useUserContext();
@@ -252,9 +256,7 @@ const VaultCard = ({
         }}
         allowComments={vault.allowComments}
         className="pt-2.5 pb-0"
-        onCommentClick={() =>
-          vault.id && navigate(`/vault/${vault.id}?tab=comments`)
-        }
+        onCommentClick={() => setShowComments((prev) => !prev)}
       />
 
       {/* ── Content: title → description → tags ── */}
@@ -326,6 +328,37 @@ const VaultCard = ({
         isOpen={!!previewSrc}
         onClose={() => setPreviewSrc(null)}
       />
+
+      {/* ── Desktop Inline Comments ── */}
+      {!isMobile && showComments && vault.id && (
+        <div className="border-t border-gray-100 bg-gray-50/50 mt-1 pb-1 animate-[fadeIn_0.2s_ease-out]">
+          <CommentPanel
+            vaultId={vault.id}
+            maxShown={5}
+            onSeeMore={() => navigate(`/vault/${vault.id}?tab=comments`)}
+            hideCountHeader={true}
+          />
+        </div>
+      )}
+
+      {/* ── Mobile Bottom Modal Comments ── */}
+      {isMobile && vault.id && (
+        <Modal
+          open={showComments}
+          onClose={() => setShowComments(false)}
+          title={`${vault.commentsCount || 0} Comments`}
+          variant="bottom"
+          className="h-[85vh] rounded-t-3xl"
+          bodyClassName="p-0 flex flex-col"
+          bodyRef={scrollRef}
+        >
+          <CommentPanel
+            vaultId={vault.id}
+            scrollContainerRef={scrollRef}
+            hideCountHeader={true}
+          />
+        </Modal>
+      )}
 
       <DeleteConfirmModal
         isOpen={showDeleteConfirm}

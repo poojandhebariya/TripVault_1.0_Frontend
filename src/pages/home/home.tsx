@@ -105,7 +105,7 @@ const Home = () => {
     <div className="min-h-screen">
       <div className="max-w-7xl mx-auto lg:flex lg:gap-8 lg:px-6 lg:py-8">
         <main className="flex-1 min-w-0">
-          <div className="sticky -top-0.5 z-10 backdrop-blur-3xl bg-white/80 border-b border-gray-100 lg:static lg:border-none lg:py-0 lg:mb-5">
+          <div className="sticky -top-0.5 z-40 backdrop-blur-3xl bg-white/80 border-b border-gray-100 lg:static lg:border-none lg:py-0 lg:mb-5">
             <div className="flex items-center gap-2 py-3 overflow-x-hidden">
               <div className="flex-1 overflow-x-scroll">
                 <FeedFilter

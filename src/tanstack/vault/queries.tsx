@@ -1,6 +1,6 @@
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse, PaginatedResponse } from "../../types/api-response";
-import type { Vault } from "../../types/vault";
+import type { Vault, VaultComment } from "../../types/vault";
 import { vaultKeys } from "./keys";
 
 export const vaultQueries = () => {
@@ -52,5 +52,22 @@ export const vaultQueries = () => {
     enabled: !!id,
   });
 
-  return { getMyVaults, getPublicVaults, getNearbyVaults, getVaultDetails };
+  const getComments = (vaultId: string, limit = 10) => ({
+    queryKey: [...vaultKeys.getComments(vaultId)],
+    queryFn: async ({ pageParam = 1 }: { pageParam?: number }): Promise<PaginatedResponse<VaultComment>> => {
+      const response = await axiosInstance.get<
+        ApiResponse<PaginatedResponse<VaultComment>>
+      >(`/vault/${vaultId}/comments?page=${pageParam}&limit=${limit}`);
+      return response.data.data;
+    },
+    initialPageParam: 1,
+    getNextPageParam: (lastPage: PaginatedResponse<VaultComment>) => {
+      if (lastPage.page < lastPage.totalPages) return lastPage.page + 1;
+      return undefined;
+    },
+    enabled: !!vaultId,
+  });
+
+  return { getMyVaults, getPublicVaults, getNearbyVaults, getVaultDetails, getComments };
 };
+

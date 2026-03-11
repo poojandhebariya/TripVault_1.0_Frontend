@@ -1,4 +1,5 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faImage } from "@fortawesome/free-solid-svg-icons";
@@ -17,12 +18,27 @@ import VaultMediaCarousel from "../../components/vault-media-carousel";
 const VaultDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const tab = searchParams.get("tab");
   const { getVaultDetails } = vaultQueries();
   const { data: vault, isLoading, isError } = useQuery(getVaultDetails(id!));
 
   const { likeVaultMutation, unlikeVaultMutation } = vaultMutation();
   const { mutate: likeVault } = useMutation(likeVaultMutation);
   const { mutate: unlikeVault } = useMutation(unlikeVaultMutation);
+
+  useEffect(() => {
+    if (tab && !isLoading) {
+      // Small delay to ensure the content is rendered before scrolling
+      const timer = setTimeout(() => {
+        const tabsEl = document.getElementById("vault-tabs-section");
+        if (tabsEl) {
+          tabsEl.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, [tab, isLoading]);
 
   if (isLoading) return <VaultDetailSkeleton />;
 
@@ -100,6 +116,7 @@ const VaultDetail = () => {
               allowComments={vault.allowComments}
               className="py-3 border-y border-gray-100 my-4 md:my-5"
               onCommentClick={() => {
+                setSearchParams({ tab: "comments" }, { replace: true });
                 const tabsEl = document.getElementById("vault-tabs-section");
                 if (tabsEl) {
                   tabsEl.scrollIntoView({ behavior: "smooth" });

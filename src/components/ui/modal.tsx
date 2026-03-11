@@ -17,6 +17,8 @@ interface ModalProps {
   showCloseButton?: boolean;
   className?: string;
   variant?: "center" | "bottom";
+  bodyClassName?: string;
+  bodyRef?: React.RefObject<HTMLDivElement | null>;
 }
 
 const Modal = ({
@@ -31,6 +33,8 @@ const Modal = ({
   showCloseButton = true,
   className,
   variant = "center",
+  bodyClassName,
+  bodyRef,
 }: ModalProps) => {
   const [shouldRender, setShouldRender] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -86,7 +90,7 @@ const Modal = ({
   return createPortal(
     <div
       className={cn(
-        "fixed inset-0 z-50 flex overflow-hidden",
+        "fixed inset-0 z-60 flex overflow-hidden",
         isBottom ? "items-end" : "items-center justify-center p-4 sm:p-6",
       )}
     >
@@ -162,9 +166,11 @@ const Modal = ({
 
         {/* Body */}
         <div
+          ref={bodyRef}
           className={cn(
             "px-6 py-5",
             isBottom && "overflow-y-auto overscroll-contain flex-1",
+            bodyClassName,
           )}
         >
           {children}

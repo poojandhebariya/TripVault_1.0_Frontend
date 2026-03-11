@@ -41,7 +41,8 @@ const AppRoutes = () => {
             path={ROUTES.AUTH.RESET_PASSWORD}
             element={<ResetPassword />}
           />
-          <Route path={ROUTES.SEARCH} element={<>Search </>} />
+          <Route path={ROUTES.SEARCH} element={<div>Search</div>} />
+          <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
         </Route>
 
         {/* Profile Setup — only accessible when logged in but profile not yet complete */}
@@ -62,7 +63,6 @@ const AppRoutes = () => {
           <Route path={ROUTES.USER.PROFILE_EDIT} element={<EditProfile />} />
           <Route path={ROUTES.VAULT.CREATE_VAULT} element={<CreateVault />} />
           <Route path={ROUTES.VAULT.EDIT_VAULT} element={<EditVault />} />
-          <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
         </Route>
       </Route>
     </Routes>

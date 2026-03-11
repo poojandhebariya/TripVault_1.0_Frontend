@@ -17,4 +17,8 @@ export const vaultKeys = {
   publishVault: (id: string) => [...vaultKeys.all(), "publish", id],
   likeVault: (id: string) => [...vaultKeys.all(), "like", id],
   unlikeVault: (id: string) => [...vaultKeys.all(), "unlike", id],
+  getComments: (vaultId: string) => [...vaultKeys.all(), "comments", vaultId],
+  postComment: (vaultId: string) => [...vaultKeys.all(), "comments", vaultId, "post"],
+  deleteComment: (vaultId: string) => [...vaultKeys.all(), "comments", vaultId, "delete"],
 };
+
