@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,6 +14,8 @@ import Button from "../../components/ui/button";
 import VaultEngagementBar from "../../components/vault-engagement-bar";
 import VaultAuthorHeader from "../../components/vault-author-header";
 import VaultMediaCarousel from "../../components/vault-media-carousel";
+import ShareModal from "../../components/ui/share-modal";
+import { getVaultShareUrl } from "../../utils/constants";
 
 const VaultDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -22,6 +24,7 @@ const VaultDetail = () => {
   const tab = searchParams.get("tab");
   const { getVaultDetails } = vaultQueries();
   const { data: vault, isLoading, isError } = useQuery(getVaultDetails(id!));
+  const [showShare, setShowShare] = useState(false);
 
   const { likeVaultMutation, unlikeVaultMutation } = vaultMutation();
   const { mutate: likeVault } = useMutation(likeVaultMutation);
@@ -122,6 +125,7 @@ const VaultDetail = () => {
                   tabsEl.scrollIntoView({ behavior: "smooth" });
                 }
               }}
+              onShareClick={() => setShowShare(true)}
             />
 
             <div id="vault-tabs-section" className="mt-2 md:mt-4">
@@ -142,6 +146,17 @@ const VaultDetail = () => {
           <RelatedVaultsSection vault={vault} />
         </div>
       </div>
+
+      {/* ── Share Modal ── */}
+      {vault.id && (
+        <ShareModal
+          open={showShare}
+          onClose={() => setShowShare(false)}
+          url={getVaultShareUrl(vault.id)}
+          title={vault.title}
+          description={vault.description}
+        />
+      )}
     </div>
   );
 };

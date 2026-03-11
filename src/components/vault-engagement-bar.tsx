@@ -13,6 +13,7 @@ import {
   type Particle,
 } from "./engagement-particles";
 import "./vault-engagement-bar.css";
+import useIsMobile from "../hooks/isMobile";
 
 interface VaultEngagementBarProps {
   likesCount?: number;
@@ -48,6 +49,8 @@ const VaultEngagementBar = ({
   const [saveBurst, setSaveBurst] = useState(false);
   const likeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
   const saveTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const isMobile = useIsMobile();
+  const isMd = !isMobile;
 
   useEffect(() => {
     setLiked(isInitialLiked);
@@ -141,12 +144,12 @@ const VaultEngagementBar = ({
             <span
               className="heart-glow-anim pointer-events-none absolute"
               style={{
-                width: 20,
-                height: 20,
+                width: isMd ? 30 : 20,
+                height: isMd ? 30 : 20,
                 top: "50%",
                 left: "50%",
-                marginTop: -10,
-                marginLeft: -16,
+                marginTop: isMd ? -15 : -10,
+                marginLeft: isMd ? -20 : -16,
                 background: "rgba(244,63,94,0.55)",
                 clipPath: "url(#heart-clip)",
                 zIndex: 0,
@@ -212,12 +215,12 @@ const VaultEngagementBar = ({
             <span
               className="bookmark-glow-anim pointer-events-none absolute"
               style={{
-                width: 14,
-                height: 18,
+                width: isMd ? 20 : 14,
+                height: isMd ? 26 : 18,
                 top: "50%",
                 left: "50%",
-                marginTop: -7,
-                marginLeft: -7,
+                marginTop: isMd ? -13 : -7,
+                marginLeft: isMd ? -20 : -12,
                 background: "rgba(59,130,246,0.55)",
                 clipPath: "url(#bookmark-clip)",
                 zIndex: 0,

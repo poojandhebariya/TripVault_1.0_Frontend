@@ -18,6 +18,8 @@ import VaultMediaCarousel from "./vault-media-carousel";
 import VaultEngagementBar from "./vault-engagement-bar";
 import CommentPanel from "./comment-panel";
 import Modal from "./ui/modal";
+import ShareModal from "./ui/share-modal";
+import { getVaultShareUrl } from "../utils/constants";
 
 interface VaultCardProps {
   vault: Vault;
@@ -46,6 +48,7 @@ const VaultCard = ({
   const [previewSrc, setPreviewSrc] = useState<string | null>(null);
   const [showInsights, setShowInsights] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [showShare, setShowShare] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const [canExpand, setCanExpand] = useState(false);
   const [showComments, setShowComments] = useState(false);
@@ -257,6 +260,7 @@ const VaultCard = ({
         allowComments={vault.allowComments}
         className="pt-2.5 pb-0"
         onCommentClick={() => setShowComments((prev) => !prev)}
+        onShareClick={() => setShowShare(true)}
       />
 
       {/* ── Content: title → description → tags ── */}
@@ -371,6 +375,17 @@ const VaultCard = ({
         itemType="vault"
         isLoading={isDeleting}
       />
+
+      {/* ── Share Modal ── */}
+      {vault.id && (
+        <ShareModal
+          open={showShare}
+          onClose={() => setShowShare(false)}
+          url={getVaultShareUrl(vault.id)}
+          title={vault.title}
+          description={vault.description}
+        />
+      )}
     </article>
   );
 };

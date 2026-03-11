@@ -28,3 +28,11 @@ export const LOCAL_STORAGE_KEYS = {
   BEARER_TOKEN: "bearer_token",
   TOKEN: "token",
 };
+
+/** Base URL of the web app — used to build shareable deep-links */
+export const APP_BASE_URL =
+  import.meta.env.VITE_APP_BASE_URL ?? window.location.origin;
+
+/** Returns the full shareable URL for a vault */
+export const getVaultShareUrl = (vaultId: string) =>
+  `${APP_BASE_URL}/vault/${vaultId}`;
