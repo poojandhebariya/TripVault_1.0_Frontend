@@ -20,5 +20,8 @@ export const vaultKeys = {
   getComments: (vaultId: string) => [...vaultKeys.all(), "comments", vaultId],
   postComment: (vaultId: string) => [...vaultKeys.all(), "comments", vaultId, "post"],
   deleteComment: (vaultId: string) => [...vaultKeys.all(), "comments", vaultId, "delete"],
+  getSavedVaults: () => [...vaultKeys.all(), "saved"],
+  saveVault: (id: string) => [...vaultKeys.all(), "save", id],
+  unsaveVault: (id: string) => [...vaultKeys.all(), "unsave", id],
 };
 

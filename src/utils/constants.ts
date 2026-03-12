@@ -12,6 +12,7 @@ export const ROUTES = {
     PROFILE_VAULTS: "/user/profile/vaults",
     PROFILE_TAGGED: "/user/profile/tagged",
     PROFILE_EDIT: "/user/profile/edit",
+    SAVED: "/user/profile/saved",
   },
   VAULT: {
     CREATE_VAULT: "/vault/create",

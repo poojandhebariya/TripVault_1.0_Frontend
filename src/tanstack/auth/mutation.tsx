@@ -2,8 +2,10 @@ import { authKeys } from "./keys";
 import axiosInstance, { saveTokens } from "../../utils/axios-instance";
 import type { AuthResponse } from "../../types/auth-response";
 import type { ApiResponse } from "../../types/api-response";
+import { useQueryClient } from "@tanstack/react-query";
 
 export const authMutation = () => {
+  const queryClient = useQueryClient();
   const loginMutation = {
     mutationKey: authKeys.login(),
     mutationFn: async (data: { email: string; password: string }) => {
@@ -15,6 +17,7 @@ export const authMutation = () => {
     },
     onSuccess: async (data: ApiResponse<AuthResponse>) => {
       await saveTokens(data.data);
+      queryClient.clear();
     },
   };
 
@@ -29,6 +32,7 @@ export const authMutation = () => {
     },
     onSuccess: async (data: ApiResponse<AuthResponse>) => {
       await saveTokens(data.data);
+      queryClient.clear();
     },
   };
 

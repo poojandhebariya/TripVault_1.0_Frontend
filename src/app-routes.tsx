@@ -12,6 +12,7 @@ import useIsMobile from "./hooks/isMobile";
 import Profile from "./pages/profile/profile";
 import Vaults from "./pages/profile/vaults";
 import Tagged from "./pages/profile/tagged";
+import Saved from "./pages/saved/saved";
 import EditProfile from "./pages/profile/edit-profile";
 import CreateVault from "./pages/vault/create-vault";
 import EditVault from "./pages/vault/edit-vault";
@@ -52,6 +53,7 @@ const AppRoutes = () => {
 
         {/* Protected Routes — requires login AND completed profile setup */}
         <Route element={<ProtectedRoute />}>
+          <Route path={ROUTES.USER.SAVED} element={<Saved />} />
           <Route path={ROUTES.USER.PROFILE} element={<Profile />}>
             <Route
               index

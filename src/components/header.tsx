@@ -42,7 +42,7 @@ const LoggedInNavigation = [
 const LoggedInProfileNavigation = [
   { label: "My Profile", href: ROUTES.USER.PROFILE, icon: faUser },
   { label: "Bucket List", href: ROUTES.PLAN_TRIP, icon: faList },
-  { label: "Saved", href: ROUTES.EXPLORE, icon: faHeart },
+  { label: "Saved", href: ROUTES.USER.SAVED, icon: faHeart },
   { label: "Map", href: ROUTES.EXPLORE, icon: faMap },
   { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
   { label: "Logout", href: ROUTES.EXPLORE, icon: faSignOut },
@@ -50,7 +50,7 @@ const LoggedInProfileNavigation = [
 
 const LoggedInMobileNavigation = [
   { label: "Bucket List", href: ROUTES.PLAN_TRIP, icon: faList },
-  { label: "Saved", href: ROUTES.EXPLORE, icon: faHeart },
+  { label: "Saved", href: ROUTES.USER.SAVED, icon: faHeart },
   { label: "Map", href: ROUTES.EXPLORE, icon: faMap },
   { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
   { label: "Logout", href: ROUTES.EXPLORE, icon: faSignOut },
@@ -85,7 +85,7 @@ const Header = () => {
   };
 
   return (
-    <div className="py-4 border-b border-gray-200 shadow-sm px-5 md:mb-[1px]">
+    <div className="py-4 border-b border-gray-200 shadow-sm px-5 md:mb-px">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <img
           src={Logo}

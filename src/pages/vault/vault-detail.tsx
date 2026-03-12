@@ -26,9 +26,16 @@ const VaultDetail = () => {
   const { data: vault, isLoading, isError } = useQuery(getVaultDetails(id!));
   const [showShare, setShowShare] = useState(false);
 
-  const { likeVaultMutation, unlikeVaultMutation } = vaultMutation();
+  const {
+    likeVaultMutation,
+    unlikeVaultMutation,
+    saveVaultMutation,
+    unsaveVaultMutation,
+  } = vaultMutation();
   const { mutate: likeVault } = useMutation(likeVaultMutation);
   const { mutate: unlikeVault } = useMutation(unlikeVaultMutation);
+  const { mutate: saveVault } = useMutation(saveVaultMutation);
+  const { mutate: unsaveVault } = useMutation(unsaveVaultMutation);
 
   useEffect(() => {
     if (tab && !isLoading) {
@@ -81,7 +88,7 @@ const VaultDetail = () => {
 
             <VaultAuthorHeader
               vault={vault}
-              className="py-3 px-4 md:px-0! mb-3 md:mb-5"
+              className="py-3 px-4 md:px-0! mb-2 md:mb-5 mt-2 md:mt-0"
               rightElement={
                 <Button
                   variant="outline"
@@ -112,9 +119,14 @@ const VaultDetail = () => {
               likesCount={vault.likesCount}
               commentsCount={vault.commentsCount}
               isInitialLiked={vault.isLiked}
+              isInitialSaved={vault.isSaved}
               onLike={(liked) => {
                 if (liked && vault.id) likeVault(vault.id);
                 else if (!liked && vault.id) unlikeVault(vault.id);
+              }}
+              onSave={(saved) => {
+                if (saved && vault.id) saveVault(vault.id);
+                else if (!saved && vault.id) unsaveVault(vault.id);
               }}
               allowComments={vault.allowComments}
               className="py-3 border-y border-gray-100 my-4 md:my-5"

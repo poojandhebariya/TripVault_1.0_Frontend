@@ -10,8 +10,6 @@ import VaultInsightsModal from "./ui/vault-insights-modal";
 import { MOODS } from "../utils/moods";
 import { useMutation } from "@tanstack/react-query";
 import { vaultMutation } from "../tanstack/vault/mutation";
-import { useSnackbar } from "react-snackify";
-import type { AxiosError } from "axios";
 import DeleteConfirmModal from "./ui/delete-confirm-modal";
 import VaultAuthorHeader from "./vault-author-header";
 import VaultMediaCarousel from "./vault-media-carousel";
@@ -56,17 +54,20 @@ const VaultCard = ({
   const descRef = useRef<HTMLDivElement>(null);
 
   const { user } = useUserContext();
-  const { showSnackbar } = useSnackbar();
   const {
     incrementViewMutation,
     deleteVaultMutation,
     likeVaultMutation,
     unlikeVaultMutation,
+    saveVaultMutation,
+    unsaveVaultMutation,
   } = vaultMutation();
   const { mutate: deleteVault, isPending: isDeleting } =
     useMutation(deleteVaultMutation);
   const { mutate: likeVault } = useMutation(likeVaultMutation);
   const { mutate: unlikeVault } = useMutation(unlikeVaultMutation);
+  const { mutate: saveVault } = useMutation(saveVaultMutation);
+  const { mutate: unsaveVault } = useMutation(unsaveVaultMutation);
   const { mutate: incrementView } = useMutation({
     ...incrementViewMutation,
     mutationKey: [...(incrementViewMutation.mutationKey as any[]), vault.id],
@@ -146,26 +147,7 @@ const VaultCard = ({
   const navigate = useNavigate();
 
   const handleDelete = () => {
-    if (!vault.id) return;
-    deleteVault(vault.id, {
-      onSuccess: () => {
-        showSnackbar({
-          message: "Vault deleted",
-          variant: "success",
-          classname: "text-white",
-        });
-      },
-      onError: (err) => {
-        const axiosErr = err as AxiosError<{ message: string }>;
-        const msg =
-          axiosErr?.response?.data?.message ?? "Failed to delete vault";
-        showSnackbar({
-          message: msg,
-          variant: "error",
-          classname: "text-white",
-        });
-      },
-    });
+    if (vault.id) deleteVault(vault.id);
   };
 
   const isMobile = variant === "mobile";
@@ -253,9 +235,14 @@ const VaultCard = ({
         likesCount={vault.likesCount}
         commentsCount={vault.commentsCount}
         isInitialLiked={vault.isLiked}
+        isInitialSaved={vault.isSaved}
         onLike={(liked) => {
           if (liked && vault.id) likeVault(vault.id);
           else if (!liked && vault.id) unlikeVault(vault.id);
+        }}
+        onSave={(saved) => {
+          if (saved && vault.id) saveVault(vault.id);
+          else if (!saved && vault.id) unsaveVault(vault.id);
         }}
         allowComments={vault.allowComments}
         className="pt-2.5 pb-0"

@@ -33,6 +33,7 @@ export interface Vault {
   topCountries?: string[];
   isPinned?: boolean;
   pinnedAt?: string | null;
+  isSaved?: boolean;
 }
 
 export type VaultVisibility = "public" | "friends" | "private";

@@ -5,9 +5,11 @@ import type { ApiResponse, PaginatedResponse } from "../../types/api-response";
 import type { Vault, VaultComment } from "../../types/vault";
 import type { User } from "../../types/user";
 import { useQueryClient, type InfiniteData } from "@tanstack/react-query";
+import { useSnackbar } from "react-snackify";
 
 export const vaultMutation = () => {
   const queryClient = useQueryClient();
+  const { showSnackbar } = useSnackbar();
 
   /**
    * Optimistically adds a vault's location to the current user's
@@ -27,9 +29,16 @@ export const vaultMutation = () => {
         place && !old.placesVisited.includes(place)
           ? [...old.placesVisited, place]
           : old.placesVisited;
-      if (newCountries === old.countriesVisited && newPlaces === old.placesVisited)
+      if (
+        newCountries === old.countriesVisited &&
+        newPlaces === old.placesVisited
+      )
         return old;
-      return { ...old, countriesVisited: newCountries, placesVisited: newPlaces };
+      return {
+        ...old,
+        countriesVisited: newCountries,
+        placesVisited: newPlaces,
+      };
     });
   };
 
@@ -40,16 +49,28 @@ export const vaultMutation = () => {
   const createVaultMutation = {
     mutationKey: vaultKeys.create(),
     mutationFn: async (payload: Vault): Promise<Vault> => {
-      const response = await axiosInstance.post<ApiResponse<Vault>>("/vault/create", payload);
+      const response = await axiosInstance.post<ApiResponse<Vault>>(
+        "/vault/create",
+        payload,
+      );
       return response.data.data;
     },
     onMutate: async (payload: Vault) => {
       await queryClient.cancelQueries({ queryKey: vaultKeys.getMyVaults() });
-      await queryClient.cancelQueries({ queryKey: vaultKeys.getPublicVaults() });
+      await queryClient.cancelQueries({
+        queryKey: vaultKeys.getPublicVaults(),
+      });
 
-      const previousMyVaults = queryClient.getQueryData<Vault[]>(vaultKeys.getMyVaults());
-      const previousPublicVaults = queryClient.getQueryData([...vaultKeys.getPublicVaults(), 1]);
-      const previousProfile = queryClient.getQueryData<User>(userKeys.getProfile());
+      const previousMyVaults = queryClient.getQueryData<Vault[]>(
+        vaultKeys.getMyVaults(),
+      );
+      const previousPublicVaults = queryClient.getQueryData([
+        ...vaultKeys.getPublicVaults(),
+        1,
+      ]);
+      const previousProfile = queryClient.getQueryData<User>(
+        userKeys.getProfile(),
+      );
 
       const optimisticVault: Vault = {
         ...payload,
@@ -73,34 +94,50 @@ export const vaultMutation = () => {
       );
 
       if (payload.visibility === "public" && payload.status === "publish") {
-        queryClient.setQueryData([...vaultKeys.getPublicVaults(), 1], (old: any) => {
-          if (!old) return old;
-          return { ...old, data: [optimisticVault, ...(old.data ?? [])] };
-        });
+        queryClient.setQueryData(
+          [...vaultKeys.getPublicVaults(), 1],
+          (old: any) => {
+            if (!old) return old;
+            return { ...old, data: [optimisticVault, ...(old.data ?? [])] };
+          },
+        );
       }
 
       return { previousMyVaults, previousPublicVaults };
     },
     onError: (_err: unknown, _payload: Vault, context: any) => {
       if (context?.previousMyVaults !== undefined) {
-        queryClient.setQueryData(vaultKeys.getMyVaults(), context.previousMyVaults);
+        queryClient.setQueryData(
+          vaultKeys.getMyVaults(),
+          context.previousMyVaults,
+        );
       }
       if (context?.previousPublicVaults !== undefined) {
-        queryClient.setQueryData([...vaultKeys.getPublicVaults(), 1], context.previousPublicVaults);
+        queryClient.setQueryData(
+          [...vaultKeys.getPublicVaults(), 1],
+          context.previousPublicVaults,
+        );
       }
     },
     onSuccess: (data: Vault, payload: Vault) => {
       queryClient.setQueryData<Vault[]>(vaultKeys.getMyVaults(), (old) =>
-        old ? old.map((v) => (v.id?.startsWith("optimistic-") ? data : v)) : [data],
+        old
+          ? old.map((v) => (v.id?.startsWith("optimistic-") ? data : v))
+          : [data],
       );
       if (payload.visibility === "public" && payload.status === "publish") {
-        queryClient.setQueryData([...vaultKeys.getPublicVaults(), 1], (old: any) => {
-          if (!old) return old;
-          return {
-            ...old,
-            data: (old.data ?? []).map((v: Vault) => (v.id?.startsWith("optimistic-") ? data : v)),
-          };
-        });
+        queryClient.setQueryData(
+          [...vaultKeys.getPublicVaults(), 1],
+          (old: any) => {
+            if (!old) return old;
+            return {
+              ...old,
+              data: (old.data ?? []).map((v: Vault) =>
+                v.id?.startsWith("optimistic-") ? data : v,
+              ),
+            };
+          },
+        );
         updateProfileStats(payload);
       }
     },
@@ -113,23 +150,33 @@ export const vaultMutation = () => {
   const togglePinMutation = {
     mutationKey: vaultKeys.togglePin(),
     mutationFn: async (vaultId: string): Promise<Vault> => {
-      const response = await axiosInstance.patch<ApiResponse<Vault>>(`/vault/${vaultId}/pin`);
+      const response = await axiosInstance.patch<ApiResponse<Vault>>(
+        `/vault/${vaultId}/pin`,
+      );
       return response.data.data;
     },
     onMutate: async (vaultId: string) => {
       await queryClient.cancelQueries({ queryKey: vaultKeys.getMyVaults() });
-      const previousVaults = queryClient.getQueryData<Vault[]>(vaultKeys.getMyVaults());
+      const previousVaults = queryClient.getQueryData<Vault[]>(
+        vaultKeys.getMyVaults(),
+      );
 
       if (previousVaults) {
         queryClient.setQueryData<Vault[]>(vaultKeys.getMyVaults(), (old) => {
           if (!old) return [];
-          const pinnedCount = old.filter((v) => v.isPinned && v.id !== vaultId).length;
+          const pinnedCount = old.filter(
+            (v) => v.isPinned && v.id !== vaultId,
+          ).length;
           return old
             .map((v) => {
               if (v.id === vaultId) {
                 const isPinning = !v.isPinned;
                 if (isPinning && pinnedCount >= 3) return v;
-                return { ...v, isPinned: isPinning, pinnedAt: isPinning ? new Date().toISOString() : null };
+                return {
+                  ...v,
+                  isPinned: isPinning,
+                  pinnedAt: isPinning ? new Date().toISOString() : null,
+                };
               }
               return v;
             })
@@ -138,11 +185,17 @@ export const vaultMutation = () => {
               if (a.isPinned && b.isPinned) {
                 if (!a.pinnedAt) return 1;
                 if (!b.pinnedAt) return -1;
-                return new Date(b.pinnedAt).getTime() - new Date(a.pinnedAt).getTime();
+                return (
+                  new Date(b.pinnedAt).getTime() -
+                  new Date(a.pinnedAt).getTime()
+                );
               }
               if (!a.createdAt) return 1;
               if (!b.createdAt) return -1;
-              return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+              return (
+                new Date(b.createdAt).getTime() -
+                new Date(a.createdAt).getTime()
+              );
             });
         });
       }
@@ -151,7 +204,10 @@ export const vaultMutation = () => {
     },
     onError: (_err: unknown, _newVault: string, context: any) => {
       if (context?.previousVaults && queryClient) {
-        queryClient.setQueryData(vaultKeys.getMyVaults(), context.previousVaults);
+        queryClient.setQueryData(
+          vaultKeys.getMyVaults(),
+          context.previousVaults,
+        );
       }
     },
   };
@@ -163,7 +219,9 @@ export const vaultMutation = () => {
   const incrementViewMutation = {
     mutationKey: vaultKeys.incrementView(),
     mutationFn: async (vaultId: string): Promise<Vault> => {
-      const response = await axiosInstance.post<ApiResponse<Vault>>(`/vault/${vaultId}/view`);
+      const response = await axiosInstance.post<ApiResponse<Vault>>(
+        `/vault/${vaultId}/view`,
+      );
       return response.data.data;
     },
   };
@@ -193,10 +251,17 @@ export const vaultMutation = () => {
           queryClient.setQueryData(query.queryKey, (old: any) =>
             Array.isArray(old) ? old.filter((v: any) => v.id !== vaultId) : old,
           );
-        } else if (typeof data === "object" && "data" in data && Array.isArray((data as any).data)) {
+        } else if (
+          typeof data === "object" &&
+          "data" in data &&
+          Array.isArray((data as any).data)
+        ) {
           queryClient.setQueryData(query.queryKey, (old: any) => {
             if (!old || !old.data) return old;
-            return { ...old, data: old.data.filter((v: any) => v.id !== vaultId) };
+            return {
+              ...old,
+              data: old.data.filter((v: any) => v.id !== vaultId),
+            };
           });
         }
       });
@@ -210,6 +275,13 @@ export const vaultMutation = () => {
         });
       }
     },
+    onSuccess: () => {
+      showSnackbar({
+        message: "Vault deleted successfully",
+        variant: "success",
+        classname: "text-white",
+      });
+    },
   };
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -218,8 +290,17 @@ export const vaultMutation = () => {
 
   const updateVaultMutation = (id?: string) => ({
     mutationKey: id ? vaultKeys.getVaultDetails(id) : vaultKeys.all(),
-    mutationFn: async ({ id, payload }: { id: string; payload: Vault }): Promise<Vault> => {
-      const response = await axiosInstance.put<ApiResponse<Vault>>(`/vault/${id}`, payload);
+    mutationFn: async ({
+      id,
+      payload,
+    }: {
+      id: string;
+      payload: Vault;
+    }): Promise<Vault> => {
+      const response = await axiosInstance.put<ApiResponse<Vault>>(
+        `/vault/${id}`,
+        payload,
+      );
       return response.data.data;
     },
     onMutate: async ({ id, payload }: { id: string; payload: Vault }) => {
@@ -236,21 +317,39 @@ export const vaultMutation = () => {
         if (!data) return;
         if (Array.isArray(data)) {
           queryClient.setQueryData(query.queryKey, (old: any) =>
-            Array.isArray(old) ? old.map((v: any) => (v.id === id ? { ...v, ...payload } : v)) : old,
+            Array.isArray(old)
+              ? old.map((v: any) => (v.id === id ? { ...v, ...payload } : v))
+              : old,
           );
-        } else if (typeof data === "object" && "data" in data && Array.isArray((data as any).data)) {
+        } else if (
+          typeof data === "object" &&
+          "data" in data &&
+          Array.isArray((data as any).data)
+        ) {
           queryClient.setQueryData(query.queryKey, (old: any) => {
             if (!old || !old.data) return old;
-            return { ...old, data: old.data.map((v: any) => (v.id === id ? { ...v, ...payload } : v)) };
+            return {
+              ...old,
+              data: old.data.map((v: any) =>
+                v.id === id ? { ...v, ...payload } : v,
+              ),
+            };
           });
         } else if (typeof data === "object" && (data as any).id === id) {
-          queryClient.setQueryData(query.queryKey, (old: any) => ({ ...old, ...payload }));
+          queryClient.setQueryData(query.queryKey, (old: any) => ({
+            ...old,
+            ...payload,
+          }));
         }
       });
 
       return { previousQueries };
     },
-    onError: (_err: unknown, _variables: { id: string; payload: Vault }, context: any) => {
+    onError: (
+      _err: unknown,
+      _variables: { id: string; payload: Vault },
+      context: any,
+    ) => {
       if (context?.previousQueries) {
         context.previousQueries.forEach(({ queryKey, data }: any) => {
           queryClient.setQueryData(queryKey, data);
@@ -266,44 +365,62 @@ export const vaultMutation = () => {
   const publishVaultMutation = (id: string) => ({
     mutationKey: vaultKeys.publishVault(id),
     mutationFn: async (): Promise<Vault> => {
-      const response = await axiosInstance.patch<ApiResponse<Vault>>(`/vault/${id}/publish`);
+      const response = await axiosInstance.patch<ApiResponse<Vault>>(
+        `/vault/${id}/publish`,
+      );
       return response.data.data;
     },
     onMutate: async () => {
       await queryClient.cancelQueries({ queryKey: vaultKeys.getMyVaults() });
-      await queryClient.cancelQueries({ queryKey: vaultKeys.getPublicVaults() });
+      await queryClient.cancelQueries({
+        queryKey: vaultKeys.getPublicVaults(),
+      });
 
-      const previousMyVaults = queryClient.getQueryData<Vault[]>(vaultKeys.getMyVaults());
-      const previousPublicVaults = queryClient.getQueryData([...vaultKeys.getPublicVaults(), 1]);
-      const previousProfile = queryClient.getQueryData<User>(userKeys.getProfile());
+      const previousMyVaults = queryClient.getQueryData<Vault[]>(
+        vaultKeys.getMyVaults(),
+      );
+      const previousPublicVaults = queryClient.getQueryData([
+        ...vaultKeys.getPublicVaults(),
+        1,
+      ]);
+      const previousProfile = queryClient.getQueryData<User>(
+        userKeys.getProfile(),
+      );
       const targetVault = previousMyVaults?.find((v) => v.id === id);
 
       queryClient.setQueryData<Vault[]>(vaultKeys.getMyVaults(), (old) =>
         old
-          ? old.map((v) => (v.id === id ? { ...v, status: "publish" as const, scheduledAt: null } : v))
+          ? old.map((v) =>
+              v.id === id
+                ? { ...v, status: "publish" as const, scheduledAt: null }
+                : v,
+            )
           : old,
       );
 
       if (targetVault && targetVault.visibility === "public") {
-        queryClient.setQueryData([...vaultKeys.getPublicVaults(), 1], (old: any) => {
-          if (!old) return old;
-          const filtered = (old.data ?? []).filter((v: Vault) => v.id !== id);
-          const promoted: Vault = {
-            ...targetVault,
-            status: "publish" as const,
-            scheduledAt: null,
-            author:
-              targetVault.author ??
-              (previousProfile
-                ? {
-                    username: previousProfile.username,
-                    name: previousProfile.name,
-                    profilePicUrl: previousProfile.profilePicUrl ?? null,
-                  }
-                : undefined),
-          };
-          return { ...old, data: [promoted, ...filtered] };
-        });
+        queryClient.setQueryData(
+          [...vaultKeys.getPublicVaults(), 1],
+          (old: any) => {
+            if (!old) return old;
+            const filtered = (old.data ?? []).filter((v: Vault) => v.id !== id);
+            const promoted: Vault = {
+              ...targetVault,
+              status: "publish" as const,
+              scheduledAt: null,
+              author:
+                targetVault.author ??
+                (previousProfile
+                  ? {
+                      username: previousProfile.username,
+                      name: previousProfile.name,
+                      profilePicUrl: previousProfile.profilePicUrl ?? null,
+                    }
+                  : undefined),
+            };
+            return { ...old, data: [promoted, ...filtered] };
+          },
+        );
       }
 
       if (targetVault) updateProfileStats(targetVault);
@@ -311,21 +428,38 @@ export const vaultMutation = () => {
     },
     onError: (_err: unknown, _vars: void, context: any) => {
       if (context?.previousMyVaults !== undefined)
-        queryClient.setQueryData(vaultKeys.getMyVaults(), context.previousMyVaults);
+        queryClient.setQueryData(
+          vaultKeys.getMyVaults(),
+          context.previousMyVaults,
+        );
       if (context?.previousPublicVaults !== undefined)
-        queryClient.setQueryData([...vaultKeys.getPublicVaults(), 1], context.previousPublicVaults);
+        queryClient.setQueryData(
+          [...vaultKeys.getPublicVaults(), 1],
+          context.previousPublicVaults,
+        );
       if (context?.previousProfile !== undefined)
-        queryClient.setQueryData(userKeys.getProfile(), context.previousProfile);
+        queryClient.setQueryData(
+          userKeys.getProfile(),
+          context.previousProfile,
+        );
     },
     onSuccess: (data: Vault) => {
       queryClient.setQueryData<Vault[]>(vaultKeys.getMyVaults(), (old) =>
         old ? old.map((v) => (v.id === id ? data : v)) : old,
       );
       if (data.visibility === "public") {
-        queryClient.setQueryData([...vaultKeys.getPublicVaults(), 1], (old: any) => {
-          if (!old) return old;
-          return { ...old, data: (old.data ?? []).map((v: Vault) => (v.id === id ? data : v)) };
-        });
+        queryClient.setQueryData(
+          [...vaultKeys.getPublicVaults(), 1],
+          (old: any) => {
+            if (!old) return old;
+            return {
+              ...old,
+              data: (old.data ?? []).map((v: Vault) =>
+                v.id === id ? data : v,
+              ),
+            };
+          },
+        );
         updateProfileStats(data);
       }
     },
@@ -341,19 +475,31 @@ export const vaultMutation = () => {
   ) => {
     const queryCache = queryClient.getQueryCache();
     const allVaultQueries = queryCache.findAll({ queryKey: vaultKeys.all() });
-    const previousQueries = allVaultQueries.map((q) => ({ queryKey: q.queryKey, data: q.state.data }));
+    const previousQueries = allVaultQueries.map((q) => ({
+      queryKey: q.queryKey,
+      data: q.state.data,
+    }));
 
     allVaultQueries.forEach((query) => {
       const data = query.state.data;
       if (!data) return;
       if (Array.isArray(data)) {
         queryClient.setQueryData(query.queryKey, (old: any) =>
-          Array.isArray(old) ? old.map((v: any) => (v.id === vaultId ? updater(v) : v)) : old,
+          Array.isArray(old)
+            ? old.map((v: any) => (v.id === vaultId ? updater(v) : v))
+            : old,
         );
-      } else if (typeof data === "object" && "data" in data && Array.isArray((data as any).data)) {
+      } else if (
+        typeof data === "object" &&
+        "data" in data &&
+        Array.isArray((data as any).data)
+      ) {
         queryClient.setQueryData(query.queryKey, (old: any) => {
           if (!old?.data) return old;
-          return { ...old, data: old.data.map((v: any) => (v.id === vaultId ? updater(v) : v)) };
+          return {
+            ...old,
+            data: old.data.map((v: any) => (v.id === vaultId ? updater(v) : v)),
+          };
         });
       } else if (typeof data === "object" && (data as any).id === vaultId) {
         queryClient.setQueryData(query.queryKey, (old: any) => updater(old));
@@ -379,7 +525,9 @@ export const vaultMutation = () => {
     },
     onError: (_err: unknown, _vars: unknown, context: any) => {
       if (context?.previousQueries) {
-        context.previousQueries.forEach(({ queryKey, data }: any) => queryClient.setQueryData(queryKey, data));
+        context.previousQueries.forEach(({ queryKey, data }: any) =>
+          queryClient.setQueryData(queryKey, data),
+        );
       }
     },
   };
@@ -400,7 +548,9 @@ export const vaultMutation = () => {
     },
     onError: (_err: unknown, _vars: unknown, context: any) => {
       if (context?.previousQueries) {
-        context.previousQueries.forEach(({ queryKey, data }: any) => queryClient.setQueryData(queryKey, data));
+        context.previousQueries.forEach(({ queryKey, data }: any) =>
+          queryClient.setQueryData(queryKey, data),
+        );
       }
     },
   };
@@ -429,9 +579,13 @@ export const vaultMutation = () => {
       return response.data.data;
     },
     onMutate: async (text: string) => {
-      await queryClient.cancelQueries({ queryKey: vaultKeys.getComments(vaultId) });
+      await queryClient.cancelQueries({
+        queryKey: vaultKeys.getComments(vaultId),
+      });
 
-      const previousComments = queryClient.getQueryData(vaultKeys.getComments(vaultId));
+      const previousComments = queryClient.getQueryData(
+        vaultKeys.getComments(vaultId),
+      );
       const currentUser = queryClient.getQueryData<User>(userKeys.getProfile());
 
       const optimisticComment: VaultComment = {
@@ -452,7 +606,9 @@ export const vaultMutation = () => {
         (old) => {
           if (!old) {
             return {
-              pages: [{ data: [optimisticComment], page: 1, totalPages: 1, total: 1 }],
+              pages: [
+                { data: [optimisticComment], page: 1, totalPages: 1, total: 1 },
+              ],
               pageParams: [1],
             };
           }
@@ -473,7 +629,10 @@ export const vaultMutation = () => {
     },
     onError: (_err: unknown, _text: string, context: any) => {
       if (context?.previousComments !== undefined) {
-        queryClient.setQueryData(vaultKeys.getComments(vaultId), context.previousComments);
+        queryClient.setQueryData(
+          vaultKeys.getComments(vaultId),
+          context.previousComments,
+        );
       }
       _updateVaultCommentsCountInLists(vaultId, -1);
     },
@@ -486,7 +645,9 @@ export const vaultMutation = () => {
             ...old,
             pages: old.pages.map((page) => ({
               ...page,
-              data: page.data.map((c) => (c.id.startsWith("optimistic-") ? data : c)),
+              data: page.data.map((c) =>
+                c.id.startsWith("optimistic-") ? data : c,
+              ),
             })),
           };
         },
@@ -500,9 +661,13 @@ export const vaultMutation = () => {
       await axiosInstance.delete(`/vault/${vaultId}/comments/${commentId}`);
     },
     onMutate: async (commentId: string) => {
-      await queryClient.cancelQueries({ queryKey: vaultKeys.getComments(vaultId) });
+      await queryClient.cancelQueries({
+        queryKey: vaultKeys.getComments(vaultId),
+      });
 
-      const previousComments = queryClient.getQueryData(vaultKeys.getComments(vaultId));
+      const previousComments = queryClient.getQueryData(
+        vaultKeys.getComments(vaultId),
+      );
 
       queryClient.setQueryData<InfiniteData<PaginatedResponse<VaultComment>>>(
         vaultKeys.getComments(vaultId),
@@ -526,11 +691,185 @@ export const vaultMutation = () => {
     },
     onError: (_err: unknown, _commentId: string, context: any) => {
       if (context?.previousComments !== undefined) {
-        queryClient.setQueryData(vaultKeys.getComments(vaultId), context.previousComments);
+        queryClient.setQueryData(
+          vaultKeys.getComments(vaultId),
+          context.previousComments,
+        );
       }
       _updateVaultCommentsCountInLists(vaultId, 1);
     },
   });
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // Save / Unsave Vault
+  // ─────────────────────────────────────────────────────────────────────────
+
+  const saveVaultMutation = {
+    mutationKey: vaultKeys.saveVault(""),
+    mutationFn: async (vaultId: string): Promise<void> => {
+      await axiosInstance.post(`/vault/${vaultId}/save`);
+    },
+    onMutate: async (vaultId: string) => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.getSavedVaults() });
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+
+      const previousSaved = queryClient.getQueryData<Vault[]>(
+        vaultKeys.getSavedVaults(),
+      );
+
+      const previousQueries = _applyToAllVaultQueries(vaultId, (v) => ({
+        ...v,
+        isSaved: true,
+      }));
+
+      const queryCache = queryClient.getQueryCache();
+      let targetVault: Vault | undefined;
+      for (const q of queryCache.findAll({ queryKey: vaultKeys.all() })) {
+        const data = q.state.data as any;
+        if (Array.isArray(data)) {
+          targetVault = data.find((v: Vault) => v.id === vaultId);
+        } else if (data?.data && Array.isArray(data.data)) {
+          targetVault = data.data.find((v: Vault) => v.id === vaultId);
+        } else if (data?.id === vaultId) {
+          targetVault = data;
+        }
+        if (targetVault) break;
+      }
+
+      if (targetVault) {
+        queryClient.setQueryData<Vault[]>(vaultKeys.getSavedVaults(), (old) => {
+          if (!old) return [{ ...targetVault!, isSaved: true }];
+          if (old.some((v) => v.id === vaultId)) return old;
+          return [{ ...targetVault!, isSaved: true }, ...old];
+        });
+      }
+
+      return { previousSaved, previousQueries };
+    },
+    onError: (_err: unknown, _vaultId: string, context: any) => {
+      if (context?.previousSaved !== undefined) {
+        queryClient.setQueryData(
+          vaultKeys.getSavedVaults(),
+          context.previousSaved,
+        );
+      }
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) =>
+          queryClient.setQueryData(queryKey, data),
+        );
+      }
+    },
+    onSuccess: (_: any, vaultId: string) => {
+      // Find the vault in the cache to get its title
+      const queryCache = queryClient.getQueryCache();
+      let vaultTitle = "Vault";
+      for (const q of queryCache.findAll({ queryKey: vaultKeys.all() })) {
+        const data = q.state.data as any;
+        let v: any;
+        if (Array.isArray(data)) v = data.find((x: any) => x.id === vaultId);
+        else if (data?.data && Array.isArray(data.data))
+          v = data.data.find((x: any) => x.id === vaultId);
+        else if (data?.id === vaultId) v = data;
+
+        if (v?.title) {
+          vaultTitle = v.title;
+          break;
+        }
+      }
+
+      const truncatedTitle =
+        vaultTitle.length > 20 ? `${vaultTitle.slice(0, 20)}...` : vaultTitle;
+      showSnackbar({
+        message: `"${truncatedTitle}" saved!`,
+        variant: "success",
+        classname: "text-white",
+      });
+    },
+  };
+
+  const unsaveVaultMutation = {
+    mutationKey: vaultKeys.unsaveVault(""),
+    mutationFn: async (vaultId: string): Promise<void> => {
+      await axiosInstance.delete(`/vault/${vaultId}/save`);
+    },
+    onMutate: async (vaultId: string) => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.getSavedVaults() });
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+
+      const previousSaved = queryClient.getQueryData<Vault[]>(
+        vaultKeys.getSavedVaults(),
+      );
+
+      const previousQueries = _applyToAllVaultQueries(vaultId, (v) => ({
+        ...v,
+        isSaved: false,
+      }));
+
+      queryClient.setQueryData<Vault[]>(vaultKeys.getSavedVaults(), (old) =>
+        old ? old.filter((v) => v.id !== vaultId) : [],
+      );
+
+      return { previousSaved, previousQueries };
+    },
+    onError: (_err: unknown, _vaultId: string, context: any) => {
+      if (context?.previousSaved !== undefined) {
+        queryClient.setQueryData(
+          vaultKeys.getSavedVaults(),
+          context.previousSaved,
+        );
+      }
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) =>
+          queryClient.setQueryData(queryKey, data),
+        );
+      }
+    },
+    onSuccess: (_: any, vaultId: string) => {
+      // Look up title from context or cache
+      const queryCache = queryClient.getQueryCache();
+      let vaultTitle = "Vault";
+      for (const q of queryCache.findAll({ queryKey: vaultKeys.all() })) {
+        const data = q.state.data as any;
+        let v: any;
+        if (Array.isArray(data)) v = data.find((x: any) => x.id === vaultId);
+        else if (data?.data && Array.isArray(data.data))
+          v = data.data.find((x: any) => x.id === vaultId);
+        else if (data?.id === vaultId) v = data;
+
+        if (v?.title) {
+          vaultTitle = v.title;
+          break;
+        }
+      }
+
+      const truncatedTitle =
+        vaultTitle.length > 20 ? `${vaultTitle.slice(0, 20)}...` : vaultTitle;
+
+      showSnackbar({
+        message: `"${truncatedTitle}" removed from saved.`,
+        variant: "info",
+        classname: "text-white",
+        action: {
+          label: "Undo",
+          onClick: () => {
+            // We use the same mutation hook to re-save
+            // Note: Since this is inside a hook, we can't easily call other mutations
+            // but we can just use the queryClient or axis directly if needed,
+            // but the cleanest way is a simple post.
+            axiosInstance.post(`/vault/${vaultId}/save`).then(() => {
+              // Manually invalidate or trigger the save mutation logic
+              // Actually, since we want optimistic behavior for Undo too:
+              queryClient.invalidateQueries({
+                queryKey: vaultKeys.getSavedVaults(),
+              });
+              queryClient.invalidateQueries({ queryKey: vaultKeys.all() });
+            });
+          },
+        },
+        duration: 5000,
+      });
+    },
+  };
 
   return {
     createVaultMutation,
@@ -543,5 +882,7 @@ export const vaultMutation = () => {
     unlikeVaultMutation,
     postCommentMutation,
     deleteCommentMutation,
+    saveVaultMutation,
+    unsaveVaultMutation,
   };
 };
