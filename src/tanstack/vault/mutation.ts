@@ -22,12 +22,12 @@ export const vaultMutation = () => {
     queryClient.setQueryData<User>(userKeys.getProfile(), (old) => {
       if (!old) return old;
       const newCountries =
-        country && !old.countriesVisited.includes(country)
-          ? [...old.countriesVisited, country]
+        country && !old.countriesVisited?.includes(country)
+          ? [...(old.countriesVisited ?? []), country]
           : old.countriesVisited;
       const newPlaces =
-        place && !old.placesVisited.includes(place)
-          ? [...old.placesVisited, place]
+        place && !old.placesVisited?.includes(place)
+          ? [...(old.placesVisited ?? []), place]
           : old.placesVisited;
       if (
         newCountries === old.countriesVisited &&
@@ -82,6 +82,7 @@ export const vaultMutation = () => {
         isPinned: false,
         author: previousProfile
           ? {
+              id: previousProfile.id,
               username: previousProfile.username,
               name: previousProfile.name,
               profilePicUrl: previousProfile.profilePicUrl ?? null,
@@ -412,6 +413,7 @@ export const vaultMutation = () => {
                 targetVault.author ??
                 (previousProfile
                   ? {
+                      id: previousProfile.id,
                       username: previousProfile.username,
                       name: previousProfile.name,
                       profilePicUrl: previousProfile.profilePicUrl ?? null,
@@ -593,6 +595,7 @@ export const vaultMutation = () => {
         vaultId,
         text,
         author: {
+          id: currentUser?.id ?? null,
           username: currentUser?.username ?? null,
           name: currentUser?.name ?? null,
           profilePicUrl: currentUser?.profilePicUrl ?? null,

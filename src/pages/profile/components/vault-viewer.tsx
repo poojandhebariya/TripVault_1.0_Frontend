@@ -20,6 +20,8 @@ import {
   faClock,
   faSpinner,
   faPaperPlane,
+  faXmark,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import type { Vault } from "../../../types/vault";
@@ -29,6 +31,8 @@ import { useSnackbar } from "react-snackify";
 import type { AxiosError } from "axios";
 import VaultInsightsModal from "../../../components/ui/vault-insights-modal";
 import DeleteConfirmModal from "../../../components/ui/delete-confirm-modal";
+import ShareModal from "../../../components/ui/share-modal";
+import { getVaultShareUrl, ROUTES } from "../../../utils/constants";
 
 interface ActionBtnProps {
   icon: IconDefinition;
@@ -84,6 +88,7 @@ export interface VaultViewerProps {
   allVaults: Vault[];
   onClose: () => void;
   onNavigate: (v: Vault) => void;
+  readOnly?: boolean;
 }
 
 const VaultViewer = ({
@@ -91,11 +96,13 @@ const VaultViewer = ({
   allVaults,
   onClose,
   onNavigate,
+  readOnly = false,
 }: VaultViewerProps) => {
   const navigate = useNavigate();
   const [mediaIdx, setMediaIdx] = useState(0);
   const [showInsights, setShowInsights] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [showShare, setShowShare] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const { showSnackbar } = useSnackbar();
 
@@ -287,7 +294,11 @@ const VaultViewer = ({
       label: "Detail",
       onClick: () => navigate(`/vault/${vault.id}`),
     },
-    { icon: faShare, label: "Share", onClick: () => console.log("share") },
+    {
+      icon: faShare,
+      label: "Share",
+      onClick: () => setShowShare(true),
+    },
   ];
 
   return (
@@ -379,12 +390,14 @@ const VaultViewer = ({
           )}
 
           <div className="flex items-center justify-between gap-2 mt-4 px-2">
-            <div className="flex items-center gap-2 sm:gap-4">
-              {ownerActions.map((a) => (
-                <ActionBtn key={a.label} {...a} />
-              ))}
-            </div>
-            <div className="flex items-center gap-2 sm:gap-4">
+            {!readOnly && (
+              <div className="flex items-center gap-2 sm:gap-4">
+                {ownerActions.map((a) => (
+                  <ActionBtn key={a.label} {...a} />
+                ))}
+              </div>
+            )}
+            <div className={`flex items-center gap-2 sm:gap-4 ${readOnly ? "mx-auto" : ""}`}>
               {viewActions.map((a) => (
                 <ActionBtn key={a.label} {...a} />
               ))}
@@ -410,6 +423,16 @@ const VaultViewer = ({
         itemType="vault"
         isLoading={isDeleting}
       />
+
+      {vault.id && (
+        <ShareModal
+          open={showShare}
+          onClose={() => setShowShare(false)}
+          url={getVaultShareUrl(vault.id)}
+          title={vault.title}
+          description={vault.description}
+        />
+      )}
     </>
   );
 };

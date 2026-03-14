@@ -17,7 +17,8 @@ import VaultEngagementBar from "./vault-engagement-bar";
 import CommentPanel from "./comment-panel";
 import Modal from "./ui/modal";
 import ShareModal from "./ui/share-modal";
-import { getVaultShareUrl } from "../utils/constants";
+import { getVaultShareUrl, ROUTES } from "../utils/constants";
+import BucketListModal from "./ui/bucket-list-modal";
 
 interface VaultCardProps {
   vault: Vault;
@@ -50,6 +51,7 @@ const VaultCard = ({
   const [isExpanded, setIsExpanded] = useState(false);
   const [canExpand, setCanExpand] = useState(false);
   const [showComments, setShowComments] = useState(false);
+  const [showBucketListModal, setShowBucketListModal] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const descRef = useRef<HTMLDivElement>(null);
 
@@ -172,12 +174,23 @@ const VaultCard = ({
       <VaultAuthorHeader
         vault={vault}
         className="px-4 pt-4 pb-3"
+        onAvatarClick={() => {
+          if (vault.author?.id) {
+            navigate(ROUTES.USER.PUBLIC_PROFILE_PATH(vault.author.id));
+          }
+        }}
+        onNameClick={() => {
+          if (vault.author?.id) {
+            navigate(ROUTES.USER.PUBLIC_PROFILE_PATH(vault.author.id));
+          }
+        }}
         rightElement={
           <VaultPostMenu
             isOwner={isOwner}
             hasLocation={!!vault.location}
             isPinned={!!vault.isPinned}
             isPublished={vault.status === "publish"}
+            isBucketListed={vault.isBucketListed}
             onFollow={() => console.log("follow")}
             onReport={() => console.log("report")}
             onNavigateMap={handleNavigateMap}
@@ -186,6 +199,7 @@ const VaultCard = ({
             onDelete={() => setShowDeleteConfirm(true)}
             onPin={() => console.log("pin")}
             onViewInsights={() => setShowInsights(true)}
+            onAddToBucketList={() => setShowBucketListModal(true)}
           />
         }
       />
@@ -196,6 +210,14 @@ const VaultCard = ({
         onClose={() => setShowInsights(false)}
         vault={vault}
       />
+
+      {vault.id && (
+        <BucketListModal
+          isOpen={showBucketListModal}
+          onClose={() => setShowBucketListModal(false)}
+          vaultId={vault.id}
+        />
+      )}
 
       {/* ── Media Carousel ── */}
       <VaultMediaCarousel

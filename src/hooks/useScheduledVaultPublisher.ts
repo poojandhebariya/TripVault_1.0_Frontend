@@ -81,6 +81,7 @@ export function useScheduledVaultPublisher(currentUser?: User) {
               v.author ??
               (currentUser
                 ? {
+                    id: currentUser.id,
                     username: currentUser.username,
                     name: currentUser.name,
                     profilePicUrl: currentUser.profilePicUrl ?? null,
@@ -103,12 +104,12 @@ export function useScheduledVaultPublisher(currentUser?: User) {
         queryClient.setQueryData<User>(userKeys.getProfile(), (old) => {
           if (!old) return old;
           const newCountries =
-            country && !old.countriesVisited.includes(country)
-              ? [...old.countriesVisited, country]
+            country && !old.countriesVisited?.includes(country)
+              ? [...(old.countriesVisited ?? []), country]
               : old.countriesVisited;
           const newPlaces =
-            place && !old.placesVisited.includes(place)
-              ? [...old.placesVisited, place]
+            place && !old.placesVisited?.includes(place)
+              ? [...(old.placesVisited ?? []), place]
               : old.placesVisited;
           if (
             newCountries === old.countriesVisited &&

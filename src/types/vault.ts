@@ -1,4 +1,5 @@
 export interface VaultAuthor {
+  id: string | null;
   username: string | null;
   name: string | null;
   profilePicUrl: string | null;
@@ -34,6 +35,7 @@ export interface Vault {
   isPinned?: boolean;
   pinnedAt?: string | null;
   isSaved?: boolean;
+  isBucketListed?: boolean;
 }
 
 export type VaultVisibility = "public" | "friends" | "private";

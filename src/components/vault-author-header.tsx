@@ -30,7 +30,10 @@ const VaultAuthorHeader = ({
       {/* Avatar */}
       <div
         onClick={onAvatarClick}
-        className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm border border-gray-100 cursor-pointer"
+        className={cn(
+          "w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm border border-gray-100 transition-opacity duration-150",
+          onAvatarClick ? "cursor-pointer hover:opacity-85 active:opacity-70" : "",
+        )}
       >
         {vault.author?.profilePicUrl ? (
           <img
@@ -50,7 +53,10 @@ const VaultAuthorHeader = ({
       <div className="min-w-0 flex-1">
         <p
           onClick={onNameClick}
-          className="text-[14px] md:text-[15px] font-bold text-gray-900 truncate leading-tight cursor-pointer"
+          className={cn(
+            "text-[14px] md:text-[15px] font-bold text-gray-900 truncate leading-tight transition-colors duration-150",
+            onNameClick ? "cursor-pointer hover:text-blue-700" : "",
+          )}
         >
           {vault.author?.name ?? vault.author?.username ?? "Traveller"}
         </p>

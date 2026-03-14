@@ -10,8 +10,28 @@ export interface User {
   preferredTripType: PreferredTripType;
   coverPhotoUrl?: string;
   profilePicUrl?: string;
-  countriesVisited: string[];
-  placesVisited: string[];
-  totalImpressions: number;
-  topCountries: string[];
+  countriesVisited?: string[];
+  placesVisited?: string[];
+  totalImpressions?: number;
+  topCountries?: string[];
+  followersCount?: number;
+  followingCount?: number;
+  vaultsCount?: number;
+}
+
+export interface PublicProfile
+  extends Omit<
+    User,
+    | "countriesVisited"
+    | "placesVisited"
+    | "totalImpressions"
+    | "topCountries"
+    | "followersCount"
+    | "followingCount"
+    | "vaultsCount"
+  > {
+  followersCount: number;
+  followingCount: number;
+  vaultsCount: number;
+  isFollowing: boolean;
 }

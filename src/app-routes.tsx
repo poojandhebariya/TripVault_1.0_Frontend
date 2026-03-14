@@ -12,6 +12,7 @@ import useIsMobile from "./hooks/isMobile";
 import Profile from "./pages/profile/profile";
 import Vaults from "./pages/profile/vaults";
 import Tagged from "./pages/profile/tagged";
+import PublicVaults from "./pages/profile/public-vaults";
 import Saved from "./pages/saved/saved";
 import EditProfile from "./pages/profile/edit-profile";
 import CreateVault from "./pages/vault/create-vault";
@@ -20,6 +21,7 @@ import VaultDetail from "./pages/vault/vault-detail";
 import ProtectedRoute from "./components/protected-route";
 import ProfileSetupRoute from "./components/profile-setup-route";
 import HomeRoute from "./components/home-route";
+import BucketList from "./pages/bucket-list/bucket-list";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -44,6 +46,15 @@ const AppRoutes = () => {
           />
           <Route path={ROUTES.SEARCH} element={<div>Search</div>} />
           <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
+
+          {/* Public profile pages — accessible without auth */}
+          <Route path={ROUTES.USER.PUBLIC_PROFILE} element={<Profile />}>
+            <Route
+              index
+              element={<Navigate to="vaults" replace />}
+            />
+            <Route path="vaults" element={<PublicVaults />} />
+          </Route>
         </Route>
 
         {/* Profile Setup — only accessible when logged in but profile not yet complete */}
@@ -65,6 +76,7 @@ const AppRoutes = () => {
           <Route path={ROUTES.USER.PROFILE_EDIT} element={<EditProfile />} />
           <Route path={ROUTES.VAULT.CREATE_VAULT} element={<CreateVault />} />
           <Route path={ROUTES.VAULT.EDIT_VAULT} element={<EditVault />} />
+          <Route path={ROUTES.USER.BUCKETLIST} element={<BucketList />} />
         </Route>
       </Route>
     </Routes>

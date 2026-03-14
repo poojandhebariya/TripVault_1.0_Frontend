@@ -9,6 +9,7 @@ import {
   faTrash,
   faThumbTack,
   faChartBar,
+  faList,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import DropdownMenu, { type DropdownMenuItem } from "./ui/dropdown-menu";
@@ -19,6 +20,7 @@ export interface PostMenuProps {
   hasLocation?: boolean;
   isPinned?: boolean;
   isPublished?: boolean;
+  isBucketListed?: boolean;
   onFollow?: () => void;
   onReport?: () => void;
   onNavigateMap?: () => void;
@@ -27,6 +29,7 @@ export interface PostMenuProps {
   onDelete?: () => void;
   onPin?: () => void;
   onViewInsights?: () => void;
+  onAddToBucketList?: () => void;
 }
 
 const VaultPostMenu = ({
@@ -35,6 +38,7 @@ const VaultPostMenu = ({
   hasLocation = false,
   isPinned = false,
   isPublished = false,
+  isBucketListed = false,
   onFollow,
   onReport,
   onNavigateMap,
@@ -43,6 +47,7 @@ const VaultPostMenu = ({
   onDelete,
   onPin,
   onViewInsights,
+  onAddToBucketList,
 }: PostMenuProps) => {
   const guestItems: DropdownMenuItem[] = [
     {
@@ -50,6 +55,15 @@ const VaultPostMenu = ({
       label: isFollowing ? "Unfollow" : "Follow",
       onClick: () => onFollow?.(),
     },
+    ...(!isBucketListed
+      ? [
+          {
+            icon: faList,
+            label: "Add to Bucketlist",
+            onClick: () => onAddToBucketList?.(),
+          },
+        ]
+      : []),
     ...(hasLocation
       ? [
           {

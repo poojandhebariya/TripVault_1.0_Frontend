@@ -36,12 +36,12 @@ const NonloggedInNavigation = [
 
 const LoggedInNavigation = [
   { label: "Explore", href: ROUTES.EXPLORE },
-  { label: "Plan Trip", href: ROUTES.PLAN_TRIP },
+  { label: "Plan Trip", href: ROUTES.USER.BUCKETLIST },
 ];
 
 const LoggedInProfileNavigation = [
   { label: "My Profile", href: ROUTES.USER.PROFILE, icon: faUser },
-  { label: "Bucket List", href: ROUTES.PLAN_TRIP, icon: faList },
+  { label: "Bucket List", href: ROUTES.USER.BUCKETLIST, icon: faList },
   { label: "Saved", href: ROUTES.USER.SAVED, icon: faHeart },
   { label: "Map", href: ROUTES.EXPLORE, icon: faMap },
   { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
@@ -49,7 +49,7 @@ const LoggedInProfileNavigation = [
 ];
 
 const LoggedInMobileNavigation = [
-  { label: "Bucket List", href: ROUTES.PLAN_TRIP, icon: faList },
+  { label: "Bucket List", href: ROUTES.USER.BUCKETLIST, icon: faList },
   { label: "Saved", href: ROUTES.USER.SAVED, icon: faHeart },
   { label: "Map", href: ROUTES.EXPLORE, icon: faMap },
   { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },

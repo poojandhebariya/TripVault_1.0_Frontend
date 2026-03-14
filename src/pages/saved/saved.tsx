@@ -17,9 +17,11 @@ const Saved = () => {
       <div className="max-w-7xl mx-auto md:py-8 md:px-6">
         <div className="flex flex-col md:flex-row md:gap-12">
           <main className="flex-1 min-w-0 pb-10">
-            <div className="flex flex-col space-y-1 mb-6 px-4 md:px-0 mt-4 md:mt-0">
-              <h1 className="text-2xl font-bold text-gray-900">Saved</h1>
-              <p className="text-sm text-gray-500">
+            <div className="flex flex-col mb-7 px-4 md:px-0 mt-4 md:mt-0">
+              <h1 className="text-3xl font-extrabold gradient-text w-fit pb-1">
+                Saved
+              </h1>
+              <p className="text-base font-medium text-gray-500 mt-0.5">
                 Vaults you've saved for inspiration.
               </p>
             </div>
