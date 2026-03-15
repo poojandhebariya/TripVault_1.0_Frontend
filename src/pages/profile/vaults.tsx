@@ -82,7 +82,7 @@ const Vaults = ({ publicMode = false, id = "" }: VaultsProps) => {
       : vaults.filter((v) => v.status === key).length;
 
   return (
-    <div className="pb-20 lg:pb-6">
+    <div className="animate-[slideDown_0.3s_ease-out] pb-20 lg:pb-6">
       {/* Filter chips — only for own profile */}
       {!publicMode && (
         <div className="flex items-center gap-2 px-3.5 pt-3 pb-1 overflow-x-auto max-w-4xl mx-auto">

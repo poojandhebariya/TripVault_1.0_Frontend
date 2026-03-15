@@ -1,5 +1,5 @@
 import jsPDF from "jspdf";
-import type { BucketListDto } from "../types/bucket-list";
+import type { BucketList } from "../types/bucket-list";
 
 interface StatsData {
   totalPlaces: number;
@@ -73,8 +73,8 @@ function priorityColor(p: string): [number, number, number] {
 }
 
 // ── Group & sort by targetYear ─────────────────────────────────────────────
-function groupByYear(items: BucketListDto[]): [string, BucketListDto[]][] {
-  const map = new Map<string, BucketListDto[]>();
+function groupByYear(items: BucketList[]): [string, BucketList[]][] {
+  const map = new Map<string, BucketList[]>();
   for (const item of items) {
     const key = item.targetYear ? String(item.targetYear) : "TBD";
     if (!map.has(key)) map.set(key, []);
@@ -89,7 +89,7 @@ function groupByYear(items: BucketListDto[]): [string, BucketListDto[]][] {
 
 // ═══════════════════════════════════════════════════════════════════════════
 export async function generateBucketListPdf(
-  items: BucketListDto[],
+  items: BucketList[],
   stats: StatsData,
   userName?: string,
 ): Promise<string> {

@@ -10,14 +10,14 @@ import {
   faTrash,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-import type { BucketListDto } from "../types/bucket-list";
+import type { BucketList } from "../types/bucket-list";
 import { useRemoveFromBucketList } from "../tanstack/bucket-list/mutation";
 import DOMPurify from "dompurify";
 import DeleteConfirmModal from "./ui/delete-confirm-modal";
 import Button from "./ui/button";
 
 interface BucketListCardProps {
-  item: BucketListDto;
+  item: BucketList;
 }
 
 export default function BucketListCard({ item }: BucketListCardProps) {

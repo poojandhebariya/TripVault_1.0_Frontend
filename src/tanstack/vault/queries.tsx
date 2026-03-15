@@ -87,6 +87,16 @@ export const vaultQueries = () => {
     enabled: !!id,
   });
 
-  return { getMyVaults, getPublicVaults, getNearbyVaults, getVaultDetails, getComments, getSavedVaults, getUserPublicVaults };
+  const getFollowingVaults = (page = 1, limit = 10) => ({
+    queryKey: [...vaultKeys.getFollowingVaults(), page],
+    queryFn: async (): Promise<PaginatedResponse<Vault>> => {
+      const response = await axiosInstance.get<
+        ApiResponse<PaginatedResponse<Vault>>
+      >(`/vault/following?page=${page}&limit=${limit}`);
+      return response.data.data;
+    },
+  });
+
+  return { getMyVaults, getPublicVaults, getNearbyVaults, getVaultDetails, getComments, getSavedVaults, getUserPublicVaults, getFollowingVaults };
 };
 

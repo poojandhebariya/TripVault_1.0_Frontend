@@ -551,7 +551,7 @@ const CreateVault = () => {
       />
 
       {/* ── Page ── */}
-      <div className="min-h-screen bg-white">
+      <div className="animate-[slideDown_0.3s_ease-out] min-h-screen bg-white">
         <MobileStickyHeader
           title="Create Vault"
           rightAction={

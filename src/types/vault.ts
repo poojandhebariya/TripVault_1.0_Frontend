@@ -3,6 +3,7 @@ export interface VaultAuthor {
   username: string | null;
   name: string | null;
   profilePicUrl: string | null;
+  isFollowing?: boolean;
 }
 
 export interface Vault {

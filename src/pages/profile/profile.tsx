@@ -171,6 +171,22 @@ const Profile = () => {
     }
   };
 
+  const handleFollowersClick = () => {
+    if (isPublic && id) {
+      navigate(ROUTES.USER.PUBLIC_FOLLOWERS(id));
+    } else {
+      navigate(ROUTES.USER.OWN_FOLLOWERS);
+    }
+  };
+
+  const handleFollowingClick = () => {
+    if (isPublic && id) {
+      navigate(ROUTES.USER.PUBLIC_FOLLOWING(id));
+    } else {
+      navigate(ROUTES.USER.OWN_FOLLOWING);
+    }
+  };
+
   // Scheduled vault publisher only for own profile schedule cron job runs every 1min
   useScheduledVaultPublisher(isPublic ? undefined : currentUser);
 
@@ -212,22 +228,6 @@ const Profile = () => {
     ? `${APP_BASE_URL}/user/${id}`
     : `${APP_BASE_URL}/user/${ownProfile?.id ?? ""}`;
 
-  if (isLoading) return <ProfileSkeleton />;
-
-  if (isPublic && (pubError || !publicProfile)) {
-    return (
-      <div className="min-h-screen bg-white flex flex-col items-center justify-center gap-4 text-center px-6">
-        <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center text-2xl text-gray-300 mb-2">
-          <FontAwesomeIcon icon={faUser} />
-        </div>
-        <p className="text-lg font-bold text-gray-900">User not found</p>
-        <p className="text-sm text-gray-400 max-w-[220px] leading-relaxed">
-          This profile doesn't exist or has been removed.
-        </p>
-      </div>
-    );
-  }
-
   const ActionButtons = ({ mobile = false }: { mobile?: boolean }) => {
     if (isPublic) {
       return (
@@ -260,8 +260,8 @@ const Profile = () => {
             icon={faShareNodes}
             className={
               mobile
-                ? "text-xs py-1.5 px-3 rounded-full w-auto"
-                : "text-sm py-2 px-4 rounded-lg w-auto"
+                ? "text-xs py-[6.5px] px-3 rounded-full w-auto"
+                : "text-sm py-2.5 px-4 rounded-lg w-auto"
             }
             onClick={() => setShowShareModal(true)}
           />
@@ -291,8 +291,8 @@ const Profile = () => {
           icon={faShareNodes}
           className={
             mobile
-              ? "text-xs py-1.5 px-3 rounded-full w-auto"
-              : "text-sm py-2 px-4 rounded-lg w-auto"
+              ? "text-xs py-[6.5px] px-3 rounded-full w-auto"
+              : "text-sm py-2.5 w-auto"
           }
           onClick={() => setShowShareModal(true)}
         />
@@ -344,9 +344,52 @@ const Profile = () => {
     ? `/user/${id}/tagged`
     : ROUTES.USER.PROFILE_TAGGED;
 
+  const DesktopStats = () => (
+    <div className="text-gray-600 flex gap-5 mt-3">
+      <button
+        onClick={handleFollowersClick}
+        className="hover:text-indigo-600 transition-colors cursor-pointer"
+      >
+        <span className="text-gray-900 font-semibold text-xl mr-1">
+          {followersCount}
+        </span>
+        Followers
+      </button>
+      <button
+        onClick={handleFollowingClick}
+        className="hover:text-indigo-600 transition-colors cursor-pointer"
+      >
+        <span className="text-gray-900 font-semibold text-xl mr-1">
+          {followingCount}
+        </span>
+        Following
+      </button>
+      <p>
+        <span className="text-gray-900 font-semibold text-xl mr-1">
+          {profile?.vaultsCount}
+        </span>
+        Posts
+      </p>
+    </div>
+  );
+
   return (
-    <div className="min-h-screen bg-white">
-      <div className="hidden lg:block animate-[slideDown_0.3s_ease-out]">
+    <div className="animate-[slideDown_0.3s_ease-out] min-h-screen bg-white">
+      {isLoading ? (
+        <ProfileSkeleton />
+      ) : isPublic && (pubError || !publicProfile) ? (
+        <div className="min-h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-4 text-center px-6">
+          <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center text-2xl text-gray-300 mb-2">
+            <FontAwesomeIcon icon={faUser} />
+          </div>
+          <p className="text-lg font-bold text-gray-900">User not found</p>
+          <p className="text-sm text-gray-400 max-w-[220px] leading-relaxed">
+            This profile doesn't exist or has been removed.
+          </p>
+        </div>
+      ) : (
+        <>
+          <div className="hidden lg:block">
         <div className="relative h-64 w-full overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-t from-white via-white/10 to-transparent z-10 pointer-events-none" />
           {profile?.coverPhotoUrl ? (
@@ -402,26 +445,7 @@ const Profile = () => {
                   {profile.country}
                 </p>
               )}
-              <div className="text-gray-600 flex gap-5 mt-3">
-                <p>
-                  <span className="text-gray-900 font-semibold text-xl mr-1">
-                    {followersCount}
-                  </span>
-                  Followers
-                </p>
-                <p>
-                  <span className="text-gray-900 font-semibold text-xl mr-1">
-                    {followingCount}
-                  </span>
-                  Following
-                </p>
-                <p>
-                  <span className="text-gray-900 font-semibold text-xl mr-1">
-                    {profile?.vaultsCount}
-                  </span>
-                  Posts
-                </p>
-              </div>
+              <DesktopStats />
               <div className="mt-4">
                 <InterestChips />
               </div>
@@ -432,7 +456,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="lg:hidden animate-[slideDown_0.3s_ease-out]">
+      <div className="lg:hidden">
         <div className="relative h-52 w-full overflow-hidden">
           {profile?.coverPhotoUrl ? (
             <img
@@ -497,13 +521,22 @@ const Profile = () => {
 
         <div className="px-4 mt-4 flex items-center gap-6">
           {[
-            { value: followersCount, label: "Followers" },
-            { value: followingCount, label: "Following" },
-            { value: profile?.vaultsCount, label: "Posts" },
-          ].map(({ value, label }) => (
+            {
+              value: followersCount,
+              label: "Followers",
+              onClick: handleFollowersClick,
+            },
+            {
+              value: followingCount,
+              label: "Following",
+              onClick: handleFollowingClick,
+            },
+            { value: profile?.vaultsCount, label: "Posts", onClick: undefined },
+          ].map(({ value, label, onClick }) => (
             <button
               key={label}
-              className="flex flex-col items-start active:opacity-60 transition-opacity"
+              onClick={onClick}
+              className={`flex flex-col items-start active:opacity-60 transition-opacity ${onClick ? "cursor-pointer" : "cursor-default"}`}
             >
               <span className="text-[17px] font-bold text-gray-900 leading-none">
                 {value}
@@ -527,7 +560,7 @@ const Profile = () => {
       </div>
 
       {!isPublic && (
-        <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto animate-[slideDown_0.3s_ease-out]">
+        <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
           <div className="rounded-2xl border border-gray-200 bg-gray-100/40 py-5">
             <div className="grid grid-cols-3 divide-x divide-gray-200">
               <div className="flex flex-col items-center gap-1.5 px-4 py-1">
@@ -579,7 +612,7 @@ const Profile = () => {
       {!isPublic &&
         ownProfile?.topCountries &&
         ownProfile.topCountries.length > 0 && (
-          <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto animate-[slideDown_0.3s_ease-out]">
+          <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
             <div className="rounded-2xl border border-gray-200 bg-white p-4">
               <p className="text-[11px] font-black uppercase tracking-widest text-gray-400 mb-3 ml-1">
                 Top Audience Regions
@@ -630,7 +663,10 @@ const Profile = () => {
         onClose={() => setShowShareModal(false)}
         url={profileShareUrl}
         title={`${profile?.name ?? "Someone"}'s profile on TripVault`}
+        type="profile"
       />
+        </>
+      )}
     </div>
   );
 };

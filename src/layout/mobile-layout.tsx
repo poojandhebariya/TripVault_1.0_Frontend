@@ -61,6 +61,30 @@ const MobileLayout = () => {
 
   const closeModal = () => setActiveModal(null);
 
+  const isHomeSubRoute = (pathname: string) => {
+    const isVaultDetail =
+      pathname.startsWith("/vault/") &&
+      !pathname.startsWith("/vault/create") &&
+      !pathname.startsWith("/vault/edit/");
+    const isPublicProfile =
+      pathname.startsWith("/user/") && !pathname.startsWith("/user/profile");
+    return isVaultDetail || isPublicProfile;
+  };
+
+  const isTabActive = (itemPath: string) => {
+    const isModalActive =
+      activeModal !== null && MODAL_ROUTES[itemPath] === activeModal;
+    if (isModalActive) return true;
+
+    if (itemPath === ROUTES.HOME) {
+      return (
+        location.pathname === ROUTES.HOME || isHomeSubRoute(location.pathname)
+      );
+    }
+
+    return location.pathname.startsWith(itemPath);
+  };
+
   return (
     <div className="flex flex-col h-screen overflow-hidden">
       <Header />
@@ -72,13 +96,7 @@ const MobileLayout = () => {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg z-30">
         <div className="flex items-center justify-around px-2 py-2">
           {bottomNavItems.map((item) => {
-            const isModalActive =
-              activeModal !== null && MODAL_ROUTES[item.path] === activeModal;
-            const isRouteActive =
-              item.path === "/"
-                ? location.pathname === "/" // exact match for home
-                : location.pathname.startsWith(item.path); // prefix match for others
-            const isActive = isModalActive || isRouteActive;
+            const isActive = isTabActive(item.path);
 
             if (item.isCenter) {
               return (

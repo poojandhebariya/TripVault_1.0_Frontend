@@ -3,6 +3,7 @@ export const vaultKeys = {
   create: () => [...vaultKeys.all(), "create"],
   getMyVaults: () => [...vaultKeys.all(), "my-vaults"],
   getPublicVaults: () => [...vaultKeys.all(), "public"],
+  getFollowingVaults: () => [...vaultKeys.all(), "following"],
   getNearbyVaults: (
     lat: number,
     lng: number,

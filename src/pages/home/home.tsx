@@ -8,6 +8,8 @@ import {
   faMapLocationDot,
   faSpinner,
   faChevronDown,
+  faUsers,
+  faUserPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import { vaultQueries } from "../../tanstack/vault/queries";
 import { useUserContext } from "../../contexts/user/user";
@@ -30,6 +32,7 @@ const Home = () => {
   const [statsOpen, setStatsOpen] = useState(false);
   const [publicPage, setPublicPage] = useState(1);
   const [nearbyPage, setNearbyPage] = useState(1);
+  const [followingPage, setFollowingPage] = useState(1);
   const [radius, setRadius] = useState(20000); // Default to All (20,000km)
 
   const { user, isLoggedIn } = useUserContext();
@@ -41,11 +44,11 @@ const Home = () => {
 
   const locationGranted = permissionState === "granted" && location !== null;
 
-  const { getPublicVaults, getNearbyVaults } = vaultQueries();
+  const { getPublicVaults, getNearbyVaults, getFollowingVaults } = vaultQueries();
 
   const { data: publicData, isLoading: publicLoading } = useQuery({
     ...getPublicVaults(publicPage),
-    enabled: activeFilter !== "nearby",
+    enabled: activeFilter !== "nearby" && activeFilter !== "following",
   });
 
   // Round coordinates to 3 decimal places (~110 meters) to deliberately debounce
@@ -58,19 +61,38 @@ const Home = () => {
     enabled: activeFilter === "nearby" && locationGranted,
   });
 
+  const { data: followingData, isLoading: followingLoading } = useQuery({
+    ...getFollowingVaults(followingPage),
+    enabled: activeFilter === "following" && isLoggedIn,
+  });
+
   const vaults =
     activeFilter === "nearby"
       ? (nearbyData?.data ?? [])
-      : (publicData?.data ?? []);
+      : activeFilter === "following"
+        ? (followingData?.data ?? [])
+        : (publicData?.data ?? []);
 
   const totalPages =
     activeFilter === "nearby"
       ? (nearbyData?.totalPages ?? 1)
-      : (publicData?.totalPages ?? 1);
+      : activeFilter === "following"
+        ? (followingData?.totalPages ?? 1)
+        : (publicData?.totalPages ?? 1);
 
-  const currentPage = activeFilter === "nearby" ? nearbyPage : publicPage;
+  const currentPage =
+    activeFilter === "nearby"
+      ? nearbyPage
+      : activeFilter === "following"
+        ? followingPage
+        : publicPage;
 
-  const isLoading = activeFilter === "nearby" ? nearbyLoading : publicLoading;
+  const isLoading =
+    activeFilter === "nearby"
+      ? nearbyLoading
+      : activeFilter === "following"
+        ? followingLoading
+        : publicLoading;
 
   const variant = isMobile ? "mobile" : "desktop";
 
@@ -88,6 +110,8 @@ const Home = () => {
   const handlePrevPage = () => {
     if (activeFilter === "nearby") {
       setNearbyPage((p) => Math.max(1, p - 1));
+    } else if (activeFilter === "following") {
+      setFollowingPage((p) => Math.max(1, p - 1));
     } else {
       setPublicPage((p) => Math.max(1, p - 1));
     }
@@ -96,13 +120,33 @@ const Home = () => {
   const handleNextPage = () => {
     if (activeFilter === "nearby") {
       setNearbyPage((p) => Math.min(totalPages, p + 1));
+    } else if (activeFilter === "following") {
+      setFollowingPage((p) => Math.min(totalPages, p + 1));
     } else {
       setPublicPage((p) => Math.min(totalPages, p + 1));
     }
   };
 
+  // Empty state for "Following" tab when not logged in or not following anyone
+  const renderFollowingEmpty = () => (
+    <div className="text-center py-20 text-gray-400 px-6">
+      <FontAwesomeIcon
+        icon={isLoggedIn ? faUsers : faUserPlus}
+        className="text-5xl mb-4 opacity-30"
+      />
+      <p className="text-lg font-semibold">
+        {isLoggedIn ? "No posts from people you follow" : "Sign in to see posts"}
+      </p>
+      <p className="text-sm mt-1">
+        {isLoggedIn
+          ? "Follow some travellers to see their latest vaults here."
+          : "Log in and follow travellers to see their vaults in this feed."}
+      </p>
+    </div>
+  );
+
   return (
-    <div className="min-h-screen">
+    <div className="animate-[slideDown_0.3s_ease-out]">
       <div className="max-w-7xl mx-auto lg:flex lg:gap-8 lg:px-6 lg:py-8">
         <main className="flex-1 min-w-0">
           <div className="sticky -top-0.5 z-40 backdrop-blur-3xl bg-white/80 border-b border-gray-100 lg:static lg:border-none lg:py-0 lg:mb-5">
@@ -202,7 +246,7 @@ const Home = () => {
             </div>
           )}
 
-          <div className={`mt-3 ${isMobile ? "" : "space-y-5 px-0"}`}>
+          <div className={`md:mt-3 ${isMobile ? "" : "space-y-5 px-0"}`}>
             {isLoading ? (
               <div className={isMobile ? "" : "space-y-5"}>
                 {[1, 2, 3].map((n) => (
@@ -210,32 +254,36 @@ const Home = () => {
                 ))}
               </div>
             ) : vaults.length === 0 ? (
-              <div className="text-center py-20 text-gray-400 px-6">
-                <FontAwesomeIcon
-                  icon={
-                    activeFilter === "nearby"
+              activeFilter === "following" ? (
+                renderFollowingEmpty()
+              ) : (
+                <div className="text-center py-20 text-gray-400 px-6">
+                  <FontAwesomeIcon
+                    icon={
+                      activeFilter === "nearby"
+                        ? locationGranted
+                          ? faLocationArrow
+                          : faMapLocationDot
+                        : faSuitcaseRolling
+                    }
+                    className="text-5xl mb-4 opacity-30"
+                  />
+                  <p className="text-lg font-semibold">
+                    {activeFilter === "nearby"
                       ? locationGranted
-                        ? faLocationArrow
-                        : faMapLocationDot // Show map icon if not granted
-                      : faSuitcaseRolling
-                  }
-                  className="text-5xl mb-4 opacity-30"
-                />
-                <p className="text-lg font-semibold">
-                  {activeFilter === "nearby"
-                    ? locationGranted
-                      ? "No vaults nearby"
-                      : "Location Access Required"
-                    : "No vaults yet"}
-                </p>
-                <p className="text-sm mt-1">
-                  {activeFilter === "nearby"
-                    ? locationGranted
-                      ? "Try expanding your search radius"
-                      : "We need your location to show vaults near you"
-                    : "Be the first to share a trip!"}
-                </p>
-              </div>
+                        ? "No vaults nearby"
+                        : "Location Access Required"
+                      : "No vaults yet"}
+                  </p>
+                  <p className="text-sm mt-1">
+                    {activeFilter === "nearby"
+                      ? locationGranted
+                        ? "Try expanding your search radius"
+                        : "We need your location to show vaults near you"
+                      : "Be the first to share a trip!"}
+                  </p>
+                </div>
+              )
             ) : (
               <div className={isMobile ? "" : "space-y-5"}>
                 {vaults.map((vault) => (
@@ -266,7 +314,7 @@ const Home = () => {
             style={{ maxHeight: "calc(100vh - 6rem)", overflowY: "auto" }}
           >
             <div className="pr-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-              <HomeSidebar isLoggedIn={isLoggedIn} user={user} />
+              <HomeSidebar isLoggedIn={isLoggedIn} user={user as any} />
             </div>
           </aside>
         )}
@@ -278,7 +326,7 @@ const Home = () => {
         title="Discover"
         icon={faChartLine}
       >
-        <HomeSidebar isLoggedIn={isLoggedIn} user={user} />
+        <HomeSidebar isLoggedIn={isLoggedIn} user={user as any} />
       </BottomNavModal>
     </div>
   );

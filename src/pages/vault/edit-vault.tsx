@@ -554,19 +554,7 @@ const EditVault = () => {
 
   const activeCropAtt = attachments.find((a) => a.id === activeCropId);
 
-  if (isLoadingVault) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-white">
-        <div className="flex flex-col items-center gap-4">
-          <FontAwesomeIcon
-            icon={faSpinner}
-            className="animate-spin text-4xl text-blue-500"
-          />
-          <p className="text-gray-500 font-medium">Loading vault details...</p>
-        </div>
-      </div>
-    );
-  }
+
 
   return (
     <>
@@ -603,7 +591,19 @@ const EditVault = () => {
         onChange={handleFileSelect}
       />
 
-      <div className="min-h-screen bg-white">
+      <div className="animate-[slideDown_0.3s_ease-out] min-h-screen bg-white">
+        {isLoadingVault ? (
+          <div className="min-h-[calc(100vh-80px)] flex items-center justify-center">
+            <div className="flex flex-col items-center gap-4">
+              <FontAwesomeIcon
+                icon={faSpinner}
+                className="animate-spin text-4xl text-blue-500"
+              />
+              <p className="text-gray-500 font-medium">Loading vault details...</p>
+            </div>
+          </div>
+        ) : (
+          <>
         <MobileStickyHeader
           title="Edit Vault"
           rightAction={
@@ -790,6 +790,8 @@ const EditVault = () => {
             />
           </div>
         </div>
+        </>
+        )}
       </div>
     </>
   );

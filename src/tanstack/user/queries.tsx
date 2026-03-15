@@ -26,5 +26,37 @@ export const userQueries = () => {
     enabled: !!id,
   });
 
-  return { getProfile, getPublicProfile };
+  const getFollowers = (userId: string) => ({
+    queryKey: userKeys.getFollowers(userId),
+    queryFn: async (): Promise<PublicProfile[]> => {
+      const response = await axiosInstance.get<ApiResponse<PublicProfile[]>>(
+        `/user/${userId}/followers`,
+      );
+      return response.data.data;
+    },
+    enabled: !!userId,
+  });
+
+  const getFollowing = (userId: string) => ({
+    queryKey: userKeys.getFollowing(userId),
+    queryFn: async (): Promise<PublicProfile[]> => {
+      const response = await axiosInstance.get<ApiResponse<PublicProfile[]>>(
+        `/user/${userId}/following`,
+      );
+      return response.data.data;
+    },
+    enabled: !!userId,
+  });
+
+  const getSuggestedProfiles = () => ({
+    queryKey: userKeys.getSuggestedProfiles(),
+    queryFn: async (): Promise<PublicProfile[]> => {
+      const response = await axiosInstance.get<ApiResponse<PublicProfile[]>>(
+        `/user/suggested`,
+      );
+      return response.data.data;
+    },
+  });
+
+  return { getProfile, getPublicProfile, getFollowers, getFollowing, getSuggestedProfiles };
 };

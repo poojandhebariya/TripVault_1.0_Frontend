@@ -3,10 +3,11 @@ import axiosInstance from "../../utils/axios-instance";
 import { useSnackbar } from "react-snackify";
 import type {
   BucketListRequestDto,
-  BucketListDto,
+  BucketList,
   BucketListStats,
 } from "../../types/bucket-list";
 import { bucketListKeys } from "./keys";
+import { vaultKeys } from "../vault/keys";
 
 // Helper to update any vault's isBucketListed flag deeply within the react-query cache
 const optimisticallyUpdateVaults = (
@@ -14,7 +15,7 @@ const optimisticallyUpdateVaults = (
   vaultId: string,
   isBucketListed: boolean,
 ) => {
-  queryClient.setQueriesData({ queryKey: ["vault"] }, (old: any) => {
+  queryClient.setQueriesData({ queryKey: vaultKeys.all() }, (old: any) => {
     if (!old) return old;
     // Single Vault detail
     if (old.id === vaultId) return { ...old, isBucketListed };
@@ -53,11 +54,43 @@ const optimisticallyUpdateVaults = (
   });
 };
 
+const optimisticallyUpdateBucketList = (
+  queryClient: any,
+  newItem: BucketList,
+) => {
+  queryClient.setQueriesData({ queryKey: bucketListKeys.all() }, (old: any) => {
+    if (!old) return old;
+
+    // PagedResponse
+    if (old.data && Array.isArray(old.data)) {
+      // Avoid duplicate if it somehow exists
+      if (old.data.find((item: BucketList) => item.vaultId === newItem.vaultId)) {
+        return old;
+      }
+      return {
+        ...old,
+        data: [newItem, ...old.data],
+        total: (old.total || 0) + 1,
+      };
+    }
+
+    if (Array.isArray(old)) {
+      if (old.find((item: BucketList) => item.vaultId === newItem.vaultId)) {
+        return old;
+      }
+      return [newItem, ...old];
+    }
+
+    return old;
+  });
+};
+
 export const useAddToBucketList = () => {
   const queryClient = useQueryClient();
   const { showSnackbar } = useSnackbar();
 
   return useMutation({
+    mutationKey: bucketListKeys.add(""), // Placeholder since we need vaultId from variables, but React Query usually takes variables in mutationFn. Actually for mutationKey it's better to use a static one unless it varies.
     mutationFn: async ({
       vaultId,
       data,
@@ -72,16 +105,22 @@ export const useAddToBucketList = () => {
       return response.data;
     },
     onMutate: async ({ vaultId, data }) => {
-      await queryClient.cancelQueries({ queryKey: bucketListKeys.stats() });
-      await queryClient.cancelQueries({ queryKey: ["vault"] });
+      // Cancel relevant queries
+      await queryClient.cancelQueries({ queryKey: bucketListKeys.all() });
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
 
+      // Snapshot previous state
       const previousStats = queryClient.getQueryData<BucketListStats>(
         bucketListKeys.stats(),
       );
       const previousVaults = queryClient.getQueriesData({
-        queryKey: ["vault"],
+        queryKey: vaultKeys.all(),
+      });
+      const previousBucketList = queryClient.getQueriesData({
+        queryKey: bucketListKeys.all(),
       });
 
+      // Optimistically update stats
       if (previousStats) {
         queryClient.setQueryData<BucketListStats>(bucketListKeys.stats(), {
           ...previousStats,
@@ -94,9 +133,49 @@ export const useAddToBucketList = () => {
         });
       }
 
+      // Optimistically update vaults
       optimisticallyUpdateVaults(queryClient, vaultId, true);
 
-      return { previousStats, previousVaults };
+      // Find vault data to construct optimistic BucketList item
+      const vaultQueriesData = queryClient.getQueriesData<any>({
+        queryKey: vaultKeys.all(),
+      });
+
+      let vault: any;
+      for (const [, cache] of vaultQueriesData) {
+        if (!cache) continue;
+        if (cache.id === vaultId) {
+          vault = cache;
+          break;
+        }
+        if (cache.data && Array.isArray(cache.data)) {
+          vault = cache.data.find((v: any) => v.id === vaultId);
+          if (vault) break;
+        }
+        if (cache.pages) {
+          for (const page of cache.pages) {
+            if (page.data) {
+              vault = page.data.find((v: any) => v.id === vaultId);
+              if (vault) break;
+            }
+          }
+          if (vault) break;
+        }
+      }
+
+      if (vault) {
+        const newItem: BucketList = {
+          id: -Math.floor(Math.random() * 1000000), // Temp negative ID
+          vaultId,
+          vault,
+          targetYear: data.targetYear,
+          priority: data.priority,
+          createdAt: new Date().toISOString(),
+        };
+        optimisticallyUpdateBucketList(queryClient, newItem);
+      }
+
+      return { previousStats, previousVaults, previousBucketList };
     },
     onSuccess: () => {
       showSnackbar({ message: "Added to bucket list!", variant: "success" });
@@ -110,15 +189,16 @@ export const useAddToBucketList = () => {
           queryClient.setQueryData(queryKey, data);
         }
       }
+      if (context?.previousBucketList) {
+        for (const [queryKey, data] of context.previousBucketList) {
+          queryClient.setQueryData(queryKey, data);
+        }
+      }
       showSnackbar({
         message:
           error.response?.data?.message || "Failed to add to bucket list",
         variant: "error",
       });
-    },
-    onSettled: () => {
-      queryClient.invalidateQueries({ queryKey: ["bucket-list"] });
-      queryClient.invalidateQueries({ queryKey: bucketListKeys.stats() });
     },
   });
 };
@@ -128,53 +208,53 @@ export const useRemoveFromBucketList = () => {
   const { showSnackbar } = useSnackbar();
 
   return useMutation({
+    mutationKey: bucketListKeys.all(), // Use a base key or specific if possible
     mutationFn: async (id: number) => {
       const response = await axiosInstance.delete(`/bucket-list/${id}`);
       return response.data;
     },
     onMutate: async (id: number) => {
-      await queryClient.cancelQueries({ queryKey: ["bucket-list"] });
-      await queryClient.cancelQueries({ queryKey: bucketListKeys.stats() });
-      await queryClient.cancelQueries({ queryKey: ["vault"] });
+      await queryClient.cancelQueries({ queryKey: bucketListKeys.all() });
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
 
       const previousLists = queryClient.getQueriesData<{
-        data: BucketListDto[];
+        data: BucketList[];
         page: number;
         totalPages: number;
         total: number;
-      }>({ queryKey: ["bucket-list"] });
+      }>({ queryKey: bucketListKeys.all() });
 
       const previousStats = queryClient.getQueryData<BucketListStats>(
         bucketListKeys.stats(),
       );
       const previousVaults = queryClient.getQueriesData({
-        queryKey: ["vault"],
+        queryKey: vaultKeys.all(),
       });
 
-      let removedItem: BucketListDto | undefined;
+      let removedItem: BucketList | undefined;
       for (const [, data] of previousLists) {
         if (data?.data) {
-          removedItem = data.data.find((item: BucketListDto) => item.id === id);
+          removedItem = data.data.find((item: BucketList) => item.id === id);
           if (removedItem) break;
         }
       }
 
       // Optimistically remove from all cached bucket-list pages
       queryClient.setQueriesData<{
-        data: BucketListDto[];
+        data: BucketList[];
         page: number;
         totalPages: number;
         total: number;
-      }>({ queryKey: ["bucket-list"] }, (old) => {
-        if (!old) return old;
+      }>({ queryKey: bucketListKeys.all() }, (old: any) => {
+        if (!old || !old.data) return old;
         return {
           ...old,
-          data: old.data.filter((item: BucketListDto) => item.id !== id),
-          total: Math.max(0, old.total - 1),
+          data: old.data.filter((item: BucketList) => item.id !== id),
+          total: Math.max(0, (old.total || 0) - 1),
         };
       });
 
-      // Optimistically update home feed vaults
+      // Optimistically update vaults flags
       if (removedItem?.vaultId) {
         optimisticallyUpdateVaults(queryClient, removedItem.vaultId, false);
       }
@@ -219,3 +299,4 @@ export const useRemoveFromBucketList = () => {
     },
   });
 };
+

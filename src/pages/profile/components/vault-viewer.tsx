@@ -20,8 +20,6 @@ import {
   faClock,
   faSpinner,
   faPaperPlane,
-  faXmark,
-  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import type { Vault } from "../../../types/vault";
@@ -32,7 +30,7 @@ import type { AxiosError } from "axios";
 import VaultInsightsModal from "../../../components/ui/vault-insights-modal";
 import DeleteConfirmModal from "../../../components/ui/delete-confirm-modal";
 import ShareModal from "../../../components/ui/share-modal";
-import { getVaultShareUrl, ROUTES } from "../../../utils/constants";
+import { getVaultShareUrl } from "../../../utils/constants";
 
 interface ActionBtnProps {
   icon: IconDefinition;
@@ -431,6 +429,7 @@ const VaultViewer = ({
           url={getVaultShareUrl(vault.id)}
           title={vault.title}
           description={vault.description}
+          type="vault"
         />
       )}
     </>

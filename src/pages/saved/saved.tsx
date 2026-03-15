@@ -13,7 +13,7 @@ const Saved = () => {
   const variant = isMobile ? "mobile" : "desktop";
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="animate-[slideDown_0.3s_ease-out]">
       <div className="max-w-7xl mx-auto md:py-8 md:px-6">
         <div className="flex flex-col md:flex-row md:gap-12">
           <main className="flex-1 min-w-0 pb-10">

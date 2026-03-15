@@ -16,8 +16,25 @@ export const userMutation = () => {
       );
       return response.data;
     },
+    onMutate: async (newData: Partial<User>) => {
+      await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
+      const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
+      queryClient.setQueryData(userKeys.getProfile(), (old: any) => ({
+        ...old,
+        ...newData,
+      }));
+      return { previousUser };
+    },
+    onError: (
+      _err: unknown,
+      _vars: unknown,
+      context: { previousUser?: User } | undefined,
+    ) => {
+      queryClient.setQueryData(userKeys.getProfile(), context?.previousUser);
+    },
     onSuccess: async (data: ApiResponse<User>) => {
       await set("user", data.data);
+      await queryClient.setQueryData(userKeys.getProfile(), data.data);
     },
   };
 
@@ -29,6 +46,26 @@ export const userMutation = () => {
         data,
       );
       return response.data;
+    },
+    onMutate: async (newData: Partial<User>) => {
+      await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
+      const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
+      if (previousUser) {
+        queryClient.setQueryData(userKeys.getProfile(), {
+          ...previousUser,
+          ...newData,
+        });
+      }
+      return { previousUser };
+    },
+    onError: (
+      _err: unknown,
+      _vars: unknown,
+      context: { previousUser?: User } | undefined,
+    ) => {
+      if (context?.previousUser) {
+        queryClient.setQueryData(userKeys.getProfile(), context.previousUser);
+      }
     },
     onSuccess: async (data: ApiResponse<User>) => {
       await set("user", data.data);
@@ -45,39 +82,98 @@ export const userMutation = () => {
       return response.data;
     },
     onMutate: async () => {
-      // Cancel any in-flight queries for this profile
-      await queryClient.cancelQueries({
-        queryKey: userKeys.getPublicProfile(id),
-      });
+      // Cancel related queries to prevent background refreshes from overwriting optimistic state
+      await queryClient.cancelQueries({ queryKey: userKeys.all() });
+      await queryClient.cancelQueries({ queryKey: ["vault"] });
 
-      // Snapshot the previous value
-      const previousProfile = queryClient.getQueryData<PublicProfile>(
+      // Snapshot the previous values
+      const previousPublicProfile = queryClient.getQueryData<PublicProfile>(
         userKeys.getPublicProfile(id),
       );
+      const previousOwnProfile = queryClient.getQueryData<User>(
+        userKeys.getProfile(),
+      );
 
-      // Optimistically update to the new value
-      if (previousProfile) {
-        queryClient.setQueryData<PublicProfile>(
-          userKeys.getPublicProfile(id),
-          {
-            ...previousProfile,
-            isFollowing: true,
-            followersCount: previousProfile.followersCount + 1,
-          },
-        );
+      // Optimistically update public profile status
+      if (previousPublicProfile) {
+        queryClient.setQueryData<PublicProfile>(userKeys.getPublicProfile(id), {
+          ...previousPublicProfile,
+          isFollowing: true,
+          followersCount: (previousPublicProfile.followersCount || 0) + 1,
+        });
       }
 
-      return { previousProfile };
+      // Optimistically update own following count
+      if (previousOwnProfile) {
+        queryClient.setQueryData<User>(userKeys.getProfile(), {
+          ...previousOwnProfile,
+          followingCount: (previousOwnProfile.followingCount || 0) + 1,
+        });
+      }
+
+      // Optimistically update author status in ALL vault lists
+      queryClient.setQueriesData({ queryKey: ["vault"] }, (old: any) => {
+        if (!old) return old;
+
+        const updateAuthor = (v: any) =>
+          v.author?.id === id
+            ? { ...v, author: { ...v.author, isFollowing: true } }
+            : v;
+
+        if (old.author?.id) return updateAuthor(old);
+        if (Array.isArray(old)) return old.map(updateAuthor);
+        if (old.data) {
+          if (Array.isArray(old.data)) {
+            return { ...old, data: old.data.map(updateAuthor) };
+          }
+          if (old.data.data && Array.isArray(old.data.data)) {
+            return {
+              ...old,
+              data: { ...old.data, data: old.data.data.map(updateAuthor) },
+            };
+          }
+        }
+        return old;
+      });
+
+      // Update following status in ALL user lists (followers, following, etc.)
+      queryClient.setQueriesData({ queryKey: userKeys.all() }, (old: any) => {
+        if (!Array.isArray(old)) return old;
+        return old.map((p: any) =>
+          p.id === id
+            ? {
+                ...p,
+                isFollowing: true,
+                followersCount: (p.followersCount || 0) + 1,
+              }
+            : p,
+        );
+      });
+
+
+      return { previousPublicProfile, previousOwnProfile };
     },
     onError: (
       _err: unknown,
       _vars: unknown,
-      context: { previousProfile?: PublicProfile } | undefined,
+      context:
+        | { previousPublicProfile?: PublicProfile; previousOwnProfile?: User }
+        | undefined,
     ) => {
-      if (context?.previousProfile) {
+      // Revert accurately via invalidation
+      queryClient.invalidateQueries({ queryKey: ["vault"] });
+      queryClient.invalidateQueries({ queryKey: userKeys.all() });
+
+      if (context?.previousPublicProfile) {
         queryClient.setQueryData(
           userKeys.getPublicProfile(id),
-          context.previousProfile,
+          context.previousPublicProfile,
+        );
+      }
+      if (context?.previousOwnProfile) {
+        queryClient.setQueryData(
+          userKeys.getProfile(),
+          context.previousOwnProfile,
         );
       }
     },
@@ -92,36 +188,132 @@ export const userMutation = () => {
       return response.data;
     },
     onMutate: async () => {
-      await queryClient.cancelQueries({
-        queryKey: userKeys.getPublicProfile(id),
-      });
+      // Cancel related queries to prevent background refreshes from overwriting optimistic state
+      await queryClient.cancelQueries({ queryKey: userKeys.all() });
+      await queryClient.cancelQueries({ queryKey: ["vault"] });
 
-      const previousProfile = queryClient.getQueryData<PublicProfile>(
+      // Snapshot the previous values
+      const previousPublicProfile = queryClient.getQueryData<PublicProfile>(
         userKeys.getPublicProfile(id),
       );
+      const previousOwnProfile = queryClient.getQueryData<User>(
+        userKeys.getProfile(),
+      );
 
-      if (previousProfile) {
-        queryClient.setQueryData<PublicProfile>(
-          userKeys.getPublicProfile(id),
-          {
-            ...previousProfile,
-            isFollowing: false,
-            followersCount: Math.max(0, previousProfile.followersCount - 1),
+      // Optimistically update public profile status
+      if (previousPublicProfile) {
+        queryClient.setQueryData<PublicProfile>(userKeys.getPublicProfile(id), {
+          ...previousPublicProfile,
+          isFollowing: false,
+          followersCount: Math.max(
+            0,
+            (previousPublicProfile.followersCount || 0) - 1,
+          ),
+        });
+      }
+
+      // Optimistically update own following count
+      if (previousOwnProfile) {
+        queryClient.setQueryData<User>(userKeys.getProfile(), {
+          ...previousOwnProfile,
+          followingCount: Math.max(
+            0,
+            (previousOwnProfile.followingCount || 0) - 1,
+          ),
+        });
+      }
+
+      // Optimistically update author status in ALL vault lists
+      queryClient.setQueriesData({ queryKey: ["vault"] }, (old: any) => {
+        if (!old) return old;
+
+        const updateAuthor = (v: any) =>
+          v.author?.id === id
+            ? { ...v, author: { ...v.author, isFollowing: false } }
+            : v;
+
+        if (old.author?.id) return updateAuthor(old);
+        if (Array.isArray(old)) return old.map(updateAuthor);
+        if (old.data) {
+          if (Array.isArray(old.data)) {
+            return { ...old, data: old.data.map(updateAuthor) };
+          }
+          if (old.data.data && Array.isArray(old.data.data)) {
+            return {
+              ...old,
+              data: { ...old.data, data: old.data.data.map(updateAuthor) },
+            };
+          }
+        }
+        return old;
+      });
+
+      // Update following status in ALL user lists
+      queryClient.setQueriesData({ queryKey: userKeys.all() }, (old: any) => {
+        if (!Array.isArray(old)) return old;
+        return old.map((p: any) =>
+          p.id === id
+            ? {
+                ...p,
+                isFollowing: false,
+                followersCount: Math.max(0, (p.followersCount || 0) - 1),
+              }
+            : p,
+        );
+      });
+
+      // SPECIAL: Remove from own following list immediately
+      if (previousOwnProfile?.id) {
+        queryClient.setQueryData(
+          userKeys.getFollowing(previousOwnProfile.id),
+          (old: any) => {
+            if (!Array.isArray(old)) return old;
+            return old.filter((p: any) => p.id !== id);
           },
         );
       }
 
-      return { previousProfile };
+      // SPECIAL: Remove their vaults from the following feed immediately
+      queryClient.setQueriesData(
+        { queryKey: ["vault", "following"] },
+        (old: any) => {
+          if (!old) return old;
+          if (old.data && Array.isArray(old.data)) {
+            return {
+              ...old,
+              data: old.data.filter((v: any) => v.author?.id !== id),
+            };
+          }
+          if (Array.isArray(old)) {
+            return old.filter((v: any) => v.author?.id !== id);
+          }
+          return old;
+        },
+      );
+
+      return { previousPublicProfile, previousOwnProfile };
     },
     onError: (
       _err: unknown,
       _vars: unknown,
-      context: { previousProfile?: PublicProfile } | undefined,
+      context:
+        | { previousPublicProfile?: PublicProfile; previousOwnProfile?: User }
+        | undefined,
     ) => {
-      if (context?.previousProfile) {
+      // Revert accurately via invalidation
+      queryClient.invalidateQueries({ queryKey: ["vault"] });
+      queryClient.invalidateQueries({ queryKey: userKeys.all() });
+
+      if (context?.previousPublicProfile) {
         queryClient.setQueryData(
           userKeys.getPublicProfile(id),
-          context.previousProfile,
+          context.previousPublicProfile,
+        );
+      }
+      if (context?.previousOwnProfile) {
+        queryClient.setQueryData(
+          userKeys.getProfile(),
+          context.previousOwnProfile,
         );
       }
     },

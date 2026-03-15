@@ -18,7 +18,7 @@ import { useSnackbar } from "react-snackify";
 import BucketListCard from "../../components/bucket-list-card";
 import Pagination from "../../components/pagination-bar";
 import Button from "../../components/ui/button";
-import type { BucketListDto } from "../../types/bucket-list";
+import type { BucketList } from "../../types/bucket-list";
 import { generateBucketListPdf } from "../../utils/Generatebucketlistpdf";
 
 export default function BucketList() {
@@ -43,7 +43,7 @@ export default function BucketList() {
     enabled: isLoggedIn,
   });
 
-  const filteredData = listData?.data.filter((item: BucketListDto) => {
+  const filteredData = listData?.data.filter((item: BucketList) => {
     if (priorityFilter === "ALL") return true;
     return item.priority === priorityFilter;
   });
@@ -140,7 +140,7 @@ export default function BucketList() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="animate-[slideDown_0.3s_ease-out]">
       <div className="max-w-7xl mx-auto px-4 py-4 md:px-6 md:py-8">
         {/* ── Header ── */}
         <div className="flex items-center justify-between mb-5 mt-1 md:mt-0">
@@ -318,7 +318,7 @@ export default function BucketList() {
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 mb-8">
-            {filteredData?.map((item: BucketListDto) => (
+            {filteredData?.map((item: BucketList) => (
               <BucketListCard key={item.id} item={item} />
             ))}
           </div>

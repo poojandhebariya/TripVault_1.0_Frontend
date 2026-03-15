@@ -4,7 +4,7 @@ export interface BucketListStats {
   countries: number;
 }
 
-export interface BucketListDto {
+export interface BucketList {
   id: number;
   vaultId: string;
   vault: import("./vault").Vault;

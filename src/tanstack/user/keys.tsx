@@ -6,4 +6,7 @@ export const userKeys = {
   getPublicProfile: (id: string) => [...userKeys.all(), "publicProfile", id],
   follow: (id: string) => [...userKeys.all(), "follow", id],
   unfollow: (id: string) => [...userKeys.all(), "unfollow", id],
+  getFollowers: (id: string) => [...userKeys.all(), "followers", id],
+  getFollowing: (id: string) => [...userKeys.all(), "following", id],
+  getSuggestedProfiles: () => [...userKeys.all(), "suggestedProfiles"],
 };

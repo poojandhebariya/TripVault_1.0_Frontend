@@ -39,7 +39,7 @@ const VaultInsightsModal = ({
   }, [isOpen]);
 
   const impressions = vault.impressionsCount ?? 0;
-  const countries = vault.topCountries ?? [];
+  const countries = Array.from(new Set((vault.topCountries ?? []).map(c => c.trim())));
   const maxPct = 100;
 
   // Distribute relative percentages across countries

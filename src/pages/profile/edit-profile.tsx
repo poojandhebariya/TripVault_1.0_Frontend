@@ -180,7 +180,7 @@ const EditProfile = () => {
         onCancel={profileUpload.onCropCancel}
       />
 
-      <div className="min-h-screen pb-20">
+      <div className="animate-[slideDown_0.3s_ease-out] min-h-screen pb-20">
         <MobileStickyHeader
           title="Edit Profile"
           rightAction={
@@ -194,7 +194,7 @@ const EditProfile = () => {
           }
         />
 
-        <div className="max-w-2xl mx-auto px-4 pt-6 space-y-6 animate-[slideDown_0.3s_ease-out]">
+        <div className="max-w-2xl mx-auto px-4 pt-6 space-y-6">
           <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
             <div
               className={clsx(

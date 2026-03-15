@@ -22,6 +22,7 @@ import ProtectedRoute from "./components/protected-route";
 import ProfileSetupRoute from "./components/profile-setup-route";
 import HomeRoute from "./components/home-route";
 import BucketList from "./pages/bucket-list/bucket-list";
+import FollowersFollowingPage from "./pages/profile/followers-following";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -44,7 +45,7 @@ const AppRoutes = () => {
             path={ROUTES.AUTH.RESET_PASSWORD}
             element={<ResetPassword />}
           />
-          <Route path={ROUTES.SEARCH} element={<div>Search</div>} />
+          <Route path={ROUTES.SEARCH} element={<div className="animate-[slideDown_0.3s_ease-out]">Search</div>} />
           <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
 
           {/* Public profile pages — accessible without auth */}
@@ -55,6 +56,14 @@ const AppRoutes = () => {
             />
             <Route path="vaults" element={<PublicVaults />} />
           </Route>
+          <Route
+            path="/user/:id/followers"
+            element={<FollowersFollowingPage mode="followers" />}
+          />
+          <Route
+            path="/user/:id/following"
+            element={<FollowersFollowingPage mode="following" />}
+          />
         </Route>
 
         {/* Profile Setup — only accessible when logged in but profile not yet complete */}
@@ -77,6 +86,14 @@ const AppRoutes = () => {
           <Route path={ROUTES.VAULT.CREATE_VAULT} element={<CreateVault />} />
           <Route path={ROUTES.VAULT.EDIT_VAULT} element={<EditVault />} />
           <Route path={ROUTES.USER.BUCKETLIST} element={<BucketList />} />
+          <Route
+            path={ROUTES.USER.OWN_FOLLOWERS}
+            element={<FollowersFollowingPage mode="followers" />}
+          />
+          <Route
+            path={ROUTES.USER.OWN_FOLLOWING}
+            element={<FollowersFollowingPage mode="following" />}
+          />
         </Route>
       </Route>
     </Routes>

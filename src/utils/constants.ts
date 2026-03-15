@@ -16,6 +16,10 @@ export const ROUTES = {
     BUCKETLIST: "/user/profile/bucket-list",
     PUBLIC_PROFILE: "/user/:id",
     PUBLIC_PROFILE_PATH: (id: string) => `/user/${id}`,
+    OWN_FOLLOWERS: "/user/profile/followers",
+    OWN_FOLLOWING: "/user/profile/following",
+    PUBLIC_FOLLOWERS: (id: string) => `/user/${id}/followers`,
+    PUBLIC_FOLLOWING: (id: string) => `/user/${id}/following`,
   },
   VAULT: {
     CREATE_VAULT: "/vault/create",

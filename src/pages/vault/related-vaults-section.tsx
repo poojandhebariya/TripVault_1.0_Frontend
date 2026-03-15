@@ -91,7 +91,15 @@ const CarouselCard = ({ vault }: { vault: Vault }) => {
         {/* Footer info line (Author + Engagement) */}
         <div className="flex items-center justify-between pt-4 border-t border-white/20">
           {/* Author */}
-          <div className="flex items-center gap-2 min-w-0">
+          <div
+            onClick={(e) => {
+              e.stopPropagation();
+              if (vault.author?.id) {
+                navigate(`/user/${vault.author.id}`);
+              }
+            }}
+            className="flex items-center gap-2 min-w-0 cursor-pointer hover:opacity-80 transition-opacity"
+          >
             <div className="w-7 h-7 rounded-full bg-linear-to-br from-gray-700 to-gray-900 flex items-center justify-center overflow-hidden shrink-0 ring-2 ring-white/10">
               {vault.author?.profilePicUrl ? (
                 <img
@@ -106,7 +114,7 @@ const CarouselCard = ({ vault }: { vault: Vault }) => {
                 </span>
               )}
             </div>
-            <span className="text-white text-xs font-semibold truncate drop-shadow-sm">
+            <span className="text-white text-xs font-semibold truncate drop-shadow-sm hover:underline">
               {vault.author?.name || vault.author?.username || "Traveller"}
             </span>
           </div>
@@ -183,14 +191,14 @@ const RelatedVaultsSection = ({ vault }: { vault: Vault }) => {
   const vaultId = vault.id ?? "";
 
   const { data: locationVaults = [], isLoading: loadingLocation } = useQuery({
-    queryKey: ["related-by-location", locationLabel, vaultId],
+    queryKey: ["vault", "related-by-location", locationLabel, vaultId],
     queryFn: () => fetchVaultsByLocation(locationLabel),
     enabled: !!locationLabel,
     select: (data) => data.filter((v) => v.id !== vaultId).slice(0, 8),
   });
 
   const { data: tagVaults = [], isLoading: loadingTags } = useQuery({
-    queryKey: ["related-by-tags", tags.join(","), vaultId],
+    queryKey: ["vault", "related-by-tags", tags.join(","), vaultId],
     queryFn: () => fetchVaultsByTags(tags),
     enabled: tags.length > 0,
     select: (data) =>

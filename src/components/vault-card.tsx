@@ -19,6 +19,7 @@ import Modal from "./ui/modal";
 import ShareModal from "./ui/share-modal";
 import { getVaultShareUrl, ROUTES } from "../utils/constants";
 import BucketListModal from "./ui/bucket-list-modal";
+import { userMutation } from "../tanstack/user/mutation";
 
 interface VaultCardProps {
   vault: Vault;
@@ -74,6 +75,22 @@ const VaultCard = ({
     ...incrementViewMutation,
     mutationKey: [...(incrementViewMutation.mutationKey as any[]), vault.id],
   });
+
+  const { followMutation, unfollowMutation } = userMutation();
+  const authorId = vault.author?.id;
+  const isFollowing = !!vault.author?.isFollowing;
+
+  const followMut = useMutation(followMutation(authorId ?? ""));
+  const unfollowMut = useMutation(unfollowMutation(authorId ?? ""));
+
+  const handleFollow = () => {
+    if (!authorId || isOwner) return;
+    if (isFollowing) {
+      unfollowMut.mutate(authorId);
+    } else {
+      followMut.mutate(authorId);
+    }
+  };
 
   // Is the logged-in user the owner of this vault?
   const isOwner = !!user?.username && user.username === vault.author?.username;
@@ -187,11 +204,12 @@ const VaultCard = ({
         rightElement={
           <VaultPostMenu
             isOwner={isOwner}
+            isFollowing={isFollowing}
             hasLocation={!!vault.location}
             isPinned={!!vault.isPinned}
             isPublished={vault.status === "publish"}
             isBucketListed={vault.isBucketListed}
-            onFollow={() => console.log("follow")}
+            onFollow={handleFollow}
             onReport={() => console.log("report")}
             onNavigateMap={handleNavigateMap}
             onNotInterested={() => console.log("not interested")}
@@ -393,6 +411,7 @@ const VaultCard = ({
           url={getVaultShareUrl(vault.id)}
           title={vault.title}
           description={vault.description}
+          type="vault"
         />
       )}
     </article>

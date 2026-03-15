@@ -24,6 +24,7 @@ interface ShareModalProps {
   url: string;
   title?: string;
   description?: string;
+  type?: "vault" | "profile";
 }
 
 interface Platform {
@@ -105,11 +106,18 @@ const ShareModal = ({
   open,
   onClose,
   url,
-  title = "Check out this vault on TripVault!",
+  title,
   description,
+  type = "vault",
 }: ShareModalProps) => {
   const [copied, setCopied] = useState(false);
   const isMobile = useIsMobile();
+
+  const shareTitle =
+    title ||
+    (type === "vault"
+      ? "Check out this vault on TripVault!"
+      : "Check out this profile on TripVault!");
 
   const handleCopy = async () => {
     try {
@@ -132,7 +140,11 @@ const ShareModal = ({
   const handleNativeShare = async () => {
     if (navigator.share) {
       try {
-        await navigator.share({ title, text: description ?? title, url });
+        await navigator.share({
+          title: shareTitle,
+          text: description ?? shareTitle,
+          url,
+        });
         onClose();
       } catch {
         // User dismissed — do nothing
@@ -142,7 +154,7 @@ const ShareModal = ({
 
   const openPlatform = (platform: Platform) => {
     window.open(
-      platform.buildUrl(url, title),
+      platform.buildUrl(url, shareTitle),
       "_blank",
       "noopener,noreferrer,width=600,height=500",
     );
@@ -152,8 +164,8 @@ const ShareModal = ({
     <Modal
       open={open}
       onClose={onClose}
-      title="Share this vault"
-      description={title}
+      title={type === "vault" ? "Share this vault" : "Share this profile"}
+      description={shareTitle}
       icon={faShareNodes}
       variant={isMobile ? "bottom" : "center"}
       size="md"
