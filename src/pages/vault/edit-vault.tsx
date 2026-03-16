@@ -554,8 +554,6 @@ const EditVault = () => {
 
   const activeCropAtt = attachments.find((a) => a.id === activeCropId);
 
-
-
   return (
     <>
       {activeCropAtt && (
@@ -599,198 +597,203 @@ const EditVault = () => {
                 icon={faSpinner}
                 className="animate-spin text-4xl text-blue-500"
               />
-              <p className="text-gray-500 font-medium">Loading vault details...</p>
+              <p className="text-gray-500 font-medium">
+                Loading vault details...
+              </p>
             </div>
           </div>
         ) : (
           <>
-        <MobileStickyHeader
-          title="Edit Vault"
-          rightAction={
-            <Button
-              text={
-                isAttachmentBusy
-                  ? "Processing…"
-                  : isUpdatingVault
-                    ? "Saving…"
-                    : "Save"
+            <MobileStickyHeader
+              title="Edit Vault"
+              rightAction={
+                <Button
+                  text={
+                    isAttachmentBusy
+                      ? "Processing…"
+                      : isUpdatingVault
+                        ? "Saving…"
+                        : "Save"
+                  }
+                  disabled={isUpdatingVault || isAttachmentBusy || !isDirty}
+                  onClick={() =>
+                    validateAndSubmit((vault?.status as any) || "publish")
+                  }
+                  className="px-4 py-1.5 rounded-full"
+                />
               }
-              disabled={isUpdatingVault || isAttachmentBusy || !isDirty}
-              onClick={() =>
-                validateAndSubmit((vault?.status as any) || "publish")
-              }
-              className="px-4 py-1.5 rounded-full"
             />
-          }
-        />
 
-        <div className="max-w-2xl mx-auto px-4 pt-5 pb-10 md:pb-16 space-y-6">
-          <Input
-            ref={titleRef}
-            label="Title"
-            placeholder="Catchy title…"
-            maxLength={100}
-            onChange={(e) => setCurrentTitle(e.target.value)}
-          />
+            <div className="max-w-2xl mx-auto px-4 pt-5 pb-10 md:pb-16 space-y-6">
+              <Input
+                ref={titleRef}
+                label="Title"
+                placeholder="Catchy title…"
+                maxLength={100}
+                onChange={(e) => setCurrentTitle(e.target.value)}
+              />
 
-          <RichTextEditor
-            label="Description"
-            placeholder="Describe your trip..."
-            contentRef={descRef}
-            onChange={(html: string) => setCurrentDesc(html)}
-          />
+              <RichTextEditor
+                label="Description"
+                placeholder="Describe your trip..."
+                contentRef={descRef}
+                onChange={(html: string) => setCurrentDesc(html)}
+              />
 
-          <Divider />
+              <Divider />
 
-          <div>
-            <FieldLabel>Tags</FieldLabel>
-            <TagInput
-              tags={tags}
-              onAdd={(t) => setTags((p) => [...p, t])}
-              onRemove={(t) => setTags((p) => p.filter((x) => x !== t))}
-            />
-          </div>
+              <div>
+                <FieldLabel>Tags</FieldLabel>
+                <TagInput
+                  tags={tags}
+                  onAdd={(t) => setTags((p) => [...p, t])}
+                  onRemove={(t) => setTags((p) => p.filter((x) => x !== t))}
+                />
+              </div>
 
-          <Divider />
+              <Divider />
 
-          <div>
-            <FieldLabel>Trip Mood</FieldLabel>
-            <MoodPicker value={mood} onChange={setMood} />
-          </div>
+              <div>
+                <FieldLabel>Trip Mood</FieldLabel>
+                <MoodPicker value={mood} onChange={setMood} />
+              </div>
 
-          <Divider />
+              <Divider />
 
-          <div>
-            <FieldLabel>Location</FieldLabel>
-            <LocationSearch
-              selected={location}
-              onSelect={setLocation}
-              onClear={() => setLocation(null)}
-            />
-          </div>
+              <div>
+                <FieldLabel>Location</FieldLabel>
+                <LocationSearch
+                  selected={location}
+                  onSelect={setLocation}
+                  onClear={() => setLocation(null)}
+                />
+              </div>
 
-          <Divider />
+              <Divider />
 
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <FieldLabel>Photos &amp; Videos</FieldLabel>
-              <span className="text-xs text-gray-400 -mt-2">
-                {attachments.length}/{MAX_ATTACHMENTS}
-              </span>
-            </div>
-            <AttachmentsSection
-              attachments={attachments}
-              onAddImage={() => openFilePicker("image/*")}
-              onAddVideo={() => openFilePicker("video/*")}
-              onUploadAll={uploadAllAttachments}
-              onRemove={removeAttachment}
-              onCrop={openCrop}
-              isUploadingAll={isUploadingAll}
-            />
-          </div>
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <FieldLabel>Photos &amp; Videos</FieldLabel>
+                  <span className="text-xs text-gray-400 -mt-2">
+                    {attachments.length}/{MAX_ATTACHMENTS}
+                  </span>
+                </div>
+                <AttachmentsSection
+                  attachments={attachments}
+                  onAddImage={() => openFilePicker("image/*")}
+                  onAddVideo={() => openFilePicker("video/*")}
+                  onUploadAll={uploadAllAttachments}
+                  onRemove={removeAttachment}
+                  onCrop={openCrop}
+                  isUploadingAll={isUploadingAll}
+                />
+              </div>
 
-          <Divider />
+              <Divider />
 
-          <div>
-            <FieldLabel>Visibility</FieldLabel>
-            <VisibilitySection
-              visibility={visibility}
-              onVisibilityChange={(v) => {
-                setVisibility(v);
-                // If switching to public, reset audience to a valid public option
-                if (v === "public") {
-                  setAudience("everyone");
-                }
-              }}
-              audience={audience}
-              onAudienceChange={setAudience}
-              allowComments={allowComments}
-              onAllowCommentsChange={setAllowComments}
-              friendUsername={friendUsername}
-              onFriendUsernameChange={setFriendUsername}
-            />
-          </div>
+              <div>
+                <FieldLabel>Visibility</FieldLabel>
+                <VisibilitySection
+                  visibility={visibility}
+                  onVisibilityChange={(v) => {
+                    setVisibility(v);
+                    // If switching to public, reset audience to a valid public option
+                    if (v === "public") {
+                      setAudience("everyone");
+                    }
+                  }}
+                  audience={audience}
+                  onAudienceChange={setAudience}
+                  allowComments={allowComments}
+                  onAllowCommentsChange={setAllowComments}
+                  friendUsername={friendUsername}
+                  onFriendUsernameChange={setFriendUsername}
+                />
+              </div>
 
-          {scheduledAt && (
-            <div className="flex items-center gap-2 px-3 py-2.5 bg-amber-50 border border-amber-100 rounded-md text-sm text-amber-700 font-medium">
-              <FontAwesomeIcon icon={faClock} className="shrink-0" />
-              <span className="flex-1 truncate">
-                Scheduled · {new Date(scheduledAt).toLocaleString()}
-              </span>
-              <button
-                type="button"
-                onClick={() => setScheduleOpen(true)}
-                title="Edit Scheduled Time"
-                className="shrink-0 text-amber-500 hover:text-amber-700 cursor-pointer mr-2 transition-colors"
-              >
-                <FontAwesomeIcon icon={faPen} />
-              </button>
-              <button
-                type="button"
-                onClick={() => setScheduledAt(null)}
-                title="Remove Schedule"
-                className="shrink-0 text-amber-400 hover:text-amber-600 cursor-pointer transition-colors"
-              >
-                <FontAwesomeIcon icon={faXmark} />
-              </button>
-            </div>
-          )}
+              {scheduledAt && (
+                <div className="flex items-center gap-2 px-3 py-2.5 bg-amber-50 border border-amber-100 rounded-md text-sm text-amber-700 font-medium">
+                  <FontAwesomeIcon icon={faClock} className="shrink-0" />
+                  <span className="flex-1 truncate">
+                    Scheduled · {new Date(scheduledAt).toLocaleString()}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => setScheduleOpen(true)}
+                    title="Edit Scheduled Time"
+                    className="shrink-0 text-amber-500 hover:text-amber-700 cursor-pointer mr-2 transition-colors"
+                  >
+                    <FontAwesomeIcon icon={faPen} />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setScheduledAt(null)}
+                    title="Remove Schedule"
+                    className="shrink-0 text-amber-400 hover:text-amber-600 cursor-pointer transition-colors"
+                  >
+                    <FontAwesomeIcon icon={faXmark} />
+                  </button>
+                </div>
+              )}
 
-          <div className="hidden md:flex gap-3 pt-2">
-            {vault?.status === "draft" && (
-              <>
-                {/* 
+              <div className="hidden md:flex gap-3 pt-2">
+                {vault?.status === "draft" && (
+                  <>
+                    {/* 
                   SAVE DRAFT (Appears only if the Vault is currently a Draft)
                   Updates content without changing the status. 
                 */}
-                <button
-                  type="button"
-                  disabled={isUpdatingVault}
-                  onClick={() => validateAndSubmit("draft")}
-                  className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
-                >
-                  <FontAwesomeIcon
-                    icon={faFloppyDisk}
-                    className="text-gray-400"
-                  />{" "}
-                  Save Draft
-                </button>
-                {/* 
+                    <button
+                      type="button"
+                      disabled={isUpdatingVault}
+                      onClick={() => validateAndSubmit("draft")}
+                      className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFloppyDisk}
+                        className="text-gray-400"
+                      />{" "}
+                      Save Draft
+                    </button>
+                    {/* 
                   SCHEDULE (Appears only if the Vault is currently a Draft)
                   Opens modal to pick time, sets status to 'schedule' via update API.
                 */}
-                <button
-                  type="button"
-                  disabled={isUpdatingVault || isAttachmentBusy}
-                  onClick={() => setScheduleOpen(true)}
-                  className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
-                >
-                  <FontAwesomeIcon icon={faClock} className="text-amber-400" />{" "}
-                  Schedule
-                </button>
-              </>
-            )}
-            {/* 
+                    <button
+                      type="button"
+                      disabled={isUpdatingVault || isAttachmentBusy}
+                      onClick={() => setScheduleOpen(true)}
+                      className="flex items-center justify-center gap-2 px-5 py-3 border border-gray-200 rounded-md text-sm font-semibold text-gray-600 bg-white hover:bg-gray-50 transition-colors cursor-pointer disabled:opacity-50"
+                    >
+                      <FontAwesomeIcon
+                        icon={faClock}
+                        className="text-amber-400"
+                      />{" "}
+                      Schedule
+                    </button>
+                  </>
+                )}
+                {/* 
               SAVE CHANGES / PUBLISH NOW
               If currently Draft: Sets status to 'publish' (Publish Now).
               If already Published/Scheduled: Retains current status, just updates content (Save Changes).
             */}
-            <Button
-              text={
-                isUpdatingVault
-                  ? "Saving…"
-                  : vault?.status === "draft"
-                    ? "Publish Now"
-                    : "Save Changes"
-              }
-              icon={vault?.status === "draft" ? faPaperPlane : faFloppyDisk}
-              className="flex-1 py-3"
-              onClick={() => validateAndSubmit(vault?.status ?? "publish")}
-              disabled={isUpdatingVault || isAttachmentBusy || !isDirty}
-            />
-          </div>
-        </div>
-        </>
+                <Button
+                  text={
+                    isUpdatingVault
+                      ? "Saving…"
+                      : vault?.status === "draft"
+                        ? "Publish Now"
+                        : "Save Changes"
+                  }
+                  icon={vault?.status === "draft" ? faPaperPlane : faFloppyDisk}
+                  className="flex-1 py-3"
+                  onClick={() => validateAndSubmit(vault?.status ?? "publish")}
+                  disabled={isUpdatingVault || isAttachmentBusy || !isDirty}
+                />
+              </div>
+            </div>
+          </>
         )}
       </div>
     </>

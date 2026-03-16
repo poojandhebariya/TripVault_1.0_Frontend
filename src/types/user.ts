@@ -19,17 +19,16 @@ export interface User {
   vaultsCount?: number;
 }
 
-export interface PublicProfile
-  extends Omit<
-    User,
-    | "countriesVisited"
-    | "placesVisited"
-    | "totalImpressions"
-    | "topCountries"
-    | "followersCount"
-    | "followingCount"
-    | "vaultsCount"
-  > {
+export interface PublicProfile extends Omit<
+  User,
+  | "countriesVisited"
+  | "placesVisited"
+  | "totalImpressions"
+  | "topCountries"
+  | "followersCount"
+  | "followingCount"
+  | "vaultsCount"
+> {
   followersCount: number;
   followingCount: number;
   vaultsCount: number;

@@ -10,4 +10,4 @@ export const bucketListKeys = {
   stats: () => [...bucketListKeys.all(), "stats"],
   add: (vaultId: string) => [...bucketListKeys.all(), "add", vaultId],
   remove: (id: number) => [...bucketListKeys.all(), "remove", id],
-};
+};

@@ -64,7 +64,9 @@ const optimisticallyUpdateBucketList = (
     // PagedResponse
     if (old.data && Array.isArray(old.data)) {
       // Avoid duplicate if it somehow exists
-      if (old.data.find((item: BucketList) => item.vaultId === newItem.vaultId)) {
+      if (
+        old.data.find((item: BucketList) => item.vaultId === newItem.vaultId)
+      ) {
         return old;
       }
       return {
@@ -299,4 +301,3 @@ export const useRemoveFromBucketList = () => {
     },
   });
 };
-

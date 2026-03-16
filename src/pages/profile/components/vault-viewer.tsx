@@ -395,7 +395,9 @@ const VaultViewer = ({
                 ))}
               </div>
             )}
-            <div className={`flex items-center gap-2 sm:gap-4 ${readOnly ? "mx-auto" : ""}`}>
+            <div
+              className={`flex items-center gap-2 sm:gap-4 ${readOnly ? "mx-auto" : ""}`}
+            >
               {viewActions.map((a) => (
                 <ActionBtn key={a.label} {...a} />
               ))}

@@ -70,7 +70,9 @@ const UserRow = ({
 
       {/* Info */}
       <div className="flex-1 min-w-0">
-        <p className="text-sm font-semibold text-gray-900 truncate">{profile.name}</p>
+        <p className="text-sm font-semibold text-gray-900 truncate">
+          {profile.name}
+        </p>
         <p className="text-xs text-gray-400 truncate">@{profile.username}</p>
       </div>
 
@@ -116,9 +118,10 @@ const FollowersFollowingPage = ({ mode }: FollowersFollowingPageProps) => {
     mode === "followers" ? getFollowers(profileId) : getFollowing(profileId),
   );
 
-  const title = mode === "followers"
-    ? `Followers${!isLoading ? ` · ${list.length}` : ""}`
-    : `Following${!isLoading ? ` · ${list.length}` : ""}`;
+  const title =
+    mode === "followers"
+      ? `Followers${!isLoading ? ` · ${list.length}` : ""}`
+      : `Following${!isLoading ? ` · ${list.length}` : ""}`;
 
   const handleNavigate = (userId: string) => {
     if (currentUser?.id && userId === currentUser.id) {
@@ -143,7 +146,9 @@ const FollowersFollowingPage = ({ mode }: FollowersFollowingPageProps) => {
                   <FontAwesomeIcon icon={faUsers} />
                 </div>
                 <p className="text-base font-semibold text-gray-700">
-                  {mode === "followers" ? "No followers yet" : "Not following anyone yet"}
+                  {mode === "followers"
+                    ? "No followers yet"
+                    : "Not following anyone yet"}
                 </p>
                 <p className="text-sm text-gray-400 max-w-[220px] leading-relaxed">
                   {mode === "followers"

@@ -390,281 +390,294 @@ const Profile = () => {
       ) : (
         <>
           <div className="hidden lg:block">
-        <div className="relative h-64 w-full overflow-hidden">
-          <div className="absolute inset-0 bg-linear-to-t from-white via-white/10 to-transparent z-10 pointer-events-none" />
-          {profile?.coverPhotoUrl ? (
-            <img
-              src={profile.coverPhotoUrl}
-              alt="Cover"
-              onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
-              className="w-full h-full object-cover border-b-4 border-gray-300 cursor-zoom-in"
-            />
-          ) : (
-            <CoverPlaceholder
-              onClick={
-                isPublic ? undefined : () => navigate(ROUTES.USER.PROFILE_EDIT)
-              }
-            />
-          )}
-        </div>
+            <div className="relative h-64 w-full overflow-hidden">
+              <div className="absolute inset-0 bg-linear-to-t from-white via-white/10 to-transparent z-10 pointer-events-none" />
+              {profile?.coverPhotoUrl ? (
+                <img
+                  src={profile.coverPhotoUrl}
+                  alt="Cover"
+                  onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
+                  className="w-full h-full object-cover border-b-4 border-gray-300 cursor-zoom-in"
+                />
+              ) : (
+                <CoverPlaceholder
+                  onClick={
+                    isPublic
+                      ? undefined
+                      : () => navigate(ROUTES.USER.PROFILE_EDIT)
+                  }
+                />
+              )}
+            </div>
 
-        <div className="flex justify-center px-4">
-          <div className="relative z-20 -mt-16 w-full max-w-4xl bg-white rounded-xl border-2 border-gray-300 p-8 shadow-lg flex gap-10">
-            {profile?.profilePicUrl ? (
-              <img
-                src={profile.profilePicUrl}
-                alt="Profile"
-                onClick={() => setPreviewSrc(profile.profilePicUrl!)}
-                className="rounded-full h-32 w-32 shrink-0 self-start object-cover ring-4 ring-white shadow cursor-zoom-in"
-              />
-            ) : (
-              <AvatarPlaceholder
-                className="rounded-full h-32 w-32 ring-4 ring-white shadow self-start"
-                onClick={
-                  isPublic
-                    ? undefined
-                    : () => navigate(ROUTES.USER.PROFILE_EDIT)
-                }
-              />
+            <div className="flex justify-center px-4">
+              <div className="relative z-20 -mt-16 w-full max-w-4xl bg-white rounded-xl border-2 border-gray-300 p-8 shadow-lg flex gap-10">
+                {profile?.profilePicUrl ? (
+                  <img
+                    src={profile.profilePicUrl}
+                    alt="Profile"
+                    onClick={() => setPreviewSrc(profile.profilePicUrl!)}
+                    className="rounded-full h-32 w-32 shrink-0 self-start object-cover ring-4 ring-white shadow cursor-zoom-in"
+                  />
+                ) : (
+                  <AvatarPlaceholder
+                    className="rounded-full h-32 w-32 ring-4 ring-white shadow self-start"
+                    onClick={
+                      isPublic
+                        ? undefined
+                        : () => navigate(ROUTES.USER.PROFILE_EDIT)
+                    }
+                  />
+                )}
+
+                <div className="flex-1 min-w-0">
+                  <p className="font-semibold text-2xl">{profile?.name}</p>
+                  <p className="text-gray-500 mt-1">@{profile?.username}</p>
+                  {profile?.bio && (
+                    <p className="text-gray-500 mt-1 wrap-break-word">
+                      {profile.bio}
+                    </p>
+                  )}
+                  {profile?.country && (
+                    <p className="text-gray-600 mt-1 flex items-center gap-1">
+                      <FontAwesomeIcon
+                        icon={faLocationDot}
+                        className="text-rose-400 text-xs"
+                      />
+                      {profile.country}
+                    </p>
+                  )}
+                  <DesktopStats />
+                  <div className="mt-4">
+                    <InterestChips />
+                  </div>
+                </div>
+
+                <ActionButtons />
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:hidden">
+            <div className="relative h-52 w-full overflow-hidden">
+              {profile?.coverPhotoUrl ? (
+                <img
+                  src={profile.coverPhotoUrl}
+                  alt="Cover"
+                  onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
+                  className="w-full h-full object-cover cursor-zoom-in"
+                />
+              ) : (
+                <CoverPlaceholder
+                  onClick={
+                    isPublic
+                      ? undefined
+                      : () => navigate(ROUTES.USER.PROFILE_EDIT)
+                  }
+                />
+              )}
+              <div className="absolute inset-0 bg-linear-to-t from-white via-transparent to-transparent pointer-events-none" />
+            </div>
+
+            <div className="relative -mt-14 px-4 flex items-end justify-between">
+              {profile?.profilePicUrl ? (
+                <img
+                  src={profile.profilePicUrl}
+                  alt={profile?.name ?? "Profile"}
+                  onClick={() => setPreviewSrc(profile.profilePicUrl!)}
+                  className="h-[88px] w-[88px] rounded-full object-cover ring-[3px] ring-white shadow-md cursor-zoom-in"
+                />
+              ) : (
+                <AvatarPlaceholder
+                  className="h-[88px] w-[88px] rounded-full ring-[3px] ring-white shadow-md"
+                  onClick={
+                    isPublic
+                      ? undefined
+                      : () => navigate(ROUTES.USER.PROFILE_EDIT)
+                  }
+                />
+              )}
+              <ActionButtons mobile />
+            </div>
+
+            <div className="px-4 mt-3">
+              <h1 className="text-[22px] font-bold text-gray-900 leading-snug">
+                {profile?.name}
+              </h1>
+              <p className="text-sm text-gray-400 mt-0.5 font-normal">
+                @{profile?.username}
+              </p>
+            </div>
+
+            {profile?.bio && (
+              <p className="px-4 mt-2.5 text-[14px] text-gray-600 leading-relaxed">
+                {profile.bio}
+              </p>
             )}
 
-            <div className="flex-1 min-w-0">
-              <p className="font-semibold text-2xl">{profile?.name}</p>
-              <p className="text-gray-500 mt-1">@{profile?.username}</p>
-              {profile?.bio && (
-                <p className="text-gray-500 mt-1 wrap-break-word">
-                  {profile.bio}
-                </p>
-              )}
-              {profile?.country && (
-                <p className="text-gray-600 mt-1 flex items-center gap-1">
-                  <FontAwesomeIcon
-                    icon={faLocationDot}
-                    className="text-rose-400 text-xs"
-                  />
-                  {profile.country}
-                </p>
-              )}
-              <DesktopStats />
-              <div className="mt-4">
-                <InterestChips />
+            {profile?.country && (
+              <div className="px-4 mt-2 flex items-center gap-1.5 text-[13px] text-gray-500">
+                <FontAwesomeIcon
+                  icon={faLocationDot}
+                  className="text-rose-400 text-[11px]"
+                />
+                {profile.country}
               </div>
+            )}
+
+            <div className="px-4 mt-4 flex items-center gap-6">
+              {[
+                {
+                  value: followersCount,
+                  label: "Followers",
+                  onClick: handleFollowersClick,
+                },
+                {
+                  value: followingCount,
+                  label: "Following",
+                  onClick: handleFollowingClick,
+                },
+                {
+                  value: profile?.vaultsCount,
+                  label: "Posts",
+                  onClick: undefined,
+                },
+              ].map(({ value, label, onClick }) => (
+                <button
+                  key={label}
+                  onClick={onClick}
+                  className={`flex flex-col items-start active:opacity-60 transition-opacity ${onClick ? "cursor-pointer" : "cursor-default"}`}
+                >
+                  <span className="text-[17px] font-bold text-gray-900 leading-none">
+                    {value}
+                  </span>
+                  <span className="text-[12px] text-gray-500 mt-0.5">
+                    {label}
+                  </span>
+                </button>
+              ))}
             </div>
 
-            <ActionButtons />
-          </div>
-        </div>
-      </div>
-
-      <div className="lg:hidden">
-        <div className="relative h-52 w-full overflow-hidden">
-          {profile?.coverPhotoUrl ? (
-            <img
-              src={profile.coverPhotoUrl}
-              alt="Cover"
-              onClick={() => setPreviewSrc(profile.coverPhotoUrl!)}
-              className="w-full h-full object-cover cursor-zoom-in"
-            />
-          ) : (
-            <CoverPlaceholder
-              onClick={
-                isPublic ? undefined : () => navigate(ROUTES.USER.PROFILE_EDIT)
-              }
-            />
-          )}
-          <div className="absolute inset-0 bg-linear-to-t from-white via-transparent to-transparent pointer-events-none" />
-        </div>
-
-        <div className="relative -mt-14 px-4 flex items-end justify-between">
-          {profile?.profilePicUrl ? (
-            <img
-              src={profile.profilePicUrl}
-              alt={profile?.name ?? "Profile"}
-              onClick={() => setPreviewSrc(profile.profilePicUrl!)}
-              className="h-[88px] w-[88px] rounded-full object-cover ring-[3px] ring-white shadow-md cursor-zoom-in"
-            />
-          ) : (
-            <AvatarPlaceholder
-              className="h-[88px] w-[88px] rounded-full ring-[3px] ring-white shadow-md"
-              onClick={
-                isPublic ? undefined : () => navigate(ROUTES.USER.PROFILE_EDIT)
-              }
-            />
-          )}
-          <ActionButtons mobile />
-        </div>
-
-        <div className="px-4 mt-3">
-          <h1 className="text-[22px] font-bold text-gray-900 leading-snug">
-            {profile?.name}
-          </h1>
-          <p className="text-sm text-gray-400 mt-0.5 font-normal">
-            @{profile?.username}
-          </p>
-        </div>
-
-        {profile?.bio && (
-          <p className="px-4 mt-2.5 text-[14px] text-gray-600 leading-relaxed">
-            {profile.bio}
-          </p>
-        )}
-
-        {profile?.country && (
-          <div className="px-4 mt-2 flex items-center gap-1.5 text-[13px] text-gray-500">
-            <FontAwesomeIcon
-              icon={faLocationDot}
-              className="text-rose-400 text-[11px]"
-            />
-            {profile.country}
-          </div>
-        )}
-
-        <div className="px-4 mt-4 flex items-center gap-6">
-          {[
-            {
-              value: followersCount,
-              label: "Followers",
-              onClick: handleFollowersClick,
-            },
-            {
-              value: followingCount,
-              label: "Following",
-              onClick: handleFollowingClick,
-            },
-            { value: profile?.vaultsCount, label: "Posts", onClick: undefined },
-          ].map(({ value, label, onClick }) => (
-            <button
-              key={label}
-              onClick={onClick}
-              className={`flex flex-col items-start active:opacity-60 transition-opacity ${onClick ? "cursor-pointer" : "cursor-default"}`}
-            >
-              <span className="text-[17px] font-bold text-gray-900 leading-none">
-                {value}
-              </span>
-              <span className="text-[12px] text-gray-500 mt-0.5">{label}</span>
-            </button>
-          ))}
-        </div>
-
-        {(interests.length > 0 || preferredTrip) && (
-          <>
-            <div className="mx-4 mt-5 border-t border-gray-100" />
-            <div className="px-4 mt-4 pb-4">
-              <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-widest mb-3">
-                Interests
-              </p>
-              <InterestChips size="sm" />
-            </div>
-          </>
-        )}
-      </div>
-
-      {!isPublic && (
-        <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
-          <div className="rounded-2xl border border-gray-200 bg-gray-100/40 py-5">
-            <div className="grid grid-cols-3 divide-x divide-gray-200">
-              <div className="flex flex-col items-center gap-1.5 px-4 py-1">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-sky-100">
-                  <FontAwesomeIcon
-                    icon={faEarthAmericas}
-                    className="text-sky-500 text-base"
-                  />
+            {(interests.length > 0 || preferredTrip) && (
+              <>
+                <div className="mx-4 mt-5 border-t border-gray-100" />
+                <div className="px-4 mt-4 pb-4">
+                  <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-widest mb-3">
+                    Interests
+                  </p>
+                  <InterestChips size="sm" />
                 </div>
-                <StatBadge
-                  value={ownProfile?.countriesVisited?.length ?? 0}
-                  label={"Countries\nExplored"}
-                />
-              </div>
-              <div className="flex flex-col items-center gap-1.5 px-4 py-1">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-rose-100">
-                  <FontAwesomeIcon
-                    icon={faMapPin}
-                    className="text-rose-500 text-base"
-                  />
-                </div>
-                <StatBadge
-                  value={ownProfile?.placesVisited?.length ?? 0}
-                  label={"Places\nVisited"}
-                />
-              </div>
-              <div className="flex flex-col items-center gap-1.5 px-4 py-1">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-violet-100">
-                  <FontAwesomeIcon
-                    icon={faEye}
-                    className="text-violet-500 text-base"
-                  />
-                </div>
-                <StatBadge
-                  value={
-                    ownProfile && (ownProfile.totalImpressions ?? 0) >= 1000
-                      ? ((ownProfile.totalImpressions ?? 0) / 1000).toFixed(1) +
-                        "k"
-                      : (ownProfile?.totalImpressions ?? 0)
-                  }
-                  label={"Total\nImpressions"}
-                />
-              </div>
-            </div>
+              </>
+            )}
           </div>
-        </div>
-      )}
 
-      {!isPublic &&
-        ownProfile?.topCountries &&
-        ownProfile.topCountries.length > 0 && (
-          <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
-            <div className="rounded-2xl border border-gray-200 bg-white p-4">
-              <p className="text-[11px] font-black uppercase tracking-widest text-gray-400 mb-3 ml-1">
-                Top Audience Regions
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {ownProfile.topCountries.map((country: string) => (
-                  <div
-                    key={country}
-                    className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 border border-gray-100 rounded-xl"
-                  >
-                    <span className="text-xs font-bold text-gray-700">
-                      {country}
-                    </span>
+          {!isPublic && (
+            <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
+              <div className="rounded-2xl border border-gray-200 bg-gray-100/40 py-5">
+                <div className="grid grid-cols-3 divide-x divide-gray-200">
+                  <div className="flex flex-col items-center gap-1.5 px-4 py-1">
+                    <div className="flex items-center justify-center w-9 h-9 rounded-full bg-sky-100">
+                      <FontAwesomeIcon
+                        icon={faEarthAmericas}
+                        className="text-sky-500 text-base"
+                      />
+                    </div>
+                    <StatBadge
+                      value={ownProfile?.countriesVisited?.length ?? 0}
+                      label={"Countries\nExplored"}
+                    />
                   </div>
-                ))}
+                  <div className="flex flex-col items-center gap-1.5 px-4 py-1">
+                    <div className="flex items-center justify-center w-9 h-9 rounded-full bg-rose-100">
+                      <FontAwesomeIcon
+                        icon={faMapPin}
+                        className="text-rose-500 text-base"
+                      />
+                    </div>
+                    <StatBadge
+                      value={ownProfile?.placesVisited?.length ?? 0}
+                      label={"Places\nVisited"}
+                    />
+                  </div>
+                  <div className="flex flex-col items-center gap-1.5 px-4 py-1">
+                    <div className="flex items-center justify-center w-9 h-9 rounded-full bg-violet-100">
+                      <FontAwesomeIcon
+                        icon={faEye}
+                        className="text-violet-500 text-base"
+                      />
+                    </div>
+                    <StatBadge
+                      value={
+                        ownProfile && (ownProfile.totalImpressions ?? 0) >= 1000
+                          ? ((ownProfile.totalImpressions ?? 0) / 1000).toFixed(
+                              1,
+                            ) + "k"
+                          : (ownProfile?.totalImpressions ?? 0)
+                      }
+                      label={"Total\nImpressions"}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
+          )}
+
+          {!isPublic &&
+            ownProfile?.topCountries &&
+            ownProfile.topCountries.length > 0 && (
+              <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
+                <div className="rounded-2xl border border-gray-200 bg-white p-4">
+                  <p className="text-[11px] font-black uppercase tracking-widest text-gray-400 mb-3 ml-1">
+                    Top Audience Regions
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {ownProfile.topCountries.map((country: string) => (
+                      <div
+                        key={country}
+                        className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 border border-gray-100 rounded-xl"
+                      >
+                        <span className="text-xs font-bold text-gray-700">
+                          {country}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+
+          <div className="mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
+            <Tabs
+              tabs={[
+                {
+                  label: "Vaults",
+                  route: vaultsRoute,
+                  icon: <FontAwesomeIcon icon={faImages} />,
+                },
+                {
+                  label: "Tagged",
+                  route: taggedRoute,
+                  icon: <FontAwesomeIcon icon={faTag} />,
+                },
+              ]}
+            />
           </div>
-        )}
 
-      <div className="mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
-        <Tabs
-          tabs={[
-            {
-              label: "Vaults",
-              route: vaultsRoute,
-              icon: <FontAwesomeIcon icon={faImages} />,
-            },
-            {
-              label: "Tagged",
-              route: taggedRoute,
-              icon: <FontAwesomeIcon icon={faTag} />,
-            },
-          ]}
-        />
-      </div>
+          <Outlet />
 
-      <Outlet />
+          <ImagePreviewModal
+            src={previewSrc ?? undefined}
+            isOpen={!!previewSrc}
+            onClose={() => setPreviewSrc(null)}
+          />
 
-      <ImagePreviewModal
-        src={previewSrc ?? undefined}
-        isOpen={!!previewSrc}
-        onClose={() => setPreviewSrc(null)}
-      />
-
-      <ShareModal
-        open={showShareModal}
-        onClose={() => setShowShareModal(false)}
-        url={profileShareUrl}
-        title={`${profile?.name ?? "Someone"}'s profile on TripVault`}
-        type="profile"
-      />
+          <ShareModal
+            open={showShareModal}
+            onClose={() => setShowShareModal(false)}
+            url={profileShareUrl}
+            title={`${profile?.name ?? "Someone"}'s profile on TripVault`}
+            type="profile"
+          />
         </>
       )}
     </div>

@@ -44,7 +44,8 @@ const Home = () => {
 
   const locationGranted = permissionState === "granted" && location !== null;
 
-  const { getPublicVaults, getNearbyVaults, getFollowingVaults } = vaultQueries();
+  const { getPublicVaults, getNearbyVaults, getFollowingVaults } =
+    vaultQueries();
 
   const { data: publicData, isLoading: publicLoading } = useQuery({
     ...getPublicVaults(publicPage),
@@ -135,7 +136,9 @@ const Home = () => {
         className="text-5xl mb-4 opacity-30"
       />
       <p className="text-lg font-semibold">
-        {isLoggedIn ? "No posts from people you follow" : "Sign in to see posts"}
+        {isLoggedIn
+          ? "No posts from people you follow"
+          : "Sign in to see posts"}
       </p>
       <p className="text-sm mt-1">
         {isLoggedIn

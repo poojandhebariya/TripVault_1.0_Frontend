@@ -179,10 +179,7 @@ const VaultEngagementBar = ({
             }}
             className="engagement-bar-btn text-gray-500 hover:bg-gray-50"
           >
-            <FontAwesomeIcon
-              icon={faComment}
-              className="text-lg md:text-2xl"
-            />
+            <FontAwesomeIcon icon={faComment} className="text-lg md:text-2xl" />
             <span className="engagement-bar-count">{commentsCount}</span>
           </button>
         )}

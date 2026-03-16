@@ -10,8 +10,14 @@ interface BucketListModalProps {
   vaultId: string;
 }
 
-export default function BucketListModal({ isOpen, onClose, vaultId }: BucketListModalProps) {
-  const [targetYear, setTargetYear] = useState<number>(new Date().getFullYear() + 1);
+export default function BucketListModal({
+  isOpen,
+  onClose,
+  vaultId,
+}: BucketListModalProps) {
+  const [targetYear, setTargetYear] = useState<number>(
+    new Date().getFullYear() + 1,
+  );
   const [priority, setPriority] = useState<string>("MEDIUM");
 
   const { mutate, isPending } = useAddToBucketList();
@@ -27,7 +33,7 @@ export default function BucketListModal({ isOpen, onClose, vaultId }: BucketList
         onSuccess: () => {
           onClose();
         },
-      }
+      },
     );
   };
 
@@ -35,11 +41,14 @@ export default function BucketListModal({ isOpen, onClose, vaultId }: BucketList
     <Modal open={isOpen} onClose={onClose} title="Add to Bucket List">
       <form onSubmit={handleSubmit} className="flex flex-col gap-5 py-2">
         <p className="text-gray-600 text-sm">
-          Plan ahead! When do you want to visit this place and how high is it on your list?
+          Plan ahead! When do you want to visit this place and how high is it on
+          your list?
         </p>
 
         <div className="flex flex-col gap-2">
-          <label className="text-sm font-semibold text-gray-700">Target Year</label>
+          <label className="text-sm font-semibold text-gray-700">
+            Target Year
+          </label>
           <select
             value={targetYear}
             onChange={(e) => setTargetYear(Number(e.target.value))}
@@ -54,7 +63,9 @@ export default function BucketListModal({ isOpen, onClose, vaultId }: BucketList
         </div>
 
         <div className="flex flex-col gap-2">
-          <label className="text-sm font-semibold text-gray-700">Priority Level</label>
+          <label className="text-sm font-semibold text-gray-700">
+            Priority Level
+          </label>
           <div className="flex items-center gap-3">
             {["HIGH", "MEDIUM", "LOW"].map((level) => (
               <label
@@ -73,7 +84,11 @@ export default function BucketListModal({ isOpen, onClose, vaultId }: BucketList
                   onChange={() => setPriority(level)}
                   className="hidden"
                 />
-                {level === "HIGH" ? "🔥 High" : level === "MEDIUM" ? "⭐️ Medium" : "🌱 Low"}
+                {level === "HIGH"
+                  ? "🔥 High"
+                  : level === "MEDIUM"
+                    ? "⭐️ Medium"
+                    : "🌱 Low"}
               </label>
             ))}
           </div>

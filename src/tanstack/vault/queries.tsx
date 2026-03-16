@@ -54,7 +54,11 @@ export const vaultQueries = () => {
 
   const getComments = (vaultId: string, limit = 10) => ({
     queryKey: [...vaultKeys.getComments(vaultId)],
-    queryFn: async ({ pageParam = 1 }: { pageParam?: number }): Promise<PaginatedResponse<VaultComment>> => {
+    queryFn: async ({
+      pageParam = 1,
+    }: {
+      pageParam?: number;
+    }): Promise<PaginatedResponse<VaultComment>> => {
       const response = await axiosInstance.get<
         ApiResponse<PaginatedResponse<VaultComment>>
       >(`/vault/${vaultId}/comments?page=${pageParam}&limit=${limit}`);
@@ -71,7 +75,8 @@ export const vaultQueries = () => {
   const getSavedVaults = () => ({
     queryKey: vaultKeys.getSavedVaults(),
     queryFn: async (): Promise<Vault[]> => {
-      const response = await axiosInstance.get<ApiResponse<Vault[]>>("/vault/saved");
+      const response =
+        await axiosInstance.get<ApiResponse<Vault[]>>("/vault/saved");
       return response.data.data;
     },
   });
@@ -97,6 +102,14 @@ export const vaultQueries = () => {
     },
   });
 
-  return { getMyVaults, getPublicVaults, getNearbyVaults, getVaultDetails, getComments, getSavedVaults, getUserPublicVaults, getFollowingVaults };
+  return {
+    getMyVaults,
+    getPublicVaults,
+    getNearbyVaults,
+    getVaultDetails,
+    getComments,
+    getSavedVaults,
+    getUserPublicVaults,
+    getFollowingVaults,
+  };
 };
-

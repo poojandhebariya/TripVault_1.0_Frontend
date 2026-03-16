@@ -9,4 +9,5 @@ export const userKeys = {
   getFollowers: (id: string) => [...userKeys.all(), "followers", id],
   getFollowing: (id: string) => [...userKeys.all(), "following", id],
   getSuggestedProfiles: () => [...userKeys.all(), "suggestedProfiles"],
+  checkUsername: (username: string) => [...userKeys.all(), "checkUsername", username],
 };

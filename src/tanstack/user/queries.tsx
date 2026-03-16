@@ -15,6 +15,18 @@ export const userQueries = () => {
     },
   });
 
+  const checkUsername = (username: string) => ({
+    queryKey: userKeys.checkUsername(username),
+    queryFn: async (): Promise<{ available: boolean }> => {
+      const response = await axiosInstance.get<
+        ApiResponse<{ available: boolean }>
+      >(`/user/check-username?username=${encodeURIComponent(username)}`);
+      return response.data.data as { available: boolean };
+    },
+    enabled: username.length >= 3,
+    staleTime: 1000 * 30, // cache 30s per username
+  });
+
   const getPublicProfile = (id: string) => ({
     queryKey: userKeys.getPublicProfile(id),
     queryFn: async (): Promise<PublicProfile> => {
@@ -51,12 +63,20 @@ export const userQueries = () => {
   const getSuggestedProfiles = () => ({
     queryKey: userKeys.getSuggestedProfiles(),
     queryFn: async (): Promise<PublicProfile[]> => {
-      const response = await axiosInstance.get<ApiResponse<PublicProfile[]>>(
-        `/user/suggested`,
-      );
+      const response =
+        await axiosInstance.get<ApiResponse<PublicProfile[]>>(
+          `/user/suggested`,
+        );
       return response.data.data;
     },
   });
 
-  return { getProfile, getPublicProfile, getFollowers, getFollowing, getSuggestedProfiles };
+  return {
+    getProfile,
+    checkUsername,
+    getPublicProfile,
+    getFollowers,
+    getFollowing,
+    getSuggestedProfiles,
+  };
 };

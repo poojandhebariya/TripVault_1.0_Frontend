@@ -22,7 +22,6 @@ const DeleteConfirmModal = ({
   return (
     <Modal open={isOpen} onClose={onClose} showCloseButton={false} size="sm">
       <div className="flex flex-col items-center gap-5 pt-2 pb-1 text-center">
-
         <div className="relative flex items-center justify-center">
           <div className="absolute w-20 h-20 rounded-full bg-rose-50" />
           <div className="absolute w-16 h-16 rounded-full bg-rose-100" />

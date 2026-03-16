@@ -62,9 +62,7 @@ const CommentRow = ({
         <div className="flex items-baseline justify-between gap-2 mb-0.5">
           <div className="flex items-baseline gap-2">
             <span className="text-sm font-bold text-gray-900">
-              {comment.author?.name ??
-                comment.author?.username ??
-                "Anonymous"}
+              {comment.author?.name ?? comment.author?.username ?? "Anonymous"}
             </span>
             <span className="text-[10px] text-gray-400">
               {relativeTime(comment.createdAt)}
@@ -157,7 +155,10 @@ const CommentInput = ({
             className="absolute right-2 bottom-2 w-9 h-9 rounded-xl bg-linear-to-br from-blue-600 to-purple-700 flex items-center justify-center text-white disabled:opacity-50 disabled:cursor-not-allowed hover:shadow-lg hover:scale-105 active:scale-95 transition-all cursor-pointer"
           >
             {isPending ? (
-              <FontAwesomeIcon icon={faSpinner} className="text-[14px] animate-spin" />
+              <FontAwesomeIcon
+                icon={faSpinner}
+                className="text-[14px] animate-spin"
+              />
             ) : (
               <FontAwesomeIcon icon={faPaperPlane} className="text-[14px]" />
             )}
@@ -183,13 +184,8 @@ const CommentPanel = ({
   const { getComments } = vaultQueries();
   const { postCommentMutation, deleteCommentMutation } = vaultMutation();
 
-  const {
-    data,
-    fetchNextPage,
-    hasNextPage,
-    isFetchingNextPage,
-    isLoading,
-  } = useInfiniteQuery(getComments(vaultId));
+  const { data, fetchNextPage, hasNextPage, isFetchingNextPage, isLoading } =
+    useInfiniteQuery(getComments(vaultId));
 
   const { mutate: postComment, isPending: isPosting } = useMutation(
     postCommentMutation(vaultId),
@@ -197,7 +193,8 @@ const CommentPanel = ({
   const { mutate: deleteComment } = useMutation(deleteCommentMutation(vaultId));
 
   // Flatten pages into a single list
-  const allComments = data?.pages.flatMap((p: any) => (p?.data || []) as VaultComment[]) ?? [];
+  const allComments =
+    data?.pages.flatMap((p: any) => (p?.data || []) as VaultComment[]) ?? [];
   const totalCount = (data?.pages[0] as any)?.total ?? 0;
 
   const visibleComments =
@@ -251,13 +248,19 @@ const CommentPanel = ({
       <div className="px-4 md:px-5 pb-10">
         {isLoading ? (
           <div className="py-10 flex flex-col items-center gap-2 text-gray-400">
-            <FontAwesomeIcon icon={faSpinner} className="animate-spin text-xl" />
+            <FontAwesomeIcon
+              icon={faSpinner}
+              className="animate-spin text-xl"
+            />
             <p className="text-xs">Loading comments…</p>
           </div>
         ) : visibleComments.length === 0 ? (
           <div className="py-10 flex flex-col items-center gap-3 text-center">
             <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
-              <FontAwesomeIcon icon={faComment} className="text-gray-300 text-xl" />
+              <FontAwesomeIcon
+                icon={faComment}
+                className="text-gray-300 text-xl"
+              />
             </div>
             <p className="text-sm text-gray-400 font-medium">
               No comments yet. Be the first!
@@ -269,7 +272,9 @@ const CommentPanel = ({
               <CommentRow
                 key={comment.id}
                 comment={comment}
-                isOwn={!!user?.username && comment.author?.username === user.username}
+                isOwn={
+                  !!user?.username && comment.author?.username === user.username
+                }
                 onDelete={(id) => deleteComment(id)}
               />
             ))}
@@ -289,15 +294,20 @@ const CommentPanel = ({
             )}
 
             {/* "See more comments" button — desktop inline mode */}
-            {maxShown !== undefined && allComments.length > maxShown && onSeeMore && (
-              <button
-                onClick={onSeeMore}
-                className="mt-2 w-full flex items-center justify-center gap-2 py-2.5 text-sm font-semibold text-blue-600 hover:text-blue-700 hover:bg-blue-50 rounded-xl transition-all cursor-pointer"
-              >
-                <span>See all {totalCount} comments</span>
-                <FontAwesomeIcon icon={faChevronDown} className="text-[10px]" />
-              </button>
-            )}
+            {maxShown !== undefined &&
+              allComments.length > maxShown &&
+              onSeeMore && (
+                <button
+                  onClick={onSeeMore}
+                  className="mt-2 w-full flex items-center justify-center gap-2 py-2.5 text-sm font-semibold text-blue-600 hover:text-blue-700 hover:bg-blue-50 rounded-xl transition-all cursor-pointer"
+                >
+                  <span>See all {totalCount} comments</span>
+                  <FontAwesomeIcon
+                    icon={faChevronDown}
+                    className="text-[10px]"
+                  />
+                </button>
+              )}
           </>
         )}
       </div>

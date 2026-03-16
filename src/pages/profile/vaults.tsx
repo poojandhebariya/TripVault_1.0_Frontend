@@ -24,7 +24,13 @@ interface VaultsProps {
   id?: string;
 }
 
-const EmptyState = ({ filter, publicMode }: { filter: StatusFilter; publicMode?: boolean }) => (
+const EmptyState = ({
+  filter,
+  publicMode,
+}: {
+  filter: StatusFilter;
+  publicMode?: boolean;
+}) => (
   <div className="col-span-3 flex flex-col items-center justify-center py-20 text-center px-6">
     <div className="w-16 h-16 rounded-full bg-linear-to-br from-violet-100 to-blue-100 flex items-center justify-center text-2xl text-indigo-400 mb-4 shadow-sm">
       <FontAwesomeIcon icon={faLayerGroup} />

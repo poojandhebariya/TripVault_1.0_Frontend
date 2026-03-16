@@ -32,7 +32,9 @@ const VaultAuthorHeader = ({
         onClick={onAvatarClick}
         className={cn(
           "w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm border border-gray-100 transition-opacity duration-150",
-          onAvatarClick ? "cursor-pointer hover:opacity-85 active:opacity-70" : "",
+          onAvatarClick
+            ? "cursor-pointer hover:opacity-85 active:opacity-70"
+            : "",
         )}
       >
         {vault.author?.profilePicUrl ? (

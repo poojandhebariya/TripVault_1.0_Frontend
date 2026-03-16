@@ -119,7 +119,7 @@ export default function BucketList() {
         link.href = url;
         link.download = fileName;
         link.click();
-        
+
         // Clean up
         setTimeout(() => URL.revokeObjectURL(url), 100);
 

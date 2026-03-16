@@ -45,15 +45,17 @@ const AppRoutes = () => {
             path={ROUTES.AUTH.RESET_PASSWORD}
             element={<ResetPassword />}
           />
-          <Route path={ROUTES.SEARCH} element={<div className="animate-[slideDown_0.3s_ease-out]">Search</div>} />
+          <Route
+            path={ROUTES.SEARCH}
+            element={
+              <div className="animate-[slideDown_0.3s_ease-out]">Search</div>
+            }
+          />
           <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
 
           {/* Public profile pages — accessible without auth */}
           <Route path={ROUTES.USER.PUBLIC_PROFILE} element={<Profile />}>
-            <Route
-              index
-              element={<Navigate to="vaults" replace />}
-            />
+            <Route index element={<Navigate to="vaults" replace />} />
             <Route path="vaults" element={<PublicVaults />} />
           </Route>
           <Route

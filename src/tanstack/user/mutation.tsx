@@ -18,7 +18,9 @@ export const userMutation = () => {
     },
     onMutate: async (newData: Partial<User>) => {
       await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
-      const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
+      const previousUser = queryClient.getQueryData<User>(
+        userKeys.getProfile(),
+      );
       queryClient.setQueryData(userKeys.getProfile(), (old: any) => ({
         ...old,
         ...newData,
@@ -49,7 +51,9 @@ export const userMutation = () => {
     },
     onMutate: async (newData: Partial<User>) => {
       await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
-      const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
+      const previousUser = queryClient.getQueryData<User>(
+        userKeys.getProfile(),
+      );
       if (previousUser) {
         queryClient.setQueryData(userKeys.getProfile(), {
           ...previousUser,
@@ -149,7 +153,6 @@ export const userMutation = () => {
             : p,
         );
       });
-
 
       return { previousPublicProfile, previousOwnProfile };
     },

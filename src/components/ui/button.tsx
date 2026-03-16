@@ -37,7 +37,9 @@ const Button = ({
         className,
       )}
     >
-      {icon && <FontAwesomeIcon icon={icon} className={`${text ? "mr-2" : ""}`} />}
+      {icon && (
+        <FontAwesomeIcon icon={icon} className={`${text ? "mr-2" : ""}`} />
+      )}
       {text && text.trim()}
       {loading && <FontAwesomeIcon icon={faSpinner} spin className="ml-2" />}
     </button>

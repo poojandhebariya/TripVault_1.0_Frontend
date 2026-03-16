@@ -77,7 +77,10 @@ const SuggestedProfileCard = ({
         <p className="text-xs text-gray-400 truncate">@{profile.username}</p>
         {profile.country && (
           <p className="text-[11px] text-gray-400 flex items-center gap-1 mt-0.5">
-            <FontAwesomeIcon icon={faLocationDot} className="text-rose-400 text-[10px]" />
+            <FontAwesomeIcon
+              icon={faLocationDot}
+              className="text-rose-400 text-[10px]"
+            />
             {profile.country}
           </p>
         )}
@@ -95,7 +98,10 @@ const SuggestedProfileCard = ({
           } disabled:opacity-60`}
         >
           {isToggling ? (
-            <FontAwesomeIcon icon={faSpinner} className="animate-spin text-[10px]" />
+            <FontAwesomeIcon
+              icon={faSpinner}
+              className="animate-spin text-[10px]"
+            />
           ) : profile.isFollowing ? (
             <FontAwesomeIcon icon={faUserMinus} className="text-[10px]" />
           ) : (
@@ -113,14 +119,23 @@ interface SuggestedProfilesSidebarProps {
   excludeId?: string;
 }
 
-const SuggestedProfilesSidebar = ({ excludeId }: SuggestedProfilesSidebarProps) => {
+const SuggestedProfilesSidebar = ({
+  excludeId,
+}: SuggestedProfilesSidebarProps) => {
   const { user: currentUser } = useUserContext();
   const { getSuggestedProfiles } = userQueries();
 
-  const { data: suggested = [], isLoading, isRefetching, refetch } = useQuery(getSuggestedProfiles());
+  const {
+    data: suggested = [],
+    isLoading,
+    isRefetching,
+    refetch,
+  } = useQuery(getSuggestedProfiles());
 
   // Filter out the excluded user
-  const filtered = suggested.filter((p) => p.id !== excludeId && p.id !== currentUser?.id);
+  const filtered = suggested.filter(
+    (p) => p.id !== excludeId && p.id !== currentUser?.id,
+  );
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4">
@@ -129,7 +144,9 @@ const SuggestedProfilesSidebar = ({ excludeId }: SuggestedProfilesSidebarProps) 
           <div className="w-7 h-7 rounded-lg bg-linear-to-br from-violet-500 to-purple-600 flex items-center justify-center shrink-0">
             <FontAwesomeIcon icon={faUsers} className="text-white text-xs" />
           </div>
-          <h3 className="text-sm font-bold text-gray-900">Suggested Profiles</h3>
+          <h3 className="text-sm font-bold text-gray-900">
+            Suggested Profiles
+          </h3>
         </div>
         <button
           onClick={() => refetch()}
@@ -159,8 +176,12 @@ const SuggestedProfilesSidebar = ({ excludeId }: SuggestedProfilesSidebarProps) 
         </div>
       ) : filtered.length === 0 ? (
         <div className="text-center py-6 px-2">
-          <p className="text-sm text-gray-500 font-medium">You're following everyone we know!</p>
-          <p className="text-xs text-gray-400 mt-1">Check back later for more travellers.</p>
+          <p className="text-sm text-gray-500 font-medium">
+            You're following everyone we know!
+          </p>
+          <p className="text-xs text-gray-400 mt-1">
+            Check back later for more travellers.
+          </p>
         </div>
       ) : (
         <div className="space-y-3">
