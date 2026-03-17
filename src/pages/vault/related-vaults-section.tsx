@@ -11,21 +11,33 @@ import {
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse } from "../../types/api-response";
 import type { Vault } from "../../types/vault";
+import { cn } from "../../lib/cn-merge";
+import { MOODS } from "../../utils/moods";
 
 /* ── fetch helpers ───────────────────────────────────────────────────────── */
 
-const fetchVaultsByLocation = async (location: string): Promise<Vault[]> => {
-  const res = await axiosInstance.get<ApiResponse<Vault[]>>(
-    `/vault/public?location=${encodeURIComponent(location)}&limit=8`,
+const fetchVaultsByLocation = async (
+  location: string,
+  excludeId: string,
+): Promise<Vault[]> => {
+  const res = await axiosInstance.get<ApiResponse<any>>(
+    `/vault/related/location?location=${encodeURIComponent(
+      location,
+    )}&excludeId=${excludeId}&page=1&limit=10`,
   );
-  return (res.data.data as any)?.data ?? res.data.data ?? [];
+  return res.data.data?.data ?? [];
 };
 
-const fetchVaultsByTags = async (tags: string[]): Promise<Vault[]> => {
-  const res = await axiosInstance.get<ApiResponse<Vault[]>>(
-    `/vault/public?tags=${tags.join(",")}&limit=8`,
+const fetchVaultsByTags = async (
+  tags: string[],
+  excludeId: string,
+): Promise<Vault[]> => {
+  const res = await axiosInstance.get<ApiResponse<any>>(
+    `/vault/related/tags?tags=${tags.join(
+      ",",
+    )}&excludeId=${excludeId}&page=1&limit=10`,
   );
-  return (res.data.data as any)?.data ?? res.data.data ?? [];
+  return res.data.data?.data ?? [];
 };
 
 /* ── Carousel Card ───────────────────────────────────────────────────────── */
@@ -36,103 +48,118 @@ const CarouselCard = ({ vault }: { vault: Vault }) => {
     vault.attachments?.find((a) => a.type === "image") ||
     vault.attachments?.[0];
 
+  const mood =
+    MOODS.find(
+      (m) =>
+        m.id === vault.mood?.toLowerCase() ||
+        m.label.toLowerCase() === vault.mood?.toLowerCase(),
+    ) ?? null;
+
   return (
-    <button
+    <div
       onClick={() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
         navigate(`/vault/${vault.id}`);
       }}
-      className="group relative shrink-0 w-[260px] md:w-[280px] h-[360px] md:h-[400px] text-left bg-gray-100 rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 cursor-pointer snap-start"
+      className="group relative shrink-0 w-full md:w-[280px] h-[240px] sm:h-[300px] md:h-[400px] text-left rounded-2xl md:rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] hover:-translate-y-2 transition-all duration-500 cursor-pointer md:snap-start active:bounce-click"
     >
       {/* Background Image */}
-      {cover ? (
-        <img
-          src={cover.url}
-          alt={vault.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
-        />
-      ) : (
-        <div className="w-full h-full flex flex-col items-center justify-center bg-gray-200 gap-2">
-          <FontAwesomeIcon icon={faImage} className="text-gray-400 text-4xl" />
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        {cover ? (
+          <img
+            src={cover.url}
+            alt={vault.title}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+          />
+        ) : (
+          <div className="w-full h-full flex flex-col items-center justify-center bg-gray-50 gap-2">
+            <FontAwesomeIcon icon={faImage} className="text-gray-200 text-5xl" />
+          </div>
+        )}
+      </div>
+
+      {/* Mood Badge (Top Left) */}
+      {mood && (
+        <div className="absolute top-5 left-5 z-20">
+          <div
+            className={cn(
+              "flex items-center gap-1.5 bg-linear-to-r text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg border border-white/10",
+              mood.bg,
+            )}
+          >
+            <span>{mood.emoji}</span>
+            <span className="hidden group-hover:inline-block transition-all duration-300">
+              {mood.label}
+            </span>
+          </div>
         </div>
       )}
 
-      {/* Top right badges */}
-      <div className="absolute top-4 right-4 flex flex-col gap-2">
-        {vault.tags && vault.tags.length > 0 && (
-          <div className="bg-black/40 backdrop-blur-md rounded-full px-2.5 py-1 text-white text-[10px] font-bold shadow-sm uppercase tracking-wider flex items-center gap-1.5">
-            <FontAwesomeIcon icon={faTag} className="text-[9px]" />
-            {vault.tags[0]}
-          </div>
-        )}
-      </div>
-
-      {/* Heavy Gradient Overlay for Text Visibility */}
-      <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-5" />
-
-      {/* Content wrapper */}
-      <div className="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end">
-        {vault.location?.label && (
-          <div className="flex items-center gap-1.5 mb-2">
-            <FontAwesomeIcon
-              icon={faLocationDot}
-              className="text-rose-400 text-[11px]"
-            />
-            <span className="text-white/90 font-bold text-[10px] tracking-widest uppercase truncate drop-shadow-md">
-              {vault.location.label.split(",")[0]}
-            </span>
-          </div>
-        )}
-
-        <h3 className="text-white font-bold text-xl leading-tight line-clamp-2 drop-shadow-lg mb-4 cursor-pointer group-hover:underline underline-offset-4 decoration-white/50">
-          {vault.title}
-        </h3>
-
-        {/* Footer info line (Author + Engagement) */}
-        <div className="flex items-center justify-between pt-4 border-t border-white/20">
-          {/* Author */}
-          <div
-            onClick={(e) => {
-              e.stopPropagation();
-              if (vault.author?.id) {
-                navigate(`/user/${vault.author.id}`);
-              }
-            }}
-            className="flex items-center gap-2 min-w-0 cursor-pointer hover:opacity-80 transition-opacity"
-          >
-            <div className="w-7 h-7 rounded-full bg-linear-to-br from-gray-700 to-gray-900 flex items-center justify-center overflow-hidden shrink-0 ring-2 ring-white/10">
-              {vault.author?.profilePicUrl ? (
-                <img
-                  src={vault.author.profilePicUrl}
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <span className="text-white text-[10px] font-bold">
-                  {(vault.author?.name ||
-                    vault.author?.username ||
-                    "T")[0].toUpperCase()}
-                </span>
-              )}
+      {/* Bottom Content Card (Glassmorphism) */}
+      <div className="absolute inset-x-2 bottom-2 md:inset-x-3 md:bottom-3 p-2 md:p-4 rounded-xl md:rounded-2xl bg-black/30 backdrop-blur-xl border border-white/10 text-white transition-all duration-500 group-hover:bg-black/40">
+        <div className="flex flex-col gap-1 md:gap-1.5">
+          {vault.location?.label && (
+            <div className="flex items-center gap-1 opacity-90">
+              <FontAwesomeIcon
+                icon={faLocationDot}
+                className="text-rose-400 text-[8px] md:text-[10px]"
+              />
+              <span className="text-[7px] md:text-[9px] font-black tracking-widest uppercase truncate">
+                {vault.location.label.split(",")[0]}
+              </span>
             </div>
-            <span className="text-white text-xs font-semibold truncate drop-shadow-sm hover:underline">
-              {vault.author?.name || vault.author?.username || "Traveller"}
-            </span>
-          </div>
+          )}
 
-          {/* Engagement */}
-          <div className="flex items-center gap-3 shrink-0">
-            <span className="flex items-center gap-1 text-white font-medium text-[11px] drop-shadow-sm">
-              <FontAwesomeIcon icon={faHeart} className="text-rose-400" />
-              {vault.likesCount ?? 0}
-            </span>
-            <span className="flex items-center gap-1 text-white font-medium text-[11px] drop-shadow-sm">
-              <FontAwesomeIcon icon={faComment} className="text-white/80" />
-              {vault.commentsCount ?? 0}
-            </span>
+          <h3 className="font-extrabold text-[10px] sm:text-sm md:text-lg leading-tight truncate drop-shadow-md group-hover:text-blue-200 transition-colors">
+            {vault.title}
+          </h3>
+
+          <div className="flex items-center justify-between mt-2 md:mt-3 pt-2 md:pt-3 border-t border-white/10">
+            {/* Author */}
+            <div
+              onClick={(e) => {
+                e.stopPropagation();
+                if (vault.author?.id) {
+                  navigate(`/user/${vault.author.id}`);
+                }
+              }}
+              className="flex items-center gap-1.5 md:gap-2 min-w-0"
+            >
+              <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-linear-to-br from-blue-500/50 to-purple-600/50 flex items-center justify-center overflow-hidden shrink-0 border border-white/20">
+                {vault.author?.profilePicUrl ? (
+                  <img
+                    src={vault.author.profilePicUrl}
+                    className="w-full h-full object-cover"
+                    alt={vault.author.name || "user"}
+                  />
+                ) : (
+                  <span className="text-[8px] md:text-[10px] font-bold">
+                    {(vault.author?.name ||
+                      vault.author?.username ||
+                      "T")[0].toUpperCase()}
+                  </span>
+                )}
+              </div>
+              <span className="text-[8px] md:text-[11px] font-bold truncate opacity-90 hover:opacity-100 hover:underline">
+                {vault.author?.name || vault.author?.username || "Traveller"}
+              </span>
+            </div>
+
+            {/* Engagement */}
+            <div className="hidden md:flex items-center gap-2 md:gap-3 shrink-0">
+              <span className="flex items-center gap-1 font-bold text-[8px] md:text-[10px]">
+                <FontAwesomeIcon icon={faHeart} className="text-rose-500" />
+                {vault.likesCount ?? 0}
+              </span>
+              <span className="flex items-center gap-1 font-bold text-[8px] md:text-[10px]">
+                <FontAwesomeIcon icon={faComment} className="text-white/70" />
+                {vault.commentsCount ?? 0}
+              </span>
+            </div>
           </div>
         </div>
       </div>
-    </button>
+    </div>
   );
 };
 
@@ -156,24 +183,27 @@ const VaultCarousel = ({
   if (!loading && vaults.length === 0) return null;
 
   return (
-    <div className="mb-12">
+    <div className="">
       {/* Heavy beautiful header for the carousel */}
-      <div className="px-1 mb-6 flex items-end justify-between">
-        <div>
-          <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight leading-none mb-2">
+      <div className="px-1 mb-8 flex items-end justify-between">
+        <div className="relative pl-4">
+          {/* Accent bar */}
+          <div className="absolute left-0 top-1 bottom-1 w-1.5 rounded-full bg-linear-to-b from-blue-600 to-purple-600 shadow-sm" />
+          
+          <h2 className="text-2xl md:text-4xl font-black text-gray-900 tracking-tight leading-none mb-2">
             {title}
           </h2>
-          <p className="text-sm md:text-base font-medium text-gray-500">
+          <p className="text-sm md:text-lg font-medium text-gray-400">
             {subtitle}
           </p>
         </div>
       </div>
 
-      {/* Horizontal Scroller Container */}
+      {/* Responsive Container: Grid on mobile, Scroller on Desktop */}
       {loading ? (
         <VaultCarouselSkeleton />
       ) : (
-        <div className="flex gap-4 md:gap-5 overflow-x-auto pb-6 px-1 snap-x snap-mandatory pt-2 scroll-smooth no-scrollbar">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:flex md:gap-8 md:overflow-x-auto pb-10 px-1 md:snap-x md:snap-mandatory pt-2 scroll-smooth no-scrollbar">
           {vaults.map((v) => (
             <CarouselCard key={v.id} vault={v} />
           ))}
@@ -192,22 +222,14 @@ const RelatedVaultsSection = ({ vault }: { vault: Vault }) => {
 
   const { data: locationVaults = [], isLoading: loadingLocation } = useQuery({
     queryKey: ["vault", "related-by-location", locationLabel, vaultId],
-    queryFn: () => fetchVaultsByLocation(locationLabel),
+    queryFn: () => fetchVaultsByLocation(locationLabel, vaultId),
     enabled: !!locationLabel,
-    select: (data) => data.filter((v) => v.id !== vaultId).slice(0, 8),
   });
 
   const { data: tagVaults = [], isLoading: loadingTags } = useQuery({
     queryKey: ["vault", "related-by-tags", tags.join(","), vaultId],
-    queryFn: () => fetchVaultsByTags(tags),
-    enabled: tags.length > 0,
-    select: (data) =>
-      data
-        .filter(
-          (v) =>
-            v.id !== vaultId && !locationVaults.some((lv) => lv.id === v.id),
-        )
-        .slice(0, 8),
+    queryFn: () => fetchVaultsByTags(tags, vaultId),
+    enabled: tags.length > 0 && !loadingLocation,
   });
 
   const hasLocation = !!locationLabel;
