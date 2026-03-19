@@ -19,6 +19,8 @@ import { ROUTES } from "../../utils/constants";
 import { useSnackbar } from "react-snackify";
 import { useUserContext } from "../../contexts/user/user";
 import { userQueries } from "../../tanstack/user/queries";
+import { useState } from "react";
+import ScreenLoading from "../../components/ui/screen-loading";
 
 interface FormData {
   email: string;
@@ -37,6 +39,7 @@ const SignIn = () => {
     enabled: false,
   });
   const { updateUser, markLoggedIn } = useUserContext();
+  const [isFetchingProfile, setIsFetchingProfile] = useState(false);
 
   const {
     register,
@@ -45,26 +48,43 @@ const SignIn = () => {
   } = useForm<FormData>();
 
   const onSubmit = async (data: FormData) => {
-    await loginMutate(data);
-    // Immediately reflect the auth (bearer token) state in memory
-    markLoggedIn();
-    showSnackbar({
-      message: "Login successful!",
-      variant: "success",
-      classname: "text-white",
-    });
     try {
+      await loginMutate(data);
+      // Immediately show the global loading screen while we fetch the profile
+      setIsFetchingProfile(true);
+
       const { data: profileData } = await refetchUser();
+      
       if (profileData) {
+        // This sets both isLoggedIn AND isProfileSetup in one state update,
+        // preventing any interim redirects to the setup page.
         await updateUser(profileData);
-        navigate(ROUTES.HOME);
+        
+        showSnackbar({
+          message: "Welcome back!",
+          variant: "success",
+          classname: "text-white",
+        });
+        
+        navigate(ROUTES.HOME, { replace: true });
       } else {
-        // Profile not found — redirect to setup
-        navigate(ROUTES.USER.PROFILE_SETUP);
+        // No profile exists - mark as logged in so the guard lets them reach setup
+        markLoggedIn();
+        navigate(ROUTES.USER.PROFILE_SETUP, { replace: true });
       }
-    } catch {
-      // API returned error (e.g. 404 — no profile exists yet)
-      navigate(ROUTES.USER.PROFILE_SETUP);
+    } catch (error: any) {
+      setIsFetchingProfile(false);
+      // Login failed or profile fetch failed
+      if (error?.response?.status === 404) {
+        // Profile just doesn't exist yet
+        markLoggedIn();
+        navigate(ROUTES.USER.PROFILE_SETUP, { replace: true });
+      } else if (!error.config?.url?.includes('/login')) {
+        // If login succeeded but profile failed for some other reason
+        markLoggedIn();
+        navigate(ROUTES.USER.PROFILE_SETUP, { replace: true });
+      }
+      // Otherwise, login error is handled by useMutation or snackbar elsewhere
     }
   };
 
@@ -186,6 +206,14 @@ const SignIn = () => {
         icon={faFolderOpen}
         className="absolute bottom-10 right-0 text-9xl text-cyan-100 animate-[slideTop_0.5s_ease-in-out]"
       />
+
+      {isFetchingProfile && (
+        <ScreenLoading 
+          type="profile" 
+          title="Verifying your account..." 
+          subtitle="One stay away from your next adventure" 
+        />
+      )}
     </div>
   );
 };

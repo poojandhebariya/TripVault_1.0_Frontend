@@ -90,7 +90,7 @@ const Modal = ({
   return createPortal(
     <div
       className={cn(
-        "fixed inset-0 z-60 flex overflow-hidden",
+        "fixed inset-0 z-999 flex overflow-hidden",
         isBottom ? "items-end" : "items-center justify-center p-4 sm:p-6",
       )}
     >

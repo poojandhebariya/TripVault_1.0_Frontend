@@ -40,8 +40,6 @@ const logoutUser = async () => {
   await del("bearerToken");
   await del("user");
   localStorage.clear();
-  // Redirect to sign-in page (hard reload to reset all state)
-  window.location.href = "/auth/sign-in";
 };
 
 // ─── Helper: check if refresh token is still within its 3-day lifespan ───────
@@ -62,9 +60,20 @@ export const saveTokens = async (tokens: AuthResponse) => {
 // ─── Request Interceptor ──────────────────────────────────────────────────────
 axiosInstance.interceptors.request.use(
   async (config: InternalAxiosRequestConfig) => {
+    // Synchronous kill-switch: if localStorage is cleared (happens during logout),
+    // we stop adding the token immediately, even if IndexedDB hasn't finished clearing.
+    if (!localStorage.getItem("tokenStoredAt")) {
+      delete config.headers.Authorization;
+      config.baseURL = import.meta.env.VITE_API_BASE_URL;
+      return config;
+    }
+
     const token = await get<AuthResponse>("bearerToken");
     if (token?.accessToken) {
       config.headers.Authorization = `Bearer ${token.accessToken}`;
+    } else {
+      // Ensure no stale token remains (especially important after logout)
+      delete config.headers.Authorization;
     }
     config.baseURL = import.meta.env.VITE_API_BASE_URL;
 

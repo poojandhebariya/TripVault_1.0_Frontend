@@ -20,8 +20,8 @@ interface VaultEngagementBarProps {
   commentsCount?: number;
   isInitialLiked?: boolean;
   isInitialSaved?: boolean;
-  onLike?: (liked: boolean) => void;
-  onSave?: (saved: boolean) => void;
+  onLike?: (liked: boolean) => boolean | void;
+  onSave?: (saved: boolean) => boolean | void;
   onCommentClick?: () => void;
   onShareClick?: () => void;
   allowComments?: boolean;
@@ -77,13 +77,15 @@ const VaultEngagementBar = ({
   const handleAction = (isSaved: boolean) => {
     if (isSaved) {
       const newState = !saved;
+      const res = onSave?.(newState);
+      if (res === false) return;
       setSaved(newState);
-      onSave?.(newState);
       if (newState) triggerBurst(setSaveBurst, saveTimeout);
     } else {
       const newState = !liked;
+      const res = onLike?.(newState);
+      if (res === false) return;
       setLiked(newState);
-      onLike?.(newState);
       if (newState) triggerBurst(setLikeBurst, likeTimeout);
     }
   };

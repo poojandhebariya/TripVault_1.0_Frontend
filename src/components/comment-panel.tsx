@@ -8,6 +8,7 @@ import {
   faTrash,
   faSpinner,
   faChevronDown,
+  faLock,
 } from "@fortawesome/free-solid-svg-icons";
 import { cn } from "../lib/cn-merge";
 import { useUserContext } from "../contexts/user/user";
@@ -15,6 +16,7 @@ import { vaultQueries } from "../tanstack/vault/queries";
 import { vaultMutation } from "../tanstack/vault/mutation";
 import type { VaultComment } from "../types/vault";
 import { relativeTime } from "../utils/formatters";
+import { useAuthGuard } from "../contexts/auth-guard-context";
 
 interface CommentPanelProps {
   vaultId: string;
@@ -179,6 +181,7 @@ const CommentPanel = ({
   hideCountHeader = false,
 }: CommentPanelProps) => {
   const { user, isLoggedIn } = useUserContext();
+  const { guard } = useAuthGuard();
   const loadMoreRef = useRef<HTMLDivElement>(null);
 
   const { getComments } = vaultQueries();
@@ -224,13 +227,32 @@ const CommentPanel = ({
   return (
     <div className={cn("", className)}>
       {/* Input */}
-      {showInput && isLoggedIn && (
+      {showInput && (
         <div className="px-4 md:px-5 pb-3 pt-3 border-b border-gray-100">
-          <CommentInput
-            vaultId={vaultId}
-            onSubmit={(text) => postComment(text)}
-            isPending={isPosting}
-          />
+          {isLoggedIn ? (
+            <CommentInput
+              vaultId={vaultId}
+              onSubmit={(text) => postComment(text)}
+              isPending={isPosting}
+            />
+          ) : (
+            <button
+              onClick={() =>
+                guard(() => {}, "comment on a vault")
+              }
+              className="w-full flex items-center gap-3 bg-gray-50 border border-gray-100 rounded-2xl p-2 hover:border-blue-200 hover:bg-blue-50/30 transition-all duration-200 cursor-pointer group"
+            >
+              <div className="w-10 h-10 rounded-full bg-linear-to-br from-gray-200 to-gray-300 flex items-center justify-center shrink-0 ml-0.5">
+                <FontAwesomeIcon icon={faUser} className="text-gray-400 text-sm" />
+              </div>
+              <span className="flex-1 text-sm text-gray-400 text-left px-2">
+                Login to join the conversation…
+              </span>
+              <div className="w-9 h-9 rounded-xl bg-gray-200 group-hover:bg-blue-100 flex items-center justify-center mr-1 transition-colors">
+                <FontAwesomeIcon icon={faLock} className="text-gray-400 group-hover:text-blue-500 text-xs transition-colors" />
+              </div>
+            </button>
+          )}
         </div>
       )}
 

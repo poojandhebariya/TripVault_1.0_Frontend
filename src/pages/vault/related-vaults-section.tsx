@@ -6,7 +6,6 @@ import {
   faImage,
   faHeart,
   faComment,
-  faTag,
 } from "@fortawesome/free-solid-svg-icons";
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse } from "../../types/api-response";

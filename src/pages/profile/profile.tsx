@@ -30,6 +30,7 @@ import Button from "../../components/ui/button";
 import { useScheduledVaultPublisher } from "../../hooks/useScheduledVaultPublisher";
 import ShareModal from "../../components/ui/share-modal";
 import { ProfileSkeleton } from "../../components/skeletons/profile-skeleton";
+import { useAuthGuard } from "../../contexts/auth-guard-context";
 
 const CoverPlaceholder = ({ onClick }: { onClick?: () => void }) => (
   <div
@@ -127,6 +128,7 @@ const Profile = () => {
   const isPublic = !!id;
 
   const { user: currentUser } = useUserContext();
+  const { guard } = useAuthGuard();
 
   // If user views their own public profile link, seamlessly redirect them to their actual own profile
   useEffect(() => {
@@ -164,11 +166,13 @@ const Profile = () => {
 
   const handleFollowToggle = () => {
     if (!publicProfile) return;
-    if (publicProfile.isFollowing) {
-      unfollowMut.mutate(publicProfile.id);
-    } else {
-      followMut.mutate(publicProfile.id);
-    }
+    guard(() => {
+      if (publicProfile.isFollowing) {
+        unfollowMut.mutate(publicProfile.id);
+      } else {
+        followMut.mutate(publicProfile.id);
+      }
+    }, publicProfile.isFollowing ? "unfollow this traveller" : "follow this traveller");
   };
 
   const handleFollowersClick = () => {

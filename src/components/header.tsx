@@ -25,6 +25,7 @@ import { userQueries } from "../tanstack/user/queries";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { clear } from "idb-keyval";
 import DropdownMenu, { type DropdownMenuItem } from "./ui/dropdown-menu";
+import ScreenLoading from "./ui/screen-loading";
 
 const NOTIFICATION_COUNT = 3;
 
@@ -67,6 +68,7 @@ const Header = () => {
   const { isLoggedIn, isProfileSetup, clearUser } = useUserContext();
   const queryClient = useQueryClient();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isLoggingOut, setIsLoggingOut] = useState(false);
 
   const { getProfile } = userQueries();
   const { data: profileData } = useQuery({
@@ -76,12 +78,21 @@ const Header = () => {
   });
 
   const handleLogout = async () => {
-    await queryClient.clear();
-    localStorage.clear();
+    setIsLoggingOut(true);
+    // 1. Clear state immediately to disable all authenticated queries 
+    // This prevents TanStack Query from trying to refetch them when the cache is cleared.
     await clearUser();
-    await clear();
+    localStorage.clear();
+    await queryClient.clear();
+    await clear(); // clear idb-keyval
+
+    // 2. Delay for UX so the user sees the "Signing you out..." state
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+
     setMenuOpen(false);
     navigate(ROUTES.AUTH.SIGN_IN, { replace: true });
+    
+    setTimeout(() => setIsLoggingOut(false), 500);
   };
 
   return (
@@ -337,6 +348,14 @@ const Header = () => {
           </div>
         )}
       </div>
+      {/* ── Logging Out Overlay ── */}
+      {isLoggingOut && (
+        <ScreenLoading 
+          type="logout" 
+          title="Signing you out..." 
+          subtitle="Clearing your secure vault session" 
+        />
+      )}
     </div>
   );
 };

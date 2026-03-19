@@ -15,6 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { ROUTES } from "../utils/constants";
 import type { PublicProfile } from "../types/user";
+import { useAuthGuard } from "../contexts/auth-guard-context";
 
 const SuggestedProfileCard = ({
   profile,
@@ -25,6 +26,7 @@ const SuggestedProfileCard = ({
 }) => {
   const navigate = useNavigate();
   const { followMutation, unfollowMutation } = userMutation();
+  const { guard } = useAuthGuard();
 
   const followMut = useMutation(followMutation(profile.id));
   const unfollowMut = useMutation(unfollowMutation(profile.id));
@@ -34,11 +36,13 @@ const SuggestedProfileCard = ({
   const handleToggle = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (isSelf) return;
-    if (profile.isFollowing) {
-      unfollowMut.mutate(profile.id);
-    } else {
-      followMut.mutate(profile.id);
-    }
+    guard(() => {
+      if (profile.isFollowing) {
+        unfollowMut.mutate(profile.id);
+      } else {
+        followMut.mutate(profile.id);
+      }
+    }, profile.isFollowing ? "unfollow this traveller" : "follow this traveller");
   };
 
   const handleNavigate = () => {
@@ -50,10 +54,10 @@ const SuggestedProfileCard = ({
   };
 
   return (
-    <div
+      <div
       className="flex items-center gap-3 cursor-pointer group"
-      onClick={handleNavigate}
-    >
+        onClick={handleNavigate}
+      >
       {/* Avatar */}
       <div className="shrink-0 relative">
         {profile.profilePicUrl ? (
@@ -110,7 +114,7 @@ const SuggestedProfileCard = ({
           <span>{profile.isFollowing ? "Following" : "Follow"}</span>
         </button>
       )}
-    </div>
+      </div>
   );
 };
 

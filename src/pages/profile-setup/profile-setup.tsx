@@ -25,7 +25,6 @@ const ProfileSetup = () => {
     interests: [],
     preferredTripType: PreferredTripType.SOLO,
   });
-  console.log(profileData);
   const { profileMutation } = userMutation();
   const { mutateAsync: profileMutate } = useMutation(profileMutation);
 

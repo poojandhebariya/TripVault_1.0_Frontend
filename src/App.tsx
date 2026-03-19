@@ -10,6 +10,7 @@ import { useSnackbar } from "react-snackify";
 import "react-snackify/styles/snack-bar.css";
 import { useMemo, useEffect } from "react";
 import { UserProvider } from "./contexts/user/user";
+import { AuthGuardProvider } from "./contexts/auth-guard-context";
 import { App as CapacitorApp } from "@capacitor/app";
 import { useNavigate, useLocation } from "react-router-dom";
 import { ROUTES } from "./utils/constants";
@@ -87,7 +88,9 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <UserProvider>
-        <Routes />
+        <AuthGuardProvider>
+          <Routes />
+        </AuthGuardProvider>
       </UserProvider>
     </QueryClientProvider>
   );

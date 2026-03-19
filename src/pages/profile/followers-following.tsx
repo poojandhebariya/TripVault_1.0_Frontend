@@ -16,6 +16,7 @@ import type { PublicProfile } from "../../types/user";
 import { ROUTES } from "../../utils/constants";
 import SuggestedProfilesSidebar from "../../components/suggested-profiles-sidebar";
 import { UserListSkeleton } from "../../components/skeletons/user-list-skeleton";
+import { useAuthGuard } from "../../contexts/auth-guard-context";
 
 interface FollowersFollowingPageProps {
   mode: "followers" | "following";
@@ -31,6 +32,7 @@ const UserRow = ({
   onNavigate: (id: string) => void;
 }) => {
   const { followMutation, unfollowMutation } = userMutation();
+  const { guard } = useAuthGuard();
 
   const followMut = useMutation(followMutation(profile.id));
   const unfollowMut = useMutation(unfollowMutation(profile.id));
@@ -41,18 +43,20 @@ const UserRow = ({
   const handleToggle = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (isSelf) return;
-    if (profile.isFollowing) {
-      unfollowMut.mutate(profile.id);
-    } else {
-      followMut.mutate(profile.id);
-    }
+    guard(() => {
+      if (profile.isFollowing) {
+        unfollowMut.mutate(profile.id);
+      } else {
+        followMut.mutate(profile.id);
+      }
+    }, profile.isFollowing ? "unfollow this traveller" : "follow this traveller");
   };
 
   return (
-    <div
-      className="flex items-center gap-3 p-4 hover:bg-gray-50/70 transition-colors cursor-pointer active:bg-gray-100"
-      onClick={() => onNavigate(profile.id)}
-    >
+      <div
+        className="flex items-center gap-3 p-4 hover:bg-gray-50/70 transition-colors cursor-pointer active:bg-gray-100"
+        onClick={() => onNavigate(profile.id)}
+      >
       {/* Avatar */}
       <div className="relative shrink-0">
         {profile.profilePicUrl ? (

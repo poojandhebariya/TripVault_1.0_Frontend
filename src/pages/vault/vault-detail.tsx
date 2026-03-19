@@ -18,6 +18,7 @@ import ShareModal from "../../components/ui/share-modal";
 import { getVaultShareUrl, ROUTES } from "../../utils/constants";
 import { userMutation } from "../../tanstack/user/mutation";
 import { useUserContext } from "../../contexts/user/user";
+import { useAuthGuard } from "../../contexts/auth-guard-context";
 
 const VaultDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -41,6 +42,7 @@ const VaultDetail = () => {
 
   const { followMutation, unfollowMutation } = userMutation();
   const { user: currentUser } = useUserContext();
+  const { guard } = useAuthGuard();
 
   const authorId = vault?.author?.id;
   const isFollowing = !!vault?.author?.isFollowing;
@@ -54,11 +56,13 @@ const VaultDetail = () => {
     e.stopPropagation();
     if (!authorId || isToggling || isOwner) return;
 
-    if (isFollowing) {
-      unfollowMut.mutate(authorId);
-    } else {
-      followMut.mutate(authorId);
-    }
+    guard(() => {
+      if (isFollowing) {
+        unfollowMut.mutate(authorId);
+      } else {
+        followMut.mutate(authorId);
+      }
+    }, isFollowing ? "unfollow this traveller" : "follow this traveller");
   };
 
   const navigateToProfile = () => {
@@ -158,12 +162,16 @@ const VaultDetail = () => {
                   isInitialLiked={vault.isLiked}
                   isInitialSaved={vault.isSaved}
                   onLike={(liked) => {
-                    if (liked && vault.id) likeVault(vault.id);
-                    else if (!liked && vault.id) unlikeVault(vault.id);
+                    return guard(() => {
+                      if (liked && vault.id) likeVault(vault.id);
+                      else if (!liked && vault.id) unlikeVault(vault.id);
+                    }, "like a vault");
                   }}
                   onSave={(saved) => {
-                    if (saved && vault.id) saveVault(vault.id);
-                    else if (!saved && vault.id) unsaveVault(vault.id);
+                    return guard(() => {
+                      if (saved && vault.id) saveVault(vault.id);
+                      else if (!saved && vault.id) unsaveVault(vault.id);
+                    }, "save a vault");
                   }}
                   allowComments={vault.allowComments}
                   className="py-3 border-y border-gray-100 my-4 md:my-5"
@@ -210,7 +218,7 @@ const VaultDetail = () => {
           )}
         </>
       )}
-    </div>
+      </div>
   );
 };
 
