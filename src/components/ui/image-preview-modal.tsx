@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faXmark,
@@ -24,6 +25,7 @@ const WHEEL_SENSITIVITY = 0.001;
  * - Double-click / double-tap: reset zoom
  * - Backdrop click: close (only when not zoomed)
  * - Escape key: close
+ * - Renders via Portal to avoid stacking context issues
  */
 const ImagePreviewModal = ({
   src,
@@ -57,16 +59,19 @@ const ImagePreviewModal = ({
     } else {
       setVisible(false);
       // Reset zoom after the closing animation finishes
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         setScale(1);
         setOffset({ x: 0, y: 0 });
       }, 300);
+      return () => clearTimeout(timer);
     }
   }, [isOpen]);
 
   // ── Body scroll lock ─────────────────────────────────────────────────────
   useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : "";
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    }
     return () => {
       document.body.style.overflow = "";
     };
@@ -108,7 +113,7 @@ const ImagePreviewModal = ({
   // ── Mouse wheel → zoom image (prevent page scroll / browser zoom) ────────
   useEffect(() => {
     const el = imgContainerRef.current;
-    if (!el) return;
+    if (!el || !isOpen) return;
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
       e.stopPropagation();
@@ -189,8 +194,8 @@ const ImagePreviewModal = ({
   };
 
   const onTouchMove = (e: React.TouchEvent) => {
-    e.preventDefault(); // Prevent browser native pinch-zoom on the whole page
     if (e.touches.length === 2) {
+      e.preventDefault(); // Prevent browser native pinch-zoom
       // Pinch zoom
       isSwipeCandidate.current = false;
       const dx = e.touches[0].clientX - e.touches[1].clientX;
@@ -215,12 +220,13 @@ const ImagePreviewModal = ({
         scale <= 1
       ) {
         const dy = currentY - swipeStartY.current;
-        // Downward drag only — start tracking once past 5px to avoid jitter
+        // Downward drag only
         if (dy > 5) {
+          e.preventDefault();
           setSwipeDy(dy);
-          return; // don't pan while doing swipe-to-close
+          return;
         }
-        // If user moved horizontally / up, cancel swipe
+        // Horizontal / up move
         const dx = Math.abs(e.touches[0].clientX - dragStart.current.x);
         if (dx > 10) {
           isSwipeCandidate.current = false;
@@ -230,6 +236,7 @@ const ImagePreviewModal = ({
 
       // Single-touch pan (when zoomed)
       if (scale > 1) {
+        e.preventDefault();
         const dx2 = e.touches[0].clientX - dragStart.current.x;
         const dy2 = e.touches[0].clientY - dragStart.current.y;
         const next = {
@@ -254,7 +261,7 @@ const ImagePreviewModal = ({
         swipeDy >= SWIPE_CLOSE_THRESHOLD ||
         velocity >= SWIPE_VELOCITY_THRESHOLD
       ) {
-        // Close the preview
+        // Close
         setSwipeDy(0);
         onClose();
       } else {
@@ -267,13 +274,11 @@ const ImagePreviewModal = ({
     swipeStartY.current = null;
   };
 
-  // ── Click image to close (when not zoomed) ─────────────────────────────────
   const onImageClick = (e: React.MouseEvent) => {
-    e.stopPropagation(); // don't also fire backdrop click
+    e.stopPropagation();
     if (scale <= 1) onClose();
   };
 
-  // ── Backdrop click closes only when not zoomed ───────────────────────────
   const onBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === overlayRef.current && scale <= 1) onClose();
   };
@@ -282,21 +287,20 @@ const ImagePreviewModal = ({
 
   const isZoomed = scale > 1.01;
 
-  return (
-    // Backdrop — never transforms or zooms
+  return createPortal(
     <div
       ref={overlayRef}
       onClick={onBackdropClick}
-      className={`fixed inset-0 z-999 flex items-center justify-center transition-all duration-300 select-none ${
+      className={`fixed inset-0 z-99999 flex items-center justify-center transition-all duration-300 select-none ${
         visible
           ? "bg-black/85 backdrop-blur-sm opacity-100"
-          : "bg-black/0 backdrop-blur-none opacity-0"
+          : "bg-black/0 backdrop-blur-none opacity-0 pointer-events-none"
       }`}
     >
       {/* Close button */}
       <button
         onClick={onClose}
-        className={`absolute top-4 right-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-200 cursor-pointer ${
+        className={`fixed top-4 right-4 z-100000 flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-200 cursor-pointer ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
         }`}
         aria-label="Close preview"
@@ -304,21 +308,21 @@ const ImagePreviewModal = ({
         <FontAwesomeIcon icon={faXmark} className="text-base" />
       </button>
 
-      {/* Reset zoom button — shown only when zoomed */}
+      {/* Reset zoom button */}
       {isZoomed && (
         <button
           onClick={() => {
             setScale(1);
             setOffset({ x: 0, y: 0 });
           }}
-          className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-white border border-white/20 hover:bg-white/20 transition-all duration-200 cursor-pointer backdrop-blur-sm"
+          className="fixed bottom-6 left-1/2 -translate-x-1/2 z-100000 flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-white border border-white/20 hover:bg-white/20 transition-all duration-200 cursor-pointer backdrop-blur-sm"
         >
           <FontAwesomeIcon icon={faMagnifyingGlassMinus} />
           Reset zoom
         </button>
       )}
 
-      {/* Image container — this is the layer that gets transformed */}
+      {/* Image container */}
       <div
         ref={imgContainerRef}
         className="flex items-center justify-center w-full h-full overflow-hidden"
@@ -337,24 +341,20 @@ const ImagePreviewModal = ({
           alt={alt}
           draggable={false}
           onClick={onImageClick}
-          className={`max-h-[90vh] max-w-[90vw] w-auto h-auto rounded-xl object-contain shadow-2xl ${
+          className={`max-h-[85vh] max-w-[90vw] w-auto h-auto rounded-xl object-contain shadow-2xl transition-opacity duration-300 ${
             isZoomed ? "cursor-grab" : "cursor-pointer"
           } ${visible ? "opacity-100" : "opacity-0"}`}
           style={{
             transform: `scale(${scale}) translate(${offset.x / scale}px, ${offset.y / scale}px) translateY(${swipeDy}px)`,
-            transition:
-              swipeDy > 0
-                ? "none" // no transition while finger is dragging
-                : scale === 1 && offset.x === 0 && offset.y === 0
-                  ? "opacity 0.3s, transform 0.35s cubic-bezier(0.32,0.72,0,1)"
-                  : "opacity 0.3s",
             opacity: visible ? Math.max(0, 1 - swipeDy / 220) : 0,
             willChange: "transform, opacity",
           }}
         />
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 };
 
 export default ImagePreviewModal;
+

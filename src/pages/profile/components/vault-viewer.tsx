@@ -27,6 +27,7 @@ import { useMutation } from "@tanstack/react-query";
 import { vaultMutation } from "../../../tanstack/vault/mutation";
 import { useSnackbar } from "react-snackify";
 import type { AxiosError } from "axios";
+import { useUserContext } from "../../../contexts/user/user";
 import VaultInsightsModal from "../../../components/ui/vault-insights-modal";
 import DeleteConfirmModal from "../../../components/ui/delete-confirm-modal";
 import ShareModal from "../../../components/ui/share-modal";
@@ -101,6 +102,7 @@ const VaultViewer = ({
   const [showInsights, setShowInsights] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [showShare, setShowShare] = useState(false);
+  const { user: currentUser } = useUserContext();
   const touchStartX = useRef<number | null>(null);
   const { showSnackbar } = useSnackbar();
 
@@ -245,6 +247,11 @@ const VaultViewer = ({
     });
   };
 
+  const isOwner = currentUser?.id === vault.author?.id;
+  const isTagged = !!vault.tagStatus;
+  const isAcceptedTag = vault.tagStatus === "accepted";
+
+  // Actions for owner: Edit, Delete, Pin, Insights, Publish (if draft)
   const ownerActions: ActionBtnProps[] = [
     {
       icon: faPen,
@@ -286,6 +293,26 @@ const VaultViewer = ({
     },
   ];
 
+  // Actions for tagged users: Pin, Insights, Detail, Share
+  const taggedActions: ActionBtnProps[] = [
+    ...(isAcceptedTag
+      ? [
+          {
+            icon: faThumbTack,
+            label: isPinned ? "Unpin" : "Pin",
+            onClick: handlePin,
+            active: isPinned,
+            loading: isPinning,
+          },
+          {
+            icon: faChartSimple,
+            label: "Insights",
+            onClick: () => setShowInsights(true),
+          },
+        ]
+      : []),
+  ];
+
   const viewActions: ActionBtnProps[] = [
     {
       icon: faArrowUpRightFromSquare,
@@ -298,6 +325,8 @@ const VaultViewer = ({
       onClick: () => setShowShare(true),
     },
   ];
+
+  const leftActions = isOwner ? ownerActions : isTagged ? taggedActions : [];
 
   return (
     <>
@@ -390,7 +419,7 @@ const VaultViewer = ({
           <div className="flex items-center justify-between gap-2 mt-4 px-2">
             {!readOnly && (
               <div className="flex items-center gap-2 sm:gap-4">
-                {ownerActions.map((a) => (
+                {leftActions.map((a) => (
                   <ActionBtn key={a.label} {...a} />
                 ))}
               </div>

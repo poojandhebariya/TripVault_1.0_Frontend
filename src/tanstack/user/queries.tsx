@@ -1,6 +1,8 @@
 import { set } from "idb-keyval";
 import type { ApiResponse } from "../../types/api-response";
 import type { User, PublicProfile } from "../../types/user";
+import type { VaultTagNotification } from "../../types/notifications";
+import type { Vault } from "../../types/vault";
 import axiosInstance from "../../utils/axios-instance";
 import { userKeys } from "./keys";
 
@@ -71,6 +73,49 @@ export const userQueries = () => {
     },
   });
 
+  const getNotifications = () => ({
+    queryKey: userKeys.notifications(),
+    queryFn: async (): Promise<VaultTagNotification[]> => {
+      const response = await axiosInstance.get<ApiResponse<VaultTagNotification[]>>(
+        `/vault/tag/notifications`,
+      );
+      return response.data.data ?? [];
+    },
+  });
+
+  const getTaggedVaults = () => ({
+    queryKey: userKeys.taggedVaults(),
+    queryFn: async (): Promise<Vault[]> => {
+      const response = await axiosInstance.get<ApiResponse<Vault[]>>(
+        `/vault/tagged`,
+      );
+      return response.data.data ?? [];
+    },
+  });
+
+  const getPublicTaggedVaults = (userId: string) => ({
+    queryKey: userKeys.getPublicTaggedVaults(userId),
+    queryFn: async (): Promise<Vault[]> => {
+      const response = await axiosInstance.get<ApiResponse<Vault[]>>(
+        `/vault/user/${userId}/tagged`,
+      );
+      return response.data.data ?? [];
+    },
+    enabled: !!userId,
+  });
+
+  const tagFollowersInVault = (q: string) => ({
+    queryKey: userKeys.tagFollowersInVault(q),
+    queryFn: async (): Promise<PublicProfile[]> => {
+      const response = await axiosInstance.get<ApiResponse<PublicProfile[]>>(
+        `/user/followers/search?q=${encodeURIComponent(q)}&limit=6`,
+      );
+      return response.data.data ?? [];
+    },
+    enabled: q.length >= 1,
+    staleTime: 1000 * 30, // 30s
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -78,5 +123,9 @@ export const userQueries = () => {
     getFollowers,
     getFollowing,
     getSuggestedProfiles,
+    getNotifications, 
+    getTaggedVaults,
+    getPublicTaggedVaults,
+    tagFollowersInVault,
   };
 };

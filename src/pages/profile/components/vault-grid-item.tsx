@@ -6,6 +6,8 @@ import {
   faVideo,
   faClock,
   faThumbTack,
+  faCheck,
+  faTag,
 } from "@fortawesome/free-solid-svg-icons";
 import type { Vault } from "../../../types/vault";
 
@@ -66,6 +68,20 @@ const VaultGridItem = ({ vault, onClick }: VaultGridItemProps) => {
         </div>
       )}
 
+      {vault.tagStatus === "accepted" && !vault.isPinned && (
+        <div className="absolute top-2 right-2 flex items-center gap-1 bg-emerald-500/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-full backdrop-blur-sm pointer-events-none">
+          <FontAwesomeIcon icon={faCheck} className="text-[8px]" />
+          Accepted
+        </div>
+      )}
+
+      {vault.tagStatus === "pending" && !vault.isPinned && (
+        <div className="absolute top-2 right-2 flex items-center gap-1 bg-amber-500/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-full backdrop-blur-sm animate-pulse pointer-events-none">
+          <FontAwesomeIcon icon={faClock} className="text-[8px]" />
+          Pending
+        </div>
+      )}
+
       {vault.status !== "publish" && (
         <div
           className={`absolute top-1.5 right-1.5 flex items-center gap-1 text-[10px] font-bold px-1.5 py-0.5 rounded-md pointer-events-none ${
@@ -99,6 +115,13 @@ const VaultGridItem = ({ vault, onClick }: VaultGridItemProps) => {
               filter: "drop-shadow(0 1px 1px rgba(0,0,0,0.25))",
             }}
           />
+        </div>
+      )}
+
+      {vault.tagStatus && vault.author && (
+        <div className="absolute bottom-2 left-2 flex items-center gap-1 bg-black/40 backdrop-blur-sm text-white text-[10px] font-semibold px-1.5 py-0.5 rounded-full pointer-events-none transition-opacity duration-200 group-hover:opacity-0">
+          <FontAwesomeIcon icon={faTag} className="text-[9px]" />
+          @{vault.author.username}
         </div>
       )}
     </div>

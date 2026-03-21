@@ -18,6 +18,7 @@ import { vaultMutation } from "../../tanstack/vault/mutation";
 import Button from "../../components/ui/button";
 import Input from "../../components/ui/input";
 import RichTextEditor from "../../components/ui/rich-text-editor";
+import UserTagInput, { type TaggedUser } from "../../components/ui/user-tag-input";
 
 import {
   MAX_ATTACHMENTS,
@@ -57,7 +58,7 @@ const CreateVault = () => {
   const [visibility, setVisibility] = useState<Visibility>("public");
   const [audience, setAudience] = useState<Audience>("everyone");
   const [allowComments, setAllowComments] = useState(true);
-  const [friendUsername, setFriendUsername] = useState("");
+  const [taggedUsers, setTaggedUsers] = useState<TaggedUser[]>([]);
   const [scheduledAt, setScheduledAt] = useState<string | null>(null);
   const [scheduleOpen, setScheduleOpen] = useState(false);
 
@@ -470,12 +471,9 @@ const CreateVault = () => {
       visibility,
       audience,
       allowComments,
-      // Friends tagging is independent of visibility — always send if set
-      friendUsername: friendUsername.trim()
-        ? friendUsername
-            .split(",")
-            .map((u) => u.trim().replace(/^@/, ""))
-            .filter(Boolean)
+      // Friends tagging — send array of usernames for tagged users
+      friendUsername: taggedUsers.length > 0
+        ? taggedUsers.map((u) => u.username)
         : undefined,
       attachments: uploadedAttachments,
       scheduledAt: mode === "schedule" ? resolvedScheduledAt : null,
@@ -642,6 +640,24 @@ const CreateVault = () => {
 
           <Divider />
 
+          {/* Tag People */}
+          <div>
+            <FieldLabel>Tag People</FieldLabel>
+            <UserTagInput
+              taggedUsers={taggedUsers}
+              onAdd={(user) =>
+                setTaggedUsers((prev) =>
+                  prev.some((u) => u.id === user.id) ? prev : [...prev, user],
+                )
+              }
+              onRemove={(userId) =>
+                setTaggedUsers((prev) => prev.filter((u) => u.id !== userId))
+              }
+            />
+          </div>
+
+          <Divider />
+
           {/* Visibility */}
           <div>
             <FieldLabel>Visibility</FieldLabel>
@@ -657,8 +673,6 @@ const CreateVault = () => {
               onAudienceChange={setAudience}
               allowComments={allowComments}
               onAllowCommentsChange={setAllowComments}
-              friendUsername={friendUsername}
-              onFriendUsernameChange={setFriendUsername}
             />
           </div>
 

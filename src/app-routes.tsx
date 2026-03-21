@@ -23,6 +23,7 @@ import ProfileSetupRoute from "./components/profile-setup-route";
 import HomeRoute from "./components/home-route";
 import BucketList from "./pages/bucket-list/bucket-list";
 import FollowersFollowingPage from "./pages/profile/followers-following";
+import NotificationsPage from "./pages/notifications/notifications";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -57,6 +58,7 @@ const AppRoutes = () => {
           <Route path={ROUTES.USER.PUBLIC_PROFILE} element={<Profile />}>
             <Route index element={<Navigate to="vaults" replace />} />
             <Route path="vaults" element={<PublicVaults />} />
+            <Route path="tagged" element={<Tagged />} />
           </Route>
           <Route
             path="/user/:id/followers"
@@ -95,6 +97,10 @@ const AppRoutes = () => {
           <Route
             path={ROUTES.USER.OWN_FOLLOWING}
             element={<FollowersFollowingPage mode="following" />}
+          />
+          <Route
+            path={ROUTES.NOTIFICATIONS}
+            element={<NotificationsPage />}
           />
         </Route>
       </Route>

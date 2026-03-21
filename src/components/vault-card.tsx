@@ -5,7 +5,6 @@ import { cn } from "../lib/cn-merge";
 import type { Vault } from "../types/vault";
 import VaultPostMenu from "./vault-post-menu";
 import { useUserContext } from "../contexts/user/user";
-import ImagePreviewModal from "./ui/image-preview-modal";
 import VaultInsightsModal from "./ui/vault-insights-modal";
 import { MOODS } from "../utils/moods";
 import { useMutation } from "@tanstack/react-query";
@@ -46,7 +45,6 @@ const VaultCard = ({
   const cardRef = useRef<HTMLElement>(null);
   const hasTracked = useRef(false);
 
-  const [previewSrc, setPreviewSrc] = useState<string | null>(null);
   const [showInsights, setShowInsights] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [showShare, setShowShare] = useState(false);
@@ -367,12 +365,7 @@ const VaultCard = ({
           )}
         </div>
 
-        {/* ── Preview modal ── */}
-        <ImagePreviewModal
-          src={previewSrc ?? undefined}
-          isOpen={!!previewSrc}
-          onClose={() => setPreviewSrc(null)}
-        />
+
 
         {/* ── Desktop Inline Comments ── */}
         {!isMobile && showComments && vault.id && (

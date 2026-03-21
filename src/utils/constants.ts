@@ -29,6 +29,7 @@ export const ROUTES = {
   EXPLORE: "/explore",
   SEARCH: "/search",
   HOME: "/",
+  NOTIFICATIONS: "/notifications",
 };
 
 export const LOCAL_STORAGE_KEYS = {

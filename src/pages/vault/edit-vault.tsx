@@ -19,6 +19,7 @@ import { vaultQueries } from "../../tanstack/vault/queries";
 import Button from "../../components/ui/button";
 import Input from "../../components/ui/input";
 import RichTextEditor from "../../components/ui/rich-text-editor";
+import UserTagInput, { type TaggedUser } from "../../components/ui/user-tag-input";
 
 import {
   MAX_ATTACHMENTS,
@@ -59,7 +60,7 @@ const EditVault = () => {
   const [visibility, setVisibility] = useState<Visibility>("public");
   const [audience, setAudience] = useState<Audience>("everyone");
   const [allowComments, setAllowComments] = useState(true);
-  const [friendUsername, setFriendUsername] = useState("");
+  const [taggedUsers, setTaggedUsers] = useState<TaggedUser[]>([]);
   const [scheduledAt, setScheduledAt] = useState<string | null>(null);
   const [scheduleOpen, setScheduleOpen] = useState(false);
 
@@ -112,7 +113,14 @@ const EditVault = () => {
       setVisibility((vault.visibility as Visibility) || "public");
       setAudience((vault.audience as Audience) || "everyone");
       setAllowComments(vault.allowComments ?? true);
-      setFriendUsername(vault.friendUsername?.join(", ") ?? "");
+      setTaggedUsers(
+        (vault.friendUsername || []).map((username) => ({
+          id: username,
+          username,
+          name: null,
+          profilePicUrl: null,
+        }))
+      );
       setScheduledAt(vault.scheduledAt);
 
       // Map existing attachments to AttachmentItem
@@ -153,7 +161,8 @@ const EditVault = () => {
     const audienceChanged = audience !== vault.audience;
     const commentsChanged = allowComments !== (vault.allowComments ?? true);
     const friendsChanged =
-      friendUsername.trim() !== (vault.friendUsername?.join(", ") ?? "").trim();
+      JSON.stringify(taggedUsers.map((u) => u.username)) !==
+      JSON.stringify(vault.friendUsername || []);
     const scheduleChanged = scheduledAt !== vault.scheduledAt;
 
     // Attachments check: simple check if same URLs and same count
@@ -526,11 +535,8 @@ const EditVault = () => {
       visibility,
       audience,
       allowComments,
-      friendUsername: friendUsername.trim()
-        ? friendUsername
-            .split(",")
-            .map((u) => u.trim().replace(/^@/, ""))
-            .filter(Boolean)
+      friendUsername: taggedUsers.length > 0
+        ? taggedUsers.map((u) => u.username)
         : undefined,
       attachments: uploadedAttachments,
       scheduledAt: mode === "schedule" ? resolvedScheduledAt : null,
@@ -692,6 +698,23 @@ const EditVault = () => {
               <Divider />
 
               <div>
+                <FieldLabel>Tag People</FieldLabel>
+                <UserTagInput
+                  taggedUsers={taggedUsers}
+                  onAdd={(user) =>
+                    setTaggedUsers((prev) =>
+                      prev.some((u) => u.id === user.id) ? prev : [...prev, user],
+                    )
+                  }
+                  onRemove={(userId) =>
+                    setTaggedUsers((prev) => prev.filter((u) => u.id !== userId))
+                  }
+                />
+              </div>
+
+              <Divider />
+
+              <div>
                 <FieldLabel>Visibility</FieldLabel>
                 <VisibilitySection
                   visibility={visibility}
@@ -706,8 +729,6 @@ const EditVault = () => {
                   onAudienceChange={setAudience}
                   allowComments={allowComments}
                   onAllowCommentsChange={setAllowComments}
-                  friendUsername={friendUsername}
-                  onFriendUsernameChange={setFriendUsername}
                 />
               </div>
 

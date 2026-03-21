@@ -5,10 +5,13 @@ import {
   faFaceSmile,
   faUserGroup,
   faAlignLeft,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 import { cn } from "../../../lib/cn-merge";
 import { MOODS } from "../../../utils/moods";
 import type { Vault } from "../../../types/vault";
+import { ROUTES } from "../../../utils/constants";
 
 const getMoodMeta = (mood: string | null) => {
   if (!mood) return null;
@@ -27,39 +30,21 @@ interface DetailsTabProps {
 
 const DetailsTab = ({ vault }: DetailsTabProps) => {
   const moodMeta = getMoodMeta(vault.mood);
+  const navigate = useNavigate();
+
+  // Prefer the richer taggedFriends list (with status), filtering to accepted only.
+  // Fall back to plain friendUsername strings if taggedFriends is not provided.
+  const acceptedFriends = vault.taggedFriends
+    ? vault.taggedFriends.filter((f) => f.status === "accepted")
+    : null;
+
+  // Whether to show companions section
+  const hasCompanions = acceptedFriends
+    ? acceptedFriends.length > 0
+    : !!(vault.friendUsername && vault.friendUsername.length > 0);
 
   return (
     <div className="px-4 md:px-5 py-5 space-y-6 animate-[slideTop_0.2s_ease-out]">
-      {/* Fellow Travellers */}
-      {vault.friendUsername && vault.friendUsername.length > 0 && (
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <FontAwesomeIcon
-              icon={faUserGroup}
-              className="text-gray-400 text-xs"
-            />
-            <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">
-              Travel Companions
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-2.5">
-            {vault.friendUsername.map((username) => (
-              <div
-                key={username}
-                className="flex items-center gap-2.5 bg-white border border-gray-100 rounded-full pl-1.5 pr-4 py-1.5 shadow-sm hover:shadow-md transition-shadow cursor-default"
-              >
-                <div className="w-7 h-7 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center text-[10px] font-bold text-white shadow-sm ring-2 ring-white">
-                  {username.charAt(0).toUpperCase()}
-                </div>
-                <span className="text-xs font-bold text-gray-700">
-                  @{username}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
       {/* Description */}
       {vault.description && (
         <div>
@@ -108,6 +93,62 @@ const DetailsTab = ({ vault }: DetailsTabProps) => {
                 Trip Vibe
               </p>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Fellow Travellers */}
+      {hasCompanions && (
+        <div>
+          <div className="flex items-center gap-2 mb-3">
+            <FontAwesomeIcon
+              icon={faUserGroup}
+              className="text-gray-400 text-xs"
+            />
+            <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">
+              Travel Companions
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2.5">
+            {acceptedFriends
+              ? acceptedFriends.map((friend) => (
+                  <button
+                    key={friend.id}
+                    type="button"
+                    onClick={() =>
+                      navigate(ROUTES.USER.PUBLIC_PROFILE_PATH(friend.id))
+                    }
+                    className="flex items-center gap-2.5 bg-white border border-gray-100 rounded-full pl-1.5 pr-4 py-1.5 shadow-sm hover:shadow-md hover:border-blue-100 transition-all cursor-pointer"
+                  >
+                    {friend.profilePicUrl ? (
+                      <img
+                        src={friend.profilePicUrl}
+                        alt={friend.name ?? friend.username}
+                        className="w-7 h-7 rounded-full object-cover ring-2 ring-white shadow-sm"
+                      />
+                    ) : (
+                      <div className="w-7 h-7 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center text-[10px] font-bold text-white shadow-sm ring-2 ring-white">
+                        <FontAwesomeIcon icon={faUser} className="text-[9px]" />
+                      </div>
+                    )}
+                    <span className="text-xs font-bold text-gray-700">
+                      @{friend.username}
+                    </span>
+                  </button>
+                ))
+              : (vault.friendUsername ?? []).map((username) => (
+                  <div
+                    key={username}
+                    className="flex items-center gap-2.5 bg-white border border-gray-100 rounded-full pl-1.5 pr-4 py-1.5 shadow-sm hover:shadow-md transition-shadow cursor-default"
+                  >
+                    <div className="w-7 h-7 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center text-[10px] font-bold text-white shadow-sm ring-2 ring-white">
+                      {username.charAt(0).toUpperCase()}
+                    </div>
+                    <span className="text-xs font-bold text-gray-700">
+                      @{username}
+                    </span>
+                  </div>
+                ))}
           </div>
         </div>
       )}

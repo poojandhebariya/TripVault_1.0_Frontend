@@ -1,6 +1,8 @@
 import { userKeys } from "./keys";
 import { set } from "idb-keyval";
 import type { User, PublicProfile } from "../../types/user";
+import type { VaultTagNotification } from "../../types/notifications";
+import type { Vault } from "../../types/vault";
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse } from "../../types/api-response";
 import { useQueryClient } from "@tanstack/react-query";
@@ -140,7 +142,7 @@ export const userMutation = () => {
         return old;
       });
 
-      // Update following status in ALL user lists (followers, following, etc.)
+      // Update following status in ALL user lists (followers, following, suggested, etc.)
       queryClient.setQueriesData({ queryKey: userKeys.all() }, (old: any) => {
         if (!Array.isArray(old)) return old;
         return old.map((p: any) =>
@@ -154,6 +156,32 @@ export const userMutation = () => {
         );
       });
 
+      // SPECIAL: Inject the newly followed user into the current user's following list
+      // so that navigating to the "Following" tab shows them immediately.
+      if (previousOwnProfile?.id) {
+        // Find the profile data from any available cache source
+        const followedProfile: PublicProfile | undefined =
+          previousPublicProfile ??
+          // Try searching suggested profiles cache for the user
+          (
+            queryClient.getQueryData<PublicProfile[]>(
+              userKeys.getSuggestedProfiles(),
+            ) ?? []
+          ).find((p: PublicProfile) => p.id === id);
+
+        if (followedProfile) {
+          queryClient.setQueryData(
+            userKeys.getFollowing(previousOwnProfile.id),
+            (old: any) => {
+              const list: PublicProfile[] = Array.isArray(old) ? old : [];
+              // Avoid duplicates
+              if (list.some((p) => p.id === id)) return list;
+              return [{ ...followedProfile, isFollowing: true }, ...list];
+            },
+          );
+        }
+      }
+
       return { previousPublicProfile, previousOwnProfile };
     },
     onError: (
@@ -163,10 +191,6 @@ export const userMutation = () => {
         | { previousPublicProfile?: PublicProfile; previousOwnProfile?: User }
         | undefined,
     ) => {
-      // Revert accurately via invalidation
-      queryClient.invalidateQueries({ queryKey: ["vault"] });
-      queryClient.invalidateQueries({ queryKey: userKeys.all() });
-
       if (context?.previousPublicProfile) {
         queryClient.setQueryData(
           userKeys.getPublicProfile(id),
@@ -303,10 +327,6 @@ export const userMutation = () => {
         | { previousPublicProfile?: PublicProfile; previousOwnProfile?: User }
         | undefined,
     ) => {
-      // Revert accurately via invalidation
-      queryClient.invalidateQueries({ queryKey: ["vault"] });
-      queryClient.invalidateQueries({ queryKey: userKeys.all() });
-
       if (context?.previousPublicProfile) {
         queryClient.setQueryData(
           userKeys.getPublicProfile(id),
@@ -322,10 +342,98 @@ export const userMutation = () => {
     },
   });
 
+  const respondToTagMutation = (notificationId: string) => ({
+    mutationKey: [...userKeys.notifications(), "respond", notificationId],
+    mutationFn: async (action: "accepted" | "declined") => {
+      const response = await axiosInstance.post<ApiResponse<null>>(
+        `/vault/tag/notifications/${notificationId}/respond`,
+        { status: action },
+      );
+      return response.data;
+    },
+    onMutate: async (action: "accepted" | "declined") => {
+      await queryClient.cancelQueries({ queryKey: userKeys.notifications() });
+      await queryClient.cancelQueries({ queryKey: userKeys.taggedVaults() });
+
+      const previousNotifications = queryClient.getQueryData<
+        VaultTagNotification[]
+      >(userKeys.notifications());
+      const previousTaggedVaults = queryClient.getQueryData<Vault[]>(
+        userKeys.taggedVaults(),
+      );
+
+      const respondingNotification = previousNotifications?.find(
+        (n) => n.id === notificationId,
+      );
+
+      if (previousNotifications) {
+        queryClient.setQueryData<VaultTagNotification[]>(
+          userKeys.notifications(),
+          previousNotifications.filter((n) => n.id !== notificationId),
+        );
+      }
+
+      if (action === "accepted" && respondingNotification) {
+        const newTaggedVault: Vault = {
+          id: respondingNotification.vaultId,
+          title: respondingNotification.vaultTitle,
+          description: "", // Fallback
+          tags: [],
+          mood: null,
+          location: null,
+          visibility: "public",
+          audience: "everyone",
+          allowComments: true,
+          attachments: respondingNotification.vaultCoverUrl
+            ? [{ url: respondingNotification.vaultCoverUrl, type: "image" }]
+            : [],
+          status: "publish",
+          author: respondingNotification.tagger,
+          tagStatus: "accepted",
+          scheduledAt: null,
+          createdAt: respondingNotification.createdAt,
+        };
+
+        if (previousTaggedVaults) {
+          queryClient.setQueryData<Vault[]>(userKeys.taggedVaults(), [
+            newTaggedVault,
+            ...previousTaggedVaults,
+          ]);
+        }
+      }
+
+      return { previousNotifications, previousTaggedVaults };
+    },
+    onError: (
+      _err: unknown,
+      _vars: unknown,
+      context:
+        | {
+            previousNotifications?: VaultTagNotification[];
+            previousTaggedVaults?: Vault[];
+          }
+        | undefined,
+    ) => {
+      if (context?.previousNotifications) {
+        queryClient.setQueryData(
+          userKeys.notifications(),
+          context.previousNotifications,
+        );
+      }
+      if (context?.previousTaggedVaults) {
+        queryClient.setQueryData(
+          userKeys.taggedVaults(),
+          context.previousTaggedVaults,
+        );
+      }
+    },
+  });
+
   return {
     profileMutation,
     updateProfileMutation,
     followMutation,
     unfollowMutation,
+    respondToTagMutation,
   };
 };

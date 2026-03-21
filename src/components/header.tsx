@@ -27,7 +27,6 @@ import { clear } from "idb-keyval";
 import DropdownMenu, { type DropdownMenuItem } from "./ui/dropdown-menu";
 import ScreenLoading from "./ui/screen-loading";
 
-const NOTIFICATION_COUNT = 3;
 
 const NonloggedInNavigation = [
   { label: "Explore", href: ROUTES.EXPLORE },
@@ -70,12 +69,21 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isLoggingOut, setIsLoggingOut] = useState(false);
 
-  const { getProfile } = userQueries();
+  const { getProfile, getNotifications } = userQueries();
   const { data: profileData } = useQuery({
     ...getProfile(),
     // Only fetch profile when the user is fully onboarded
     enabled: isLoggedIn && isProfileSetup,
   });
+
+  const { data: notifications = [] } = useQuery({
+    ...getNotifications(),
+    enabled: isLoggedIn && isProfileSetup,
+    refetchInterval: 60_000, // poll every 60s
+  });
+  const notificationCount = notifications.filter(
+    (n) => n.status === "pending",
+  ).length;
 
   const handleLogout = async () => {
     setIsLoggingOut(true);
@@ -155,18 +163,19 @@ const Header = () => {
               <>
                 <button
                   id="header-notification-btn"
+                  onClick={() => navigate(ROUTES.NOTIFICATIONS)}
                   className="relative w-9 h-9 rounded-full cursor-pointer flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition-all duration-200 active:scale-95"
                   title="Notifications"
                 >
                   <FontAwesomeIcon icon={faBell} />
-                  {NOTIFICATION_COUNT > 0 && (
+                  {notificationCount > 0 && (
                     <span
                       className="absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] px-1 rounded-full text-white text-[10px] font-bold flex items-center justify-center shadow-md"
                       style={{
                         background: "linear-gradient(135deg, #0219b3, #7d0299)",
                       }}
                     >
-                      {NOTIFICATION_COUNT > 9 ? "9+" : NOTIFICATION_COUNT}
+                      {notificationCount > 9 ? "9+" : notificationCount}
                     </span>
                   )}
                 </button>
@@ -229,18 +238,19 @@ const Header = () => {
             {isLoggedIn && (
               <button
                 id="header-notification-btn-mobile"
+                onClick={() => navigate(ROUTES.NOTIFICATIONS)}
                 className="relative w-9 h-9 rounded-full flex items-center justify-center text-gray-500 hover:bg-gray-100 transition-all duration-200 active:scale-95"
                 title="Notifications"
               >
                 <FontAwesomeIcon icon={faBell} />
-                {NOTIFICATION_COUNT > 0 && (
+                {notificationCount > 0 && (
                   <span
                     className="absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] px-1 rounded-full text-white text-[10px] font-bold flex items-center justify-center shadow-md"
                     style={{
                       background: "linear-gradient(135deg, #0219b3, #7d0299)",
                     }}
                   >
-                    {NOTIFICATION_COUNT > 9 ? "9+" : NOTIFICATION_COUNT}
+                    {notificationCount > 9 ? "9+" : notificationCount}
                   </span>
                 )}
               </button>

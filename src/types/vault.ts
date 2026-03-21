@@ -6,6 +6,16 @@ export interface VaultAuthor {
   isFollowing?: boolean;
 }
 
+export type TagStatus = "pending" | "accepted" | "declined";
+
+export interface TaggedFriend {
+  id: string;
+  username: string;
+  name: string | null;
+  profilePicUrl: string | null;
+  status: TagStatus;
+}
+
 export interface Vault {
   id?: string;
   title: string;
@@ -21,6 +31,7 @@ export interface Vault {
   audience: VaultAudience;
   allowComments: boolean;
   friendUsername?: string[];
+  taggedFriends?: TaggedFriend[];
   attachments: VaultAttachment[];
   /** ISO-8601 datetime for scheduled publishing; null means publish immediately */
   scheduledAt: string | null;
@@ -35,6 +46,7 @@ export interface Vault {
   topCountries?: string[];
   isPinned?: boolean;
   pinnedAt?: string | null;
+  tagStatus?: TagStatus;
   isSaved?: boolean;
   isBucketListed?: boolean;
 }

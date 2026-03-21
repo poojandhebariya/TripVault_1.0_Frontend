@@ -43,20 +43,23 @@ const UserRow = ({
   const handleToggle = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (isSelf) return;
-    guard(() => {
-      if (profile.isFollowing) {
-        unfollowMut.mutate(profile.id);
-      } else {
-        followMut.mutate(profile.id);
-      }
-    }, profile.isFollowing ? "unfollow this traveller" : "follow this traveller");
+    guard(
+      () => {
+        if (profile.isFollowing) {
+          unfollowMut.mutate(profile.id);
+        } else {
+          followMut.mutate(profile.id);
+        }
+      },
+      profile.isFollowing ? "unfollow this traveller" : "follow this traveller",
+    );
   };
 
   return (
-      <div
-        className="flex items-center gap-3 p-4 hover:bg-gray-50/70 transition-colors cursor-pointer active:bg-gray-100"
-        onClick={() => onNavigate(profile.id)}
-      >
+    <div
+      className="flex items-center gap-3 p-4 hover:bg-gray-50/70 transition-colors cursor-pointer active:bg-gray-100"
+      onClick={() => onNavigate(profile.id)}
+    >
       {/* Avatar */}
       <div className="relative shrink-0">
         {profile.profilePicUrl ? (
@@ -139,8 +142,17 @@ const FollowersFollowingPage = ({ mode }: FollowersFollowingPageProps) => {
     <div className="animate-[slideDown_0.3s_ease-out]">
       <MobileStickyHeader title={title} />
 
-      <div className="flex justify-center px-4 md:px-6 gap-8 max-w-7xl mx-auto items-start">
-        <div className="flex-1 max-w-2xl w-full">
+      <div className="flex justify-between px-2 md:px-6 gap-8 max-w-7xl mx-auto items-start">
+        <div className="flex-1 max-w-3xl w-full">
+          {/* ── Page Heading ── */}
+          <div className="mt-4 mb-5 md:mt-6 hidden md:block">
+            <div className="flex items-end gap-3">
+              <h1 className="text-3xl font-extrabold gradient-text w-fit pb-1">
+                {mode === "followers" ? "Followers" : "Following"}
+              </h1>
+            </div>
+          </div>
+
           <div className="mt-2">
             {isLoading ? (
               <UserListSkeleton count={8} />
@@ -175,7 +187,7 @@ const FollowersFollowingPage = ({ mode }: FollowersFollowingPageProps) => {
           </div>
         </div>
 
-        <div className="hidden md:block w-72 xl:w-80 shrink-0 sticky top-24 mt-4">
+        <div className="hidden md:block w-80 xl:w-96 shrink-0 sticky top-24 mt-4">
           <SuggestedProfilesSidebar excludeId={profileId} />
         </div>
       </div>

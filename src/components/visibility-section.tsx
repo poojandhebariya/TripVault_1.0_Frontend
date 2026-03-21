@@ -13,8 +13,8 @@ interface VisibilitySectionProps {
   onAudienceChange: (a: Audience) => void;
   allowComments: boolean;
   onAllowCommentsChange: (v: boolean) => void;
-  friendUsername: string;
-  onFriendUsernameChange: (v: string) => void;
+  friendUsername?: string;
+  onFriendUsernameChange?: (v: string) => void;
 }
 
 const VISIBILITY_OPTS = [
@@ -63,20 +63,22 @@ const VisibilitySection = ({
     {/* ── Public settings panel ── */}
     {visibility === "public" && (
       <div className="rounded-xl space-y-4 animate-[slideTop_0.15s_ease-out]">
-        {/* Tag friends */}
-        <div className="space-y-1">
-          <p className="text-sm font-semibold text-gray-700">Tag Friends</p>
-          <Input
-            label=""
-            placeholder="@username, @username2…"
-            value={friendUsername}
-            onChange={(e) => onFriendUsernameChange(e.target.value)}
-          />
-          <p className="text-xs text-gray-400 flex items-center gap-1">
-            <FontAwesomeIcon icon={faUserPlus} />
-            Tag friends by username — they'll be notified.
-          </p>
-        </div>
+        {/* Tag friends — only shown when props are provided (legacy) */}
+        {onFriendUsernameChange !== undefined && (
+          <div className="space-y-1">
+            <p className="text-sm font-semibold text-gray-700">Tag Friends</p>
+            <Input
+              label=""
+              placeholder="@username, @username2…"
+              value={friendUsername ?? ""}
+              onChange={(e) => onFriendUsernameChange(e.target.value)}
+            />
+            <p className="text-xs text-gray-400 flex items-center gap-1">
+              <FontAwesomeIcon icon={faUserPlus} />
+              Tag friends by username — they'll be notified.
+            </p>
+          </div>
+        )}
 
         {/* Who can discover */}
         <div>

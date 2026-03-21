@@ -10,4 +10,8 @@ export const userKeys = {
   getFollowing: (id: string) => [...userKeys.all(), "following", id],
   getSuggestedProfiles: () => [...userKeys.all(), "suggestedProfiles"],
   checkUsername: (username: string) => [...userKeys.all(), "checkUsername", username],
+  notifications: () => [...userKeys.all(), "notifications"],
+  taggedVaults: () => [...userKeys.all(), "taggedVaults"],
+  getPublicTaggedVaults: (id: string) => [...userKeys.taggedVaults(), "public", id],
+  tagFollowersInVault: (q: string) => [...userKeys.all(), "tagFollowersInVault", q],
 };

@@ -158,12 +158,19 @@ export const vaultMutation = () => {
     },
     onMutate: async (vaultId: string) => {
       await queryClient.cancelQueries({ queryKey: vaultKeys.getMyVaults() });
+      await queryClient.cancelQueries({ queryKey: userKeys.taggedVaults() });
+
       const previousVaults = queryClient.getQueryData<Vault[]>(
         vaultKeys.getMyVaults(),
       );
+      const previousTaggedVaults = queryClient.getQueryData<Vault[]>(
+        userKeys.taggedVaults(),
+      );
 
-      if (previousVaults) {
-        queryClient.setQueryData<Vault[]>(vaultKeys.getMyVaults(), (old) => {
+      // Helper to update a list of vaults
+      const updateList = (list: Vault[] | undefined, key: any) => {
+        if (!list) return;
+        queryClient.setQueryData<Vault[]>(key, (old) => {
           if (!old) return [];
           const pinnedCount = old.filter(
             (v) => v.isPinned && v.id !== vaultId,
@@ -199,15 +206,24 @@ export const vaultMutation = () => {
               );
             });
         });
-      }
+      };
 
-      return { previousVaults };
+      updateList(previousVaults, vaultKeys.getMyVaults());
+      updateList(previousTaggedVaults, userKeys.taggedVaults());
+
+      return { previousVaults, previousTaggedVaults };
     },
     onError: (_err: unknown, _newVault: string, context: any) => {
-      if (context?.previousVaults && queryClient) {
+      if (context?.previousVaults) {
         queryClient.setQueryData(
           vaultKeys.getMyVaults(),
           context.previousVaults,
+        );
+      }
+      if (context?.previousTaggedVaults) {
+        queryClient.setQueryData(
+          userKeys.taggedVaults(),
+          context.previousTaggedVaults,
         );
       }
     },
@@ -224,6 +240,21 @@ export const vaultMutation = () => {
         `/vault/${vaultId}/view`,
       );
       return response.data.data;
+    },
+    onMutate: async (vaultId: string) => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+      const previousQueries = _applyToAllVaultQueries(vaultId, (v) => ({
+        ...v,
+        impressionsCount: (v.impressionsCount ?? 0) + 1,
+      }));
+      return { previousQueries };
+    },
+    onError: (_err: unknown, _vars: unknown, context: any) => {
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) =>
+          queryClient.setQueryData(queryKey, data),
+        );
+      }
     },
   };
 
