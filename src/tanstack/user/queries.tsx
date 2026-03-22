@@ -1,7 +1,7 @@
 import { set } from "idb-keyval";
 import type { ApiResponse } from "../../types/api-response";
 import type { User, PublicProfile } from "../../types/user";
-import type { VaultTagNotification } from "../../types/notifications";
+import type { VaultNotification } from "../../types/notifications";
 import type { Vault } from "../../types/vault";
 import axiosInstance from "../../utils/axios-instance";
 import { userKeys } from "./keys";
@@ -75,9 +75,9 @@ export const userQueries = () => {
 
   const getNotifications = () => ({
     queryKey: userKeys.notifications(),
-    queryFn: async (): Promise<VaultTagNotification[]> => {
-      const response = await axiosInstance.get<ApiResponse<VaultTagNotification[]>>(
-        `/vault/tag/notifications`,
+    queryFn: async (): Promise<VaultNotification[]> => {
+      const response = await axiosInstance.get<ApiResponse<VaultNotification[]>>(
+        `/vault/notifications`,
       );
       return response.data.data ?? [];
     },

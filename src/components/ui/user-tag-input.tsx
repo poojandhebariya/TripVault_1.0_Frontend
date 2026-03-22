@@ -155,10 +155,10 @@ const UserTagInput = ({ taggedUsers, onAdd, onRemove }: UserTagInputProps) => {
                     className="w-8 h-8 rounded-full object-cover shrink-0 ring-2 ring-gray-100"
                   />
                 ) : (
-                  <div className="w-8 h-8 rounded-full bg-linear-to-br from-indigo-100 to-purple-100 flex items-center justify-center shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-gray-50 border border-gray-200 flex items-center justify-center shrink-0">
                     <FontAwesomeIcon
                       icon={faUser}
-                      className="text-indigo-400 text-xs"
+                      className="text-gray-600 text-xs"
                     />
                   </div>
                 )}
@@ -191,10 +191,10 @@ const UserTagInput = ({ taggedUsers, onAdd, onRemove }: UserTagInputProps) => {
                   className="w-5 h-5 rounded-full object-cover"
                 />
               ) : (
-                <div className="w-5 h-5 rounded-full bg-linear-to-br from-indigo-200 to-purple-200 flex items-center justify-center">
+                <div className="w-5 h-5 rounded-full bg-gray-50 border border-gray-200 flex items-center justify-center">
                   <FontAwesomeIcon
                     icon={faUser}
-                    className="text-indigo-500 text-[8px]"
+                    className="text-gray-600 text-[8px]"
                   />
                 </div>
               )}

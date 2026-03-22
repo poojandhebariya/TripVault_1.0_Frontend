@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -11,6 +12,17 @@ export default function Pagination({
   onPrev,
   onNext,
 }: Pagination) {
+  useEffect(() => {
+    // Standard window scroll (Desktop)
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+    // Scroll container for Mobile/App layouts
+    const scrollableContainer = document.querySelector(".overflow-y-auto");
+    if (scrollableContainer) {
+      scrollableContainer.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [page]);
+
   if (totalPages <= 1) return null;
   return (
     <div className="flex items-center justify-center gap-4 py-6">

@@ -40,15 +40,10 @@ const CommentRow = ({
   isOwn: boolean;
   onDelete: (id: string) => void;
 }) => {
-  const initial =
-    comment.author?.name?.charAt(0)?.toUpperCase() ??
-    comment.author?.username?.charAt(0)?.toUpperCase() ??
-    "?";
-
   return (
     <div className="flex gap-3 py-3.5 border-b border-gray-50 last:border-0 animate-[fadeInUp_0.18s_ease-out]">
       {/* Avatar */}
-      <div className="w-9 h-9 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 text-white text-xs font-bold ring-2 ring-white shadow-sm">
+      <div className="w-9 h-9 rounded-full overflow-hidden bg-gray-50 flex items-center justify-center shrink-0 ring-2 ring-white shadow-sm border border-gray-200">
         {comment.author?.profilePicUrl ? (
           <img
             src={comment.author.profilePicUrl}
@@ -56,7 +51,7 @@ const CommentRow = ({
             className="w-full h-full object-cover"
           />
         ) : (
-          initial
+          <FontAwesomeIcon icon={faUser} className="text-gray-600 text-sm" />
         )}
       </div>
 
@@ -126,7 +121,7 @@ const CommentInput = ({
     <div className="relative group">
       <div className="absolute -inset-px bg-linear-to-r from-blue-600 to-purple-600 rounded-2xl opacity-0 group-focus-within:opacity-100 transition-opacity duration-300 pointer-events-none" />
       <div className="relative flex items-start gap-3 bg-gray-50 rounded-2xl p-2 focus-within:bg-white transition-colors border border-gray-100">
-        <div className="w-10 h-10 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm text-white text-xs font-bold ring-2 ring-white ml-0.5 mt-0.5">
+        <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-50 flex items-center justify-center shrink-0 shadow-sm ring-2 ring-white border border-gray-200 ml-0.5 mt-0.5">
           {user?.profilePicUrl ? (
             <img
               src={user.profilePicUrl}
@@ -134,7 +129,7 @@ const CommentInput = ({
               className="w-full h-full object-cover"
             />
           ) : (
-            <FontAwesomeIcon icon={faUser} className="text-[14px]" />
+            <FontAwesomeIcon icon={faUser} className="text-gray-600 text-[14px]" />
           )}
         </div>
         <div className="flex-1 min-w-0">
@@ -242,7 +237,7 @@ const CommentPanel = ({
               }
               className="w-full flex items-center gap-3 bg-gray-50 border border-gray-100 rounded-2xl p-2 hover:border-blue-200 hover:bg-blue-50/30 transition-all duration-200 cursor-pointer group"
             >
-              <div className="w-10 h-10 rounded-full bg-linear-to-br from-gray-200 to-gray-300 flex items-center justify-center shrink-0 ml-0.5">
+              <div className="w-10 h-10 rounded-full bg-gray-50 border border-gray-200 flex items-center justify-center shrink-0 ml-0.5">
                 <FontAwesomeIcon icon={faUser} className="text-gray-400 text-sm" />
               </div>
               <span className="flex-1 text-sm text-gray-400 text-left px-2">

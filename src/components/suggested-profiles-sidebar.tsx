@@ -67,8 +67,8 @@ const SuggestedProfileCard = ({
             className="w-14 h-14 rounded-full object-cover ring-2 ring-gray-100 group-hover:ring-indigo-200 transition-all"
           />
         ) : (
-          <div className="w-14 h-14 rounded-full bg-linear-to-br from-indigo-400 to-purple-500 flex items-center justify-center ring-2 ring-gray-100 group-hover:ring-indigo-200 transition-all">
-            <FontAwesomeIcon icon={faUser} className="text-white text-xs" />
+          <div className="w-14 h-14 rounded-full bg-gray-50 flex items-center justify-center ring-2 ring-gray-100 group-hover:ring-indigo-200 transition-all">
+            <FontAwesomeIcon icon={faUser} className="text-gray-600 text-lg" />
           </div>
         )}
       </div>

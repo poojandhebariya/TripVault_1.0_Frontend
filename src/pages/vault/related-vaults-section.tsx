@@ -6,6 +6,7 @@ import {
   faImage,
   faHeart,
   faComment,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse } from "../../types/api-response";
@@ -124,7 +125,7 @@ const CarouselCard = ({ vault }: { vault: Vault }) => {
               }}
               className="flex items-center gap-1.5 md:gap-2 min-w-0"
             >
-              <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-linear-to-br from-blue-500/50 to-purple-600/50 flex items-center justify-center overflow-hidden shrink-0 border border-white/20">
+              <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-gray-50 flex items-center justify-center overflow-hidden shrink-0 border border-gray-200">
                 {vault.author?.profilePicUrl ? (
                   <img
                     src={vault.author.profilePicUrl}
@@ -132,11 +133,7 @@ const CarouselCard = ({ vault }: { vault: Vault }) => {
                     alt={vault.author.name || "user"}
                   />
                 ) : (
-                  <span className="text-[8px] md:text-[10px] font-bold">
-                    {(vault.author?.name ||
-                      vault.author?.username ||
-                      "T")[0].toUpperCase()}
-                  </span>
+                  <FontAwesomeIcon icon={faUser} className="text-gray-600 text-[10px]" />
                 )}
               </div>
               <span className="text-[8px] md:text-[11px] font-bold truncate opacity-90 hover:opacity-100 hover:underline">

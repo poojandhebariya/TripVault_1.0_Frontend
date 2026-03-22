@@ -25,3 +25,15 @@ export const formatDistance = (km: number): string => {
   if (km < 10) return `${km.toFixed(1)} km`;
   return `${Math.round(km)} km`;
 };
+
+export const timeAgo = (dateStr: string): string => {
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const min = Math.floor(diff / 60000);
+  const hr = Math.floor(min / 60);
+  const day = Math.floor(hr / 24);
+
+  if (day > 0) return `${day}d ago`;
+  if (hr > 0) return `${hr}h ago`;
+  if (min > 0) return `${min}m ago`;
+  return "Just now";
+};

@@ -19,7 +19,7 @@ const AppSplash = ({ visible, onFinish }: AppSplashProps) => {
     });
   }, []);
 
-  // Drive the exit: stay visible for 2.2 s then fade out, notify parent
+  // Drive the exit: stay visible for 2.8 s then fade out, notify parent
   useEffect(() => {
     if (!visible) return;
     const t = setTimeout(() => {
@@ -79,6 +79,7 @@ const AppSplash = ({ visible, onFinish }: AppSplashProps) => {
               ease: "easeOut",
               delay: 0.1, // Wait very briefly for native splash hide
             }}
+            className="overflow-hidden"
           >
             <video
               src="/splash_logo.mp4"
@@ -90,7 +91,7 @@ const AppSplash = ({ visible, onFinish }: AppSplashProps) => {
               disableRemotePlayback
               onLoadedData={() => setLogoLoaded(true)}
               poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              className="relative w-[320px] h-auto pointer-events-none outline-none"
+              className="relative block w-[320px] h-auto pointer-events-none outline-none mix-blend-multiply scale-[1.001]"
             />
           </motion.div>
 

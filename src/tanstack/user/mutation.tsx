@@ -1,7 +1,7 @@
 import { userKeys } from "./keys";
 import { set } from "idb-keyval";
 import type { User, PublicProfile } from "../../types/user";
-import type { VaultTagNotification } from "../../types/notifications";
+import type { VaultNotification } from "../../types/notifications";
 import type { Vault } from "../../types/vault";
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse } from "../../types/api-response";
@@ -356,7 +356,7 @@ export const userMutation = () => {
       await queryClient.cancelQueries({ queryKey: userKeys.taggedVaults() });
 
       const previousNotifications = queryClient.getQueryData<
-        VaultTagNotification[]
+        VaultNotification[]
       >(userKeys.notifications());
       const previousTaggedVaults = queryClient.getQueryData<Vault[]>(
         userKeys.taggedVaults(),
@@ -367,7 +367,7 @@ export const userMutation = () => {
       );
 
       if (previousNotifications) {
-        queryClient.setQueryData<VaultTagNotification[]>(
+        queryClient.setQueryData<VaultNotification[]>(
           userKeys.notifications(),
           previousNotifications.filter((n) => n.id !== notificationId),
         );
@@ -388,7 +388,7 @@ export const userMutation = () => {
             ? [{ url: respondingNotification.vaultCoverUrl, type: "image" }]
             : [],
           status: "publish",
-          author: respondingNotification.tagger,
+          author: respondingNotification.actor,
           tagStatus: "accepted",
           scheduledAt: null,
           createdAt: respondingNotification.createdAt,
@@ -409,7 +409,7 @@ export const userMutation = () => {
       _vars: unknown,
       context:
         | {
-            previousNotifications?: VaultTagNotification[];
+            previousNotifications?: VaultNotification[];
             previousTaggedVaults?: Vault[];
           }
         | undefined,
@@ -429,11 +429,38 @@ export const userMutation = () => {
     },
   });
 
+  const markNotificationsAsReadMutation = () => ({
+    mutationKey: [...userKeys.notifications(), "read"],
+    mutationFn: async () => {
+      const response = await axiosInstance.post<ApiResponse<null>>(`/vault/notifications/read`);
+      return response.data;
+    },
+    onMutate: async () => {
+      await queryClient.cancelQueries({ queryKey: userKeys.notifications() });
+      const previousNotifications = queryClient.getQueryData<VaultNotification[]>(userKeys.notifications());
+
+      if (previousNotifications) {
+        queryClient.setQueryData<VaultNotification[]>(
+          userKeys.notifications(),
+          previousNotifications.map((n) => ({ ...n, isRead: true }))
+        );
+      }
+
+      return { previousNotifications };
+    },
+    onError: (_err: unknown, _vars: unknown, context: { previousNotifications?: VaultNotification[] } | undefined) => {
+      if (context?.previousNotifications) {
+        queryClient.setQueryData(userKeys.notifications(), context.previousNotifications);
+      }
+    },
+  });
+
   return {
     profileMutation,
     updateProfileMutation,
     followMutation,
     unfollowMutation,
     respondToTagMutation,
+    markNotificationsAsReadMutation,
   };
 };

@@ -31,7 +31,7 @@ const VaultAuthorHeader = ({
       <div
         onClick={onAvatarClick}
         className={cn(
-          "w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shrink-0 shadow-sm border border-gray-100 transition-opacity duration-150",
+          "w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-gray-50 flex items-center justify-center shrink-0 shadow-sm border border-gray-200 transition-opacity duration-150",
           onAvatarClick
             ? "cursor-pointer hover:opacity-85 active:opacity-70"
             : "",
@@ -46,7 +46,7 @@ const VaultAuthorHeader = ({
         ) : (
           <FontAwesomeIcon
             icon={faUser}
-            className="text-white text-sm md:text-lg"
+            className="text-gray-600 text-sm md:text-lg"
           />
         )}
       </div>

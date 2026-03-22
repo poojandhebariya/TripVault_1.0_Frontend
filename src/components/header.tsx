@@ -27,7 +27,6 @@ import { clear } from "idb-keyval";
 import DropdownMenu, { type DropdownMenuItem } from "./ui/dropdown-menu";
 import ScreenLoading from "./ui/screen-loading";
 
-
 const NonloggedInNavigation = [
   { label: "Explore", href: ROUTES.EXPLORE },
   { label: "Sign In", href: ROUTES.AUTH.SIGN_IN },
@@ -82,12 +81,12 @@ const Header = () => {
     refetchInterval: 60_000, // poll every 60s
   });
   const notificationCount = notifications.filter(
-    (n) => n.status === "pending",
+    (n) => n.isRead === false,
   ).length;
 
   const handleLogout = async () => {
     setIsLoggingOut(true);
-    // 1. Clear state immediately to disable all authenticated queries 
+    // 1. Clear state immediately to disable all authenticated queries
     // This prevents TanStack Query from trying to refetch them when the cache is cleared.
     await clearUser();
     localStorage.clear();
@@ -99,7 +98,7 @@ const Header = () => {
 
     setMenuOpen(false);
     navigate(ROUTES.AUTH.SIGN_IN, { replace: true });
-    
+
     setTimeout(() => setIsLoggingOut(false), 500);
   };
 
@@ -360,10 +359,10 @@ const Header = () => {
       </div>
       {/* ── Logging Out Overlay ── */}
       {isLoggingOut && (
-        <ScreenLoading 
-          type="logout" 
-          title="Signing you out..." 
-          subtitle="Clearing your secure vault session" 
+        <ScreenLoading
+          type="logout"
+          title="Signing you out..."
+          subtitle="Clearing your secure vault session"
         />
       )}
     </div>

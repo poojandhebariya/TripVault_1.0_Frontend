@@ -69,8 +69,8 @@ const UserRow = ({
             className="w-12 h-12 rounded-full object-cover ring-2 ring-gray-100"
           />
         ) : (
-          <div className="w-12 h-12 rounded-full bg-linear-to-br from-indigo-400 to-purple-500 flex items-center justify-center ring-2 ring-gray-100">
-            <FontAwesomeIcon icon={faUser} className="text-white text-sm" />
+          <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center ring-2 ring-gray-100">
+            <FontAwesomeIcon icon={faUser} className="text-gray-600 text-xl" />
           </div>
         )}
       </div>

@@ -127,8 +127,11 @@ const DetailsTab = ({ vault }: DetailsTabProps) => {
                         className="w-7 h-7 rounded-full object-cover ring-2 ring-white shadow-sm"
                       />
                     ) : (
-                      <div className="w-7 h-7 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center text-[10px] font-bold text-white shadow-sm ring-2 ring-white">
-                        <FontAwesomeIcon icon={faUser} className="text-[9px]" />
+                      <div className="w-7 h-7 rounded-full bg-gray-50 border border-gray-200 flex items-center justify-center shadow-sm ring-2 ring-white">
+                        <FontAwesomeIcon
+                          icon={faUser}
+                          className="text-gray-600 text-[9px]"
+                        />
                       </div>
                     )}
                     <span className="text-xs font-bold text-gray-700">
@@ -141,8 +144,11 @@ const DetailsTab = ({ vault }: DetailsTabProps) => {
                     key={username}
                     className="flex items-center gap-2.5 bg-white border border-gray-100 rounded-full pl-1.5 pr-4 py-1.5 shadow-sm hover:shadow-md transition-shadow cursor-default"
                   >
-                    <div className="w-7 h-7 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center text-[10px] font-bold text-white shadow-sm ring-2 ring-white">
-                      {username.charAt(0).toUpperCase()}
+                    <div className="w-7 h-7 rounded-full bg-gray-50 border border-gray-200 flex items-center justify-center shadow-sm ring-2 ring-white">
+                      <FontAwesomeIcon
+                        icon={faUser}
+                        className="text-gray-600 text-[9px]"
+                      />
                     </div>
                     <span className="text-xs font-bold text-gray-700">
                       @{username}

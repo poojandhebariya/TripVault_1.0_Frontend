@@ -1,12 +1,15 @@
-import { useQuery } from "@tanstack/react-query";
+import { useEffect, useRef } from "react";
+import { useQuery, useMutation } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { userQueries } from "../../tanstack/user/queries";
+import { userMutation } from "../../tanstack/user/mutation";
 import MobileStickyHeader from "../../components/mobile-sticky-header";
-import NotificationCard from "./components/notification-card";
+import NotificationCard from "../../components/notifications/notification-card";
 
 const NotificationsPage = () => {
   const { getNotifications } = userQueries();
+  const { markNotificationsAsReadMutation } = userMutation();
 
   const {
     data: notifications = [],
@@ -15,8 +18,26 @@ const NotificationsPage = () => {
     refetch,
   } = useQuery(getNotifications());
 
+  const readMut = useMutation(markNotificationsAsReadMutation());
+  const markedUnreadIdsRef = useRef<Set<string>>(new Set());
+
+  useEffect(() => {
+    const unreadIds = notifications
+      .filter((n) => n.isRead === false)
+      .map((n) => n.id);
+
+    const newUnreadIds = unreadIds.filter(
+      (id) => !markedUnreadIdsRef.current.has(id)
+    );
+
+    if (newUnreadIds.length > 0 && !readMut.isPending) {
+      newUnreadIds.forEach((id) => markedUnreadIdsRef.current.add(id));
+      readMut.mutate(undefined as any);
+    }
+  }, [notifications, readMut.isPending, readMut.mutate]);
+
   const pendingCount = notifications.filter(
-    (n) => n.status === "pending",
+    (n) => n.type === "TAG" && n.status === "pending",
   ).length;
 
   return (
@@ -95,7 +116,7 @@ const NotificationsPage = () => {
                     No notifications yet
                   </p>
                   <p className="text-[13px] text-gray-400 mt-1 max-w-[220px] mx-auto leading-relaxed">
-                    When someone tags you in a vault, you'll see it here.
+                    When someone tags you in a vault or likes your posts, you'll see it here.
                   </p>
                 </div>
               </div>
@@ -109,7 +130,7 @@ const NotificationsPage = () => {
                 </p>
                 <div className="flex flex-col border-t border-gray-100 mt-2">
                   {notifications
-                    .filter((n) => n.status === "pending")
+                    .filter((n) => n.type === "TAG" && n.status === "pending")
                     .map((n) => (
                       <NotificationCard key={n.id} notification={n} />
                     ))}
@@ -120,14 +141,14 @@ const NotificationsPage = () => {
             {/* Past section */}
             {!isLoading &&
               !isError &&
-              notifications.some((n) => n.status !== "pending") && (
+              notifications.some((n) => n.type !== "TAG" || n.status !== "pending") && (
                 <div>
                   <p className="text-xs font-black uppercase tracking-widest text-gray-400 mb-1 px-4 md:px-0 mt-2">
                     Earlier
                   </p>
                   <div className="flex flex-col border-t border-gray-100 mt-2">
                     {notifications
-                      .filter((n) => n.status !== "pending")
+                      .filter((n) => n.type !== "TAG" || n.status !== "pending")
                       .map((n) => (
                         <NotificationCard key={n.id} notification={n} />
                       ))}

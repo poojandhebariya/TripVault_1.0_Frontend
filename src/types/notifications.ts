@@ -2,13 +2,17 @@ import type { VaultAuthor } from "./vault";
 
 export type TagStatus = "pending" | "accepted" | "declined";
 
-export interface VaultTagNotification {
+export type NotificationType = "TAG" | "LIKE";
+
+export interface VaultNotification {
   id: string;
+  type: NotificationType;
   vaultId: string;
   vaultTitle: string;
   vaultCoverUrl: string | null;
-  tagger: VaultAuthor;
-  status: TagStatus;
+  actor: VaultAuthor;
+  status: TagStatus | null; // null for LIKE
+  isRead?: boolean;
   createdAt: string;
 }
 

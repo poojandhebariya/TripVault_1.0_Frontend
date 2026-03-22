@@ -245,7 +245,7 @@ const ProfileSetupStep3 = ({
                     )}
                   </>
                 ) : (
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 group-hover:text-blue-500 transition-colors rounded-full">
+                  <div className="w-full h-full flex items-center justify-center bg-gray-50 text-gray-400 group-hover:text-blue-500 transition-colors rounded-full border border-gray-200">
                     <FontAwesomeIcon icon={faUser} className="text-3xl" />
                   </div>
                 )}
