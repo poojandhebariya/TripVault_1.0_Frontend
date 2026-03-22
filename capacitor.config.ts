@@ -9,6 +9,18 @@ const config: CapacitorConfig = {
     cleartext: true,
     androidScheme: "https",
   },
+  plugins: {
+    SplashScreen: {
+      // Keep native splash visible until we manually call SplashScreen.hide()
+      launchAutoHide: false,
+      // Background colour matches our light gradient
+      backgroundColor: "#E6EBF9",
+      androidSplashResourceName: "splash",
+      showSpinner: false,
+      // Smooth fade-out when we dismiss it
+      fadeOutDuration: 300,
+    },
+  },
 };
 
 export default config;

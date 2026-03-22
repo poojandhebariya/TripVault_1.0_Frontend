@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background matching index.css (very light opacity shade) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#E6EBF9"
+                android:endColor="#F2EAF9"
+                android:angle="0"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Centered TripVault logo -->
+    <item>
+        <bitmap
+            android:src="@drawable/tripvault_logo"
+            android:gravity="center" />
+    </item>
+</layer-list>
