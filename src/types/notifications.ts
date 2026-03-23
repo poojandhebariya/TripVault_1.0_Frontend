@@ -2,16 +2,39 @@ import type { VaultAuthor } from "./vault";
 
 export type TagStatus = "pending" | "accepted" | "declined";
 
-export type NotificationType = "TAG" | "LIKE";
+/**
+ * All notification types in TripVault:
+ *   LIKE         – someone liked your vault
+ *   TAG          – someone tagged you in a vault (requires accept/decline)
+ *   COMMENT      – someone commented on your vault
+ *   COMMENT_TAG  – someone @mentioned you in a comment
+ *   FOLLOW       – someone followed you
+ *   TAG_ACCEPTED – the person you tagged accepted (notifies the tagger)
+ *   SAVE         – someone saved your vault
+ */
+export type NotificationType =
+  | "LIKE"
+  | "TAG"
+  | "COMMENT"
+  | "COMMENT_TAG"
+  | "COMMENT_REPLY"
+  | "FOLLOW"
+  | "TAG_ACCEPTED"
+  | "SAVE";
 
 export interface VaultNotification {
   id: string;
   type: NotificationType;
+  /** Present for vault-related notifications (LIKE, TAG, COMMENT, COMMENT_TAG, TAG_ACCEPTED, SAVE) */
   vaultId: string;
   vaultTitle: string;
   vaultCoverUrl: string | null;
+  /** The user who triggered the notification */
   actor: VaultAuthor;
-  status: TagStatus | null; // null for LIKE
+  /** Only set for TAG notifications */
+  status: TagStatus | null;
+  /** Comment text – set for COMMENT and COMMENT_TAG notifications */
+  commentText?: string | null;
   isRead?: boolean;
   createdAt: string;
 }

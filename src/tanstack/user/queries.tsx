@@ -116,6 +116,18 @@ export const userQueries = () => {
     staleTime: 1000 * 30, // 30s
   });
 
+  const searchUsers = (q: string) => ({
+    queryKey: userKeys.searchUsers(q),
+    queryFn: async (): Promise<PublicProfile[]> => {
+      const response = await axiosInstance.get<ApiResponse<PublicProfile[]>>(
+        `/user/search?q=${encodeURIComponent(q)}&limit=6`,
+      );
+      return response.data.data ?? [];
+    },
+    enabled: q.length >= 1,
+    staleTime: 1000 * 30, // 30s
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -127,5 +139,6 @@ export const userQueries = () => {
     getTaggedVaults,
     getPublicTaggedVaults,
     tagFollowersInVault,
+    searchUsers,
   };
 };

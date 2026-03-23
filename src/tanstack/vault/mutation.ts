@@ -604,14 +604,14 @@ export const vaultMutation = () => {
 
   const postCommentMutation = (vaultId: string) => ({
     mutationKey: vaultKeys.postComment(vaultId),
-    mutationFn: async (text: string): Promise<VaultComment> => {
+    mutationFn: async ({ text, parentId }: { text: string; parentId?: string }): Promise<VaultComment> => {
       const response = await axiosInstance.post<ApiResponse<VaultComment>>(
         `/vault/${vaultId}/comments`,
-        { text },
+        { text, parentId },
       );
       return response.data.data;
     },
-    onMutate: async (text: string) => {
+    onMutate: async ({ text, parentId }: { text: string; parentId?: string }) => {
       await queryClient.cancelQueries({
         queryKey: vaultKeys.getComments(vaultId),
       });
@@ -625,6 +625,7 @@ export const vaultMutation = () => {
         id: `optimistic-${Date.now()}`,
         vaultId,
         text,
+        parentId,
         author: {
           id: currentUser?.id ?? null,
           username: currentUser?.username ?? null,
@@ -634,11 +635,11 @@ export const vaultMutation = () => {
         createdAt: new Date().toISOString(),
       };
 
-      // Prepend to the first page of the infinite query
       queryClient.setQueryData<InfiniteData<PaginatedResponse<VaultComment>>>(
         vaultKeys.getComments(vaultId),
         (old) => {
           if (!old) {
+            if (parentId) return old; // Don't safely init a top level array if it's a child.
             return {
               pages: [
                 { data: [optimisticComment], page: 1, totalPages: 1, total: 1 },
@@ -647,11 +648,26 @@ export const vaultMutation = () => {
             };
           }
           const newPages = [...old.pages];
-          newPages[0] = {
-            ...newPages[0],
-            data: [optimisticComment, ...newPages[0].data],
-            total: newPages[0].total + 1,
-          };
+          
+          if (parentId) {
+             // Find parent and add to its replies
+             newPages.forEach(page => {
+                 page.data = page.data.map(c => {
+                     if (c.id === parentId) {
+                         return { ...c, replies: [...(c.replies ?? []), optimisticComment] };
+                     }
+                     return c;
+                 });
+             });
+          } else {
+             // Prepend to top level
+             newPages[0] = {
+               ...newPages[0],
+               data: [optimisticComment, ...newPages[0].data],
+               total: newPages[0].total + 1,
+             };
+          }
+          
           return { ...old, pages: newPages };
         },
       );
@@ -661,7 +677,7 @@ export const vaultMutation = () => {
 
       return { previousComments };
     },
-    onError: (_err: unknown, _text: string, context: any) => {
+    onError: (_err: unknown, _vars: { text: string; parentId?: string }, context: any) => {
       if (context?.previousComments !== undefined) {
         queryClient.setQueryData(
           vaultKeys.getComments(vaultId),
@@ -670,7 +686,7 @@ export const vaultMutation = () => {
       }
       _updateVaultCommentsCountInLists(vaultId, -1);
     },
-    onSuccess: (data: VaultComment) => {
+    onSuccess: (data: VaultComment, vars: { text: string; parentId?: string }) => {
       queryClient.setQueryData<InfiniteData<PaginatedResponse<VaultComment>>>(
         vaultKeys.getComments(vaultId),
         (old) => {
@@ -679,9 +695,19 @@ export const vaultMutation = () => {
             ...old,
             pages: old.pages.map((page) => ({
               ...page,
-              data: page.data.map((c) =>
-                c.id.startsWith("optimistic-") ? data : c,
-              ),
+              data: page.data.map((c) => {
+                if (vars.parentId && c.id === vars.parentId) {
+                   // Replace optimistic reply with real reply
+                   return {
+                       ...c,
+                       replies: (c.replies ?? []).map(r => r.id.startsWith("optimistic-") ? data : r)
+                   };
+                }
+                if (!vars.parentId && c.id.startsWith("optimistic-")) {
+                   return data;
+                }
+                return c;
+              }),
             })),
           };
         },
@@ -711,7 +737,10 @@ export const vaultMutation = () => {
             ...old,
             pages: old.pages.map((page) => ({
               ...page,
-              data: page.data.filter((c) => c.id !== commentId),
+              data: page.data.filter((c) => c.id !== commentId).map(c => ({
+                  ...c, 
+                  replies: c.replies ? c.replies.filter(r => r.id !== commentId) : undefined
+              })),
               total: Math.max(page.total - 1, 0),
             })),
           };

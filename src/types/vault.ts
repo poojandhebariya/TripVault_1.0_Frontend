@@ -65,4 +65,6 @@ export interface VaultComment {
   text: string;
   author: VaultAuthor;
   createdAt: string;
+  parentId?: string;
+  replies?: VaultComment[];
 }

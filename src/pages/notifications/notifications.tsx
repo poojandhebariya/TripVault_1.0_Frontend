@@ -36,9 +36,13 @@ const NotificationsPage = () => {
     }
   }, [notifications, readMut.isPending, readMut.mutate]);
 
-  const pendingCount = notifications.filter(
+  const pendingNotifications = notifications.filter(
     (n) => n.type === "TAG" && n.status === "pending",
-  ).length;
+  );
+  const pendingCount = pendingNotifications.length;
+  const earlierNotifications = notifications.filter(
+    (n) => !(n.type === "TAG" && n.status === "pending"),
+  );
 
   return (
     <div className="animate-[slideDown_0.3s_ease-out] min-h-screen bg-white pb-24">
@@ -115,8 +119,8 @@ const NotificationsPage = () => {
                   <p className="text-[17px] font-bold text-gray-900">
                     No notifications yet
                   </p>
-                  <p className="text-[13px] text-gray-400 mt-1 max-w-[220px] mx-auto leading-relaxed">
-                    When someone tags you in a vault or likes your posts, you'll see it here.
+                  <p className="text-[13px] text-gray-400 mt-1 max-w-[260px] mx-auto leading-relaxed">
+                    Likes, comments, follows, tags, and saves will all appear here.
                   </p>
                 </div>
               </div>
@@ -129,32 +133,26 @@ const NotificationsPage = () => {
                   ● Pending ({pendingCount})
                 </p>
                 <div className="flex flex-col border-t border-gray-100 mt-2">
-                  {notifications
-                    .filter((n) => n.type === "TAG" && n.status === "pending")
-                    .map((n) => (
-                      <NotificationCard key={n.id} notification={n} />
-                    ))}
+                  {pendingNotifications.map((n) => (
+                    <NotificationCard key={n.id} notification={n} />
+                  ))}
                 </div>
               </div>
             )}
 
-            {/* Past section */}
-            {!isLoading &&
-              !isError &&
-              notifications.some((n) => n.type !== "TAG" || n.status !== "pending") && (
-                <div>
-                  <p className="text-xs font-black uppercase tracking-widest text-gray-400 mb-1 px-4 md:px-0 mt-2">
-                    Earlier
-                  </p>
-                  <div className="flex flex-col border-t border-gray-100 mt-2">
-                    {notifications
-                      .filter((n) => n.type !== "TAG" || n.status !== "pending")
-                      .map((n) => (
-                        <NotificationCard key={n.id} notification={n} />
-                      ))}
-                  </div>
+            {/* Earlier section */}
+            {!isLoading && !isError && earlierNotifications.length > 0 && (
+              <div>
+                <p className="text-xs font-black uppercase tracking-widest text-gray-400 mb-1 px-4 md:px-0 mt-2">
+                  Earlier
+                </p>
+                <div className="flex flex-col border-t border-gray-100 mt-2">
+                  {earlierNotifications.map((n) => (
+                    <NotificationCard key={n.id} notification={n} />
+                  ))}
                 </div>
-              )}
+              </div>
+            )}
           </div>
 
           {/* Ad Space Column */}

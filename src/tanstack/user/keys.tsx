@@ -14,4 +14,5 @@ export const userKeys = {
   taggedVaults: () => [...userKeys.all(), "taggedVaults"],
   getPublicTaggedVaults: (id: string) => [...userKeys.taggedVaults(), "public", id],
   tagFollowersInVault: (q: string) => [...userKeys.all(), "tagFollowersInVault", q],
+  searchUsers: (q: string) => [...userKeys.all(), "searchUsers", q],
 };
