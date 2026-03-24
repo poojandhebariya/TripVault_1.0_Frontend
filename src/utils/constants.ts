@@ -20,6 +20,7 @@ export const ROUTES = {
     OWN_FOLLOWING: "/user/profile/following",
     PUBLIC_FOLLOWERS: (id: string) => `/user/${id}/followers`,
     PUBLIC_FOLLOWING: (id: string) => `/user/${id}/following`,
+    MAP: "/user/profile/map",
   },
   VAULT: {
     CREATE_VAULT: "/vault/create",

@@ -24,6 +24,7 @@ import HomeRoute from "./components/home-route";
 import BucketList from "./pages/bucket-list/bucket-list";
 import FollowersFollowingPage from "./pages/profile/followers-following";
 import NotificationsPage from "./pages/notifications/notifications";
+import MapPage from "./pages/map/map";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -102,6 +103,7 @@ const AppRoutes = () => {
             path={ROUTES.NOTIFICATIONS}
             element={<NotificationsPage />}
           />
+          <Route path={ROUTES.USER.MAP} element={<MapPage />} />
         </Route>
       </Route>
     </Routes>
