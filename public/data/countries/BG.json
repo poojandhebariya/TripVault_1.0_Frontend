@@ -1,0 +1,4090 @@
+{
+  "code": "BG",
+  "name": "Bulgaria",
+  "emoji": "🌍",
+  "continent": "Europe",
+  "gradient": "from-violet-600 to-fuchsia-700",
+  "tagline": "Explore Bulgaria (80 Places)",
+  "places": [
+    {
+      "id": "bg-100",
+      "name": "Central Capital City Ski Resort",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 32256,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4164,
+      "lng": 24.42,
+      "overview": {
+        "about": "Central Capital City Ski Resort is one of BG's most celebrated mountain destination destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-101",
+      "name": "Central Old Bulgaria Mountain Range",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 134239,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.4559,
+      "lng": 25.2712,
+      "overview": {
+        "about": "Central Old Bulgaria Mountain Range is one of BG's most celebrated mountain destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-102",
+      "name": "New Port Bulgaria Highlands",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 71438,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.1476,
+      "lng": 24.48,
+      "overview": {
+        "about": "New Port Bulgaria Highlands is one of BG's most celebrated mountain destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-103",
+      "name": "Southern North Bulgaria Marina",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 122865,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9694,
+      "lng": 25.605,
+      "overview": {
+        "about": "Southern North Bulgaria Marina is one of BG's most celebrated beach paradise destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-104",
+      "name": "Grand South Bulgaria Downtown",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 131809,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9142,
+      "lng": 24.7912,
+      "overview": {
+        "about": "Grand South Bulgaria Downtown is one of BG's most celebrated city destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-105",
+      "name": "Royal Capital City Beach",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 40289,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.8889,
+      "lng": 24.15,
+      "overview": {
+        "about": "Royal Capital City Beach is one of BG's most celebrated beach paradise destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-106",
+      "name": "Royal Old Bulgaria Summit",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 152091,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.2543,
+      "lng": 25.7812,
+      "overview": {
+        "about": "Royal Old Bulgaria Summit is one of BG's most celebrated mountain destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-107",
+      "name": "Central Port Bulgaria Downtown",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 109955,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9605,
+      "lng": 25.4737,
+      "overview": {
+        "about": "Central Port Bulgaria Downtown is one of BG's most celebrated city destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-108",
+      "name": "Central North Bulgaria Waterfalls",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 50270,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.3793,
+      "lng": 24.1425,
+      "overview": {
+        "about": "Central North Bulgaria Waterfalls is one of BG's most celebrated natural wonder destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-109",
+      "name": "Southern South Bulgaria Gourmet Restaurant",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 23514,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9445,
+      "lng": 25.2375,
+      "overview": {
+        "about": "Southern South Bulgaria Gourmet Restaurant is one of BG's most celebrated destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-110",
+      "name": "Old Capital City Cove",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 175718,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.1459,
+      "lng": 24.4537,
+      "overview": {
+        "about": "Old Capital City Cove is one of BG's most celebrated beach paradise destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-111",
+      "name": "Royal Old Bulgaria Ski Resort",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 145604,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.1049,
+      "lng": 23.85,
+      "overview": {
+        "about": "Royal Old Bulgaria Ski Resort is one of BG's most celebrated mountain destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-112",
+      "name": "Historic Port Bulgaria Downtown",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 55282,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.5219,
+      "lng": 26.2425,
+      "overview": {
+        "about": "Historic Port Bulgaria Downtown is one of BG's most celebrated city destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-113",
+      "name": "Historic North Bulgaria Waterfalls",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4,
+      "reviewCount": 163367,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.0657,
+      "lng": 27.0225,
+      "overview": {
+        "about": "Historic North Bulgaria Waterfalls is one of BG's most celebrated natural wonder destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-114",
+      "name": "Old South Bulgaria Downtown",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 33040,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4325,
+      "lng": 24.6562,
+      "overview": {
+        "about": "Old South Bulgaria Downtown is one of BG's most celebrated city destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-115",
+      "name": "Southern Capital City Museum",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 75272,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.158,
+      "lng": 24.3637,
+      "overview": {
+        "about": "Southern Capital City Museum is one of BG's most celebrated heritage landmark destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-116",
+      "name": "Scenic Old Bulgaria Canyon",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 146870,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.194,
+      "lng": 25.1625,
+      "overview": {
+        "about": "Scenic Old Bulgaria Canyon is one of BG's most celebrated destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-117",
+      "name": "Old Port Bulgaria Shopping District",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 33596,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.1851,
+      "lng": 25.0312,
+      "overview": {
+        "about": "Old Port Bulgaria Shopping District is one of BG's most celebrated city destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-118",
+      "name": "Beautiful North Bulgaria Exclusive Club",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 100647,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9106,
+      "lng": 24.7387,
+      "overview": {
+        "about": "Beautiful North Bulgaria Exclusive Club is one of BG's most celebrated destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-119",
+      "name": "Southern South Bulgaria Plaza",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 30219,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.5343,
+      "lng": 26.4262,
+      "overview": {
+        "about": "Southern South Bulgaria Plaza is one of BG's most celebrated city destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-120",
+      "name": "Grand Capital City Highlands",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 41302,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7624,
+      "lng": 26.0362,
+      "overview": {
+        "about": "Grand Capital City Highlands is one of BG's most celebrated mountain destination destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-121",
+      "name": "New Old Bulgaria Nature Reserve",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 198684,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9267,
+      "lng": 24.975,
+      "overview": {
+        "about": "New Old Bulgaria Nature Reserve is one of BG's most celebrated natural wonder destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-122",
+      "name": "Scenic Port Bulgaria Shopping District",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 68152,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.9335,
+      "lng": 24.8062,
+      "overview": {
+        "about": "Scenic Port Bulgaria Shopping District is one of BG's most celebrated city destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-123",
+      "name": "New North Bulgaria Summit",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 31293,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3933,
+      "lng": 24.0787,
+      "overview": {
+        "about": "New North Bulgaria Summit is one of BG's most celebrated mountain destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-124",
+      "name": "New South Bulgaria Cathedral",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 62059,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4841,
+      "lng": 25.4175,
+      "overview": {
+        "about": "New South Bulgaria Cathedral is one of BG's most celebrated heritage landmark destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-125",
+      "name": "Beautiful Capital City Bay",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 61300,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9284,
+      "lng": 25.0012,
+      "overview": {
+        "about": "Beautiful Capital City Bay is one of BG's most celebrated beach paradise destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-126",
+      "name": "Scenic Old Bulgaria Peak",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 46055,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7482,
+      "lng": 25.8262,
+      "overview": {
+        "about": "Scenic Old Bulgaria Peak is one of BG's most celebrated mountain destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-127",
+      "name": "Beautiful Port Bulgaria Mountain Range",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 80171,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.003,
+      "lng": 25.83,
+      "overview": {
+        "about": "Beautiful Port Bulgaria Mountain Range is one of BG's most celebrated mountain destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-128",
+      "name": "Grand North Bulgaria Marina",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 124028,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.0119,
+      "lng": 25.9612,
+      "overview": {
+        "about": "Grand North Bulgaria Marina is one of BG's most celebrated beach paradise destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-129",
+      "name": "New South Bulgaria Highlands",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 190035,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9124,
+      "lng": 24.765,
+      "overview": {
+        "about": "New South Bulgaria Highlands is one of BG's most celebrated mountain destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-130",
+      "name": "Central Capital City Bay",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 22040,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.5394,
+      "lng": 26.2312,
+      "overview": {
+        "about": "Central Capital City Bay is one of BG's most celebrated beach paradise destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-131",
+      "name": "Northern Old Bulgaria Zipline Park",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 174978,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2706,
+      "lng": 26.2912,
+      "overview": {
+        "about": "Northern Old Bulgaria Zipline Park is one of BG's most celebrated destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-132",
+      "name": "Southern Port Bulgaria Peak",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 114523,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.6591,
+      "lng": 24.5137,
+      "overview": {
+        "about": "Southern Port Bulgaria Peak is one of BG's most celebrated mountain destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-133",
+      "name": "Beautiful North Bulgaria Fortress",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 120358,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3362,
+      "lng": 26.9887,
+      "overview": {
+        "about": "Beautiful North Bulgaria Fortress is one of BG's most celebrated heritage landmark destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-134",
+      "name": "Southern South Bulgaria Spa Retreat",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 96186,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.8625,
+      "lng": 24.03,
+      "overview": {
+        "about": "Southern South Bulgaria Spa Retreat is one of BG's most celebrated destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-135",
+      "name": "New Capital City Plaza",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 58572,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4592,
+      "lng": 25.05,
+      "overview": {
+        "about": "New Capital City Plaza is one of BG's most celebrated city destination destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-136",
+      "name": "Scenic Old Bulgaria Marina",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 167280,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2813,
+      "lng": 26.4488,
+      "overview": {
+        "about": "Scenic Old Bulgaria Marina is one of BG's most celebrated beach paradise destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-137",
+      "name": "Historic Port Bulgaria Canyon",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 83364,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.8248,
+      "lng": 26.955,
+      "overview": {
+        "about": "Historic Port Bulgaria Canyon is one of BG's most celebrated destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-138",
+      "name": "Royal North Bulgaria Forest",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 94176,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2795,
+      "lng": 26.4225,
+      "overview": {
+        "about": "Royal North Bulgaria Forest is one of BG's most celebrated natural wonder destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-139",
+      "name": "Old South Bulgaria Hot Springs",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 139246,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.8572,
+      "lng": 23.9512,
+      "overview": {
+        "about": "Old South Bulgaria Hot Springs is one of BG's most celebrated natural wonder destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-140",
+      "name": "Beautiful Capital City Nature Reserve",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 197182,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.1441,
+      "lng": 24.4275,
+      "overview": {
+        "about": "Beautiful Capital City Nature Reserve is one of BG's most celebrated natural wonder destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-141",
+      "name": "New Old Bulgaria Coastal Resort",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 32595,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.1865,
+      "lng": 24.7837,
+      "overview": {
+        "about": "New Old Bulgaria Coastal Resort is one of BG's most celebrated beach paradise destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-142",
+      "name": "Central Port Bulgaria Museum",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 54625,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.4524,
+      "lng": 25.2188,
+      "overview": {
+        "about": "Central Port Bulgaria Museum is one of BG's most celebrated heritage landmark destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-143",
+      "name": "New North Bulgaria Central Market",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 73047,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7963,
+      "lng": 26.535,
+      "overview": {
+        "about": "New North Bulgaria Central Market is one of BG's most celebrated city destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-144",
+      "name": "Central South Bulgaria Financial District",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 14930,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7499,
+      "lng": 25.8525,
+      "overview": {
+        "about": "Central South Bulgaria Financial District is one of BG's most celebrated city destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-145",
+      "name": "Southern Capital City Gourmet Restaurant",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 170727,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.3722,
+      "lng": 24.0375,
+      "overview": {
+        "about": "Southern Capital City Gourmet Restaurant is one of BG's most celebrated destination destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-146",
+      "name": "Historic Old Bulgaria Cove",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 122597,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3327,
+      "lng": 26.9363,
+      "overview": {
+        "about": "Historic Old Bulgaria Cove is one of BG's most celebrated beach paradise destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-147",
+      "name": "Northern Port Bulgaria Downtown",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 28714,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2421,
+      "lng": 25.8712,
+      "overview": {
+        "about": "Northern Port Bulgaria Downtown is one of BG's most celebrated city destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-148",
+      "name": "Southern North Bulgaria Plaza",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 145075,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7375,
+      "lng": 25.6687,
+      "overview": {
+        "about": "Southern North Bulgaria Plaza is one of BG's most celebrated city destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-149",
+      "name": "Old South Bulgaria Highlands",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 174054,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.8572,
+      "lng": 23.9512,
+      "overview": {
+        "about": "Old South Bulgaria Highlands is one of BG's most celebrated mountain destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-150",
+      "name": "Northern Capital City Historic District",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 42168,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.6983,
+      "lng": 25.0912,
+      "overview": {
+        "about": "Northern Capital City Historic District is one of BG's most celebrated heritage landmark destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-151",
+      "name": "Northern Old Bulgaria Caves",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 62886,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.6359,
+      "lng": 24.1725,
+      "overview": {
+        "about": "Northern Old Bulgaria Caves is one of BG's most celebrated destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-152",
+      "name": "Southern Port Bulgaria Ski Resort",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 163251,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.3169,
+      "lng": 26.9737,
+      "overview": {
+        "about": "Southern Port Bulgaria Ski Resort is one of BG's most celebrated mountain destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-153",
+      "name": "Northern North Bulgaria Old Town",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 69869,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.5129,
+      "lng": 26.1112,
+      "overview": {
+        "about": "Northern North Bulgaria Old Town is one of BG's most celebrated city destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-154",
+      "name": "Scenic South Bulgaria Downtown",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 80285,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.0389,
+      "lng": 26.6288,
+      "overview": {
+        "about": "Scenic South Bulgaria Downtown is one of BG's most celebrated city destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-155",
+      "name": "Royal Capital City Zipline Park",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 30048,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.8982,
+      "lng": 24.555,
+      "overview": {
+        "about": "Royal Capital City Zipline Park is one of BG's most celebrated destination destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-156",
+      "name": "Northern Old Bulgaria Canyon",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 130113,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.4524,
+      "lng": 25.2188,
+      "overview": {
+        "about": "Northern Old Bulgaria Canyon is one of BG's most celebrated destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-157",
+      "name": "Old Port Bulgaria Peak",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 94882,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7838,
+      "lng": 26.3513,
+      "overview": {
+        "about": "Old Port Bulgaria Peak is one of BG's most celebrated mountain destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-158",
+      "name": "Historic North Bulgaria Ski Resort",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 5097,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2367,
+      "lng": 25.7925,
+      "overview": {
+        "about": "Historic North Bulgaria Ski Resort is one of BG's most celebrated mountain destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-159",
+      "name": "Southern South Bulgaria Ski Resort",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 99640,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7286,
+      "lng": 25.5375,
+      "overview": {
+        "about": "Southern South Bulgaria Ski Resort is one of BG's most celebrated mountain destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-160",
+      "name": "Royal Capital City Fortress",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 143741,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.8337,
+      "lng": 27.0862,
+      "overview": {
+        "about": "Royal Capital City Fortress is one of BG's most celebrated heritage landmark destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-161",
+      "name": "Royal Old Bulgaria Shopping District",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 41924,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.6591,
+      "lng": 24.5137,
+      "overview": {
+        "about": "Royal Old Bulgaria Shopping District is one of BG's most celebrated city destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-162",
+      "name": "Royal Port Bulgaria Ski Resort",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 160339,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.8373,
+      "lng": 27.1387,
+      "overview": {
+        "about": "Royal Port Bulgaria Ski Resort is one of BG's most celebrated mountain destination destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-163",
+      "name": "Grand North Bulgaria Beach",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 58312,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.2667,
+      "lng": 25.965,
+      "overview": {
+        "about": "Grand North Bulgaria Beach is one of BG's most celebrated beach paradise destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-164",
+      "name": "Northern South Bulgaria Diving Spot",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 58855,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2706,
+      "lng": 26.2912,
+      "overview": {
+        "about": "Northern South Bulgaria Diving Spot is one of BG's most celebrated destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-165",
+      "name": "Old Capital City Hot Springs",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 3500,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.6448,
+      "lng": 24.3038,
+      "overview": {
+        "about": "Old Capital City Hot Springs is one of BG's most celebrated natural wonder destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-166",
+      "name": "New Old Bulgaria Premium Villa",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 150733,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4075,
+      "lng": 24.2888,
+      "overview": {
+        "about": "New Old Bulgaria Premium Villa is one of BG's most celebrated destination destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-167",
+      "name": "Scenic Port Bulgaria Forest",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 137611,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.3347,
+      "lng": 27.2362,
+      "overview": {
+        "about": "Scenic Port Bulgaria Forest is one of BG's most celebrated natural wonder destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-168",
+      "name": "Scenic North Bulgaria Exclusive Club",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 131375,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.1833,
+      "lng": 25.005,
+      "overview": {
+        "about": "Scenic North Bulgaria Exclusive Club is one of BG's most celebrated destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-169",
+      "name": "Scenic South Bulgaria Safari Park",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 21692,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.8194,
+      "lng": 26.8762,
+      "overview": {
+        "about": "Scenic South Bulgaria Safari Park is one of BG's most celebrated destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-170",
+      "name": "Royal Capital City Activity Center",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 176373,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.5144,
+      "lng": 25.8637,
+      "overview": {
+        "about": "Royal Capital City Activity Center is one of BG's most celebrated destination destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-171",
+      "name": "Royal Old Bulgaria Forest",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4,
+      "reviewCount": 41491,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.6822,
+      "lng": 24.855,
+      "overview": {
+        "about": "Royal Old Bulgaria Forest is one of BG's most celebrated natural wonder destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-172",
+      "name": "Northern Port Bulgaria Hot Springs",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4,
+      "reviewCount": 99205,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.8696,
+      "lng": 24.135,
+      "overview": {
+        "about": "Northern Port Bulgaria Hot Springs is one of BG's most celebrated natural wonder destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-173",
+      "name": "Royal North Bulgaria Hot Springs",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 79389,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.1188,
+      "lng": 23.7862,
+      "overview": {
+        "about": "Royal North Bulgaria Hot Springs is one of BG's most celebrated natural wonder destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-174",
+      "name": "Royal South Bulgaria Canyon",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 76922,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3612,
+      "lng": 27.3562,
+      "overview": {
+        "about": "Royal South Bulgaria Canyon is one of BG's most celebrated destination destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-175",
+      "name": "Northern Capital City Valley",
+      "location": "Capital City, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 193886,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.019,
+      "lng": 26.0663,
+      "overview": {
+        "about": "Northern Capital City Valley is one of BG's most celebrated natural wonder destinations, located in Capital City, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-176",
+      "name": "Central Old Bulgaria Marina",
+      "location": "Old Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 119028,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.3953,
+      "lng": 24.3788,
+      "overview": {
+        "about": "Central Old Bulgaria Marina is one of BG's most celebrated beach paradise destinations, located in Old Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-177",
+      "name": "Beautiful Port Bulgaria Castle",
+      "location": "Port Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 152601,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.0832,
+      "lng": 27.0113,
+      "overview": {
+        "about": "Beautiful Port Bulgaria Castle is one of BG's most celebrated heritage landmark destinations, located in Port Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-178",
+      "name": "Southern North Bulgaria Downtown",
+      "location": "North Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 199387,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.0725,
+      "lng": 26.8537,
+      "overview": {
+        "about": "Southern North Bulgaria Downtown is one of BG's most celebrated city destination destinations, located in North Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "лв"
+      }
+    },
+    {
+      "id": "bg-179",
+      "name": "New South Bulgaria Ancient Ruins",
+      "location": "South Bulgaria, BG",
+      "country": "BG",
+      "countryCode": "BG",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 147064,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.4595,
+      "lng": 25.3238,
+      "overview": {
+        "about": "New South Bulgaria Ancient Ruins is one of BG's most celebrated heritage landmark destinations, located in South Bulgaria, BG. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "лв10–30 Adults",
+        "entryFeeSub": "лв5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "лв"
+      }
+    }
+  ]
+}

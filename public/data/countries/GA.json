@@ -1,0 +1,4090 @@
+{
+  "code": "GA",
+  "name": "Gabon",
+  "emoji": "🌍",
+  "continent": "Africa",
+  "gradient": "from-emerald-600 to-teal-700",
+  "tagline": "Explore Gabon (80 Places)",
+  "places": [
+    {
+      "id": "ga-100",
+      "name": "Old Capital City Downtown",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 17478,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.0925,
+      "lng": 10.4297,
+      "overview": {
+        "about": "Old Capital City Downtown is one of GA's most celebrated city destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-101",
+      "name": "Royal Old Gabon Gourmet Restaurant",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 25371,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.3155,
+      "lng": 12.4795,
+      "overview": {
+        "about": "Royal Old Gabon Gourmet Restaurant is one of GA's most celebrated destination destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-102",
+      "name": "Old Port Gabon Island",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 90455,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.9315,
+      "lng": 12.5249,
+      "overview": {
+        "about": "Old Port Gabon Island is one of GA's most celebrated beach paradise destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-103",
+      "name": "Scenic North Gabon Mountain Range",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 39770,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.2097,
+      "lng": 13.1639,
+      "overview": {
+        "about": "Scenic North Gabon Mountain Range is one of GA's most celebrated mountain destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-104",
+      "name": "Historic South Gabon Castle",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 81423,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.2551,
+      "lng": 12.8706,
+      "overview": {
+        "about": "Historic South Gabon Castle is one of GA's most celebrated heritage landmark destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-105",
+      "name": "Southern Capital City Peak",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 79767,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.4046,
+      "lng": 11.3865,
+      "overview": {
+        "about": "Southern Capital City Peak is one of GA's most celebrated mountain destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-106",
+      "name": "Old Old Gabon National Park",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 111740,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.8143,
+      "lng": 11.7671,
+      "overview": {
+        "about": "Old Old Gabon National Park is one of GA's most celebrated natural wonder destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-107",
+      "name": "Old Port Gabon Safari Park",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 64668,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.2891,
+      "lng": 12.6506,
+      "overview": {
+        "about": "Old Port Gabon Safari Park is one of GA's most celebrated destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-108",
+      "name": "Royal North Gabon Caves",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 121664,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.762,
+      "lng": 12.05,
+      "overview": {
+        "about": "Royal North Gabon Caves is one of GA's most celebrated destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-109",
+      "name": "Historic South Gabon Waterfalls",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 120416,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.4743,
+      "lng": 11.4529,
+      "overview": {
+        "about": "Historic South Gabon Waterfalls is one of GA's most celebrated natural wonder destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-110",
+      "name": "Old Capital City Gourmet Restaurant",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 136397,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.8867,
+      "lng": 11.2433,
+      "overview": {
+        "about": "Old Capital City Gourmet Restaurant is one of GA's most celebrated destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-111",
+      "name": "Southern Old Gabon Old Town",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 136973,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.4476,
+      "lng": 12.8881,
+      "overview": {
+        "about": "Southern Old Gabon Old Town is one of GA's most celebrated city destination destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-112",
+      "name": "Scenic Port Gabon Valley",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4,
+      "reviewCount": 183329,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.4854,
+      "lng": 13.1325,
+      "overview": {
+        "about": "Scenic Port Gabon Valley is one of GA's most celebrated natural wonder destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-113",
+      "name": "Central North Gabon Coastal Resort",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4,
+      "reviewCount": 165716,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.2246,
+      "lng": 11.4459,
+      "overview": {
+        "about": "Central North Gabon Coastal Resort is one of GA's most celebrated beach paradise destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-114",
+      "name": "Central South Gabon Museum",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 5036,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.964,
+      "lng": 11.2608,
+      "overview": {
+        "about": "Central South Gabon Museum is one of GA's most celebrated heritage landmark destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-115",
+      "name": "Historic Capital City Museum",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 152274,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.242,
+      "lng": 12.4376,
+      "overview": {
+        "about": "Historic Capital City Museum is one of GA's most celebrated heritage landmark destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-116",
+      "name": "Grand Old Gabon Forest",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 170803,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.6049,
+      "lng": 10.091,
+      "overview": {
+        "about": "Grand Old Gabon Forest is one of GA's most celebrated natural wonder destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-117",
+      "name": "Royal Port Gabon Canyon",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 172688,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.0286,
+      "lng": 13.3001,
+      "overview": {
+        "about": "Royal Port Gabon Canyon is one of GA's most celebrated destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-118",
+      "name": "New North Gabon Downtown",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 8379,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.2214,
+      "lng": 12.0535,
+      "overview": {
+        "about": "New North Gabon Downtown is one of GA's most celebrated city destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-119",
+      "name": "Grand South Gabon Old Town",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 22801,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.8748,
+      "lng": 12.1582,
+      "overview": {
+        "about": "Grand South Gabon Old Town is one of GA's most celebrated city destination destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-120",
+      "name": "Northern Capital City Bay",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 137327,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.0778,
+      "lng": 12.9824,
+      "overview": {
+        "about": "Northern Capital City Bay is one of GA's most celebrated beach paradise destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-121",
+      "name": "Beautiful Old Gabon Ancient Ruins",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 43387,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.1589,
+      "lng": 12.9754,
+      "overview": {
+        "about": "Beautiful Old Gabon Ancient Ruins is one of GA's most celebrated heritage landmark destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-122",
+      "name": "Grand Port Gabon Marina",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 178814,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.775,
+      "lng": 12.483,
+      "overview": {
+        "about": "Grand Port Gabon Marina is one of GA's most celebrated beach paradise destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-123",
+      "name": "New North Gabon Exclusive Club",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 62611,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.4894,
+      "lng": 11.3551,
+      "overview": {
+        "about": "New North Gabon Exclusive Club is one of GA's most celebrated destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-124",
+      "name": "Grand South Gabon Island",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 54167,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.4197,
+      "lng": 11.2887,
+      "overview": {
+        "about": "Grand South Gabon Island is one of GA's most celebrated beach paradise destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-125",
+      "name": "Royal Capital City Summit",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 184582,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.8754,
+      "lng": 11.3167,
+      "overview": {
+        "about": "Royal Capital City Summit is one of GA's most celebrated mountain destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-126",
+      "name": "Old Old Gabon Bay",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 33038,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.552,
+      "lng": 10.4332,
+      "overview": {
+        "about": "Old Old Gabon Bay is one of GA's most celebrated beach paradise destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-127",
+      "name": "Northern Port Gabon Peak",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 168799,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.4703,
+      "lng": 13.0347,
+      "overview": {
+        "about": "Northern Port Gabon Peak is one of GA's most celebrated mountain destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-128",
+      "name": "New North Gabon Peak",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 154823,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.8808,
+      "lng": 11.7986,
+      "overview": {
+        "about": "New North Gabon Peak is one of GA's most celebrated mountain destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-129",
+      "name": "Royal South Gabon Caves",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 73873,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.4665,
+      "lng": 13.0103,
+      "overview": {
+        "about": "Royal South Gabon Caves is one of GA's most celebrated destination destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-130",
+      "name": "New Capital City Museum",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 148860,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.7259,
+      "lng": 12.8008,
+      "overview": {
+        "about": "New Capital City Museum is one of GA's most celebrated heritage landmark destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-131",
+      "name": "Central Old Gabon Safari Park",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 189207,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.9088,
+      "lng": 12.3782,
+      "overview": {
+        "about": "Central Old Gabon Safari Park is one of GA's most celebrated destination destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-132",
+      "name": "Scenic Port Gabon Financial District",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 42973,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.4592,
+      "lng": 11.5506,
+      "overview": {
+        "about": "Scenic Port Gabon Financial District is one of GA's most celebrated city destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-133",
+      "name": "Grand North Gabon Spa Retreat",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 28013,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.2437,
+      "lng": 12.9439,
+      "overview": {
+        "about": "Grand North Gabon Spa Retreat is one of GA's most celebrated destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-134",
+      "name": "Southern South Gabon Cove",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 124243,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.3571,
+      "lng": 12.2106,
+      "overview": {
+        "about": "Southern South Gabon Cove is one of GA's most celebrated beach paradise destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-135",
+      "name": "Northern Capital City Old Town",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 119157,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.7485,
+      "lng": 12.6541,
+      "overview": {
+        "about": "Northern Capital City Old Town is one of GA's most celebrated city destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-136",
+      "name": "Royal Old Gabon Museum",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 111055,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.2139,
+      "lng": 12.1024,
+      "overview": {
+        "about": "Royal Old Gabon Museum is one of GA's most celebrated heritage landmark destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-137",
+      "name": "Scenic Port Gabon Bay",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 83951,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.9867,
+      "lng": 11.1141,
+      "overview": {
+        "about": "Scenic Port Gabon Bay is one of GA's most celebrated beach paradise destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-138",
+      "name": "Beautiful North Gabon Spa Retreat",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 84422,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.149,
+      "lng": 10.957,
+      "overview": {
+        "about": "Beautiful North Gabon Spa Retreat is one of GA's most celebrated destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-139",
+      "name": "Central South Gabon Lake",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 18066,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.52,
+      "lng": 10.1224,
+      "overview": {
+        "about": "Central South Gabon Lake is one of GA's most celebrated natural wonder destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-140",
+      "name": "Royal Capital City Beach",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 120913,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.019,
+      "lng": 10.3878,
+      "overview": {
+        "about": "Royal Capital City Beach is one of GA's most celebrated beach paradise destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-141",
+      "name": "Royal Old Gabon Exclusive Club",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 155113,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.8219,
+      "lng": 11.816,
+      "overview": {
+        "about": "Royal Old Gabon Exclusive Club is one of GA's most celebrated destination destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-142",
+      "name": "Grand Port Gabon Beach",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 149336,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.1173,
+      "lng": 13.2443,
+      "overview": {
+        "about": "Grand Port Gabon Beach is one of GA's most celebrated beach paradise destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-143",
+      "name": "Grand North Gabon Old Town",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 107721,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.1042,
+      "lng": 12.8112,
+      "overview": {
+        "about": "Grand North Gabon Old Town is one of GA's most celebrated city destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-144",
+      "name": "Royal South Gabon Forest",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 197375,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.6843,
+      "lng": 13.0697,
+      "overview": {
+        "about": "Royal South Gabon Forest is one of GA's most celebrated natural wonder destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-145",
+      "name": "Royal Capital City Old Town",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 84297,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.8527,
+      "lng": 11.4633,
+      "overview": {
+        "about": "Royal Capital City Old Town is one of GA's most celebrated city destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-146",
+      "name": "New Old Gabon Fortress",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 196554,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.3609,
+      "lng": 12.1862,
+      "overview": {
+        "about": "New Old Gabon Fortress is one of GA's most celebrated heritage landmark destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-147",
+      "name": "Southern Port Gabon Summit",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 71791,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.9768,
+      "lng": 12.8182,
+      "overview": {
+        "about": "Southern Port Gabon Summit is one of GA's most celebrated mountain destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-148",
+      "name": "Royal North Gabon Ancient Ruins",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 97032,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.0228,
+      "lng": 10.3634,
+      "overview": {
+        "about": "Royal North Gabon Ancient Ruins is one of GA's most celebrated heritage landmark destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-149",
+      "name": "New South Gabon Highlands",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 39439,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.8143,
+      "lng": 11.7671,
+      "overview": {
+        "about": "New South Gabon Highlands is one of GA's most celebrated mountain destination destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-150",
+      "name": "Central Capital City Cathedral",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 196190,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.372,
+      "lng": 12.3992,
+      "overview": {
+        "about": "Central Capital City Cathedral is one of GA's most celebrated heritage landmark destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-151",
+      "name": "Beautiful Old Gabon Waterfalls",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 34974,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.0167,
+      "lng": 10.1015,
+      "overview": {
+        "about": "Beautiful Old Gabon Waterfalls is one of GA's most celebrated natural wonder destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-152",
+      "name": "Grand Port Gabon Museum",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 188899,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.1301,
+      "lng": 10.8348,
+      "overview": {
+        "about": "Grand Port Gabon Museum is one of GA's most celebrated heritage landmark destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-153",
+      "name": "Northern North Gabon Caves",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 136750,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.2042,
+      "lng": 12.682,
+      "overview": {
+        "about": "Northern North Gabon Caves is one of GA's most celebrated destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-154",
+      "name": "Scenic South Gabon Forest",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 1525,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.1717,
+      "lng": 11.1037,
+      "overview": {
+        "about": "Scenic South Gabon Forest is one of GA's most celebrated natural wonder destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-155",
+      "name": "Beautiful Capital City Plaza",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 183543,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.803,
+      "lng": 11.6938,
+      "overview": {
+        "about": "Beautiful Capital City Plaza is one of GA's most celebrated city destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-156",
+      "name": "Old Old Gabon National Park",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 27273,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.3252,
+      "lng": 11.8998,
+      "overview": {
+        "about": "Old Old Gabon National Park is one of GA's most celebrated natural wonder destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-157",
+      "name": "New Port Gabon Premium Villa",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 164099,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.2246,
+      "lng": 11.4459,
+      "overview": {
+        "about": "New Port Gabon Premium Villa is one of GA's most celebrated destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-158",
+      "name": "Beautiful North Gabon Island",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 133600,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.195,
+      "lng": 12.2246,
+      "overview": {
+        "about": "Beautiful North Gabon Island is one of GA's most celebrated beach paradise destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-159",
+      "name": "Central South Gabon Ancient Ruins",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 124958,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.4444,
+      "lng": 10.6113,
+      "overview": {
+        "about": "Central South Gabon Ancient Ruins is one of GA's most celebrated heritage landmark destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-160",
+      "name": "Scenic Capital City Coastal Resort",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 164386,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.2139,
+      "lng": 12.1024,
+      "overview": {
+        "about": "Scenic Capital City Coastal Resort is one of GA's most celebrated beach paradise destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-161",
+      "name": "Central Old Gabon Coastal Resort",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 8998,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.7049,
+      "lng": 9.9618,
+      "overview": {
+        "about": "Central Old Gabon Coastal Resort is one of GA's most celebrated beach paradise destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-162",
+      "name": "Royal Port Gabon Highlands",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 2261,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.2857,
+      "lng": 11.6379,
+      "overview": {
+        "about": "Royal Port Gabon Highlands is one of GA's most celebrated mountain destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-163",
+      "name": "Central North Gabon Ancient Ruins",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 162192,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.5575,
+      "lng": 10.9151,
+      "overview": {
+        "about": "Central North Gabon Ancient Ruins is one of GA's most celebrated heritage landmark destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-164",
+      "name": "Grand South Gabon Plaza",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 100301,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.614,
+      "lng": 10.4716,
+      "overview": {
+        "about": "Grand South Gabon Plaza is one of GA's most celebrated city destination destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-165",
+      "name": "Central Capital City Valley",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 115439,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.2798,
+      "lng": 12.1932,
+      "overview": {
+        "about": "Central Capital City Valley is one of GA's most celebrated natural wonder destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-166",
+      "name": "Old Old Gabon Plaza",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 120135,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.896,
+      "lng": 11.7008,
+      "overview": {
+        "about": "Old Old Gabon Plaza is one of GA's most celebrated city destination destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-167",
+      "name": "New Port Gabon Safari Park",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 157634,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.3462,
+      "lng": 11.2468,
+      "overview": {
+        "about": "New Port Gabon Safari Park is one of GA's most celebrated destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-168",
+      "name": "Historic North Gabon Bay",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 101048,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.5709,
+      "lng": 10.311,
+      "overview": {
+        "about": "Historic North Gabon Bay is one of GA's most celebrated beach paradise destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-169",
+      "name": "Scenic South Gabon Ancient Ruins",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 59914,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.5197,
+      "lng": 11.1595,
+      "overview": {
+        "about": "Scenic South Gabon Ancient Ruins is one of GA's most celebrated heritage landmark destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-170",
+      "name": "Old Capital City Central Market",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 21990,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.9602,
+      "lng": 11.2852,
+      "overview": {
+        "about": "Old Capital City Central Market is one of GA's most celebrated city destination destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-171",
+      "name": "Old Old Gabon Marina",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.9,
+      "reviewCount": 117937,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.4138,
+      "lng": 11.844,
+      "overview": {
+        "about": "Old Old Gabon Marina is one of GA's most celebrated beach paradise destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-172",
+      "name": "Scenic Port Gabon Canyon",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 88619,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.153,
+      "lng": 10.0386,
+      "overview": {
+        "about": "Scenic Port Gabon Canyon is one of GA's most celebrated destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-173",
+      "name": "Southern North Gabon Peak",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 21470,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.3252,
+      "lng": 11.8998,
+      "overview": {
+        "about": "Southern North Gabon Peak is one of GA's most celebrated mountain destination destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-174",
+      "name": "Historic South Gabon Canyon",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 158296,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.9358,
+      "lng": 10.9256,
+      "overview": {
+        "about": "Historic South Gabon Canyon is one of GA's most celebrated destination destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-175",
+      "name": "Royal Capital City Cathedral",
+      "location": "Capital City, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 131114,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.4558,
+      "lng": 10.538,
+      "overview": {
+        "about": "Royal Capital City Cathedral is one of GA's most celebrated heritage landmark destinations, located in Capital City, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-176",
+      "name": "Scenic Old Gabon Beach",
+      "location": "Old Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 99043,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -0.3575,
+      "lng": 11.1735,
+      "overview": {
+        "about": "Scenic Old Gabon Beach is one of GA's most celebrated beach paradise destinations, located in Old Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-177",
+      "name": "Grand Port Gabon Ski Resort",
+      "location": "Port Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 90643,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -1.1967,
+      "lng": 12.7309,
+      "overview": {
+        "about": "Grand Port Gabon Ski Resort is one of GA's most celebrated mountain destination destinations, located in Port Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-178",
+      "name": "Northern North Gabon Beach",
+      "location": "North Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 188430,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 0.3078,
+      "lng": 11.9836,
+      "overview": {
+        "about": "Northern North Gabon Beach is one of GA's most celebrated beach paradise destinations, located in North Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "ga-179",
+      "name": "New South Gabon Shopping District",
+      "location": "South Gabon, GA",
+      "country": "GA",
+      "countryCode": "GA",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 11610,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.2664,
+      "lng": 12.7973,
+      "overview": {
+        "about": "New South Gabon Shopping District is one of GA's most celebrated city destination destinations, located in South Gabon, GA. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    }
+  ]
+}

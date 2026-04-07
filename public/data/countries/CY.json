@@ -1,0 +1,4090 @@
+{
+  "code": "CY",
+  "name": "Cyprus",
+  "emoji": "🌍",
+  "continent": "Europe",
+  "gradient": "from-emerald-600 to-teal-700",
+  "tagline": "Explore Cyprus (80 Places)",
+  "places": [
+    {
+      "id": "cy-100",
+      "name": "Beautiful Capital City Marina",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 135751,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9962,
+      "lng": 33.6451,
+      "overview": {
+        "about": "Beautiful Capital City Marina is one of CY's most celebrated beach paradise destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-101",
+      "name": "New Old Cyprus Historic District",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 94162,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0777,
+      "lng": 33.488,
+      "overview": {
+        "about": "New Old Cyprus Historic District is one of CY's most celebrated heritage landmark destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-102",
+      "name": "Historic Port Cyprus Historic District",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 62882,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1965,
+      "lng": 33.9057,
+      "overview": {
+        "about": "Historic Port Cyprus Historic District is one of CY's most celebrated heritage landmark destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-103",
+      "name": "Old North Cyprus Nature Reserve",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 188390,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9795,
+      "lng": 33.3874,
+      "overview": {
+        "about": "Old North Cyprus Nature Reserve is one of CY's most celebrated natural wonder destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-104",
+      "name": "Southern South Cyprus National Park",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 25137,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9846,
+      "lng": 33.4667,
+      "overview": {
+        "about": "Southern South Cyprus National Park is one of CY's most celebrated natural wonder destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-105",
+      "name": "New Capital City Zipline Park",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 168915,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3884,
+      "lng": 34.0374,
+      "overview": {
+        "about": "New Capital City Zipline Park is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-106",
+      "name": "Central Old Cyprus Valley",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 95179,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.296,
+      "lng": 34.026,
+      "overview": {
+        "about": "Central Old Cyprus Valley is one of CY's most celebrated natural wonder destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-107",
+      "name": "Old Port Cyprus Exclusive Club",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 52816,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9795,
+      "lng": 33.3874,
+      "overview": {
+        "about": "Old Port Cyprus Exclusive Club is one of CY's most celebrated destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-108",
+      "name": "New North Cyprus Financial District",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 161987,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0013,
+      "lng": 33.7244,
+      "overview": {
+        "about": "New North Cyprus Financial District is one of CY's most celebrated city destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-109",
+      "name": "Northern South Cyprus Island",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 74248,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2876,
+      "lng": 33.8972,
+      "overview": {
+        "about": "Northern South Cyprus Island is one of CY's most celebrated beach paradise destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-110",
+      "name": "Historic Capital City Exclusive Club",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 109438,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1554,
+      "lng": 33.2713,
+      "overview": {
+        "about": "Historic Capital City Exclusive Club is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-111",
+      "name": "Old Old Cyprus Financial District",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 70028,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0565,
+      "lng": 33.1609,
+      "overview": {
+        "about": "Old Old Cyprus Financial District is one of CY's most celebrated city destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-112",
+      "name": "Grand Port Cyprus Canyon",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 64124,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2574,
+      "lng": 33.4313,
+      "overview": {
+        "about": "Grand Port Cyprus Canyon is one of CY's most celebrated destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-113",
+      "name": "Grand North Cyprus Caves",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 135055,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1855,
+      "lng": 33.7372,
+      "overview": {
+        "about": "Grand North Cyprus Caves is one of CY's most celebrated destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-114",
+      "name": "Old South Cyprus Beach",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4,
+      "reviewCount": 169119,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1464,
+      "lng": 33.1326,
+      "overview": {
+        "about": "Old South Cyprus Beach is one of CY's most celebrated beach paradise destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-115",
+      "name": "Old Capital City Palace",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 112649,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3807,
+      "lng": 33.9184,
+      "overview": {
+        "about": "Old Capital City Palace is one of CY's most celebrated heritage landmark destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-116",
+      "name": "Old Old Cyprus Luxury Resort",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 92170,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4135,
+      "lng": 33.0079,
+      "overview": {
+        "about": "Old Old Cyprus Luxury Resort is one of CY's most celebrated destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-117",
+      "name": "Royal Port Cyprus Shopping District",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 180229,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.147,
+      "lng": 33.1425,
+      "overview": {
+        "about": "Royal Port Cyprus Shopping District is one of CY's most celebrated city destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-118",
+      "name": "Southern North Cyprus Activity Center",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 56634,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.8645,
+      "lng": 33.0292,
+      "overview": {
+        "about": "Southern North Cyprus Activity Center is one of CY's most celebrated destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-119",
+      "name": "Royal South Cyprus Palace",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4,
+      "reviewCount": 136151,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3563,
+      "lng": 33.5418,
+      "overview": {
+        "about": "Royal South Cyprus Palace is one of CY's most celebrated heritage landmark destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-120",
+      "name": "Historic Capital City Waterfalls",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 118223,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9743,
+      "lng": 33.3081,
+      "overview": {
+        "about": "Historic Capital City Waterfalls is one of CY's most celebrated natural wonder destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-121",
+      "name": "Scenic Old Cyprus Spa Retreat",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 160452,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4308,
+      "lng": 33.2756,
+      "overview": {
+        "about": "Scenic Old Cyprus Spa Retreat is one of CY's most celebrated destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-122",
+      "name": "Scenic Port Cyprus Caves",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 49483,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9974,
+      "lng": 33.665,
+      "overview": {
+        "about": "Scenic Port Cyprus Caves is one of CY's most celebrated destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-123",
+      "name": "Beautiful North Cyprus Hot Springs",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 1626,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3338,
+      "lng": 33.1949,
+      "overview": {
+        "about": "Beautiful North Cyprus Hot Springs is one of CY's most celebrated natural wonder destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-124",
+      "name": "Grand South Cyprus Ski Resort",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 99570,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0629,
+      "lng": 33.26,
+      "overview": {
+        "about": "Grand South Cyprus Ski Resort is one of CY's most celebrated mountain destination destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-125",
+      "name": "Beautiful Capital City Marina",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 164683,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0758,
+      "lng": 33.4582,
+      "overview": {
+        "about": "Beautiful Capital City Marina is one of CY's most celebrated beach paradise destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-126",
+      "name": "Southern Old Cyprus Bay",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 94065,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2652,
+      "lng": 33.5503,
+      "overview": {
+        "about": "Southern Old Cyprus Bay is one of CY's most celebrated beach paradise destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-127",
+      "name": "Historic Port Cyprus Caves",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 143052,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3704,
+      "lng": 33.7598,
+      "overview": {
+        "about": "Historic Port Cyprus Caves is one of CY's most celebrated destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-128",
+      "name": "Grand North Cyprus Diving Spot",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 2999,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3627,
+      "lng": 33.6409,
+      "overview": {
+        "about": "Grand North Cyprus Diving Spot is one of CY's most celebrated destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-129",
+      "name": "Royal South Cyprus Ski Resort",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 73869,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4321,
+      "lng": 33.2954,
+      "overview": {
+        "about": "Royal South Cyprus Ski Resort is one of CY's most celebrated mountain destination destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-130",
+      "name": "Central Capital City Coastal Resort",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 13737,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.869,
+      "lng": 33.0986,
+      "overview": {
+        "about": "Central Capital City Coastal Resort is one of CY's most celebrated beach paradise destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-131",
+      "name": "Central Old Cyprus Gourmet Restaurant",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 4591,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9031,
+      "lng": 33.6239,
+      "overview": {
+        "about": "Central Old Cyprus Gourmet Restaurant is one of CY's most celebrated destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-132",
+      "name": "Southern Port Cyprus Coastal Resort",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 81710,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9564,
+      "lng": 33.0306,
+      "overview": {
+        "about": "Southern Port Cyprus Coastal Resort is one of CY's most celebrated beach paradise destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-133",
+      "name": "Scenic North Cyprus Gourmet Restaurant",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 187199,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9236,
+      "lng": 33.9411,
+      "overview": {
+        "about": "Scenic North Cyprus Gourmet Restaurant is one of CY's most celebrated destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-134",
+      "name": "Old South Cyprus Beach",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.9,
+      "reviewCount": 48539,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3082,
+      "lng": 32.7984,
+      "overview": {
+        "about": "Old South Cyprus Beach is one of CY's most celebrated beach paradise destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-135",
+      "name": "Old Capital City Palace",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 113726,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2812,
+      "lng": 33.7981,
+      "overview": {
+        "about": "Old Capital City Palace is one of CY's most celebrated heritage landmark destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-136",
+      "name": "New Old Cyprus Cathedral",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 112452,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2356,
+      "lng": 33.0943,
+      "overview": {
+        "about": "New Old Cyprus Cathedral is one of CY's most celebrated heritage landmark destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-137",
+      "name": "Northern Port Cyprus Lake",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 67212,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4834,
+      "lng": 34.0884,
+      "overview": {
+        "about": "Northern Port Cyprus Lake is one of CY's most celebrated natural wonder destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-138",
+      "name": "Beautiful North Cyprus Peak",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 29185,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3826,
+      "lng": 33.9482,
+      "overview": {
+        "about": "Beautiful North Cyprus Peak is one of CY's most celebrated mountain destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-139",
+      "name": "New South Cyprus Ancient Ruins",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 101194,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3069,
+      "lng": 32.7786,
+      "overview": {
+        "about": "New South Cyprus Ancient Ruins is one of CY's most celebrated heritage landmark destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-140",
+      "name": "Southern Capital City Diving Spot",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 27250,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1329,
+      "lng": 32.9244,
+      "overview": {
+        "about": "Southern Capital City Diving Spot is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-141",
+      "name": "Grand Old Cyprus Downtown",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 133049,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1098,
+      "lng": 33.9836,
+      "overview": {
+        "about": "Grand Old Cyprus Downtown is one of CY's most celebrated city destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-142",
+      "name": "New Port Cyprus Plaza",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 191502,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3011,
+      "lng": 34.1053,
+      "overview": {
+        "about": "New Port Cyprus Plaza is one of CY's most celebrated city destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-143",
+      "name": "Central North Cyprus Coastal Resort",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 187309,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4578,
+      "lng": 33.6919,
+      "overview": {
+        "about": "Central North Cyprus Coastal Resort is one of CY's most celebrated beach paradise destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-144",
+      "name": "Old South Cyprus Ski Resort",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 108741,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4847,
+      "lng": 34.1082,
+      "overview": {
+        "about": "Old South Cyprus Ski Resort is one of CY's most celebrated mountain destination destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-145",
+      "name": "Northern Capital City Luxury Resort",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 166163,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1733,
+      "lng": 33.5489,
+      "overview": {
+        "about": "Northern Capital City Luxury Resort is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-146",
+      "name": "New Old Cyprus Caves",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 140729,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1297,
+      "lng": 32.8748,
+      "overview": {
+        "about": "New Old Cyprus Caves is one of CY's most celebrated destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-147",
+      "name": "Southern Port Cyprus Caves",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 107197,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1258,
+      "lng": 32.8154,
+      "overview": {
+        "about": "Southern Port Cyprus Caves is one of CY's most celebrated destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-148",
+      "name": "Central North Cyprus Coastal Resort",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 167131,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4751,
+      "lng": 33.9595,
+      "overview": {
+        "about": "Central North Cyprus Coastal Resort is one of CY's most celebrated beach paradise destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-149",
+      "name": "Historic South Cyprus Ski Resort",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 40957,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0693,
+      "lng": 33.3591,
+      "overview": {
+        "about": "Historic South Cyprus Ski Resort is one of CY's most celebrated mountain destination destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-150",
+      "name": "Beautiful Capital City Luxury Resort",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 103143,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3826,
+      "lng": 33.9482,
+      "overview": {
+        "about": "Beautiful Capital City Luxury Resort is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-151",
+      "name": "Northern Old Cyprus Waterfalls",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 136767,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4597,
+      "lng": 33.7216,
+      "overview": {
+        "about": "Northern Old Cyprus Waterfalls is one of CY's most celebrated natural wonder destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-152",
+      "name": "Southern Port Cyprus Gourmet Restaurant",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 172985,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9429,
+      "lng": 32.8224,
+      "overview": {
+        "about": "Southern Port Cyprus Gourmet Restaurant is one of CY's most celebrated destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-153",
+      "name": "Scenic North Cyprus Bay",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 25380,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0206,
+      "lng": 34.0218,
+      "overview": {
+        "about": "Scenic North Cyprus Bay is one of CY's most celebrated beach paradise destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-154",
+      "name": "Royal South Cyprus Premium Villa",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 17628,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.8504,
+      "lng": 32.8111,
+      "overview": {
+        "about": "Royal South Cyprus Premium Villa is one of CY's most celebrated destination destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-155",
+      "name": "New Capital City Activity Center",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 145401,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4308,
+      "lng": 33.2756,
+      "overview": {
+        "about": "New Capital City Activity Center is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-156",
+      "name": "Grand Old Cyprus Ski Resort",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 40112,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0841,
+      "lng": 33.5871,
+      "overview": {
+        "about": "Grand Old Cyprus Ski Resort is one of CY's most celebrated mountain destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-157",
+      "name": "Central Port Cyprus Hot Springs",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 66180,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1117,
+      "lng": 34.0133,
+      "overview": {
+        "about": "Central Port Cyprus Hot Springs is one of CY's most celebrated natural wonder destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-158",
+      "name": "Old North Cyprus Safari Park",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 154835,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.407,
+      "lng": 32.9088,
+      "overview": {
+        "about": "Old North Cyprus Safari Park is one of CY's most celebrated destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-159",
+      "name": "Scenic South Cyprus Cove",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 170855,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4757,
+      "lng": 33.9694,
+      "overview": {
+        "about": "Scenic South Cyprus Cove is one of CY's most celebrated beach paradise destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-160",
+      "name": "Beautiful Capital City Canyon",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 17519,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3062,
+      "lng": 32.7686,
+      "overview": {
+        "about": "Beautiful Capital City Canyon is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-161",
+      "name": "Southern Old Cyprus Activity Center",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 85830,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.8819,
+      "lng": 33.2968,
+      "overview": {
+        "about": "Southern Old Cyprus Activity Center is one of CY's most celebrated destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-162",
+      "name": "Southern Port Cyprus Safari Park",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 112604,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9191,
+      "lng": 33.8717,
+      "overview": {
+        "about": "Southern Port Cyprus Safari Park is one of CY's most celebrated destination destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-163",
+      "name": "Grand North Cyprus Spa Retreat",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 13721,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4064,
+      "lng": 32.8989,
+      "overview": {
+        "about": "Grand North Cyprus Spa Retreat is one of CY's most celebrated destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-164",
+      "name": "Central South Cyprus Island",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.9,
+      "reviewCount": 141388,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0931,
+      "lng": 33.7259,
+      "overview": {
+        "about": "Central South Cyprus Island is one of CY's most celebrated beach paradise destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-165",
+      "name": "Grand Capital City National Park",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 26915,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1098,
+      "lng": 33.9836,
+      "overview": {
+        "about": "Grand Capital City National Park is one of CY's most celebrated natural wonder destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-166",
+      "name": "Beautiful Old Cyprus Cove",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4,
+      "reviewCount": 168213,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.294,
+      "lng": 33.9963,
+      "overview": {
+        "about": "Beautiful Old Cyprus Cove is one of CY's most celebrated beach paradise destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-167",
+      "name": "Historic Port Cyprus Cove",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 19939,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4237,
+      "lng": 33.1665,
+      "overview": {
+        "about": "Historic Port Cyprus Cove is one of CY's most celebrated beach paradise destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-168",
+      "name": "Beautiful North Cyprus Beach",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 1526,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1355,
+      "lng": 32.964,
+      "overview": {
+        "about": "Beautiful North Cyprus Beach is one of CY's most celebrated beach paradise destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-169",
+      "name": "Northern South Cyprus Fortress",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 132789,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.8671,
+      "lng": 33.0688,
+      "overview": {
+        "about": "Northern South Cyprus Fortress is one of CY's most celebrated heritage landmark destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-170",
+      "name": "Scenic Capital City Shopping District",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 64796,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2889,
+      "lng": 33.917,
+      "overview": {
+        "about": "Scenic Capital City Shopping District is one of CY's most celebrated city destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-171",
+      "name": "Southern Old Cyprus Shopping District",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 17748,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1079,
+      "lng": 33.9538,
+      "overview": {
+        "about": "Southern Old Cyprus Shopping District is one of CY's most celebrated city destination destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-172",
+      "name": "Central Port Cyprus Nature Reserve",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 53100,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0777,
+      "lng": 33.488,
+      "overview": {
+        "about": "Central Port Cyprus Nature Reserve is one of CY's most celebrated natural wonder destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-173",
+      "name": "Central North Cyprus Marina",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 182915,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2574,
+      "lng": 33.4313,
+      "overview": {
+        "about": "Central North Cyprus Marina is one of CY's most celebrated beach paradise destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-174",
+      "name": "New South Cyprus Zipline Park",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 182362,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1226,
+      "lng": 32.7658,
+      "overview": {
+        "about": "New South Cyprus Zipline Park is one of CY's most celebrated destination destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-175",
+      "name": "Royal Capital City Safari Park",
+      "location": "Capital City, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 156094,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0674,
+      "lng": 33.3294,
+      "overview": {
+        "about": "Royal Capital City Safari Park is one of CY's most celebrated destination destinations, located in Capital City, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-176",
+      "name": "Historic Old Cyprus Cove",
+      "location": "Old Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 28206,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9673,
+      "lng": 33.1991,
+      "overview": {
+        "about": "Historic Old Cyprus Cove is one of CY's most celebrated beach paradise destinations, located in Old Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-177",
+      "name": "Historic Port Cyprus Hot Springs",
+      "location": "Port Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 78199,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9962,
+      "lng": 33.6451,
+      "overview": {
+        "about": "Historic Port Cyprus Hot Springs is one of CY's most celebrated natural wonder destinations, located in Port Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-178",
+      "name": "Scenic North Cyprus Downtown",
+      "location": "North Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 83410,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2838,
+      "lng": 33.8377,
+      "overview": {
+        "about": "Scenic North Cyprus Downtown is one of CY's most celebrated city destination destinations, located in North Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "cy-179",
+      "name": "Scenic South Cyprus Financial District",
+      "location": "South Cyprus, CY",
+      "country": "CY",
+      "countryCode": "CY",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 125779,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2607,
+      "lng": 33.4809,
+      "overview": {
+        "about": "Scenic South Cyprus Financial District is one of CY's most celebrated city destination destinations, located in South Cyprus, CY. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€10–30 Adults",
+        "entryFeeSub": "€5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4090 @@
+{
+  "code": "JE",
+  "name": "Jersey",
+  "emoji": "🌍",
+  "continent": "Europe",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore Jersey (80 Places)",
+  "places": [
+    {
+      "id": "je-100",
+      "name": "Southern Capital City Central Market",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 28598,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2297,
+      "lng": -2.1049,
+      "overview": {
+        "about": "Southern Capital City Central Market is one of JE's most celebrated city destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-101",
+      "name": "Historic Old Jersey Luxury Resort",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 105367,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1999,
+      "lng": -2.1768,
+      "overview": {
+        "about": "Historic Old Jersey Luxury Resort is one of JE's most celebrated destination destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-102",
+      "name": "Royal Port Jersey Castle",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 142129,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2021,
+      "lng": -2.1379,
+      "overview": {
+        "about": "Royal Port Jersey Castle is one of JE's most celebrated heritage landmark destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-103",
+      "name": "Northern North Jersey Mountain Range",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 6924,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2076,
+      "lng": -2.1923,
+      "overview": {
+        "about": "Northern North Jersey Mountain Range is one of JE's most celebrated mountain destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-104",
+      "name": "Northern South Jersey Diving Spot",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 1730,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.234,
+      "lng": -2.1793,
+      "overview": {
+        "about": "Northern South Jersey Diving Spot is one of JE's most celebrated destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-105",
+      "name": "Central Capital City Shopping District",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 24878,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2282,
+      "lng": -2.1322,
+      "overview": {
+        "about": "Central Capital City Shopping District is one of JE's most celebrated city destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-106",
+      "name": "Central Old Jersey Forest",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 148954,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2234,
+      "lng": -2.0652,
+      "overview": {
+        "about": "Central Old Jersey Forest is one of JE's most celebrated natural wonder destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-107",
+      "name": "Southern Port Jersey Ski Resort",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 158944,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2138,
+      "lng": -2.0831,
+      "overview": {
+        "about": "Southern Port Jersey Ski Resort is one of JE's most celebrated mountain destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-108",
+      "name": "Northern North Jersey Highlands",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 168584,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2078,
+      "lng": -2.1892,
+      "overview": {
+        "about": "Northern North Jersey Highlands is one of JE's most celebrated mountain destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-109",
+      "name": "Scenic South Jersey Central Market",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 113768,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2098,
+      "lng": -2.1535,
+      "overview": {
+        "about": "Scenic South Jersey Central Market is one of JE's most celebrated city destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-110",
+      "name": "Beautiful Capital City National Park",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 86615,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2379,
+      "lng": -2.1121,
+      "overview": {
+        "about": "Beautiful Capital City National Park is one of JE's most celebrated natural wonder destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-111",
+      "name": "Northern Old Jersey Luxury Resort",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 125241,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2268,
+      "lng": -2.1564,
+      "overview": {
+        "about": "Northern Old Jersey Luxury Resort is one of JE's most celebrated destination destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-112",
+      "name": "Beautiful Port Jersey Caves",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 148329,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2486,
+      "lng": -2.0741,
+      "overview": {
+        "about": "Beautiful Port Jersey Caves is one of JE's most celebrated destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-113",
+      "name": "New North Jersey Cove",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 13059,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2372,
+      "lng": -2.1247,
+      "overview": {
+        "about": "New North Jersey Cove is one of JE's most celebrated beach paradise destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-114",
+      "name": "New South Jersey National Park",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 149691,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2122,
+      "lng": -2.1115,
+      "overview": {
+        "about": "New South Jersey National Park is one of JE's most celebrated natural wonder destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-115",
+      "name": "Beautiful Capital City Island",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 126005,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2045,
+      "lng": -2.097,
+      "overview": {
+        "about": "Beautiful Capital City Island is one of JE's most celebrated beach paradise destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-116",
+      "name": "Northern Old Jersey Cathedral",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 125258,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2384,
+      "lng": -2.1037,
+      "overview": {
+        "about": "Northern Old Jersey Cathedral is one of JE's most celebrated heritage landmark destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-117",
+      "name": "Central Port Jersey Forest",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 175882,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2199,
+      "lng": -2.1271,
+      "overview": {
+        "about": "Central Port Jersey Forest is one of JE's most celebrated natural wonder destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-118",
+      "name": "Scenic North Jersey Plaza",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 143632,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2359,
+      "lng": -2.1467,
+      "overview": {
+        "about": "Scenic North Jersey Plaza is one of JE's most celebrated city destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-119",
+      "name": "Northern South Jersey Mountain Range",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 64274,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2393,
+      "lng": -2.0869,
+      "overview": {
+        "about": "Northern South Jersey Mountain Range is one of JE's most celebrated mountain destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-120",
+      "name": "Southern Capital City Marina",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 49781,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2183,
+      "lng": -2.1544,
+      "overview": {
+        "about": "Southern Capital City Marina is one of JE's most celebrated beach paradise destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-121",
+      "name": "New Old Jersey Island",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 187735,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2117,
+      "lng": -2.121,
+      "overview": {
+        "about": "New Old Jersey Island is one of JE's most celebrated beach paradise destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-122",
+      "name": "Central Port Jersey Exclusive Club",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 35439,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.197,
+      "lng": -2.0772,
+      "overview": {
+        "about": "Central Port Jersey Exclusive Club is one of JE's most celebrated destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-123",
+      "name": "Southern North Jersey Valley",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 73978,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2041,
+      "lng": -2.1033,
+      "overview": {
+        "about": "Southern North Jersey Valley is one of JE's most celebrated natural wonder destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-124",
+      "name": "Historic South Jersey Caves",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 85655,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2332,
+      "lng": -2.194,
+      "overview": {
+        "about": "Historic South Jersey Caves is one of JE's most celebrated destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-125",
+      "name": "Old Capital City Central Market",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 109575,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.227,
+      "lng": -2.1521,
+      "overview": {
+        "about": "Old Capital City Central Market is one of JE's most celebrated city destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-126",
+      "name": "Beautiful Old Jersey Ski Resort",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 150817,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2424,
+      "lng": -2.1833,
+      "overview": {
+        "about": "Beautiful Old Jersey Ski Resort is one of JE's most celebrated mountain destination destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-127",
+      "name": "Old Port Jersey Highlands",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 5199,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1906,
+      "lng": -2.1895,
+      "overview": {
+        "about": "Old Port Jersey Highlands is one of JE's most celebrated mountain destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-128",
+      "name": "Grand North Jersey Caves",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 40127,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2155,
+      "lng": -2.0537,
+      "overview": {
+        "about": "Grand North Jersey Caves is one of JE's most celebrated destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-129",
+      "name": "Southern South Jersey Museum",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 194937,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2338,
+      "lng": -2.1835,
+      "overview": {
+        "about": "Southern South Jersey Museum is one of JE's most celebrated heritage landmark destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-130",
+      "name": "Historic Capital City Beach",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 169409,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2198,
+      "lng": -2.1282,
+      "overview": {
+        "about": "Historic Capital City Beach is one of JE's most celebrated beach paradise destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-131",
+      "name": "Grand Old Jersey Museum",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 92086,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2063,
+      "lng": -2.0644,
+      "overview": {
+        "about": "Grand Old Jersey Museum is one of JE's most celebrated heritage landmark destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-132",
+      "name": "Old Port Jersey Old Town",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 135389,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2329,
+      "lng": -2.1993,
+      "overview": {
+        "about": "Old Port Jersey Old Town is one of JE's most celebrated city destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-133",
+      "name": "Old North Jersey Cove",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.9,
+      "reviewCount": 161911,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2139,
+      "lng": -2.0821,
+      "overview": {
+        "about": "Old North Jersey Cove is one of JE's most celebrated beach paradise destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-134",
+      "name": "Historic South Jersey Coastal Resort",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 80362,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2244,
+      "lng": -2.1973,
+      "overview": {
+        "about": "Historic South Jersey Coastal Resort is one of JE's most celebrated beach paradise destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-135",
+      "name": "Old Capital City Caves",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 164609,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1936,
+      "lng": -2.137,
+      "overview": {
+        "about": "Old Capital City Caves is one of JE's most celebrated destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-136",
+      "name": "Southern Old Jersey Island",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 147178,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2076,
+      "lng": -2.1923,
+      "overview": {
+        "about": "Southern Old Jersey Island is one of JE's most celebrated beach paradise destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-137",
+      "name": "Central Port Jersey Cove",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 150308,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2132,
+      "lng": -2.0947,
+      "overview": {
+        "about": "Central Port Jersey Cove is one of JE's most celebrated beach paradise destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-138",
+      "name": "Grand North Jersey Palace",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 16816,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2166,
+      "lng": -2.1848,
+      "overview": {
+        "about": "Grand North Jersey Palace is one of JE's most celebrated heritage landmark destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-139",
+      "name": "Scenic South Jersey Forest",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 167812,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2174,
+      "lng": -2.1702,
+      "overview": {
+        "about": "Scenic South Jersey Forest is one of JE's most celebrated natural wonder destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-140",
+      "name": "Beautiful Capital City Luxury Resort",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 186139,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2473,
+      "lng": -2.0972,
+      "overview": {
+        "about": "Beautiful Capital City Luxury Resort is one of JE's most celebrated destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-141",
+      "name": "Royal Old Jersey Gourmet Restaurant",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 142746,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2432,
+      "lng": -2.1697,
+      "overview": {
+        "about": "Royal Old Jersey Gourmet Restaurant is one of JE's most celebrated destination destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-142",
+      "name": "Scenic Port Jersey Historic District",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 123537,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2415,
+      "lng": -2.198,
+      "overview": {
+        "about": "Scenic Port Jersey Historic District is one of JE's most celebrated heritage landmark destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-143",
+      "name": "Central North Jersey Ancient Ruins",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 145368,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2079,
+      "lng": -2.1871,
+      "overview": {
+        "about": "Central North Jersey Ancient Ruins is one of JE's most celebrated heritage landmark destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-144",
+      "name": "Historic South Jersey Spa Retreat",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 144949,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1975,
+      "lng": -2.0688,
+      "overview": {
+        "about": "Historic South Jersey Spa Retreat is one of JE's most celebrated destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-145",
+      "name": "Beautiful Capital City Summit",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 57186,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2436,
+      "lng": -2.1623,
+      "overview": {
+        "about": "Beautiful Capital City Summit is one of JE's most celebrated mountain destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-146",
+      "name": "Beautiful Old Jersey Hot Springs",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4,
+      "reviewCount": 128470,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.224,
+      "lng": -2.0557,
+      "overview": {
+        "about": "Beautiful Old Jersey Hot Springs is one of JE's most celebrated natural wonder destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-147",
+      "name": "Royal Port Jersey Activity Center",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 92123,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2059,
+      "lng": -2.0718,
+      "overview": {
+        "about": "Royal Port Jersey Activity Center is one of JE's most celebrated destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-148",
+      "name": "Historic North Jersey Valley",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 87651,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2315,
+      "lng": -2.0734,
+      "overview": {
+        "about": "Historic North Jersey Valley is one of JE's most celebrated natural wonder destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-149",
+      "name": "Historic South Jersey Beach",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 156208,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1976,
+      "lng": -2.0677,
+      "overview": {
+        "about": "Historic South Jersey Beach is one of JE's most celebrated beach paradise destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-150",
+      "name": "Royal Capital City Hot Springs",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 73854,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.215,
+      "lng": -2.0632,
+      "overview": {
+        "about": "Royal Capital City Hot Springs is one of JE's most celebrated natural wonder destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-151",
+      "name": "New Old Jersey Shopping District",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 53240,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1903,
+      "lng": -2.1947,
+      "overview": {
+        "about": "New Old Jersey Shopping District is one of JE's most celebrated city destination destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-152",
+      "name": "New Port Jersey Old Town",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 29992,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2272,
+      "lng": -2.149,
+      "overview": {
+        "about": "New Port Jersey Old Town is one of JE's most celebrated city destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-153",
+      "name": "New North Jersey Luxury Resort",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 23884,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2108,
+      "lng": -2.1357,
+      "overview": {
+        "about": "New North Jersey Luxury Resort is one of JE's most celebrated destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-154",
+      "name": "Royal South Jersey Beach",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 19954,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2189,
+      "lng": -2.145,
+      "overview": {
+        "about": "Royal South Jersey Beach is one of JE's most celebrated beach paradise destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-155",
+      "name": "Scenic Capital City Safari Park",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 99971,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2398,
+      "lng": -2.0785,
+      "overview": {
+        "about": "Scenic Capital City Safari Park is one of JE's most celebrated destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-156",
+      "name": "Scenic Old Jersey Cove",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 120007,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.247,
+      "lng": -2.1025,
+      "overview": {
+        "about": "Scenic Old Jersey Cove is one of JE's most celebrated beach paradise destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-157",
+      "name": "New Port Jersey Plaza",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 173103,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2235,
+      "lng": -2.0631,
+      "overview": {
+        "about": "New Port Jersey Plaza is one of JE's most celebrated city destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-158",
+      "name": "New North Jersey Central Market",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 36898,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2006,
+      "lng": -2.1652,
+      "overview": {
+        "about": "New North Jersey Central Market is one of JE's most celebrated city destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-159",
+      "name": "Grand South Jersey Exclusive Club",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 180173,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2349,
+      "lng": -2.1646,
+      "overview": {
+        "about": "Grand South Jersey Exclusive Club is one of JE's most celebrated destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-160",
+      "name": "Scenic Capital City Summit",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 127033,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2035,
+      "lng": -2.1138,
+      "overview": {
+        "about": "Scenic Capital City Summit is one of JE's most celebrated mountain destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-161",
+      "name": "Grand Old Jersey Castle",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 111397,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1957,
+      "lng": -2.1002,
+      "overview": {
+        "about": "Grand Old Jersey Castle is one of JE's most celebrated heritage landmark destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-162",
+      "name": "Grand Port Jersey Ski Resort",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 119706,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2487,
+      "lng": -2.072,
+      "overview": {
+        "about": "Grand Port Jersey Ski Resort is one of JE's most celebrated mountain destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-163",
+      "name": "Beautiful North Jersey Diving Spot",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 22064,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.225,
+      "lng": -2.1868,
+      "overview": {
+        "about": "Beautiful North Jersey Diving Spot is one of JE's most celebrated destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-164",
+      "name": "Scenic South Jersey Coastal Resort",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 126111,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2139,
+      "lng": -2.0821,
+      "overview": {
+        "about": "Scenic South Jersey Coastal Resort is one of JE's most celebrated beach paradise destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-165",
+      "name": "New Capital City Castle",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 62527,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2277,
+      "lng": -2.1406,
+      "overview": {
+        "about": "New Capital City Castle is one of JE's most celebrated heritage landmark destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-166",
+      "name": "Central Old Jersey Coastal Resort",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 46033,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2123,
+      "lng": -2.1105,
+      "overview": {
+        "about": "Central Old Jersey Coastal Resort is one of JE's most celebrated beach paradise destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-167",
+      "name": "New Port Jersey National Park",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 7648,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2258,
+      "lng": -2.1732,
+      "overview": {
+        "about": "New Port Jersey National Park is one of JE's most celebrated natural wonder destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-168",
+      "name": "Southern North Jersey Central Market",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 71523,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2245,
+      "lng": -2.1963,
+      "overview": {
+        "about": "Southern North Jersey Central Market is one of JE's most celebrated city destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-169",
+      "name": "Northern South Jersey Spa Retreat",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 183045,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1986,
+      "lng": -2.1988,
+      "overview": {
+        "about": "Northern South Jersey Spa Retreat is one of JE's most celebrated destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-170",
+      "name": "Northern Capital City Peak",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 103790,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2335,
+      "lng": -2.1888,
+      "overview": {
+        "about": "Northern Capital City Peak is one of JE's most celebrated mountain destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-171",
+      "name": "Scenic Old Jersey Bay",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 177330,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2333,
+      "lng": -2.193,
+      "overview": {
+        "about": "Scenic Old Jersey Bay is one of JE's most celebrated beach paradise destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-172",
+      "name": "Historic Port Jersey Gourmet Restaurant",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 186973,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2003,
+      "lng": -2.1694,
+      "overview": {
+        "about": "Historic Port Jersey Gourmet Restaurant is one of JE's most celebrated destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-173",
+      "name": "Scenic North Jersey Central Market",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 101020,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2351,
+      "lng": -2.1614,
+      "overview": {
+        "about": "Scenic North Jersey Central Market is one of JE's most celebrated city destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-174",
+      "name": "Historic South Jersey Island",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 58745,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2375,
+      "lng": -2.1184,
+      "overview": {
+        "about": "Historic South Jersey Island is one of JE's most celebrated beach paradise destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-175",
+      "name": "Beautiful Capital City Zipline Park",
+      "location": "Capital City, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 106481,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.205,
+      "lng": -2.0875,
+      "overview": {
+        "about": "Beautiful Capital City Zipline Park is one of JE's most celebrated destination destinations, located in Capital City, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-176",
+      "name": "Royal Old Jersey Ancient Ruins",
+      "location": "Old Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4,
+      "reviewCount": 62607,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2094,
+      "lng": -2.1598,
+      "overview": {
+        "about": "Royal Old Jersey Ancient Ruins is one of JE's most celebrated heritage landmark destinations, located in Old Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-177",
+      "name": "Grand Port Jersey Summit",
+      "location": "Port Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 62028,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2354,
+      "lng": -2.1551,
+      "overview": {
+        "about": "Grand Port Jersey Summit is one of JE's most celebrated mountain destination destinations, located in Port Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-178",
+      "name": "New North Jersey Downtown",
+      "location": "North Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 91503,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1901,
+      "lng": -2.1979,
+      "overview": {
+        "about": "New North Jersey Downtown is one of JE's most celebrated city destination destinations, located in North Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "je-179",
+      "name": "Old South Jersey Plaza",
+      "location": "South Jersey, JE",
+      "country": "JE",
+      "countryCode": "JE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 172551,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.2006,
+      "lng": -2.1652,
+      "overview": {
+        "about": "Old South Jersey Plaza is one of JE's most celebrated city destination destinations, located in South Jersey, JE. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$10–30 Adults",
+        "entryFeeSub": "$5–15 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4090 @@
+{
+  "code": "ES",
+  "name": "Spain",
+  "emoji": "🇪🇸",
+  "continent": "Europe",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore Spain (80 Places)",
+  "places": [
+    {
+      "id": "es-0",
+      "name": "Sagrada Familia",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 350000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.4036,
+      "lng": 2.1744,
+      "overview": {
+        "about": "Sagrada Familia is one of ES's most celebrated heritage landmark destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1",
+      "name": "Alhambra",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 198000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "overview": {
+        "about": "Alhambra is one of ES's most celebrated heritage landmark destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-2",
+      "name": "Park Güell",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 245000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1559682468-a6a29a4a7e4b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.3828,
+      "lng": -5.9731,
+      "overview": {
+        "about": "Park Güell is one of ES's most celebrated city destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-3",
+      "name": "Prado Museum",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 185000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.7213,
+      "lng": -4.4216,
+      "overview": {
+        "about": "Prado Museum is one of ES's most celebrated heritage landmark destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-4",
+      "name": "Plaza Mayor",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 225000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1576188664534-e70694804d86?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.4699,
+      "lng": -0.3763,
+      "overview": {
+        "about": "Plaza Mayor is one of ES's most celebrated city destination destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-5",
+      "name": "Casa Batlló",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 165000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1573843981842-fc2e3f48a9e2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 28.1235,
+      "lng": -15.4363,
+      "overview": {
+        "about": "Casa Batlló is one of ES's most celebrated heritage landmark destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-6",
+      "name": "Royal Palace of Madrid",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 195000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.6561,
+      "lng": -0.8773,
+      "overview": {
+        "about": "Royal Palace of Madrid is one of ES's most celebrated heritage landmark destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-7",
+      "name": "Mezquita de Córdoba",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 115000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.263,
+      "lng": -2.935,
+      "overview": {
+        "about": "Mezquita de Córdoba is one of ES's most celebrated heritage landmark destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-8",
+      "name": "Seville Cathedral",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 145000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.5696,
+      "lng": 2.6502,
+      "overview": {
+        "about": "Seville Cathedral is one of ES's most celebrated heritage landmark destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-9",
+      "name": "Retiro Park",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 215000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.396,
+      "lng": -0.5167,
+      "overview": {
+        "about": "Retiro Park is one of ES's most celebrated city destination destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1010",
+      "name": "Scenic Córdoba Ski Resort",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 177090,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.3526,
+      "lng": -12.7091,
+      "overview": {
+        "about": "Scenic Córdoba Ski Resort is one of ES's most celebrated mountain destination destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1012",
+      "name": "Royal Granada Palace",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 145192,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.9068,
+      "lng": -3.552,
+      "overview": {
+        "about": "Royal Granada Palace is one of ES's most celebrated heritage landmark destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1014",
+      "name": "Historic Córdoba Coastal Resort",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 141964,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.5871,
+      "lng": -6.6719,
+      "overview": {
+        "about": "Historic Córdoba Coastal Resort is one of ES's most celebrated beach paradise destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1016",
+      "name": "Southern Córdoba Plaza",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 22815,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.9611,
+      "lng": -10.5211,
+      "overview": {
+        "about": "Southern Córdoba Plaza is one of ES's most celebrated city destination destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1018",
+      "name": "Northern Granada Financial District",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 88464,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.7887,
+      "lng": -0.189,
+      "overview": {
+        "about": "Northern Granada Financial District is one of ES's most celebrated city destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1020",
+      "name": "Beautiful Barcelona Downtown",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 182103,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.37,
+      "lng": -2.7822,
+      "overview": {
+        "about": "Beautiful Barcelona Downtown is one of ES's most celebrated city destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1022",
+      "name": "Old Granada Old Town",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 95611,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.7983,
+      "lng": -8.3601,
+      "overview": {
+        "about": "Old Granada Old Town is one of ES's most celebrated city destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1024",
+      "name": "Beautiful Barcelona Exclusive Club",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 32429,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.1297,
+      "lng": -6.6179,
+      "overview": {
+        "about": "Beautiful Barcelona Exclusive Club is one of ES's most celebrated destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1026",
+      "name": "Northern Barcelona Fortress",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 176867,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.5289,
+      "lng": -7.2391,
+      "overview": {
+        "about": "Northern Barcelona Fortress is one of ES's most celebrated heritage landmark destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1028",
+      "name": "New Granada Highlands",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 69398,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4437,
+      "lng": -9.5622,
+      "overview": {
+        "about": "New Granada Highlands is one of ES's most celebrated mountain destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1030",
+      "name": "Beautiful Barcelona Forest",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 94727,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.7557,
+      "lng": -8.009,
+      "overview": {
+        "about": "Beautiful Barcelona Forest is one of ES's most celebrated natural wonder destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1032",
+      "name": "Northern Seville Summit",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 64271,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.2112,
+      "lng": -3.5655,
+      "overview": {
+        "about": "Northern Seville Summit is one of ES's most celebrated mountain destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1034",
+      "name": "Northern Córdoba Marina",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 80997,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.1762,
+      "lng": -4.673,
+      "overview": {
+        "about": "Northern Córdoba Marina is one of ES's most celebrated beach paradise destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1036",
+      "name": "Beautiful Barcelona Central Market",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 146286,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.3197,
+      "lng": -12.2634,
+      "overview": {
+        "about": "Beautiful Barcelona Central Market is one of ES's most celebrated city destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1038",
+      "name": "Beautiful Seville Financial District",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 131417,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.7382,
+      "lng": -12.6956,
+      "overview": {
+        "about": "Beautiful Seville Financial District is one of ES's most celebrated city destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1040",
+      "name": "Royal Barcelona Caves",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 172317,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.1646,
+      "lng": -0.27,
+      "overview": {
+        "about": "Royal Barcelona Caves is one of ES's most celebrated destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1042",
+      "name": "New Granada Premium Villa",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 187593,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.3584,
+      "lng": -6.6449,
+      "overview": {
+        "about": "New Granada Premium Villa is one of ES's most celebrated destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1044",
+      "name": "Scenic Madrid Fortress",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 63994,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.5115,
+      "lng": -8.9004,
+      "overview": {
+        "about": "Scenic Madrid Fortress is one of ES's most celebrated heritage landmark destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1046",
+      "name": "Old Seville Shopping District",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 32545,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.7945,
+      "lng": -2.3905,
+      "overview": {
+        "about": "Old Seville Shopping District is one of ES's most celebrated city destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1048",
+      "name": "Scenic Barcelona Spa Retreat",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 177605,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.5968,
+      "lng": -6.5774,
+      "overview": {
+        "about": "Scenic Barcelona Spa Retreat is one of ES's most celebrated destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1050",
+      "name": "New Madrid Fortress",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 108805,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.2829,
+      "lng": -8.8734,
+      "overview": {
+        "about": "New Madrid Fortress is one of ES's most celebrated heritage landmark destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1052",
+      "name": "Grand Seville Cathedral",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 57075,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.0135,
+      "lng": -7.7524,
+      "overview": {
+        "about": "Grand Seville Cathedral is one of ES's most celebrated heritage landmark destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1054",
+      "name": "Northern Barcelona Downtown",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 161477,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.7267,
+      "lng": -8.2926,
+      "overview": {
+        "about": "Northern Barcelona Downtown is one of ES's most celebrated city destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1056",
+      "name": "Southern Madrid Canyon",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 109287,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.8255,
+      "lng": -11.8447,
+      "overview": {
+        "about": "Southern Madrid Canyon is one of ES's most celebrated destination destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1058",
+      "name": "Beautiful Barcelona Nature Reserve",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 109941,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.8468,
+      "lng": -13.1278,
+      "overview": {
+        "about": "Beautiful Barcelona Nature Reserve is one of ES's most celebrated natural wonder destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1060",
+      "name": "Royal Madrid Valley",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 125076,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.8545,
+      "lng": -11.5611,
+      "overview": {
+        "about": "Royal Madrid Valley is one of ES's most celebrated natural wonder destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1062",
+      "name": "Southern Seville Activity Center",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 95718,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.7479,
+      "lng": -12.601,
+      "overview": {
+        "about": "Southern Seville Activity Center is one of ES's most celebrated destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1064",
+      "name": "Central Barcelona Palace",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 168428,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.3623,
+      "lng": -4.3489,
+      "overview": {
+        "about": "Central Barcelona Palace is one of ES's most celebrated heritage landmark destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1066",
+      "name": "Royal Madrid Highlands",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 144413,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.6976,
+      "lng": -3.3359,
+      "overview": {
+        "about": "Royal Madrid Highlands is one of ES's most celebrated mountain destination destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1068",
+      "name": "Historic Madrid Waterfalls",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 79216,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.0328,
+      "lng": -2.323,
+      "overview": {
+        "about": "Historic Madrid Waterfalls is one of ES's most celebrated natural wonder destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1070",
+      "name": "Grand Granada Forest",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 136088,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.217,
+      "lng": -5.767,
+      "overview": {
+        "about": "Grand Granada Forest is one of ES's most celebrated natural wonder destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1072",
+      "name": "Southern Córdoba Activity Center",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 182080,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.872,
+      "lng": -6.8745,
+      "overview": {
+        "about": "Southern Córdoba Activity Center is one of ES's most celebrated destination destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1074",
+      "name": "Royal Madrid Ski Resort",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 105748,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.3003,
+      "lng": -7.2121,
+      "overview": {
+        "about": "Royal Madrid Ski Resort is one of ES's most celebrated mountain destination destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1076",
+      "name": "Grand Córdoba Cathedral",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 133263,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.1704,
+      "lng": -2.4715,
+      "overview": {
+        "about": "Grand Córdoba Cathedral is one of ES's most celebrated heritage landmark destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1078",
+      "name": "Scenic Córdoba Diving Spot",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 37966,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.7169,
+      "lng": -3.1468,
+      "overview": {
+        "about": "Scenic Córdoba Diving Spot is one of ES's most celebrated destination destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1080",
+      "name": "Beautiful Barcelona Ski Resort",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 135958,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.3894,
+      "lng": -2.5931,
+      "overview": {
+        "about": "Beautiful Barcelona Ski Resort is one of ES's most celebrated mountain destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1082",
+      "name": "Northern Córdoba Summit",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4,
+      "reviewCount": 119815,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.4534,
+      "lng": -1.202,
+      "overview": {
+        "about": "Northern Córdoba Summit is one of ES's most celebrated mountain destination destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1084",
+      "name": "Historic Granada Historic District",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 92067,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.8449,
+      "lng": -3.3899,
+      "overview": {
+        "about": "Historic Granada Historic District is one of ES's most celebrated heritage landmark destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1086",
+      "name": "New Córdoba Marina",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 156807,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.8313,
+      "lng": -5.7805,
+      "overview": {
+        "about": "New Córdoba Marina is one of ES's most celebrated beach paradise destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1088",
+      "name": "Southern Madrid Canyon",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 166627,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.1181,
+      "lng": -5.2403,
+      "overview": {
+        "about": "Southern Madrid Canyon is one of ES's most celebrated destination destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1090",
+      "name": "Central Barcelona Highlands",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 81792,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.2867,
+      "lng": -1.337,
+      "overview": {
+        "about": "Central Barcelona Highlands is one of ES's most celebrated mountain destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1092",
+      "name": "Historic Madrid Fortress",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 88425,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.8429,
+      "lng": -7.1581,
+      "overview": {
+        "about": "Historic Madrid Fortress is one of ES's most celebrated heritage landmark destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1094",
+      "name": "Central Granada Zipline Park",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 179125,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.529,
+      "lng": -12.4795,
+      "overview": {
+        "about": "Central Granada Zipline Park is one of ES's most celebrated destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1096",
+      "name": "Beautiful Seville Fortress",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 156517,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.8371,
+      "lng": -7.982,
+      "overview": {
+        "about": "Beautiful Seville Fortress is one of ES's most celebrated heritage landmark destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1098",
+      "name": "Southern Madrid Lake",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 190834,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.7364,
+      "lng": -8.1981,
+      "overview": {
+        "about": "Southern Madrid Lake is one of ES's most celebrated natural wonder destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1100",
+      "name": "Southern Seville Exclusive Club",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 68421,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.091,
+      "lng": -6.996,
+      "overview": {
+        "about": "Southern Seville Exclusive Club is one of ES's most celebrated destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1102",
+      "name": "Northern Granada Ski Resort",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 78554,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.8099,
+      "lng": -4.4974,
+      "overview": {
+        "about": "Northern Granada Ski Resort is one of ES's most celebrated mountain destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1104",
+      "name": "Southern Barcelona Financial District",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 195849,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.6782,
+      "lng": -3.525,
+      "overview": {
+        "about": "Southern Barcelona Financial District is one of ES's most celebrated city destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1106",
+      "name": "New Seville Palace",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 193723,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.9902,
+      "lng": -10.2375,
+      "overview": {
+        "about": "New Seville Palace is one of ES's most celebrated heritage landmark destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1108",
+      "name": "Historic Córdoba Palace",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 128064,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.8952,
+      "lng": -7.4147,
+      "overview": {
+        "about": "Historic Córdoba Palace is one of ES's most celebrated heritage landmark destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1110",
+      "name": "Beautiful Barcelona Premium Villa",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 143147,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.0115,
+      "lng": -11.5205,
+      "overview": {
+        "about": "Beautiful Barcelona Premium Villa is one of ES's most celebrated destination destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1112",
+      "name": "Historic Córdoba Valley",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 63776,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.7111,
+      "lng": -9.211,
+      "overview": {
+        "about": "Historic Córdoba Valley is one of ES's most celebrated natural wonder destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1114",
+      "name": "Beautiful Seville Marina",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4,
+      "reviewCount": 118574,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.8623,
+      "lng": -6.969,
+      "overview": {
+        "about": "Beautiful Seville Marina is one of ES's most celebrated beach paradise destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1116",
+      "name": "Scenic Granada Summit",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 4484,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.8487,
+      "lng": -4.1193,
+      "overview": {
+        "about": "Scenic Granada Summit is one of ES's most celebrated mountain destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1118",
+      "name": "New Madrid Central Market",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 2682,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.7789,
+      "lng": -8.5492,
+      "overview": {
+        "about": "New Madrid Central Market is one of ES's most celebrated city destination destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1120",
+      "name": "Central Seville Peak",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 12485,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.4301,
+      "lng": -11.9527,
+      "overview": {
+        "about": "Central Seville Peak is one of ES's most celebrated mountain destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1122",
+      "name": "Historic Seville Downtown",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 43773,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.7635,
+      "lng": -6.4423,
+      "overview": {
+        "about": "Historic Seville Downtown is one of ES's most celebrated city destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1124",
+      "name": "Grand Córdoba Premium Villa",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 102629,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.1394,
+      "lng": -6.5233,
+      "overview": {
+        "about": "Grand Córdoba Premium Villa is one of ES's most celebrated destination destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1126",
+      "name": "New Córdoba Central Market",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 57596,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.6569,
+      "lng": -7.4823,
+      "overview": {
+        "about": "New Córdoba Central Market is one of ES's most celebrated city destination destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1128",
+      "name": "Central Córdoba Palace",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 110302,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.3468,
+      "lng": -2.2419,
+      "overview": {
+        "about": "Central Córdoba Palace is one of ES's most celebrated heritage landmark destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1130",
+      "name": "Royal Córdoba Marina",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 189054,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.5212,
+      "lng": -8.8058,
+      "overview": {
+        "about": "Royal Córdoba Marina is one of ES's most celebrated beach paradise destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1132",
+      "name": "Royal Seville Summit",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 161290,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.5949,
+      "lng": -2.0799,
+      "overview": {
+        "about": "Royal Seville Summit is one of ES's most celebrated mountain destination destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1134",
+      "name": "Beautiful Córdoba Valley",
+      "location": "Córdoba, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 129977,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.5949,
+      "lng": -2.0799,
+      "overview": {
+        "about": "Beautiful Córdoba Valley is one of ES's most celebrated natural wonder destinations, located in Córdoba, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1136",
+      "name": "Grand Madrid Cove",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 134217,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.8216,
+      "lng": -5.875,
+      "overview": {
+        "about": "Grand Madrid Cove is one of ES's most celebrated beach paradise destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1138",
+      "name": "Old Barcelona Cathedral",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 136887,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.0619,
+      "lng": -2.0393,
+      "overview": {
+        "about": "Old Barcelona Cathedral is one of ES's most celebrated heritage landmark destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1140",
+      "name": "New Granada Diving Spot",
+      "location": "Granada, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 161114,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.5832,
+      "lng": -0.7022,
+      "overview": {
+        "about": "New Granada Diving Spot is one of ES's most celebrated destination destinations, located in Granada, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1142",
+      "name": "Old Madrid Palace",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 17924,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.1569,
+      "lng": -10.1024,
+      "overview": {
+        "about": "Old Madrid Palace is one of ES's most celebrated heritage landmark destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1144",
+      "name": "Central Madrid Historic District",
+      "location": "Madrid, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 84836,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.0406,
+      "lng": -5.9966,
+      "overview": {
+        "about": "Central Madrid Historic District is one of ES's most celebrated heritage landmark destinations, located in Madrid, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1146",
+      "name": "Beautiful Seville Bay",
+      "location": "Seville, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 185261,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.0038,
+      "lng": -7.8469,
+      "overview": {
+        "about": "Beautiful Seville Bay is one of ES's most celebrated beach paradise destinations, located in Seville, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "es-1148",
+      "name": "Royal Barcelona Island",
+      "location": "Barcelona, ES",
+      "country": "ES",
+      "countryCode": "ES",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 135412,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.4069,
+      "lng": -6.1722,
+      "overview": {
+        "about": "Royal Barcelona Island is one of ES's most celebrated beach paradise destinations, located in Barcelona, ES. It captivates visitors with its extraordinary character, historical depth and natural beauty that has drawn travellers from across the world for generations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€15 Adults",
+        "entryFeeSub": "€Free under 12",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    }
+  ]
+}

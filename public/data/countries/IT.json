@@ -1,0 +1,4090 @@
+{
+  "code": "IT",
+  "name": "Italy",
+  "emoji": "🇮🇹",
+  "continent": "Europe",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore Italy (80 Places)",
+  "places": [
+    {
+      "id": "it-0",
+      "name": "Colosseum",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 925000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9022,
+      "lng": 12.4534,
+      "overview": {
+        "about": "The Colosseum in Rome, completed in 80 AD, is the largest ancient amphitheatre ever built. It held 50,000–80,000 spectators watching gladiatorial contests, animal hunts and public spectacles. Over one million animals and 400,000 people died within its walls. It remains the most iconic symbol of the Roman Empire.",
+        "highlights": [
+          {
+            "icon": "faCrown",
+            "label": "Largest Amphitheatre Ever Built",
+            "desc": "Seated up to 80,000 Romans — 50,000 tonnes of travertine limestone assembled over just 10 years of construction"
+          },
+          {
+            "icon": "faScroll",
+            "label": "1,940 Years Old — Still Standing",
+            "desc": "Completed 80 AD by Emperor Titus — witness to gladiatorial contests, naval battles and wild animal hunts for 4 centuries"
+          },
+          {
+            "icon": "faCamera",
+            "label": "UNESCO World Heritage Icon",
+            "desc": "The most photographed ancient structure on Earth — the Colosseum at sunset is one of Rome's most powerful images"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Hypogeum — The Underground Maze",
+            "desc": "The labyrinthine tunnels beneath the arena floor where gladiators and animals awaited their fate are now open to visit"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Before peak summer heat",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU Residents under 25",
+        "tourDays": "2–3 Hours",
+        "tourDaysSub": "Combine with Roman Forum",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1",
+      "name": "Trevi Fountain",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 855000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.4341,
+      "lng": 12.3388,
+      "overview": {
+        "about": "Trevi Fountain in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-2",
+      "name": "Leaning Tower of Pisa",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 465000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1543429258-6d5e5e90c7a9?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.7696,
+      "lng": 11.2558,
+      "overview": {
+        "about": "Leaning Tower of Pisa in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-3",
+      "name": "Pantheon",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 555000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.723,
+      "lng": 10.3966,
+      "overview": {
+        "about": "Pantheon in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-4",
+      "name": "Cinque Terre",
+      "location": "Liguria, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 385000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1491557345352-5929e343eb89?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.8518,
+      "lng": 14.2681,
+      "overview": {
+        "about": "Cinque Terre in Liguria, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-5",
+      "name": "Duomo di Milano",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 415000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.5024,
+      "lng": 15.0873,
+      "overview": {
+        "about": "Duomo di Milano in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-6",
+      "name": "Uffizi Gallery",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 285000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.4654,
+      "lng": 9.1859,
+      "overview": {
+        "about": "Uffizi Gallery in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-7",
+      "name": "Lake Como",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 325000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.9029,
+      "lng": 12.4534,
+      "overview": {
+        "about": "Lake Como in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-8",
+      "name": "Amalfi Coast",
+      "location": "Campania, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 495000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.0686,
+      "lng": 15.2866,
+      "overview": {
+        "about": "Amalfi Coast in Campania, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied beach paradise site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-9",
+      "name": "Venice Grand Canal",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 585000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.6488,
+      "lng": 10.9255,
+      "overview": {
+        "about": "Venice Grand Canal in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1010",
+      "name": "Central Rome Lake",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 143999,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.5194,
+      "lng": 14.3864,
+      "overview": {
+        "about": "Central Rome Lake in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1012",
+      "name": "Grand Lombardy Spa Retreat",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 67190,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.1717,
+      "lng": 11.7946,
+      "overview": {
+        "about": "Grand Lombardy Spa Retreat in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1014",
+      "name": "New Rome Lake",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 136560,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.7608,
+      "lng": 16.0601,
+      "overview": {
+        "about": "New Rome Lake in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1016",
+      "name": "Southern Venice National Park",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 189366,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.8239,
+      "lng": 9.2029,
+      "overview": {
+        "about": "Southern Venice National Park in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1018",
+      "name": "Royal Venice Cathedral",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 28285,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.9467,
+      "lng": 10.1562,
+      "overview": {
+        "about": "Royal Venice Cathedral in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1020",
+      "name": "Southern Lombardy Castle",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 140099,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.9698,
+      "lng": 10.361,
+      "overview": {
+        "about": "Southern Lombardy Castle in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1022",
+      "name": "Historic Rome Caves",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 48582,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3502,
+      "lng": 13.1435,
+      "overview": {
+        "about": "Historic Rome Caves in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1024",
+      "name": "Southern Florence Waterfalls",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 21393,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.817,
+      "lng": 9.1534,
+      "overview": {
+        "about": "Southern Florence Waterfalls in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1026",
+      "name": "Central Pisa Cathedral",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 36847,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.2736,
+      "lng": 12.5997,
+      "overview": {
+        "about": "Central Pisa Cathedral in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1028",
+      "name": "Grand Rome Premium Villa",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 118427,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.1692,
+      "lng": 11.8582,
+      "overview": {
+        "about": "Grand Rome Premium Villa in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1030",
+      "name": "Royal Liguria Financial District",
+      "location": "Liguria, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 3447,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.3551,
+      "lng": 13.0163,
+      "overview": {
+        "about": "Royal Liguria Financial District in Liguria, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1032",
+      "name": "Central Venice Island",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 35750,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.3526,
+      "lng": 13.0799,
+      "overview": {
+        "about": "Central Venice Island in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied beach paradise site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1034",
+      "name": "Historic Campania Financial District",
+      "location": "Campania, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 27147,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4406,
+      "lng": 13.7861,
+      "overview": {
+        "about": "Historic Campania Financial District in Campania, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1036",
+      "name": "Scenic Milan Safari Park",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 80799,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.9074,
+      "lng": 9.7961,
+      "overview": {
+        "about": "Scenic Milan Safari Park in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1038",
+      "name": "Royal Milan Safari Park",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 84137,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.8886,
+      "lng": 9.8243,
+      "overview": {
+        "about": "Royal Milan Safari Park in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1040",
+      "name": "Royal Lombardy Ski Resort",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 84389,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.4386,
+      "lng": 13.6096,
+      "overview": {
+        "about": "Royal Lombardy Ski Resort in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1042",
+      "name": "Grand Campania Central Market",
+      "location": "Campania, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 35579,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.9142,
+      "lng": 9.9656,
+      "overview": {
+        "about": "Grand Campania Central Market in Campania, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1044",
+      "name": "New Liguria Peak",
+      "location": "Liguria, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 21628,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.4618,
+      "lng": 13.8144,
+      "overview": {
+        "about": "New Liguria Peak in Liguria, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1046",
+      "name": "Historic Venice Plaza",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 2468,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.3526,
+      "lng": 13.0799,
+      "overview": {
+        "about": "Historic Venice Plaza in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1048",
+      "name": "Beautiful Milan Shopping District",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 140373,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.1533,
+      "lng": 11.5828,
+      "overview": {
+        "about": "Beautiful Milan Shopping District in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1050",
+      "name": "Grand Liguria Exclusive Club",
+      "location": "Liguria, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 112608,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.0116,
+      "lng": 10.6576,
+      "overview": {
+        "about": "Grand Liguria Exclusive Club in Liguria, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1052",
+      "name": "Historic Milan Castle",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4,
+      "reviewCount": 175688,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.6452,
+      "lng": 15.0361,
+      "overview": {
+        "about": "Historic Milan Castle in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1054",
+      "name": "Royal Rome Valley",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 28999,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.8538,
+      "lng": 9.5772,
+      "overview": {
+        "about": "Royal Rome Valley in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1056",
+      "name": "Beautiful Florence Caves",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 50623,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.2321,
+      "lng": 12.183,
+      "overview": {
+        "about": "Beautiful Florence Caves in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1058",
+      "name": "Old Milan Premium Villa",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 106196,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.9974,
+      "lng": 10.6788,
+      "overview": {
+        "about": "Old Milan Premium Villa in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1060",
+      "name": "Historic Pisa Summit",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 56050,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.6007,
+      "lng": 14.9231,
+      "overview": {
+        "about": "Historic Pisa Summit in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1062",
+      "name": "Royal Campania Lake",
+      "location": "Campania, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 171406,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.689,
+      "lng": 15.5092,
+      "overview": {
+        "about": "Royal Campania Lake in Campania, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1064",
+      "name": "Old Lombardy Gourmet Restaurant",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 185431,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.7655,
+      "lng": 16.053,
+      "overview": {
+        "about": "Old Lombardy Gourmet Restaurant in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1066",
+      "name": "Southern Rome Forest",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 62391,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.3387,
+      "lng": 12.981,
+      "overview": {
+        "about": "Southern Rome Forest in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1068",
+      "name": "Historic Pisa Luxury Resort",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 188485,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.8749,
+      "lng": 9.6054,
+      "overview": {
+        "about": "Historic Pisa Luxury Resort in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1070",
+      "name": "Scenic Lombardy Hot Springs",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4,
+      "reviewCount": 199813,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.4618,
+      "lng": 13.8144,
+      "overview": {
+        "about": "Scenic Lombardy Hot Springs in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1072",
+      "name": "Northern Milan Ski Resort",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 81938,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.204,
+      "lng": 12.1053,
+      "overview": {
+        "about": "Northern Milan Ski Resort in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1074",
+      "name": "Scenic Liguria Plaza",
+      "location": "Liguria, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 53898,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3084,
+      "lng": 12.8469,
+      "overview": {
+        "about": "Scenic Liguria Plaza in Liguria, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1076",
+      "name": "Beautiful Lombardy Peak",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 82353,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.0648,
+      "lng": 11.1167,
+      "overview": {
+        "about": "Beautiful Lombardy Peak in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1078",
+      "name": "Old Venice Caves",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 158489,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.0626,
+      "lng": 11.0602,
+      "overview": {
+        "about": "Old Venice Caves in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1080",
+      "name": "Beautiful Lombardy Mountain Range",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 83280,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.03,
+      "lng": 10.8695,
+      "overview": {
+        "about": "Beautiful Lombardy Mountain Range in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1082",
+      "name": "Historic Milan Diving Spot",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 143205,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.8214,
+      "lng": 9.2664,
+      "overview": {
+        "about": "Historic Milan Diving Spot in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1084",
+      "name": "Grand Milan Downtown",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 158257,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.0976,
+      "lng": 11.1873,
+      "overview": {
+        "about": "Grand Milan Downtown in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1086",
+      "name": "Old Florence Summit",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 124424,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.979,
+      "lng": 10.467,
+      "overview": {
+        "about": "Old Florence Summit in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1088",
+      "name": "Northern Venice National Park",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 5203,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.6447,
+      "lng": 15.2762,
+      "overview": {
+        "about": "Northern Venice National Park in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1090",
+      "name": "Grand Florence Summit",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 181718,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.9211,
+      "lng": 10.015,
+      "overview": {
+        "about": "Grand Florence Summit in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1092",
+      "name": "Historic Lombardy Cathedral",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 161443,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.3042,
+      "lng": 12.6138,
+      "overview": {
+        "about": "Historic Lombardy Cathedral in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1094",
+      "name": "New Lombardy Activity Center",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 94148,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.5751,
+      "lng": 14.7818,
+      "overview": {
+        "about": "New Lombardy Activity Center in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1096",
+      "name": "New Liguria Fortress",
+      "location": "Liguria, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 104141,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.2251,
+      "lng": 12.1336,
+      "overview": {
+        "about": "New Liguria Fortress in Liguria, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1098",
+      "name": "Southern Venice Exclusive Club",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 182408,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.0489,
+      "lng": 10.8413,
+      "overview": {
+        "about": "Southern Venice Exclusive Club in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1100",
+      "name": "Central Milan Shopping District",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 179948,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.7078,
+      "lng": 15.481,
+      "overview": {
+        "about": "Central Milan Shopping District in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1102",
+      "name": "Northern Pisa Mountain Range",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 26644,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2574,
+      "lng": 12.4443,
+      "overview": {
+        "about": "Northern Pisa Mountain Range in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1104",
+      "name": "Grand Rome Financial District",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 93761,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.123,
+      "lng": 11.4486,
+      "overview": {
+        "about": "Grand Rome Financial District in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1106",
+      "name": "New Campania Old Town",
+      "location": "Campania, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 115400,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.422,
+      "lng": 13.6943,
+      "overview": {
+        "about": "New Campania Old Town in Campania, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1108",
+      "name": "Southern Venice Valley",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 28237,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.1416,
+      "lng": 11.5404,
+      "overview": {
+        "about": "Southern Venice Valley in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1110",
+      "name": "Grand Florence Beach",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 194955,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.8443,
+      "lng": 9.5913,
+      "overview": {
+        "about": "Grand Florence Beach in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied beach paradise site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1112",
+      "name": "Scenic Venice Canyon",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 179327,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.4501,
+      "lng": 13.772,
+      "overview": {
+        "about": "Scenic Venice Canyon in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1114",
+      "name": "Grand Pisa Castle",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4,
+      "reviewCount": 185248,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.2368,
+      "lng": 12.176,
+      "overview": {
+        "about": "Grand Pisa Castle in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1116",
+      "name": "Grand Florence Bay",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 36425,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3014,
+      "lng": 12.7974,
+      "overview": {
+        "about": "Grand Florence Bay in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied beach paradise site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1118",
+      "name": "Royal Lombardy Peak",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 73139,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.4782,
+      "lng": 13.8497,
+      "overview": {
+        "about": "Royal Lombardy Peak in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1120",
+      "name": "Old Florence Premium Villa",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 90068,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.167,
+      "lng": 11.8017,
+      "overview": {
+        "about": "Old Florence Premium Villa in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1122",
+      "name": "Scenic Milan Premium Villa",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 155848,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.3412,
+      "lng": 12.9175,
+      "overview": {
+        "about": "Scenic Milan Premium Villa in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1124",
+      "name": "Beautiful Venice Valley",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 85748,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.2296,
+      "lng": 12.2466,
+      "overview": {
+        "about": "Beautiful Venice Valley in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1126",
+      "name": "Old Pisa Central Market",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 165357,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.4501,
+      "lng": 13.772,
+      "overview": {
+        "about": "Old Pisa Central Market in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1128",
+      "name": "Old Liguria Ski Resort",
+      "location": "Liguria, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 96082,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.8192,
+      "lng": 9.2099,
+      "overview": {
+        "about": "Old Liguria Ski Resort in Liguria, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1130",
+      "name": "Royal Pisa Ski Resort",
+      "location": "Pisa, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 35590,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.3621,
+      "lng": 13.0658,
+      "overview": {
+        "about": "Royal Pisa Ski Resort in Pisa, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1132",
+      "name": "Grand Lombardy Central Market",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 194190,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.0071,
+      "lng": 10.5446,
+      "overview": {
+        "about": "Grand Lombardy Central Market in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1134",
+      "name": "Southern Venice Hot Springs",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 158228,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.6519,
+      "lng": 15.2056,
+      "overview": {
+        "about": "Southern Venice Hot Springs in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1136",
+      "name": "Grand Lombardy Canyon",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 125851,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.3482,
+      "lng": 12.9669,
+      "overview": {
+        "about": "Grand Lombardy Canyon in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1138",
+      "name": "Northern Rome Castle",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 148603,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.1302,
+      "lng": 11.378,
+      "overview": {
+        "about": "Northern Rome Castle in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied heritage landmark site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1140",
+      "name": "Grand Lombardy Waterfalls",
+      "location": "Lombardy, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 89826,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.297,
+      "lng": 12.6844,
+      "overview": {
+        "about": "Grand Lombardy Waterfalls in Lombardy, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied natural wonder site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1142",
+      "name": "Beautiful Florence Highlands",
+      "location": "Florence, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 74336,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.5197,
+      "lng": 14.2663,
+      "overview": {
+        "about": "Beautiful Florence Highlands in Florence, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied mountain destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1144",
+      "name": "Scenic Milan Spa Retreat",
+      "location": "Milan, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 85294,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.5473,
+      "lng": 14.5841,
+      "overview": {
+        "about": "Scenic Milan Spa Retreat in Milan, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1146",
+      "name": "Southern Venice Shopping District",
+      "location": "Venice, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 72862,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.6892,
+      "lng": 15.3892,
+      "overview": {
+        "about": "Southern Venice Shopping District in Venice, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "it-1148",
+      "name": "Historic Rome Financial District",
+      "location": "Rome, IT",
+      "country": "IT",
+      "countryCode": "IT",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 81471,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.8724,
+      "lng": 9.669,
+      "overview": {
+        "about": "Historic Rome Financial District in Rome, IT sits at the very heart of Western civilisation — a testament to the ambition, engineering and artistry of ancient and Renaissance Italy. Walking through this storied city destination site is a living lesson in the history that shaped the entire modern world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€18 Adults",
+        "entryFeeSub": "€Free EU under 25",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    }
+  ]
+}

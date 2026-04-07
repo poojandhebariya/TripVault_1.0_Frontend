@@ -34,4 +34,9 @@ export const vaultKeys = {
   getSavedVaults: () => [...vaultKeys.all(), "saved"],
   saveVault: (id: string) => [...vaultKeys.all(), "save", id],
   unsaveVault: (id: string) => [...vaultKeys.all(), "unsave", id],
+  getVaultsByPlace: (
+    placeName: string,
+    placeLocation: string,
+    page: number,
+  ) => [...vaultKeys.all(), "by-place", placeName, placeLocation, page],
 };

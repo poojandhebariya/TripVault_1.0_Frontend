@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { cn } from "../../lib/cn-merge";
 import React from "react";
+import { motion } from "framer-motion";
 
 export interface TabItem {
   label: string;
@@ -35,7 +36,7 @@ const Tabs = ({ tabs, className }: ProfileTabsProps) => {
         className,
       )}
     >
-      <div className="flex">
+      <div className="flex overflow-x-auto no-scrollbar scroll-smooth">
         {tabs.map((tab) => {
           const active = isActive(tab.route);
           return (
@@ -43,32 +44,38 @@ const Tabs = ({ tabs, className }: ProfileTabsProps) => {
               key={tab.route}
               onClick={() => navigate(tab.route)}
               className={cn(
-                "relative flex flex-1 items-center justify-center gap-2 py-3 text-sm font-medium transition-colors duration-150 cursor-pointer",
+                "relative flex flex-1 shrink-0 min-w-max items-center justify-center gap-2 py-3 px-4 text-sm font-medium transition-colors duration-200 cursor-pointer",
                 !active && "text-gray-400 hover:text-gray-700",
                 active && "text-gray-900",
               )}
             >
               {tab.icon && (
-                <span
-                  className={cn(
-                    "text-[13px]",
-                    active ? "opacity-100" : "opacity-50",
-                  )}
+                <motion.span
+                  animate={{
+                    opacity: active ? 1 : 0.4,
+                    scale: active ? 1 : 0.9,
+                  }}
+                  transition={{ duration: 0.2 }}
+                  className="text-[13px]"
                 >
                   {tab.icon}
-                </span>
+                </motion.span>
               )}
 
-              {tab.label}
+              <motion.span
+                animate={{ opacity: active ? 1 : 0.6 }}
+                transition={{ duration: 0.2 }}
+              >
+                {tab.label}
+              </motion.span>
 
-              <span
-                className={cn(
-                  "absolute bottom-0 left-0 right-0 h-[2px] rounded-full transition-all duration-200",
-                  active
-                    ? "bg-gray-900 opacity-100"
-                    : "bg-transparent opacity-0",
-                )}
-              />
+              {active && (
+                <motion.span
+                  layoutId="routeTabIndicator"
+                  className="absolute bottom-0 left-0 right-0 h-[2px] rounded-full bg-gray-900"
+                  transition={{ type: "spring", stiffness: 500, damping: 35 }}
+                />
+              )}
             </button>
           );
         })}
@@ -102,7 +109,7 @@ export const StateTabs = ({
   className,
 }: StateTabsProps) => (
   <div className={cn("border-b border-gray-200 bg-white", className)}>
-    <div className="flex">
+    <div className="flex overflow-x-auto no-scrollbar scroll-smooth">
       {tabs.map((tab) => {
         const active = tab.id === activeTab;
         return (
@@ -110,40 +117,45 @@ export const StateTabs = ({
             key={tab.id}
             onClick={() => onChange(tab.id)}
             className={cn(
-              "relative flex flex-1 items-center justify-center gap-1.5 py-3 text-sm font-medium transition-colors duration-150 cursor-pointer",
+              "relative flex flex-1 shrink-0 min-w-max items-center justify-center gap-1.5 py-3 px-4 text-sm font-medium transition-colors duration-200 cursor-pointer",
               !active && "text-gray-400 hover:text-gray-700",
               active && "text-gray-900",
             )}
           >
             {tab.icon && (
-              <span
-                className={cn(
-                  "text-[13px]",
-                  active ? "opacity-100" : "opacity-50",
-                )}
+              <motion.span
+                animate={{ opacity: active ? 1 : 0.4, scale: active ? 1 : 0.9 }}
+                transition={{ duration: 0.2 }}
+                className="text-[13px]"
               >
                 {tab.icon}
-              </span>
+              </motion.span>
             )}
-            {tab.label}
+            <motion.span
+              animate={{ opacity: active ? 1 : 0.6 }}
+              transition={{ duration: 0.2 }}
+            >
+              {tab.label}
+            </motion.span>
             {tab.badge !== undefined && tab.badge > 0 && (
-              <span
-                className={cn(
-                  "text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none",
-                  active
-                    ? "bg-gray-900 text-white"
-                    : "bg-gray-100 text-gray-500",
-                )}
+              <motion.span
+                animate={{
+                  backgroundColor: active ? "#111827" : "#f3f4f6",
+                  color: active ? "#ffffff" : "#6b7280",
+                }}
+                transition={{ duration: 0.2 }}
+                className="text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none"
               >
                 {tab.badge}
-              </span>
+              </motion.span>
             )}
-            <span
-              className={cn(
-                "absolute bottom-0 left-0 right-0 h-[2px] rounded-full transition-all duration-200",
-                active ? "bg-gray-900 opacity-100" : "bg-transparent opacity-0",
-              )}
-            />
+            {active && (
+              <motion.span
+                layoutId="stateTabIndicator"
+                className="absolute bottom-0 left-0 right-0 h-[2px] rounded-full bg-gray-900"
+                transition={{ type: "spring", stiffness: 500, damping: 35 }}
+              />
+            )}
           </button>
         );
       })}

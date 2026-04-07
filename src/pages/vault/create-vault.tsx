@@ -1,5 +1,5 @@
-import { useState, useRef, type ChangeEvent } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useRef, useEffect, type ChangeEvent } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useMutation } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -46,6 +46,8 @@ const Divider = () => <div className="h-px bg-gray-100 my-1" />;
 
 const CreateVault = () => {
   const navigate = useNavigate();
+  const { state } = useLocation();
+  const prefillPlace = state?.place;
   const { showSnackbar } = useSnackbar();
 
   const titleRef = useRef<HTMLInputElement>(null);
@@ -54,7 +56,9 @@ const CreateVault = () => {
 
   const [tags, setTags] = useState<string[]>([]);
   const [mood, setMood] = useState<string | null>(null);
-  const [location, setLocation] = useState<LocationResult | null>(null);
+  const [location, setLocation] = useState<LocationResult | null>(
+    prefillPlace ? { name: prefillPlace.name, label: prefillPlace.name, lat: prefillPlace.lat || 0, lon: prefillPlace.lng || 0 } as any : null
+  );
   const [visibility, setVisibility] = useState<Visibility>("public");
   const [audience, setAudience] = useState<Audience>("everyone");
   const [allowComments, setAllowComments] = useState(true);
@@ -75,6 +79,17 @@ const CreateVault = () => {
   const { createVaultMutation } = vaultMutation();
   const { mutateAsync: createVault, isPending: isCreatingVault } =
     useMutation(createVaultMutation);
+
+  useEffect(() => {
+    if (prefillPlace && titleRef.current) {
+      titleRef.current.value = `Trip to ${prefillPlace.name}`;
+      
+      // Auto-add the place type as a tag if it exists
+      if (prefillPlace.type && !tags.includes(prefillPlace.type)) {
+        setTags(prev => [...prev, prefillPlace.type]);
+      }
+    }
+  }, [prefillPlace]);
 
   const openFilePicker = (accept: string) => {
     if (!fileInputRef.current) return;

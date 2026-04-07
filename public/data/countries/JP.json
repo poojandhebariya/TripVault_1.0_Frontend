@@ -1,0 +1,4090 @@
+{
+  "code": "JP",
+  "name": "Japan",
+  "emoji": "🇯🇵",
+  "continent": "Asia",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore Japan (80 Places)",
+  "places": [
+    {
+      "id": "jp-0",
+      "name": "Mount Fuji",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 685000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3606,
+      "lng": 138.7274,
+      "overview": {
+        "about": "Mount Fuji, Japan's highest peak at 3,776m, is an active stratovolcano last erupted in 1707. It is a UNESCO World Heritage site revered as a spiritual symbol of Japan for over a millennium. Its near-perfect symmetrical cone has inspired countless Japanese artists including Hokusai and Hiroshige.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Japan's Sacred Peak — 3,776m",
+            "desc": "An active stratovolcano and the spiritual heart of Japan — pilgrims have climbed its slopes for over 1,400 years"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Hokusai's Eternal Muse",
+            "desc": "Inspired Hokusai's iconic Thirty-six Views — the most reproduced image of any single mountain on Earth"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "2-Hour Summit Climb",
+            "desc": "Four official trails lead to the summit — the Yoshida trail is most popular with mountain huts at every station"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow-Capped 9 Months of the Year",
+            "desc": "Fuji's iconic white cap disappears only briefly in late summer — September sees bare summit and unique mist inversions"
+          }
+        ],
+        "bestTime": "Jul – Aug",
+        "bestTimeSub": "Official open climbing season",
+        "entryFee": "¥2,000 Conservation",
+        "entryFeeSub": "¥4,000 with mountain hut",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "Summit attempt overnight",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1",
+      "name": "Fushimi Inari Taisha",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 455000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9671,
+      "lng": 135.7727,
+      "overview": {
+        "about": "Fushimi Inari Taisha in Kyoto is Japan's most important Shinto shrine dedicated to Inari, the deity of foxes, rice and prosperity. Its thousands of vermilion torii gates wind for 4km up the sacred Mount Inari. The shrine's main structures date to 711 AD, predating Kyoto's founding as the imperial capital.",
+        "highlights": [
+          {
+            "icon": "faPrayingHands",
+            "label": "10,000 Vermilion Torii Gates",
+            "desc": "Thousands of brilliant orange-red gates donated by businesses since 711 AD — forming a surreal tunnel for 4km"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Dawn Photography — No Crowds",
+            "desc": "Arrive before 6 AM to walk the entire gate tunnel in ethereal light with no other visitors around you"
+          },
+          {
+            "icon": "faScroll",
+            "label": "Founded 711 AD — 1,300 Years Old",
+            "desc": "Predates Kyoto itself by 83 years — the foxes (kitsune) guarding the gates are messengers of the god Inari"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "4km Trail to Mountain Summit",
+            "desc": "Full circuit to the 233m summit takes 2–3 hours — city views from the top are an underrated Kyoto highlight"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Cherry blossom backdrop",
+        "entryFee": "¥Free",
+        "entryFeeSub": "Open 24 hours always",
+        "tourDays": "2–4 Hours",
+        "tourDaysSub": "Dawn visit highly recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-2",
+      "name": "Kiyomizu-dera",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 385000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.6847,
+      "lng": 139.7527,
+      "overview": {
+        "about": "Kiyomizu-dera in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-3",
+      "name": "Shibuya Crossing",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 515000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1589477933060-70f09c27e3e5?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.6937,
+      "lng": 135.5023,
+      "overview": {
+        "about": "Shibuya Crossing in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-4",
+      "name": "Tokyo Skytree",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 325000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1594178404462-4b6c26c62a9a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.3955,
+      "lng": 132.4596,
+      "overview": {
+        "about": "Tokyo Skytree in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-5",
+      "name": "Sensō-ji",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 425000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1555952517-2e8e729e0b44?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.7148,
+      "lng": 139.7967,
+      "overview": {
+        "about": "Sensō-ji in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-6",
+      "name": "Hiroshima Peace Park",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 285000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.0642,
+      "lng": 141.3469,
+      "overview": {
+        "about": "Hiroshima Peace Park in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-7",
+      "name": "Kinkaku-ji (Golden Pavilion)",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 315000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1504109586057-7a2ae83d1338?q=80&w=1600&auto=format&fit=crop",
+      "lat": 26.2124,
+      "lng": 127.6809,
+      "overview": {
+        "about": "Kinkaku-ji (Golden Pavilion) in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-8",
+      "name": "Universal Studios Japan",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 615000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0116,
+      "lng": 135.7681,
+      "overview": {
+        "about": "Universal Studios Japan in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-9",
+      "name": "Arashiyama Bamboo Grove",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 295000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1548345680-f5475ea5df84?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.6833,
+      "lng": 135.8,
+      "overview": {
+        "about": "Arashiyama Bamboo Grove in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1010",
+      "name": "Scenic Hiroshima Luxury Resort",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 170134,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 29.9326,
+      "lng": 142.3214,
+      "overview": {
+        "about": "Scenic Hiroshima Luxury Resort in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1012",
+      "name": "Royal Tokyo Premium Villa",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 3888,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.433,
+      "lng": 147.5006,
+      "overview": {
+        "about": "Royal Tokyo Premium Villa in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1014",
+      "name": "Grand Kyoto Beach",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 101710,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.259,
+      "lng": 139.4897,
+      "overview": {
+        "about": "Grand Kyoto Beach in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1016",
+      "name": "New Tokyo Beach",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 6806,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.8042,
+      "lng": 147.2025,
+      "overview": {
+        "about": "New Tokyo Beach in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1018",
+      "name": "Central Honshu Central Market",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 46462,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.9244,
+      "lng": 133.9565,
+      "overview": {
+        "about": "Central Honshu Central Market in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1020",
+      "name": "Scenic Osaka Highlands",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 188118,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.6702,
+      "lng": 135.4656,
+      "overview": {
+        "about": "Scenic Osaka Highlands in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1022",
+      "name": "Northern Hiroshima Safari Park",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 84793,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.3368,
+      "lng": 136.1549,
+      "overview": {
+        "about": "Northern Hiroshima Safari Park in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1024",
+      "name": "Scenic Kyoto National Park",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 178171,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.1718,
+      "lng": 146.8671,
+      "overview": {
+        "about": "Scenic Kyoto National Park in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1026",
+      "name": "Scenic Kyoto Diving Spot",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 122604,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.4536,
+      "lng": 139.4338,
+      "overview": {
+        "about": "Scenic Kyoto Diving Spot in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1028",
+      "name": "Grand Kyoto Zipline Park",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 34249,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.7812,
+      "lng": 142.8244,
+      "overview": {
+        "about": "Grand Kyoto Zipline Park in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1030",
+      "name": "Scenic Hiroshima Plaza",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 90306,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.5716,
+      "lng": 130.3051,
+      "overview": {
+        "about": "Scenic Hiroshima Plaza in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1032",
+      "name": "Northern Hiroshima Canyon",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 172398,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.6644,
+      "lng": 139.5455,
+      "overview": {
+        "about": "Northern Hiroshima Canyon in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1034",
+      "name": "New Tokyo Central Market",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 75737,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.897,
+      "lng": 137.813,
+      "overview": {
+        "about": "New Tokyo Central Market in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1036",
+      "name": "Historic Kyoto Old Town",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 35286,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.779,
+      "lng": 146.9417,
+      "overview": {
+        "about": "Historic Kyoto Old Town in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1038",
+      "name": "Scenic Honshu Spa Retreat",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 195171,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.7606,
+      "lng": 132.2612,
+      "overview": {
+        "about": "Scenic Honshu Spa Retreat in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1040",
+      "name": "Scenic Tokyo Canyon",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 197673,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.63,
+      "lng": 141.2595,
+      "overview": {
+        "about": "Scenic Tokyo Canyon in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1042",
+      "name": "Southern Honshu Spa Retreat",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 19873,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.9542,
+      "lng": 142.545,
+      "overview": {
+        "about": "Southern Honshu Spa Retreat in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1044",
+      "name": "Beautiful Osaka Beach",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 179055,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.7182,
+      "lng": 142.1724,
+      "overview": {
+        "about": "Beautiful Osaka Beach in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1046",
+      "name": "Royal Kyoto Summit",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 44462,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.3128,
+      "lng": 142.1165,
+      "overview": {
+        "about": "Royal Kyoto Summit in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1048",
+      "name": "Grand Honshu Cove",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 96033,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.6324,
+      "lng": 135.0743,
+      "overview": {
+        "about": "Grand Honshu Cove in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1050",
+      "name": "New Osaka Bay",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 85105,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.2854,
+      "lng": 145.9729,
+      "overview": {
+        "about": "New Osaka Bay in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1052",
+      "name": "Southern Osaka Marina",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 109977,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.2922,
+      "lng": 131.5533,
+      "overview": {
+        "about": "Southern Osaka Marina in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1054",
+      "name": "Scenic Osaka Ski Resort",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 126325,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.4744,
+      "lng": 129.299,
+      "overview": {
+        "about": "Scenic Osaka Ski Resort in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1056",
+      "name": "Scenic Osaka Gourmet Restaurant",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 65445,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.0058,
+      "lng": 130.659,
+      "overview": {
+        "about": "Scenic Osaka Gourmet Restaurant in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1058",
+      "name": "Northern Hiroshima Coastal Resort",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 84487,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.7974,
+      "lng": 142.9921,
+      "overview": {
+        "about": "Northern Hiroshima Coastal Resort in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1060",
+      "name": "Southern Tokyo Cove",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 29538,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.6232,
+      "lng": 137.0491,
+      "overview": {
+        "about": "Southern Tokyo Cove in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1062",
+      "name": "Central Kyoto Palace",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 135862,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.1604,
+      "lng": 134.3291,
+      "overview": {
+        "about": "Central Kyoto Palace in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1064",
+      "name": "Grand Honshu Valley",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 177087,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.8088,
+      "lng": 136.9001,
+      "overview": {
+        "about": "Grand Honshu Valley in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1066",
+      "name": "Grand Osaka Marina",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 65973,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.8328,
+      "lng": 130.9385,
+      "overview": {
+        "about": "Grand Osaka Marina in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1068",
+      "name": "Grand Kyoto National Park",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 187407,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.196,
+      "lng": 138.8376,
+      "overview": {
+        "about": "Grand Kyoto National Park in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1070",
+      "name": "Southern Kyoto Premium Villa",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 175350,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.1044,
+      "lng": 135.8195,
+      "overview": {
+        "about": "Southern Kyoto Premium Villa in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1072",
+      "name": "Beautiful Honshu Waterfalls",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 39745,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.315,
+      "lng": 137.9992,
+      "overview": {
+        "about": "Beautiful Honshu Waterfalls in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1074",
+      "name": "Historic Hiroshima Diving Spot",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 157586,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.393,
+      "lng": 132.5966,
+      "overview": {
+        "about": "Historic Hiroshima Diving Spot in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1076",
+      "name": "New Kyoto Caves",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 3733,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.9692,
+      "lng": 136.4902,
+      "overview": {
+        "about": "New Kyoto Caves in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1078",
+      "name": "Historic Kyoto Summit",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 107431,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.133,
+      "lng": 138.1856,
+      "overview": {
+        "about": "Historic Kyoto Summit in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1080",
+      "name": "Beautiful Honshu Palace",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 150966,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.921,
+      "lng": 131.8513,
+      "overview": {
+        "about": "Beautiful Honshu Palace in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1082",
+      "name": "Central Tokyo Caves",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 16879,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 29.6932,
+      "lng": 139.8436,
+      "overview": {
+        "about": "Central Tokyo Caves in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1084",
+      "name": "Royal Honshu Fortress",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 18966,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.4032,
+      "lng": 138.9121,
+      "overview": {
+        "about": "Royal Honshu Fortress in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1086",
+      "name": "New Hiroshima Spa Retreat",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 69846,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.228,
+      "lng": 143.3088,
+      "overview": {
+        "about": "New Hiroshima Spa Retreat in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1088",
+      "name": "Northern Osaka Bay",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 78313,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.9668,
+      "lng": 142.6754,
+      "overview": {
+        "about": "Northern Osaka Bay in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1090",
+      "name": "New Tokyo Palace",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 190569,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.4754,
+      "lng": 137.5894,
+      "overview": {
+        "about": "New Tokyo Palace in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1092",
+      "name": "Royal Osaka Gourmet Restaurant",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 74383,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.7274,
+      "lng": 140.1976,
+      "overview": {
+        "about": "Royal Osaka Gourmet Restaurant in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1094",
+      "name": "Old Kyoto Hot Springs",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 79860,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.0848,
+      "lng": 133.5467,
+      "overview": {
+        "about": "Old Kyoto Hot Springs in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1096",
+      "name": "Grand Honshu Bay",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4,
+      "reviewCount": 128618,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.2498,
+      "lng": 141.4644,
+      "overview": {
+        "about": "Grand Honshu Bay in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1098",
+      "name": "Central Osaka Marina",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 41987,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.6312,
+      "lng": 147.4819,
+      "overview": {
+        "about": "Central Osaka Marina in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated beach paradise sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1100",
+      "name": "Central Osaka Lake",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 95793,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.3472,
+      "lng": 140.4025,
+      "overview": {
+        "about": "Central Osaka Lake in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1102",
+      "name": "New Hiroshima Zipline Park",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 18987,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.3082,
+      "lng": 133.7889,
+      "overview": {
+        "about": "New Hiroshima Zipline Park in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1104",
+      "name": "New Kyoto Summit",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 61764,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.7882,
+      "lng": 144.9669,
+      "overview": {
+        "about": "New Kyoto Summit in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1106",
+      "name": "Beautiful Kyoto Canyon",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 112380,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.3998,
+      "lng": 136.8069,
+      "overview": {
+        "about": "Beautiful Kyoto Canyon in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1108",
+      "name": "Royal Osaka Waterfalls",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 123100,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.8316,
+      "lng": 143.3461,
+      "overview": {
+        "about": "Royal Osaka Waterfalls in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated natural wonder sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1110",
+      "name": "Central Hiroshima Luxury Resort",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 105137,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.3736,
+      "lng": 146.8858,
+      "overview": {
+        "about": "Central Hiroshima Luxury Resort in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1112",
+      "name": "Grand Tokyo Museum",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 110953,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.8982,
+      "lng": 144.0354,
+      "overview": {
+        "about": "Grand Tokyo Museum in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1114",
+      "name": "Grand Osaka Mountain Range",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 171914,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.48,
+      "lng": 145.917,
+      "overview": {
+        "about": "Grand Osaka Mountain Range in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1116",
+      "name": "Historic Honshu Luxury Resort",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 63486,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.8958,
+      "lng": 131.5905,
+      "overview": {
+        "about": "Historic Honshu Luxury Resort in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1118",
+      "name": "Historic Hiroshima Shopping District",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 96266,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.6084,
+      "lng": 141.0359,
+      "overview": {
+        "about": "Historic Hiroshima Shopping District in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1120",
+      "name": "Royal Tokyo Caves",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 191451,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.574,
+      "lng": 142.7499,
+      "overview": {
+        "about": "Royal Tokyo Caves in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1122",
+      "name": "Scenic Kyoto Peak",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 41777,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.2934,
+      "lng": 137.7757,
+      "overview": {
+        "about": "Scenic Kyoto Peak in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1124",
+      "name": "Old Honshu Spa Retreat",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 172033,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.8992,
+      "lng": 133.6957,
+      "overview": {
+        "about": "Old Honshu Spa Retreat in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1126",
+      "name": "Grand Hiroshima Museum",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 21024,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.7526,
+      "lng": 140.4584,
+      "overview": {
+        "about": "Grand Hiroshima Museum in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1128",
+      "name": "Old Honshu Shopping District",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 198168,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.0642,
+      "lng": 141.6135,
+      "overview": {
+        "about": "Old Honshu Shopping District in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1130",
+      "name": "Beautiful Honshu Luxury Resort",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 77558,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.0046,
+      "lng": 143.0666,
+      "overview": {
+        "about": "Beautiful Honshu Luxury Resort in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1132",
+      "name": "Historic Osaka Luxury Resort",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 148877,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.8432,
+      "lng": 135.1861,
+      "overview": {
+        "about": "Historic Osaka Luxury Resort in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1134",
+      "name": "Central Tokyo Mountain Range",
+      "location": "Tokyo, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 3532,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.2944,
+      "lng": 146.066,
+      "overview": {
+        "about": "Central Tokyo Mountain Range in Tokyo, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1136",
+      "name": "Historic Kyoto Fortress",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 114398,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.4044,
+      "lng": 145.1345,
+      "overview": {
+        "about": "Historic Kyoto Fortress in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1138",
+      "name": "Royal Honshu Premium Villa",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 160694,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.0116,
+      "lng": 145.2091,
+      "overview": {
+        "about": "Royal Honshu Premium Villa in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1140",
+      "name": "Historic Honshu Highlands",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 14365,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 29.4412,
+      "lng": 137.2354,
+      "overview": {
+        "about": "Historic Honshu Highlands in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1142",
+      "name": "Beautiful Hiroshima Highlands",
+      "location": "Hiroshima, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 13360,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.9474,
+      "lng": 138.3346,
+      "overview": {
+        "about": "Beautiful Hiroshima Highlands in Hiroshima, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated mountain destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1144",
+      "name": "Scenic Honshu Fortress",
+      "location": "Honshu, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4,
+      "reviewCount": 62791,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.6118,
+      "lng": 143.1411,
+      "overview": {
+        "about": "Scenic Honshu Fortress in Honshu, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1146",
+      "name": "Central Kyoto Ancient Ruins",
+      "location": "Kyoto, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 28824,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 29.7184,
+      "lng": 140.1044,
+      "overview": {
+        "about": "Central Kyoto Ancient Ruins in Kyoto, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated heritage landmark sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "jp-1148",
+      "name": "Old Osaka Old Town",
+      "location": "Osaka, JP",
+      "country": "JP",
+      "countryCode": "JP",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 47273,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.2074,
+      "lng": 132.7456,
+      "overview": {
+        "about": "Old Osaka Old Town in Osaka, JP is a quintessential expression of Japanese heritage — where centuries of Shinto spirituality, Zen aesthetics and meticulous craftsmanship converge. As one of Japan's most celebrated city destination sites, it offers an experience that is uniquely and profoundly Japanese.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "¥1,000 Adults",
+        "entryFeeSub": "¥500 Children",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "¥"
+      }
+    }
+  ]
+}

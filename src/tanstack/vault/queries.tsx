@@ -102,6 +102,28 @@ export const vaultQueries = () => {
     },
   });
 
+  const getVaultsByPlace = (
+    placeName: string,
+    placeLocation: string,
+    page = 1,
+    limit = 10,
+  ) => ({
+    queryKey: vaultKeys.getVaultsByPlace(placeName, placeLocation, page),
+    queryFn: async (): Promise<PaginatedResponse<Vault>> => {
+      const params = new URLSearchParams({
+        placeName,
+        placeLocation,
+        page: String(page),
+        limit: String(limit),
+      });
+      const response = await axiosInstance.get<
+        ApiResponse<PaginatedResponse<Vault>>
+      >(`/vault/by-place?${params.toString()}`);
+      return response.data.data;
+    },
+    enabled: !!placeName.trim(),
+  });
+
   return {
     getMyVaults,
     getPublicVaults,
@@ -111,5 +133,6 @@ export const vaultQueries = () => {
     getSavedVaults,
     getUserPublicVaults,
     getFollowingVaults,
+    getVaultsByPlace,
   };
 };

@@ -24,7 +24,7 @@ interface ShareModalProps {
   url: string;
   title?: string;
   description?: string;
-  type?: "vault" | "profile";
+  type?: "vault" | "profile" | "place";
 }
 
 interface Platform {
@@ -117,7 +117,9 @@ const ShareModal = ({
     title ||
     (type === "vault"
       ? "Check out this vault on TripVault!"
-      : "Check out this profile on TripVault!");
+      : type === "profile"
+        ? "Check out this profile on TripVault!"
+        : "Check out this destination on TripVault!");
 
   const handleCopy = async () => {
     try {
@@ -164,7 +166,13 @@ const ShareModal = ({
     <Modal
       open={open}
       onClose={onClose}
-      title={type === "vault" ? "Share this vault" : "Share this profile"}
+      title={
+        type === "vault"
+          ? "Share this vault"
+          : type === "profile"
+            ? "Share this profile"
+            : "Share this destination"
+      }
       description={shareTitle}
       icon={faShareNodes}
       variant={isMobile ? "bottom" : "center"}

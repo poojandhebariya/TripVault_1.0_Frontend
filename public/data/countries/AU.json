@@ -1,0 +1,4090 @@
+{
+  "code": "AU",
+  "name": "Australia",
+  "emoji": "🇦🇺",
+  "continent": "Oceania",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore Australia (80 Places)",
+  "places": [
+    {
+      "id": "au-0",
+      "name": "Sydney Opera House",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 585000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1600&auto=format&fit=crop",
+      "lat": -33.8568,
+      "lng": 151.2153,
+      "overview": {
+        "about": "The Great Barrier Reef off Queensland is the world's largest coral reef system — 2,300km of over 2,900 individual reefs and 900 islands. It is the only living organism visible from space. Home to 1,500 fish species, 4,000 mollusc species and 30 species of whales and dolphins, it is Earth's richest marine ecosystem.",
+        "highlights": [
+          {
+            "icon": "faWater",
+            "label": "World's Largest Coral Reef System",
+            "desc": "2,300km of 2,900+ individual reefs — the only living structure visible from space, teeming with 1,500 fish species"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Humpback Whale Migration",
+            "desc": "June–November brings over 2,000 humpback whales through reef waters — snorkelling with them is life-defining"
+          },
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Whitsunday Islands Access",
+            "desc": "74 pristine tropical islands including Whitehaven Beach — world-ranked with silica sand so fine it's cool to the touch"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "UNESCO & Biodiversity Emergency",
+            "desc": "Listed as a UNESCO World Heritage site under threat from climate change — visiting responsibly funds vital conservation"
+          }
+        ],
+        "bestTime": "Jun – Oct",
+        "bestTimeSub": "Cooler, stinger-free season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Dive tours A$100–A$300",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Liveaboard for full experience",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1",
+      "name": "Great Barrier Reef",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 415000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.3444,
+      "lng": 131.0369,
+      "overview": {
+        "about": "Great Barrier Reef in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-2",
+      "name": "Uluru",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 215000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1559628129-67cf63b72248?q=80&w=1600&auto=format&fit=crop",
+      "lat": -16.9186,
+      "lng": 145.7781,
+      "overview": {
+        "about": "Uluru in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-3",
+      "name": "Sydney Harbour Bridge",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 455000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514395462725-fb4566210144?q=80&w=1600&auto=format&fit=crop",
+      "lat": -37.8136,
+      "lng": 144.9631,
+      "overview": {
+        "about": "Sydney Harbour Bridge in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-4",
+      "name": "Bondi Beach",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 385000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1524293581917-878a6d017c71?q=80&w=1600&auto=format&fit=crop",
+      "lat": -27.4698,
+      "lng": 153.0251,
+      "overview": {
+        "about": "Bondi Beach in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-5",
+      "name": "Great Ocean Road",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 285000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1553701999-5a02736ee84b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -31.9505,
+      "lng": 115.8605,
+      "overview": {
+        "about": "Great Ocean Road in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-6",
+      "name": "Queen Victoria Market",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 185000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1587302159762-7b1b3b21ba6d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -33.7319,
+      "lng": 150.6847,
+      "overview": {
+        "about": "Queen Victoria Market in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-7",
+      "name": "Royal Botanic Gardens",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 195000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1574170610172-3afbdb0c6e61?q=80&w=1600&auto=format&fit=crop",
+      "lat": -42.8821,
+      "lng": 147.3272,
+      "overview": {
+        "about": "Royal Botanic Gardens in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-8",
+      "name": "Kakadu National Park",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 115000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1591778751515-3271a8ee3b91?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.4634,
+      "lng": 130.8456,
+      "overview": {
+        "about": "Kakadu National Park in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-9",
+      "name": "Blue Mountains",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 265000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1524742177-53a8f3d3dafc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -35.2809,
+      "lng": 149.13,
+      "overview": {
+        "about": "Blue Mountains in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1010",
+      "name": "Beautiful Victoria Bay",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 57279,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -19.2622,
+      "lng": 128.561,
+      "overview": {
+        "about": "Beautiful Victoria Bay in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1012",
+      "name": "Southern New South Wales Coastal Resort",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 33798,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": -30.6962,
+      "lng": 127.4446,
+      "overview": {
+        "about": "Southern New South Wales Coastal Resort in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1014",
+      "name": "Grand New South Wales Coastal Resort",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 152931,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -28.2234,
+      "lng": 124.4108,
+      "overview": {
+        "about": "Grand New South Wales Coastal Resort in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1016",
+      "name": "Old Melbourne Shopping District",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 124835,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.2561,
+      "lng": 125.6243,
+      "overview": {
+        "about": "Old Melbourne Shopping District in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1018",
+      "name": "Southern Petermann Valley",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 53867,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -24.3857,
+      "lng": 133.0995,
+      "overview": {
+        "about": "Southern Petermann Valley in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1020",
+      "name": "Royal Petermann Waterfalls",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 87203,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -27.63,
+      "lng": 129.5075,
+      "overview": {
+        "about": "Royal Petermann Waterfalls in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1022",
+      "name": "Scenic New South Wales Old Town",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 119284,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.636,
+      "lng": 132.4442,
+      "overview": {
+        "about": "Scenic New South Wales Old Town in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1024",
+      "name": "Old New South Wales Highlands",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4,
+      "reviewCount": 137719,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -24.8012,
+      "lng": 129.5318,
+      "overview": {
+        "about": "Old New South Wales Highlands in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1026",
+      "name": "Historic Queensland Activity Center",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 145890,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -26.5222,
+      "lng": 139.0214,
+      "overview": {
+        "about": "Historic Queensland Activity Center in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1028",
+      "name": "Northern New South Wales Forest",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 93610,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.6756,
+      "lng": 132.1044,
+      "overview": {
+        "about": "Northern New South Wales Forest in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1030",
+      "name": "Central Queensland Palace",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 92302,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -23.3769,
+      "lng": 141.7639,
+      "overview": {
+        "about": "Central Queensland Palace in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1032",
+      "name": "Southern Petermann Diving Spot",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 176056,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -23.8912,
+      "lng": 137.3467,
+      "overview": {
+        "about": "Southern Petermann Diving Spot in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1034",
+      "name": "Scenic New South Wales Marina",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 3324,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -23.2779,
+      "lng": 142.6133,
+      "overview": {
+        "about": "Scenic New South Wales Marina in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1036",
+      "name": "Royal Northern Territory Downtown",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 142397,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.177,
+      "lng": 126.3039,
+      "overview": {
+        "about": "Royal Northern Territory Downtown in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1038",
+      "name": "Historic New South Wales Coastal Resort",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.9,
+      "reviewCount": 45630,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -26.1661,
+      "lng": 142.0794,
+      "overview": {
+        "about": "Historic New South Wales Coastal Resort in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1040",
+      "name": "Southern Victoria Coastal Resort",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 15339,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.3987,
+      "lng": 134.4829,
+      "overview": {
+        "about": "Southern Victoria Coastal Resort in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1042",
+      "name": "Southern New South Wales Lake",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 104867,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -27.8872,
+      "lng": 127.299,
+      "overview": {
+        "about": "Southern New South Wales Lake in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1044",
+      "name": "Scenic Petermann Fortress",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 160569,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.6647,
+      "lng": 123.6099,
+      "overview": {
+        "about": "Scenic Petermann Fortress in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1046",
+      "name": "Historic New South Wales Spa Retreat",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 145054,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -17.6203,
+      "lng": 142.6619,
+      "overview": {
+        "about": "Historic New South Wales Spa Retreat in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1048",
+      "name": "Grand Northern Territory National Park",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 36242,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -33.3272,
+      "lng": 129.1192,
+      "overview": {
+        "about": "Grand Northern Territory National Park in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1050",
+      "name": "Northern Petermann Summit",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 166365,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -31.5468,
+      "lng": 144.4093,
+      "overview": {
+        "about": "Northern Petermann Summit in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1052",
+      "name": "Old Sydney Mountain Range",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 21181,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -29.2917,
+      "lng": 139.5068,
+      "overview": {
+        "about": "Old Sydney Mountain Range in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1054",
+      "name": "Scenic Victoria Museum",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 171356,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -23.7725,
+      "lng": 138.3661,
+      "overview": {
+        "about": "Scenic Victoria Museum in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1056",
+      "name": "Central New South Wales Diving Spot",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 69088,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": -32.3579,
+      "lng": 137.4438,
+      "overview": {
+        "about": "Central New South Wales Diving Spot in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1058",
+      "name": "Central Northern Territory Central Market",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 33034,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -31.1116,
+      "lng": 123.8769,
+      "overview": {
+        "about": "Central Northern Territory Central Market in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1060",
+      "name": "Northern Sydney Nature Reserve",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 113574,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.4184,
+      "lng": 134.313,
+      "overview": {
+        "about": "Northern Sydney Nature Reserve in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1062",
+      "name": "Historic Petermann Luxury Resort",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 98511,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -31.0918,
+      "lng": 124.0468,
+      "overview": {
+        "about": "Historic Petermann Luxury Resort in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1064",
+      "name": "Grand Petermann Highlands",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 180986,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -26.6607,
+      "lng": 137.8321,
+      "overview": {
+        "about": "Grand Petermann Highlands in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1066",
+      "name": "Southern Sydney Shopping District",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 64711,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -30.7358,
+      "lng": 127.1048,
+      "overview": {
+        "about": "Southern Sydney Shopping District in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1068",
+      "name": "Northern Sydney Ski Resort",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 59080,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.3482,
+      "lng": 126.3282,
+      "overview": {
+        "about": "Northern Sydney Ski Resort in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1070",
+      "name": "Central Northern Territory Central Market",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 148909,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -26.6013,
+      "lng": 138.3418,
+      "overview": {
+        "about": "Central Northern Territory Central Market in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1072",
+      "name": "Scenic Queensland Premium Villa",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 100151,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -36.5319,
+      "lng": 125.867,
+      "overview": {
+        "about": "Scenic Queensland Premium Villa in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1074",
+      "name": "Scenic Petermann Mountain Range",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 161739,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.8645,
+      "lng": 139.0699,
+      "overview": {
+        "about": "Scenic Petermann Mountain Range in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1076",
+      "name": "Scenic Petermann Island",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 139683,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.9417,
+      "lng": 145.5015,
+      "overview": {
+        "about": "Scenic Petermann Island in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1078",
+      "name": "Central Victoria Historic District",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 51566,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": -27.4519,
+      "lng": 131.0365,
+      "overview": {
+        "about": "Central Victoria Historic District in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1080",
+      "name": "Old Sydney National Park",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 2648,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -29.4104,
+      "lng": 138.4874,
+      "overview": {
+        "about": "Old Sydney National Park in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1082",
+      "name": "Central Melbourne Premium Villa",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 105309,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -18.5698,
+      "lng": 134.5071,
+      "overview": {
+        "about": "Central Melbourne Premium Villa in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1084",
+      "name": "Northern Sydney Cove",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 64855,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.2404,
+      "lng": 135.842,
+      "overview": {
+        "about": "Northern Sydney Cove in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1086",
+      "name": "Old Northern Territory Valley",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 184151,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -35.6219,
+      "lng": 133.682,
+      "overview": {
+        "about": "Old Northern Territory Valley in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1088",
+      "name": "Northern New South Wales Peak",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 141360,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -17.6005,
+      "lng": 142.8318,
+      "overview": {
+        "about": "Northern New South Wales Peak in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1090",
+      "name": "Old Queensland Ancient Ruins",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 167105,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -26.9178,
+      "lng": 135.6236,
+      "overview": {
+        "about": "Old Queensland Ancient Ruins in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1092",
+      "name": "Old Northern Territory Lake",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 63415,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.6251,
+      "lng": 123.9497,
+      "overview": {
+        "about": "Old Northern Territory Lake in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1094",
+      "name": "Beautiful Northern Territory Luxury Resort",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 6943,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -36.1165,
+      "lng": 129.4347,
+      "overview": {
+        "about": "Beautiful Northern Territory Luxury Resort in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1096",
+      "name": "New Sydney Marina",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 75810,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -36.3538,
+      "lng": 127.396,
+      "overview": {
+        "about": "New Sydney Marina in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1098",
+      "name": "Central Victoria Diving Spot",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 124578,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.9683,
+      "lng": 143.7783,
+      "overview": {
+        "about": "Central Victoria Diving Spot in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1100",
+      "name": "New New South Wales Activity Center",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 42326,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": -24.3462,
+      "lng": 133.4393,
+      "overview": {
+        "about": "New New South Wales Activity Center in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1102",
+      "name": "Beautiful Northern Territory Ski Resort",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 7741,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.81,
+      "lng": 145.1374,
+      "overview": {
+        "about": "Beautiful Northern Territory Ski Resort in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1104",
+      "name": "Historic Northern Territory Lake",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 39036,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.0188,
+      "lng": 127.663,
+      "overview": {
+        "about": "Historic Northern Territory Lake in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1106",
+      "name": "Scenic Petermann Mountain Range",
+      "location": "Petermann, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 36062,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.5856,
+      "lng": 124.2895,
+      "overview": {
+        "about": "Scenic Petermann Mountain Range in Petermann, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1108",
+      "name": "Historic Northern Territory Summit",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 154202,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -36.8682,
+      "lng": 122.9789,
+      "overview": {
+        "about": "Historic Northern Territory Summit in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1110",
+      "name": "Scenic Sydney Safari Park",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 80552,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -26.9376,
+      "lng": 135.4537,
+      "overview": {
+        "about": "Scenic Sydney Safari Park in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1112",
+      "name": "Southern Victoria Activity Center",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 185345,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.9437,
+      "lng": 138.3903,
+      "overview": {
+        "about": "Southern Victoria Activity Center in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1114",
+      "name": "Royal Northern Territory Peak",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 19961,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -27.9663,
+      "lng": 126.6194,
+      "overview": {
+        "about": "Royal Northern Territory Peak in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular mountain destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1116",
+      "name": "Royal Northern Territory Waterfalls",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 171534,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.3106,
+      "lng": 143.8268,
+      "overview": {
+        "about": "Royal Northern Territory Waterfalls in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1118",
+      "name": "Scenic Queensland Waterfalls",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 181987,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -33.7228,
+      "lng": 125.7214,
+      "overview": {
+        "about": "Scenic Queensland Waterfalls in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1120",
+      "name": "Southern Melbourne Cathedral",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 19379,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -19.3215,
+      "lng": 128.0513,
+      "overview": {
+        "about": "Southern Melbourne Cathedral in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1122",
+      "name": "Grand New South Wales Museum",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 178418,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": -31.2303,
+      "lng": 122.8575,
+      "overview": {
+        "about": "Grand New South Wales Museum in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1124",
+      "name": "Grand Melbourne Lake",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 172910,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -35.2856,
+      "lng": 136.5701,
+      "overview": {
+        "about": "Grand Melbourne Lake in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1126",
+      "name": "New Victoria Old Town",
+      "location": "Victoria, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 141901,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.3551,
+      "lng": 124.7749,
+      "overview": {
+        "about": "New Victoria Old Town in Victoria, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1128",
+      "name": "Beautiful New South Wales Gourmet Restaurant",
+      "location": "New South Wales, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 48374,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.2909,
+      "lng": 143.9967,
+      "overview": {
+        "about": "Beautiful New South Wales Gourmet Restaurant in New South Wales, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1130",
+      "name": "Northern Queensland Waterfalls",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 192107,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -31.1907,
+      "lng": 123.1973,
+      "overview": {
+        "about": "Northern Queensland Waterfalls in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1132",
+      "name": "Grand Northern Territory Caves",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 111070,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -19.3809,
+      "lng": 127.5417,
+      "overview": {
+        "about": "Grand Northern Territory Caves in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1134",
+      "name": "Northern Melbourne Castle",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 109660,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -26.4233,
+      "lng": 139.8708,
+      "overview": {
+        "about": "Northern Melbourne Castle in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1136",
+      "name": "Southern Melbourne Diving Spot",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 52787,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -24.1286,
+      "lng": 135.3081,
+      "overview": {
+        "about": "Southern Melbourne Diving Spot in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1138",
+      "name": "Central Sydney Valley",
+      "location": "Sydney, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 66118,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -32.1601,
+      "lng": 139.1427,
+      "overview": {
+        "about": "Central Sydney Valley in Sydney, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular natural wonder destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1140",
+      "name": "Scenic Queensland Fortress",
+      "location": "Queensland, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 175871,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.8141,
+      "lng": 130.9152,
+      "overview": {
+        "about": "Scenic Queensland Fortress in Queensland, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1142",
+      "name": "Beautiful Northern Territory Coastal Resort",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 109286,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -30.5379,
+      "lng": 128.8037,
+      "overview": {
+        "about": "Beautiful Northern Territory Coastal Resort in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1144",
+      "name": "Northern Northern Territory Financial District",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 23618,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -36.4132,
+      "lng": 126.8864,
+      "overview": {
+        "about": "Northern Northern Territory Financial District in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular city destination destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1146",
+      "name": "Northern Northern Territory Coastal Resort",
+      "location": "Northern Territory, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 59163,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -30.9138,
+      "lng": 125.5758,
+      "overview": {
+        "about": "Northern Northern Territory Coastal Resort in Northern Territory, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular beach paradise destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "A$"
+      }
+    },
+    {
+      "id": "au-1148",
+      "name": "Grand Melbourne Castle",
+      "location": "Melbourne, AU",
+      "country": "AU",
+      "countryCode": "AU",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 108642,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -23.2779,
+      "lng": 142.6133,
+      "overview": {
+        "about": "Grand Melbourne Castle in Melbourne, AU showcases the breathtaking natural wealth of Australia's landscapes and marine environments. One of the Southern Hemisphere's most spectacular heritage landmark destinations, it draws travellers with its raw beauty, unique wildlife and the sense of standing at the very edge of the world.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Sep – Nov",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "A$Free – A$30",
+        "entryFeeSub": "Varies by site",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "A$"
+      }
+    }
+  ]
+}

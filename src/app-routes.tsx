@@ -25,6 +25,9 @@ import BucketList from "./pages/bucket-list/bucket-list";
 import FollowersFollowingPage from "./pages/profile/followers-following";
 import NotificationsPage from "./pages/notifications/notifications";
 import MapPage from "./pages/map/map";
+import Explore from "./pages/explore/explore";
+import CountryDetail from "./pages/explore/country-detail";
+import PlaceDetail from "./pages/explore/place-detail";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -54,6 +57,9 @@ const AppRoutes = () => {
             }
           />
           <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
+          <Route path={ROUTES.EXPLORE} element={<Explore />} />
+          <Route path={ROUTES.EXPLORE_COUNTRY_DETAIL} element={<CountryDetail />} />
+          <Route path={ROUTES.EXPLORE_PLACE_DETAIL} element={<PlaceDetail />} />
 
           {/* Public profile pages — accessible without auth */}
           <Route path={ROUTES.USER.PUBLIC_PROFILE} element={<Profile />}>

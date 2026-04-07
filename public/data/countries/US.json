@@ -1,0 +1,4090 @@
+{
+  "code": "US",
+  "name": "United States",
+  "emoji": "🇺🇸",
+  "continent": "Americas",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore United States (80 Places)",
+  "places": [
+    {
+      "id": "us-0",
+      "name": "Grand Canyon National Park",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 585000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.1069,
+      "lng": -112.1129,
+      "overview": {
+        "about": "The Grand Canyon, carved by the Colorado River over 5–6 million years, stretches 446km long, up to 29km wide and more than 1.6km deep. It exposes nearly two billion years of Earth's geological history in its layered rock walls. Over 5 million visitors make it one of the world's most visited natural wonders.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "1.6km Deep — Earth's Layers Exposed",
+            "desc": "Walls reveal 2 billion years of geological history — a textbook of Earth's evolution readable as you descend"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "Rim-to-River Trekking",
+            "desc": "Bright Angel and South Kaibab trails are among North America's most legendary — descend to Phantom Ranch at the base"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Over South Rim",
+            "desc": "Mather Point at dawn produces one of the most jaw-dropping natural light shows witnessed anywhere on the planet"
+          },
+          {
+            "icon": "faWater",
+            "label": "Colorado River Rafting",
+            "desc": "Multi-day river rafting trips through the canyon base are among the USA's ultimate adventure experiences"
+          }
+        ],
+        "bestTime": "Mar – May",
+        "bestTimeSub": "Mild temps, smaller crowds",
+        "entryFee": "$35 Vehicle",
+        "entryFeeSub": "$20 Per Person on foot",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Overnight for full rim trail",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1",
+      "name": "Yellowstone National Park",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 415000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1562117532-14e5e1ca8d4e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.428,
+      "lng": -110.5885,
+      "overview": {
+        "about": "Yellowstone National Park in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-2",
+      "name": "Statue of Liberty",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 755000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1570168007217-f40a96929a6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "overview": {
+        "about": "Statue of Liberty in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic heritage landmark destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-3",
+      "name": "Times Square",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 985000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.758,
+      "lng": -73.9855,
+      "overview": {
+        "about": "Times Square in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-4",
+      "name": "Yosemite National Park",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 385000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.749,
+      "lng": -119.5885,
+      "overview": {
+        "about": "Yosemite National Park in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-5",
+      "name": "Walt Disney World",
+      "location": "Orlando, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 850000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?q=80&w=1600&auto=format&fit=crop",
+      "lat": 28.3852,
+      "lng": -81.5639,
+      "overview": {
+        "about": "Walt Disney World in Orlando, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-6",
+      "name": "Golden Gate Bridge",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 615000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.8199,
+      "lng": -122.4783,
+      "overview": {
+        "about": "Golden Gate Bridge in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-7",
+      "name": "Zion National Park",
+      "location": "Utah, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 295000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1516893842439-4177ad0d6a61?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.2982,
+      "lng": -113.0263,
+      "overview": {
+        "about": "Zion National Park in Utah, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-8",
+      "name": "Central Park",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 895000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.7829,
+      "lng": -73.9654,
+      "overview": {
+        "about": "Central Park in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-9",
+      "name": "Niagara Falls",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 465000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1609862585882-bb60f8a7f7e9?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.0962,
+      "lng": -79.0377,
+      "overview": {
+        "about": "Niagara Falls in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1010",
+      "name": "Grand New York Coastal Resort",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 128121,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.1588,
+      "lng": -92.5617,
+      "overview": {
+        "about": "Grand New York Coastal Resort in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1012",
+      "name": "Old San Francisco Bay",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 30339,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.8891,
+      "lng": -99.1097,
+      "overview": {
+        "about": "Old San Francisco Bay in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1014",
+      "name": "Beautiful San Francisco Nature Reserve",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 170324,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.9481,
+      "lng": -81.7992,
+      "overview": {
+        "about": "Beautiful San Francisco Nature Reserve in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1016",
+      "name": "Grand Niagara Falls Castle",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 134565,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 36.2639,
+      "lng": -107.1903,
+      "overview": {
+        "about": "Grand Niagara Falls Castle in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic heritage landmark destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1018",
+      "name": "Beautiful Arizona Financial District",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 166271,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.5063,
+      "lng": -96.8109,
+      "overview": {
+        "about": "Beautiful Arizona Financial District in Arizona, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1020",
+      "name": "Historic California Financial District",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 94579,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.3559,
+      "lng": -101.4085,
+      "overview": {
+        "about": "Historic California Financial District in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1022",
+      "name": "New Wyoming Plaza",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 85498,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1601,
+      "lng": -90.4022,
+      "overview": {
+        "about": "New Wyoming Plaza in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1024",
+      "name": "Beautiful Wyoming Diving Spot",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 66722,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4832,
+      "lng": -93.6762,
+      "overview": {
+        "about": "Beautiful Wyoming Diving Spot in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1026",
+      "name": "Northern New York Caves",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 109799,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.5647,
+      "lng": -97.9951,
+      "overview": {
+        "about": "Northern New York Caves in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1028",
+      "name": "Southern New York Gourmet Restaurant",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 197848,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.129,
+      "lng": -93.0493,
+      "overview": {
+        "about": "Southern New York Gourmet Restaurant in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1030",
+      "name": "Central Arizona Exclusive Club",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 108697,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.1557,
+      "lng": -80.5453,
+      "overview": {
+        "about": "Central Arizona Exclusive Club in Arizona, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1032",
+      "name": "Beautiful Wyoming Highlands",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 112717,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.8878,
+      "lng": -101.2692,
+      "overview": {
+        "about": "Beautiful Wyoming Highlands in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1034",
+      "name": "Historic California Museum",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 105622,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3042,
+      "lng": -96.6019,
+      "overview": {
+        "about": "Historic California Museum in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic heritage landmark destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1036",
+      "name": "Central New York Premium Villa",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 32997,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.8027,
+      "lng": -112.5889,
+      "overview": {
+        "about": "Central New York Premium Villa in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1038",
+      "name": "Southern Orlando Marina",
+      "location": "Orlando, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 73321,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.1134,
+      "lng": -111.7878,
+      "overview": {
+        "about": "Southern Orlando Marina in Orlando, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1040",
+      "name": "Northern California Beach",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.9,
+      "reviewCount": 188573,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.2179,
+      "lng": -110.0811,
+      "overview": {
+        "about": "Northern California Beach in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1042",
+      "name": "Old Niagara Falls Bay",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.9,
+      "reviewCount": 50346,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.2017,
+      "lng": -112.4844,
+      "overview": {
+        "about": "Old Niagara Falls Bay in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1044",
+      "name": "Grand Wyoming Beach",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 24774,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.5485,
+      "lng": -100.3984,
+      "overview": {
+        "about": "Grand Wyoming Beach in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1046",
+      "name": "Historic Niagara Falls Plaza",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 116471,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.2353,
+      "lng": -105.5184,
+      "overview": {
+        "about": "Historic Niagara Falls Plaza in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1048",
+      "name": "Royal Wyoming Marina",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 41779,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.387,
+      "lng": -98.7614,
+      "overview": {
+        "about": "Royal Wyoming Marina in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1050",
+      "name": "Northern New York Castle",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 92513,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.3819,
+      "lng": -107.3992,
+      "overview": {
+        "about": "Northern New York Castle in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic heritage landmark destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1052",
+      "name": "Southern California Coastal Resort",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 19991,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.996,
+      "lng": -93.0841,
+      "overview": {
+        "about": "Southern California Coastal Resort in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1054",
+      "name": "Grand Wyoming Highlands",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 118384,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.0258,
+      "lng": -92.5965,
+      "overview": {
+        "about": "Grand Wyoming Highlands in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1056",
+      "name": "Northern Wyoming Zipline Park",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 61478,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.9158,
+      "lng": -86.6057,
+      "overview": {
+        "about": "Northern Wyoming Zipline Park in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1058",
+      "name": "Northern Wyoming Luxury Resort",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 15184,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4584,
+      "lng": -85.526,
+      "overview": {
+        "about": "Northern Wyoming Luxury Resort in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1060",
+      "name": "Scenic California Mountain Range",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 6724,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.8027,
+      "lng": -112.5889,
+      "overview": {
+        "about": "Scenic California Mountain Range in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1062",
+      "name": "Northern Wyoming Castle",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 31739,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.2614,
+      "lng": -111.5092,
+      "overview": {
+        "about": "Northern Wyoming Castle in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic heritage landmark destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1064",
+      "name": "Central San Francisco Peak",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 176022,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.7256,
+      "lng": -83.2969,
+      "overview": {
+        "about": "Central San Francisco Peak in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1066",
+      "name": "Northern New York Highlands",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 152010,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.6343,
+      "lng": -105.4139,
+      "overview": {
+        "about": "Northern New York Highlands in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1068",
+      "name": "Beautiful Utah Canyon",
+      "location": "Utah, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 39859,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.6641,
+      "lng": -104.9263,
+      "overview": {
+        "about": "Beautiful Utah Canyon in Utah, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1070",
+      "name": "Royal Wyoming Safari Park",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 149831,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.9922,
+      "lng": -99.5625,
+      "overview": {
+        "about": "Royal Wyoming Safari Park in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1072",
+      "name": "New Niagara Falls Zipline Park",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 49012,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.0973,
+      "lng": -79.3611,
+      "overview": {
+        "about": "New Niagara Falls Zipline Park in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1074",
+      "name": "Southern Wyoming Waterfalls",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 148966,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.9786,
+      "lng": -97.6468,
+      "overview": {
+        "about": "Southern Wyoming Waterfalls in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1076",
+      "name": "Beautiful California Hot Springs",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 58729,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.2738,
+      "lng": -80.7543,
+      "overview": {
+        "about": "Beautiful California Hot Springs in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1078",
+      "name": "Historic Niagara Falls Marina",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 180204,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.6025,
+      "lng": -91.7257,
+      "overview": {
+        "about": "Historic Niagara Falls Marina in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1080",
+      "name": "Central Utah Luxury Resort",
+      "location": "Utah, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 80908,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 29.7307,
+      "lng": -109.489,
+      "overview": {
+        "about": "Central Utah Luxury Resort in Utah, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1082",
+      "name": "Scenic Wyoming Peak",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 19667,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.5609,
+      "lng": -104.4735,
+      "overview": {
+        "about": "Scenic Wyoming Peak in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1084",
+      "name": "Southern New York Activity Center",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 83277,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.799,
+      "lng": -84.2373,
+      "overview": {
+        "about": "Southern New York Activity Center in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1086",
+      "name": "Royal Wyoming Diving Spot",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 137400,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.4254,
+      "lng": -108.8273,
+      "overview": {
+        "about": "Royal Wyoming Diving Spot in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1088",
+      "name": "Old Niagara Falls Financial District",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 29813,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.3061,
+      "lng": -110.7777,
+      "overview": {
+        "about": "Old Niagara Falls Financial District in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1090",
+      "name": "Central Utah Mountain Range",
+      "location": "Utah, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 127246,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.0649,
+      "lng": -84.1676,
+      "overview": {
+        "about": "Central Utah Mountain Range in Utah, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1092",
+      "name": "Northern Orlando Valley",
+      "location": "Orlando, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 188032,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 34.4739,
+      "lng": -101.6175,
+      "overview": {
+        "about": "Northern Orlando Valley in Orlando, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1094",
+      "name": "Beautiful Utah Financial District",
+      "location": "Utah, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 161779,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 32.863,
+      "lng": -93.1189,
+      "overview": {
+        "about": "Beautiful Utah Financial District in Utah, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1096",
+      "name": "Northern New York Safari Park",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 54355,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.3633,
+      "lng": -79.2914,
+      "overview": {
+        "about": "Northern New York Safari Park in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1098",
+      "name": "New Arizona Museum",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 184940,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.605,
+      "lng": -87.4068,
+      "overview": {
+        "about": "New Arizona Museum in Arizona, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic heritage landmark destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1100",
+      "name": "New Wyoming Forest",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 34797,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.9009,
+      "lng": -86.8495,
+      "overview": {
+        "about": "New Wyoming Forest in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1102",
+      "name": "Central Wyoming Exclusive Club",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 59231,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.0811,
+      "lng": -81.7644,
+      "overview": {
+        "about": "Central Wyoming Exclusive Club in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1104",
+      "name": "Historic California Spa Retreat",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 90164,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.9979,
+      "lng": -107.2599,
+      "overview": {
+        "about": "Historic California Spa Retreat in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1106",
+      "name": "Northern San Francisco Coastal Resort",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 116309,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.1185,
+      "lng": -103.15,
+      "overview": {
+        "about": "Northern San Francisco Coastal Resort in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1108",
+      "name": "Southern California Caves",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 135807,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.4435,
+      "lng": -85.7698,
+      "overview": {
+        "about": "Southern California Caves in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1110",
+      "name": "Central San Francisco Ancient Ruins",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 43065,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 39.9779,
+      "lng": -81.3116,
+      "overview": {
+        "about": "Central San Francisco Ancient Ruins in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic heritage landmark destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1112",
+      "name": "Southern San Francisco Gourmet Restaurant",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 146228,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.1103,
+      "lng": -99.7715,
+      "overview": {
+        "about": "Southern San Francisco Gourmet Restaurant in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1114",
+      "name": "Historic Niagara Falls Mountain Range",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 129261,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 29.6113,
+      "lng": -111.4395,
+      "overview": {
+        "about": "Historic Niagara Falls Mountain Range in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1116",
+      "name": "Royal Arizona Nature Reserve",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 101069,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 31.3416,
+      "lng": -83.1576,
+      "overview": {
+        "about": "Royal Arizona Nature Reserve in Arizona, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1118",
+      "name": "New Arizona Gourmet Restaurant",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 13524,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 41.2756,
+      "lng": -94.9301,
+      "overview": {
+        "about": "New Arizona Gourmet Restaurant in Arizona, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1120",
+      "name": "Scenic Niagara Falls Diving Spot",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 192553,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.3422,
+      "lng": -99.4928,
+      "overview": {
+        "about": "Scenic Niagara Falls Diving Spot in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1122",
+      "name": "Scenic Arizona Old Town",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 45775,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.1252,
+      "lng": -99.5277,
+      "overview": {
+        "about": "Scenic Arizona Old Town in Arizona, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1124",
+      "name": "New California Activity Center",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 175667,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.8475,
+      "lng": -111.8575,
+      "overview": {
+        "about": "New California Activity Center in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1126",
+      "name": "Scenic Niagara Falls Spa Retreat",
+      "location": "Niagara Falls, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 151498,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 29.5069,
+      "lng": -113.1462,
+      "overview": {
+        "about": "Scenic Niagara Falls Spa Retreat in Niagara Falls, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1128",
+      "name": "Old New York Plaza",
+      "location": "New York, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 157681,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 30.6704,
+      "lng": -94.129,
+      "overview": {
+        "about": "Old New York Plaza in New York, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1130",
+      "name": "Old Wyoming Exclusive Club",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 196944,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.6777,
+      "lng": -106.842,
+      "overview": {
+        "about": "Old Wyoming Exclusive Club in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1132",
+      "name": "Grand Utah Exclusive Club",
+      "location": "Utah, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 105703,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.0097,
+      "lng": -94.9998,
+      "overview": {
+        "about": "Grand Utah Exclusive Club in Utah, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1134",
+      "name": "Old Arizona Safari Park",
+      "location": "Arizona, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 172180,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1452,
+      "lng": -90.646,
+      "overview": {
+        "about": "Old Arizona Safari Park in Arizona, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1136",
+      "name": "Southern California Shopping District",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 195934,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 37.0246,
+      "lng": -94.7559,
+      "overview": {
+        "about": "Southern California Shopping District in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1138",
+      "name": "New Wyoming Valley",
+      "location": "Wyoming, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 64240,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 33.4447,
+      "lng": -83.6103,
+      "overview": {
+        "about": "New Wyoming Valley in Wyoming, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic natural wonder destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1140",
+      "name": "Southern Utah Marina",
+      "location": "Utah, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 9136,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.8015,
+      "lng": -79.9184,
+      "overview": {
+        "about": "Southern Utah Marina in Utah, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1142",
+      "name": "Royal Orlando Island",
+      "location": "Orlando, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.5,
+      "reviewCount": 133882,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 42.454,
+      "lng": -110.4991,
+      "overview": {
+        "about": "Royal Orlando Island in Orlando, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic beach paradise destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1144",
+      "name": "Beautiful California Central Market",
+      "location": "California, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 80454,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": 35.1899,
+      "lng": -89.9146,
+      "overview": {
+        "about": "Beautiful California Central Market in California, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic city destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1146",
+      "name": "Old San Francisco Highlands",
+      "location": "San Francisco, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 161260,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 38.367,
+      "lng": -107.643,
+      "overview": {
+        "about": "Old San Francisco Highlands in San Francisco, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic mountain destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "$"
+      }
+    },
+    {
+      "id": "us-1148",
+      "name": "Beautiful Orlando Exclusive Club",
+      "location": "Orlando, US",
+      "country": "US",
+      "countryCode": "US",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 123769,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 40.6939,
+      "lng": -104.4387,
+      "overview": {
+        "about": "Beautiful Orlando Exclusive Club in Orlando, US represents the extraordinary scale and diversity of the American landscape and experience. Whether a natural wonder or historic landmark, this iconic destination destination draws visitors from every continent seeking to experience the energy and grandeur that defines the United States.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "$25 Adults",
+        "entryFeeSub": "$15 Youths",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "$"
+      }
+    }
+  ]
+}

@@ -15,6 +15,7 @@ import { useRemoveFromBucketList } from "../tanstack/bucket-list/mutation";
 import DOMPurify from "dompurify";
 import DeleteConfirmModal from "./ui/delete-confirm-modal";
 import Button from "./ui/button";
+import { ROUTES } from "../utils/constants";
 
 interface BucketListCardProps {
   item: BucketList;
@@ -25,19 +26,52 @@ export default function BucketListCard({ item }: BucketListCardProps) {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const { mutate: remove, isPending } = useRemoveFromBucketList();
 
+  const isVaultBased = !!item.vaultId && !!item.vault;
   const vault = item.vault;
-  const image = vault.attachments.find((a) => a.type === "image")?.url;
 
-  const labelObj = vault.location?.label
-    ? vault.location.label.split(",")
-    : ["Nowhere"];
-  const country = labelObj[labelObj.length - 1].trim();
+  const image = isVaultBased
+    ? vault?.attachments.find((a) => a.type === "image")?.url
+    : item.placeImage;
+
+  const title = isVaultBased ? vault?.title : item.placeName;
+
+  const country = isVaultBased
+    ? vault?.location?.label
+      ? vault.location.label.split(",").pop()?.trim()
+      : "Nowhere"
+    : item.placeCountry || "Nowhere";
+
+  const description = isVaultBased
+    ? vault?.description || "No notes available."
+    : `<span class="text-gray-900 font-semibold">${item.placeName}</span> stands ` +
+      `as one of the world's most recognizable landmarks. Nestled in ` +
+      `<span class="text-indigo-600 font-medium">${item.placeLocation || "a beautiful area"}</span>, ` +
+      `it marries centuries of ` +
+      `<span class="text-gray-800 font-medium">${item.placeCountry || "global"}</span> ` +
+      `heritage with breathtaking Gothic architecture. From the iconic clock tower to the sweeping ` +
+      `Thames promenade, every corner resonates with travelers across the globe.`;
 
   // "Best Time" placeholder, derived from target year or hardcoded
   const bestTime = "Spring/Summer"; // Normally you'd want actual data for this
 
   const handleDelete = () => {
     remove(item.id);
+  };
+
+  const handleNavigate = () => {
+    if (isVaultBased && item.vaultId) {
+      navigate(`/vault/${item.vaultId}`);
+    } else if (item.placeId) {
+      navigate(ROUTES.EXPLORE_PLACE_DETAIL_PATH(item.placeId));
+    }
+  };
+
+  const handlePlanTrip = () => {
+    if (isVaultBased && item.vaultId) {
+      navigate(`/user/profile/bucket-list?vault=${item.vaultId}`);
+    } else if (item.placeId) {
+      navigate(ROUTES.EXPLORE_PLACE_DETAIL_PATH(item.placeId));
+    }
   };
 
   const priorityColor =
@@ -50,22 +84,23 @@ export default function BucketListCard({ item }: BucketListCardProps) {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-xs border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 relative group flex flex-col h-full">
       {/* ── Image & Tag ── */}
-      <div
-        className="h-48 relative cursor-pointer"
-        onClick={() => navigate(`/vault/${vault.id}`)}
-      >
+      <div className="h-48 relative cursor-pointer" onClick={handleNavigate}>
         {image ? (
           <img
             src={image}
-            alt={vault.title}
+            alt={title || "Destination"}
             className="w-full h-full object-cover"
           />
         ) : (
           <div className="w-full h-full bg-linear-to-tr from-blue-100 to-purple-100 flex items-center justify-center">
-            <FontAwesomeIcon
-              icon={faMountainSun}
-              className="text-4xl text-gray-300"
-            />
+            {isVaultBased ? (
+              <FontAwesomeIcon
+                icon={faMountainSun}
+                className="text-4xl text-gray-300"
+              />
+            ) : (
+              <span className="text-5xl">{item.placeEmoji || "🗺️"}</span>
+            )}
           </div>
         )}
         <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent" />
@@ -84,7 +119,7 @@ export default function BucketListCard({ item }: BucketListCardProps) {
         </div>
 
         <h3 className="absolute bottom-4 left-4 right-4 text-white font-extrabold text-xl line-clamp-1 truncate drop-shadow-md">
-          {vault.title}
+          {title}
         </h3>
       </div>
 
@@ -117,9 +152,7 @@ export default function BucketListCard({ item }: BucketListCardProps) {
           <span
             className="rich-editor-content inline"
             dangerouslySetInnerHTML={{
-              __html: DOMPurify.sanitize(
-                vault.description || "No notes available.",
-              ),
+              __html: DOMPurify.sanitize(description),
             }}
           />
         </div>
@@ -132,9 +165,7 @@ export default function BucketListCard({ item }: BucketListCardProps) {
           </div>
           {/* ── Plan This Trip Button ── */}
           <Button
-            onClick={() =>
-              navigate(`/user/profile/bucket-list?vault=${vault.id}`)
-            }
+            onClick={handlePlanTrip}
             variant="outline"
             outlineClassName="w-full"
             className="w-full items-center justify-center"
@@ -151,7 +182,7 @@ export default function BucketListCard({ item }: BucketListCardProps) {
           setShowDeleteConfirm(false);
           handleDelete();
         }}
-        itemName={vault.title}
+        itemName={title || "Item"}
         itemType="bucket list item"
         isLoading={isPending}
       />

@@ -1,0 +1,4090 @@
+{
+  "code": "FR",
+  "name": "France",
+  "emoji": "🇫🇷",
+  "continent": "Europe",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore France (80 Places)",
+  "places": [
+    {
+      "id": "fr-0",
+      "name": "Eiffel Tower",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 855000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.8584,
+      "lng": 2.2945,
+      "overview": {
+        "about": "The Eiffel Tower, designed by Gustave Eiffel for the 1889 World's Fair, stands 330 metres tall on the Champ de Mars in Paris. Initially criticised by Parisian artists, it has become the world's most visited paid monument with over 7 million visitors annually. Every evening it sparkles for 5 minutes every hour.",
+        "highlights": [
+          {
+            "icon": "faCrown",
+            "label": "7 Million Visitors per Year",
+            "desc": "The world's most visited paid monument — more people have stood at the top than any other structure on Earth"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sparkling Light Show Every Night",
+            "desc": "Every evening after dark, 20,000 lights turn the tower into a diamond — best viewed from Trocadéro at the hour"
+          },
+          {
+            "icon": "faScroll",
+            "label": "Built in Just 2 Years, 2 Months",
+            "desc": "Assembled 1887–1889 using 18,038 individual iron pieces — the fastest construction of any major monument in history"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Panoramic View of All Paris",
+            "desc": "From the third level at 276m, you can see the entire city on a clear day — 80km in every direction"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Spring bloom & mild weather",
+        "entryFee": "€29 Top Level",
+        "entryFeeSub": "€14 Second Level",
+        "tourDays": "3–4 Hours",
+        "tourDaysSub": "Book summit tickets online",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1",
+      "name": "Louvre Museum",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 655000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9357976b82?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.8606,
+      "lng": 2.3376,
+      "overview": {
+        "about": "The Louvre in Paris is the world's largest and most visited art museum with 35,000 works on display across 72,735 square metres. Built as a fortress in 1190, it became a royal palace and opened as a museum in 1793. It holds the Mona Lisa, Venus de Milo and Winged Victory of Samothrace.",
+        "highlights": [
+          {
+            "icon": "faPalette",
+            "label": "World's Largest Art Museum",
+            "desc": "35,000 works spanning 5,000 years — from ancient Mesopotamia to 19th-century French masterpieces in a single palace"
+          },
+          {
+            "icon": "faScroll",
+            "label": "Home of the Mona Lisa",
+            "desc": "Leonardo da Vinci's masterpiece draws 10 million people annually — arrive early or book a timed ticket to see it properly"
+          },
+          {
+            "icon": "faCamera",
+            "label": "I.M. Pei's Glass Pyramid",
+            "desc": "The iconic 1989 steel-and-glass pyramid entrance is now one of Paris's most photographed modern landmarks"
+          },
+          {
+            "icon": "faCrown",
+            "label": "A Royal Palace Turned Museum",
+            "desc": "A medieval fortress became a royal residence then the world's greatest museum — 800 years of history in one building"
+          }
+        ],
+        "bestTime": "Apr – Jun",
+        "bestTimeSub": "Comfortable queues",
+        "entryFee": "€22 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "4–6 Hours",
+        "tourDaysSub": "Full day for exhaustive tour",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-2",
+      "name": "Palace of Versailles",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 385000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.7102,
+      "lng": 7.262,
+      "overview": {
+        "about": "Palace of Versailles in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-3",
+      "name": "Mont Saint-Michel",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 215000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1563201515-adbe35c669c5?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.853,
+      "lng": 2.3499,
+      "overview": {
+        "about": "Mont Saint-Michel in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-4",
+      "name": "Promenade des Anglais",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 198000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.8749,
+      "lng": 2.307,
+      "overview": {
+        "about": "Promenade des Anglais in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-5",
+      "name": "Chamonix Mont-Blanc",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.9,
+      "reviewCount": 185000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.6047,
+      "lng": 1.4442,
+      "overview": {
+        "about": "Chamonix Mont-Blanc in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-6",
+      "name": "Arc de Triomphe",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 420000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1471623432079-b009d30b6729?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.8698,
+      "lng": 2.3079,
+      "overview": {
+        "about": "Arc de Triomphe in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-7",
+      "name": "Sainte-Chapelle",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 145000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1541905345843-69e91dae5fbc?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.1885,
+      "lng": 5.7245,
+      "overview": {
+        "about": "Sainte-Chapelle in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-8",
+      "name": "Gorges du Verdon",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 95000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1559561853-08451507cbe7?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.2965,
+      "lng": 5.3698,
+      "overview": {
+        "about": "Gorges du Verdon in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-9",
+      "name": "Disneyland Paris",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 750000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.322,
+      "lng": 5.0415,
+      "overview": {
+        "about": "Disneyland Paris in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1010",
+      "name": "Old Provence Exclusive Club",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 75309,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.1413,
+      "lng": 3.0214,
+      "overview": {
+        "about": "Old Provence Exclusive Club in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1012",
+      "name": "Historic Marne-la-Vallee Old Town",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 23100,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.4188,
+      "lng": 4.2474,
+      "overview": {
+        "about": "Historic Marne-la-Vallee Old Town in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1014",
+      "name": "Central Versailles Luxury Resort",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 155691,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.9327,
+      "lng": 6.2672,
+      "overview": {
+        "about": "Central Versailles Luxury Resort in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1016",
+      "name": "Old Normandy Peak",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 146557,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.335,
+      "lng": -1.7061,
+      "overview": {
+        "about": "Old Normandy Peak in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1018",
+      "name": "Old Chamonix Summit",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 164010,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.3644,
+      "lng": -1.3974,
+      "overview": {
+        "about": "Old Chamonix Summit in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1020",
+      "name": "Scenic Versailles Premium Villa",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 85136,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.8284,
+      "lng": 3.4801,
+      "overview": {
+        "about": "Scenic Versailles Premium Villa in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1022",
+      "name": "New Provence Hot Springs",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 66442,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.3556,
+      "lng": 1.8925,
+      "overview": {
+        "about": "New Provence Hot Springs in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1024",
+      "name": "Historic Marne-la-Vallee Ski Resort",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 156552,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.0856,
+      "lng": 5.8174,
+      "overview": {
+        "about": "Historic Marne-la-Vallee Ski Resort in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1026",
+      "name": "Central Versailles Downtown",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 142343,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.2015,
+      "lng": 1.963,
+      "overview": {
+        "about": "Central Versailles Downtown in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1028",
+      "name": "New Provence Historic District",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 8697,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.178,
+      "lng": 1.7161,
+      "overview": {
+        "about": "New Provence Historic District in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1030",
+      "name": "Grand Nice Island",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 80914,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.7903,
+      "lng": 6.4612,
+      "overview": {
+        "about": "Grand Nice Island in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1032",
+      "name": "Historic Versailles Activity Center",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 64617,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.5408,
+      "lng": -1.6002,
+      "overview": {
+        "about": "Historic Versailles Activity Center in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1034",
+      "name": "Central Paris Highlands",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 4674,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.3733,
+      "lng": 2.0777,
+      "overview": {
+        "about": "Central Paris Highlands in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1036",
+      "name": "Scenic Chamonix Forest",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 175239,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.8476,
+      "lng": -0.0656,
+      "overview": {
+        "about": "Scenic Chamonix Forest in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1038",
+      "name": "Historic Chamonix Island",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 169966,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.498,
+      "lng": 1.6984,
+      "overview": {
+        "about": "Historic Chamonix Island in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1040",
+      "name": "Historic Marne-la-Vallee Canyon",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 27747,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.7992,
+      "lng": 1.1163,
+      "overview": {
+        "about": "Historic Marne-la-Vallee Canyon in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1042",
+      "name": "Northern Normandy Downtown",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 196568,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.9343,
+      "lng": 2.5363,
+      "overview": {
+        "about": "Northern Normandy Downtown in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1044",
+      "name": "Northern Provence Activity Center",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 73761,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.1444,
+      "lng": 6.4348,
+      "overview": {
+        "about": "Northern Provence Activity Center in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1046",
+      "name": "Scenic Normandy Beach",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 56244,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.498,
+      "lng": 1.6984,
+      "overview": {
+        "about": "Scenic Normandy Beach in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1048",
+      "name": "Southern Provence Old Town",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 143138,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.4071,
+      "lng": 4.1239,
+      "overview": {
+        "about": "Southern Provence Old Town in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1050",
+      "name": "Old Marne-la-Vallee Canyon",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 125370,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.8695,
+      "lng": 3.9123,
+      "overview": {
+        "about": "Old Marne-la-Vallee Canyon in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1052",
+      "name": "Royal Nice National Park",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 46614,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.6566,
+      "lng": 3.3654,
+      "overview": {
+        "about": "Royal Nice National Park in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1054",
+      "name": "Northern Nice Safari Park",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 146290,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.7081,
+      "lng": 5.5969,
+      "overview": {
+        "about": "Northern Nice Safari Park in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1056",
+      "name": "Central Versailles Financial District",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 181228,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.8345,
+      "lng": 1.4868,
+      "overview": {
+        "about": "Central Versailles Financial District in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1058",
+      "name": "Beautiful Normandy Historic District",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 23954,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.5465,
+      "lng": 0.5166,
+      "overview": {
+        "about": "Beautiful Normandy Historic District in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1060",
+      "name": "Royal Provence Spa Retreat",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 65686,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.6259,
+      "lng": 4.7325,
+      "overview": {
+        "about": "Royal Provence Spa Retreat in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1062",
+      "name": "Southern Provence Summit",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 126894,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.4555,
+      "lng": 2.9421,
+      "overview": {
+        "about": "Southern Provence Summit in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1064",
+      "name": "Royal Paris Hot Springs",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 7737,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.6816,
+      "lng": 1.9366,
+      "overview": {
+        "about": "Royal Paris Hot Springs in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1066",
+      "name": "Scenic Chamonix Summit",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 33130,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.181,
+      "lng": 5.1294,
+      "overview": {
+        "about": "Scenic Chamonix Summit in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1068",
+      "name": "Southern Versailles Downtown",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 145908,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.8932,
+      "lng": 2.1042,
+      "overview": {
+        "about": "Southern Versailles Downtown in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1070",
+      "name": "New Versailles Peak",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 3086,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.7903,
+      "lng": 6.4612,
+      "overview": {
+        "about": "New Versailles Peak in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1072",
+      "name": "Old Provence Coastal Resort",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 152653,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.4393,
+      "lng": 1.081,
+      "overview": {
+        "about": "Old Provence Coastal Resort in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1074",
+      "name": "New Chamonix Premium Villa",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 70182,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.8051,
+      "lng": 1.1781,
+      "overview": {
+        "about": "New Chamonix Premium Villa in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1076",
+      "name": "Historic Nice Luxury Resort",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 133159,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.7478,
+      "lng": -1.1151,
+      "overview": {
+        "about": "Historic Nice Luxury Resort in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1078",
+      "name": "Southern Normandy Spa Retreat",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 32362,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.7419,
+      "lng": -1.1769,
+      "overview": {
+        "about": "Southern Normandy Spa Retreat in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1080",
+      "name": "New Provence Nature Reserve",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 100595,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.435,
+      "lng": 6.1084,
+      "overview": {
+        "about": "New Provence Nature Reserve in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1082",
+      "name": "Old Nice National Park",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 188717,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.1515,
+      "lng": -1.9442,
+      "overview": {
+        "about": "Old Nice National Park in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1084",
+      "name": "New Versailles Central Market",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 177288,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.0457,
+      "lng": 5.7645,
+      "overview": {
+        "about": "New Versailles Central Market in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1086",
+      "name": "Scenic Paris Spa Retreat",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 26301,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.7051,
+      "lng": 2.1835,
+      "overview": {
+        "about": "Scenic Paris Spa Retreat in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1088",
+      "name": "Grand Paris Canyon",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 67981,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.2926,
+      "lng": 6.3025,
+      "overview": {
+        "about": "Grand Paris Canyon in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1090",
+      "name": "Southern Normandy Spa Retreat",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 143875,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.338,
+      "lng": 1.7073,
+      "overview": {
+        "about": "Southern Normandy Spa Retreat in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1092",
+      "name": "Old Nice Spa Retreat",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 41208,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.1045,
+      "lng": 6.3819,
+      "overview": {
+        "about": "Old Nice Spa Retreat in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1094",
+      "name": "Royal Provence Canyon",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 41894,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.7522,
+      "lng": 0.6224,
+      "overview": {
+        "about": "Royal Provence Canyon in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1096",
+      "name": "Grand Chamonix Shopping District",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 158719,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.5011,
+      "lng": 5.1118,
+      "overview": {
+        "about": "Grand Chamonix Shopping District in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1098",
+      "name": "Old Nice Peak",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 20308,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.3234,
+      "lng": 4.9354,
+      "overview": {
+        "about": "Old Nice Peak in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1100",
+      "name": "Scenic Versailles Ski Resort",
+      "location": "Versailles, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 57309,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.0739,
+      "lng": 5.6939,
+      "overview": {
+        "about": "Scenic Versailles Ski Resort in Versailles, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1102",
+      "name": "Beautiful Nice Summit",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 4595,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.6611,
+      "lng": 5.103,
+      "overview": {
+        "about": "Beautiful Nice Summit in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1104",
+      "name": "Royal Normandy Downtown",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 34341,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.846,
+      "lng": 3.6653,
+      "overview": {
+        "about": "Royal Normandy Downtown in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1106",
+      "name": "Grand Chamonix Highlands",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 197793,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.134,
+      "lng": 4.6355,
+      "overview": {
+        "about": "Grand Chamonix Highlands in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated mountain destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1108",
+      "name": "Scenic Provence Ancient Ruins",
+      "location": "Provence, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 163985,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 46.7713,
+      "lng": -0.8682,
+      "overview": {
+        "about": "Scenic Provence Ancient Ruins in Provence, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1110",
+      "name": "Beautiful Chamonix Premium Villa",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 130085,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 49.068,
+      "lng": 5.6322,
+      "overview": {
+        "about": "Beautiful Chamonix Premium Villa in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1112",
+      "name": "Royal Chamonix Ancient Ruins",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 173620,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.9621,
+      "lng": 6.5759,
+      "overview": {
+        "about": "Royal Chamonix Ancient Ruins in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1114",
+      "name": "Royal Paris Beach",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 197303,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.4348,
+      "lng": -0.6565,
+      "overview": {
+        "about": "Royal Paris Beach in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1116",
+      "name": "Southern Marne-la-Vallee Museum",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 147166,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.4938,
+      "lng": -2.0942,
+      "overview": {
+        "about": "Southern Marne-la-Vallee Museum in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1118",
+      "name": "Grand Nice Palace",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 112293,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.3982,
+      "lng": 0.6489,
+      "overview": {
+        "about": "Grand Nice Palace in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1120",
+      "name": "New Paris Museum",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 186283,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.9313,
+      "lng": -0.877,
+      "overview": {
+        "about": "New Paris Museum in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1122",
+      "name": "New Paris Fortress",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 162001,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.5333,
+      "lng": 2.0689,
+      "overview": {
+        "about": "New Paris Fortress in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated heritage landmark destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1124",
+      "name": "New Paris Activity Center",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 90029,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.7861,
+      "lng": 2.6686,
+      "overview": {
+        "about": "New Paris Activity Center in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1126",
+      "name": "Grand Marne-la-Vallee Downtown",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 42978,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.1987,
+      "lng": 5.3146,
+      "overview": {
+        "about": "Grand Marne-la-Vallee Downtown in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1128",
+      "name": "Northern Nice Coastal Resort",
+      "location": "Nice, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 62519,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.5979,
+      "lng": 2.748,
+      "overview": {
+        "about": "Northern Nice Coastal Resort in Nice, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1130",
+      "name": "Grand Chamonix Forest",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 151994,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.6876,
+      "lng": -0.0567,
+      "overview": {
+        "about": "Grand Chamonix Forest in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1132",
+      "name": "Historic Paris Bay",
+      "location": "Paris, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 16979,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.4806,
+      "lng": -0.5418,
+      "overview": {
+        "about": "Historic Paris Bay in Paris, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1134",
+      "name": "New Chamonix Cove",
+      "location": "Chamonix, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 83236,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.0091,
+      "lng": -1.7502,
+      "overview": {
+        "about": "New Chamonix Cove in Chamonix, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1136",
+      "name": "Northern Marne-la-Vallee Shopping District",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 189391,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.3674,
+      "lng": 2.016,
+      "overview": {
+        "about": "Northern Marne-la-Vallee Shopping District in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated city destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1138",
+      "name": "Southern Normandy Luxury Resort",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 164563,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.8152,
+      "lng": 5.0324,
+      "overview": {
+        "about": "Southern Normandy Luxury Resort in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1140",
+      "name": "Southern Marne-la-Vallee Diving Spot",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 83369,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": 45.7962,
+      "lng": 6.523,
+      "overview": {
+        "about": "Southern Marne-la-Vallee Diving Spot in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated destination destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1142",
+      "name": "Northern Marne-la-Vallee National Park",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 21494,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 43.7285,
+      "lng": 2.4305,
+      "overview": {
+        "about": "Northern Marne-la-Vallee National Park in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1144",
+      "name": "Grand Normandy Valley",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 116853,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": 44.7506,
+      "lng": 4.3533,
+      "overview": {
+        "about": "Grand Normandy Valley in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated natural wonder destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1146",
+      "name": "Northern Normandy Coastal Resort",
+      "location": "Normandy, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 38049,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": 48.8448,
+      "lng": 3.286,
+      "overview": {
+        "about": "Northern Normandy Coastal Resort in Normandy, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    },
+    {
+      "id": "fr-1148",
+      "name": "Southern Marne-la-Vallee Coastal Resort",
+      "location": "Marne-la-Vallee, FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 150446,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": 47.7581,
+      "lng": 0.6841,
+      "overview": {
+        "about": "Southern Marne-la-Vallee Coastal Resort in Marne-la-Vallee, FR embodies the French genius for blending grandeur with elegance. As one of France's most celebrated beach paradise destinations, it draws visitors with its perfect combination of history, beauty and that unmistakable Gallic sense of style and cultural pride.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "€20 Adults",
+        "entryFeeSub": "€Free under 18",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "€"
+      }
+    }
+  ]
+}

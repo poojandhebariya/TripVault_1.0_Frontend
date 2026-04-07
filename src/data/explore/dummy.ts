@@ -1,0 +1,70 @@
+import {
+  faStar,
+  faUtensils,
+  faHotel,
+  faSun,
+} from "@fortawesome/free-solid-svg-icons";
+import { type Place } from "../../types/explore";
+
+export const DUMMY_PLACE: Place = {
+  id: "gb-1018",
+  name: "Big Ben & Westminster",
+  location: "Westminster, London",
+  country: "United Kingdom",
+  countryCode: "GB",
+  type: "heritage",
+  tags: ["landmark", "history", "architecture", "iconic"],
+  rating: 4.8,
+  reviewCount: 12847,
+  gradient: "from-amber-500 via-orange-500 to-red-500",
+  emoji: "🇬🇧",
+  lat: 51.5007,
+  lng: -0.1246,
+};
+
+export const NEARBY_DUMMY = [
+  {
+    name: "The Ivy Westminster Bridge",
+    type: "Restaurant",
+    rating: 4.7,
+    dist: "0.2 km",
+    tags: "British • Fine Dining",
+    icon: faUtensils,
+    accent: "text-rose-500",
+    bg: "bg-rose-50",
+    border: "border-rose-100",
+  },
+  {
+    name: "Conrad London St. James",
+    type: "5★ Hotel",
+    rating: 4.5,
+    dist: "0.4 km",
+    tags: "Luxury • Spa",
+    icon: faHotel,
+    accent: "text-indigo-500",
+    bg: "bg-indigo-50",
+    border: "border-indigo-100",
+  },
+  {
+    name: "Cafe in the Crypt",
+    type: "Café",
+    rating: 4.6,
+    dist: "0.3 km",
+    tags: "Historic • Cozy",
+    icon: faSun,
+    accent: "text-amber-500",
+    bg: "bg-amber-50",
+    border: "border-amber-100",
+  },
+  {
+    name: "Gordon's Wine Bar",
+    type: "Bar",
+    rating: 4.3,
+    dist: "0.6 km",
+    tags: "Wine • Historic",
+    icon: faStar,
+    accent: "text-violet-500",
+    bg: "bg-violet-50",
+    border: "border-violet-100",
+  },
+];

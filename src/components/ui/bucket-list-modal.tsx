@@ -1,40 +1,69 @@
 import { useState } from "react";
 import Modal from "./modal";
 import Button from "./button";
-import { useAddToBucketList } from "../../tanstack/bucket-list/mutation";
-import type { BucketListRequestDto } from "../../types/bucket-list";
+import {
+  useAddToBucketList,
+  useAddPlaceToBucketList,
+} from "../../tanstack/bucket-list/mutation";
+import type {
+  BucketListRequestDto,
+  PlaceBucketListRequestDto,
+} from "../../types/bucket-list";
 
 interface BucketListModalProps {
   isOpen: boolean;
   onClose: () => void;
-  vaultId: string;
+  // Vault mode
+  vaultId?: string;
+  // Place mode
+  placeData?: Omit<PlaceBucketListRequestDto, "targetYear" | "priority">;
+  onSuccess?: () => void;
 }
 
 export default function BucketListModal({
   isOpen,
   onClose,
   vaultId,
+  placeData,
+  onSuccess,
 }: BucketListModalProps) {
   const [targetYear, setTargetYear] = useState<number>(
     new Date().getFullYear() + 1,
   );
   const [priority, setPriority] = useState<string>("MEDIUM");
 
-  const { mutate, isPending } = useAddToBucketList();
+  const { mutate: addVault, isPending: isVaultPending } = useAddToBucketList();
+  const { mutate: addPlace, isPending: isPlacePending } =
+    useAddPlaceToBucketList();
+
+  const isPending = isVaultPending || isPlacePending;
 
   const currentYear = new Date().getFullYear();
   const years = Array.from({ length: 15 }, (_, i) => currentYear + i);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    mutate(
-      { vaultId, data: { targetYear, priority } as BucketListRequestDto },
-      {
-        onSuccess: () => {
-          onClose();
+    if (vaultId) {
+      addVault(
+        { vaultId, data: { targetYear, priority } as BucketListRequestDto },
+        {
+          onSuccess: () => {
+            onClose();
+            onSuccess?.();
+          },
         },
-      },
-    );
+      );
+    } else if (placeData) {
+      addPlace(
+        { ...placeData, targetYear, priority } as PlaceBucketListRequestDto,
+        {
+          onSuccess: () => {
+            onClose();
+            onSuccess?.();
+          },
+        },
+      );
+    }
   };
 
   return (
@@ -99,7 +128,7 @@ export default function BucketListModal({
             text="Save to Bucket List"
             type="submit"
             className="w-full py-3"
-            disabled={isPending}
+            disabled={isPending || (!vaultId && !placeData)}
           />
         </div>
       </form>

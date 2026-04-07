@@ -1,0 +1,4090 @@
+{
+  "code": "BR",
+  "name": "Brazil",
+  "emoji": "🇧🇷",
+  "continent": "Americas",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore Brazil (80 Places)",
+  "places": [
+    {
+      "id": "br-0",
+      "name": "Christ the Redeemer",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 685000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.9519,
+      "lng": -43.2105,
+      "overview": {
+        "about": "Christ the Redeemer (Cristo Redentor) atop Corcovado Mountain in Rio de Janeiro stands 38 metres tall and weighs 635 tonnes. The Art Deco statue was constructed in pieces in France and transported to Brazil. Inaugurated in 1931, it has become the symbol of Brazil and one of the New Seven Wonders of the World.",
+        "highlights": [
+          {
+            "icon": "faCrown",
+            "label": "New Seven Wonders of the World",
+            "desc": "Completed in 1931 and voted a New Wonder in 2007 — one of the most recognised statues in the entire world"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "710m Summit View Over Rio",
+            "desc": "From Corcovado, the full sweep of Guanabara Bay, Sugarloaf Mountain and Copacabana beach unfolds below you"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Arms Spanning 28 Metres Wide",
+            "desc": "The outstretched arms seem to embrace all of Rio — the most iconic and replicated skyline shot in Latin America"
+          },
+          {
+            "icon": "faScroll",
+            "label": "Art Deco Masterwork — 635 Tonnes",
+            "desc": "Built from reinforced concrete clad in soapstone tiles — each tile hand-cut in France and shipped to Rio"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Dry season, clearest views",
+        "entryFee": "R$127 Adults",
+        "entryFeeSub": "R$63 Children & Seniors",
+        "tourDays": "Half Day",
+        "tourDaysSub": "Sunset visit most dramatic",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1",
+      "name": "Iguaçu Falls",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 415000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1589167460785-f51ea74ca8a7?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.9711,
+      "lng": -43.1823,
+      "overview": {
+        "about": "Iguaçu Falls in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-2",
+      "name": "Copacabana Beach",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 585000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1544981756-c13152c36ed1?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.6953,
+      "lng": -54.4367,
+      "overview": {
+        "about": "Copacabana Beach in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-3",
+      "name": "Sugarloaf Mountain",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 425000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1615397587950-3cbb55f95b83?q=80&w=1600&auto=format&fit=crop",
+      "lat": -3.119,
+      "lng": -60.0217,
+      "overview": {
+        "about": "Sugarloaf Mountain in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-4",
+      "name": "Ibirapuera Park",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 385000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1540521390044-24c2b4c5bf98?q=80&w=1600&auto=format&fit=crop",
+      "lat": -15.7801,
+      "lng": -47.9292,
+      "overview": {
+        "about": "Ibirapuera Park in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-5",
+      "name": "Lençóis Maranhenses",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 185000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.9777,
+      "lng": -38.5016,
+      "overview": {
+        "about": "Lençóis Maranhenses in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-6",
+      "name": "Pelourinho",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 215000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.1194,
+      "lng": -34.88,
+      "overview": {
+        "about": "Pelourinho in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-7",
+      "name": "Museu de Arte (MASP)",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 145000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?q=80&w=1600&auto=format&fit=crop",
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "overview": {
+        "about": "Museu de Arte (MASP) in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-8",
+      "name": "Amazon Theatre",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 165000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1590523278191-995cbcda646b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.5297,
+      "lng": -44.3028,
+      "overview": {
+        "about": "Amazon Theatre in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-9",
+      "name": "Jardim Botânico",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 255000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1600&auto=format&fit=crop",
+      "lat": -3.7172,
+      "lng": -38.5434,
+      "overview": {
+        "about": "Jardim Botânico in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1010",
+      "name": "Historic Rio de Janeiro Valley",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 199052,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.8957,
+      "lng": -59.2473,
+      "overview": {
+        "about": "Historic Rio de Janeiro Valley in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1012",
+      "name": "New São Paulo Nature Reserve",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 184838,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -6.0926,
+      "lng": -39.6114,
+      "overview": {
+        "about": "New São Paulo Nature Reserve in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1014",
+      "name": "Old Salvador Hot Springs",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 182162,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.6747,
+      "lng": -41.5343,
+      "overview": {
+        "about": "Old Salvador Hot Springs in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1016",
+      "name": "Royal Manaus Coastal Resort",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 59214,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.6547,
+      "lng": -46.6803,
+      "overview": {
+        "about": "Royal Manaus Coastal Resort in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1018",
+      "name": "Grand Manaus Coastal Resort",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 41833,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -17.1197,
+      "lng": -47.6553,
+      "overview": {
+        "about": "Grand Manaus Coastal Resort in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1020",
+      "name": "Beautiful Manaus Highlands",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.5,
+      "reviewCount": 138555,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.5948,
+      "lng": -62.1182,
+      "overview": {
+        "about": "Beautiful Manaus Highlands in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1022",
+      "name": "Beautiful Salvador Diving Spot",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 2369,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.6745,
+      "lng": -39.0155,
+      "overview": {
+        "about": "Beautiful Salvador Diving Spot in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1024",
+      "name": "Northern Salvador Diving Spot",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 149670,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.6614,
+      "lng": -54.8326,
+      "overview": {
+        "about": "Northern Salvador Diving Spot in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1026",
+      "name": "Beautiful Manaus Plaza",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 81293,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.0324,
+      "lng": -50.0116,
+      "overview": {
+        "about": "Beautiful Manaus Plaza in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1028",
+      "name": "Historic São Paulo Mountain Range",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 17322,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -15.1062,
+      "lng": -58.4348,
+      "overview": {
+        "about": "Historic São Paulo Mountain Range in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1030",
+      "name": "Old Barreirinhas Gourmet Restaurant",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 34836,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.8992,
+      "lng": -64.5828,
+      "overview": {
+        "about": "Old Barreirinhas Gourmet Restaurant in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1032",
+      "name": "Southern Manaus Lake",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 175883,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.1162,
+      "lng": -42.3198,
+      "overview": {
+        "about": "Southern Manaus Lake in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1034",
+      "name": "Beautiful Rio de Janeiro Old Town",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 1240,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -19.1331,
+      "lng": -63.9599,
+      "overview": {
+        "about": "Beautiful Rio de Janeiro Old Town in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1036",
+      "name": "Royal São Paulo Ski Resort",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4,
+      "reviewCount": 113944,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.7952,
+      "lng": -47.8178,
+      "overview": {
+        "about": "Royal São Paulo Ski Resort in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1038",
+      "name": "Royal São Paulo Ski Resort",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 74815,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -23.7453,
+      "lng": -47.1407,
+      "overview": {
+        "about": "Royal São Paulo Ski Resort in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1040",
+      "name": "Northern Rio de Janeiro Old Town",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 116476,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.2298,
+      "lng": -37.9322,
+      "overview": {
+        "about": "Northern Rio de Janeiro Old Town in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1042",
+      "name": "Southern Salvador Ancient Ruins",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 56697,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -24.9159,
+      "lng": -56.6201,
+      "overview": {
+        "about": "Southern Salvador Ancient Ruins in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1044",
+      "name": "Southern Manaus Bay",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 38808,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.9688,
+      "lng": -57.5952,
+      "overview": {
+        "about": "Southern Manaus Bay in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1046",
+      "name": "Scenic Rio de Janeiro Cove",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 50066,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -17.6582,
+      "lng": -52.0158,
+      "overview": {
+        "about": "Scenic Rio de Janeiro Cove in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1048",
+      "name": "Royal Manaus Ancient Ruins",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 169406,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.5543,
+      "lng": -64.8537,
+      "overview": {
+        "about": "Royal Manaus Ancient Ruins in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1050",
+      "name": "Northern Barreirinhas Bay",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.2,
+      "reviewCount": 141054,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.3168,
+      "lng": -57.6222,
+      "overview": {
+        "about": "Northern Barreirinhas Bay in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1052",
+      "name": "Southern São Paulo Exclusive Club",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 100955,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.8992,
+      "lng": -64.5828,
+      "overview": {
+        "about": "Southern São Paulo Exclusive Club in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1054",
+      "name": "Northern Rio de Janeiro Cove",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 44219,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -6.2331,
+      "lng": -40.7489,
+      "overview": {
+        "about": "Northern Rio de Janeiro Cove in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1056",
+      "name": "Central Manaus Diving Spot",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 7965,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.1231,
+      "lng": -52.9909,
+      "overview": {
+        "about": "Central Manaus Diving Spot in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1058",
+      "name": "Scenic São Paulo Luxury Resort",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 131190,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.407,
+      "lng": -53.045,
+      "overview": {
+        "about": "Scenic São Paulo Luxury Resort in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1060",
+      "name": "Historic Foz do Iguaçu Activity Center",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 7318,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.5211,
+      "lng": -56.2139,
+      "overview": {
+        "about": "Historic Foz do Iguaçu Activity Center in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1062",
+      "name": "Scenic Rio de Janeiro Cove",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 107579,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -18.7117,
+      "lng": -60.5473,
+      "overview": {
+        "about": "Scenic Rio de Janeiro Cove in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1064",
+      "name": "Scenic Barreirinhas Summit",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 14054,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.17,
+      "lng": -53.37,
+      "overview": {
+        "about": "Scenic Barreirinhas Summit in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1066",
+      "name": "Grand Manaus Shopping District",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 22430,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.3406,
+      "lng": -62.8494,
+      "overview": {
+        "about": "Grand Manaus Shopping District in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1068",
+      "name": "Northern Rio de Janeiro Financial District",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 40986,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.2231,
+      "lng": -56.8639,
+      "overview": {
+        "about": "Northern Rio de Janeiro Financial District in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1070",
+      "name": "Royal Barreirinhas Gourmet Restaurant",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 141077,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.6244,
+      "lng": -62.9036,
+      "overview": {
+        "about": "Royal Barreirinhas Gourmet Restaurant in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1072",
+      "name": "Central Salvador Hot Springs",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 4622,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -3.6344,
+      "lng": -46.7886,
+      "overview": {
+        "about": "Central Salvador Hot Springs in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1074",
+      "name": "Beautiful Foz do Iguaçu Safari Park",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 37325,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.6848,
+      "lng": -55.0222,
+      "overview": {
+        "about": "Beautiful Foz do Iguaçu Safari Park in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1076",
+      "name": "New Rio de Janeiro Ski Resort",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 96628,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.2264,
+      "lng": -59.6806,
+      "overview": {
+        "about": "New Rio de Janeiro Ski Resort in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1078",
+      "name": "Beautiful Rio de Janeiro Waterfalls",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 139392,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -7.0291,
+      "lng": -47.1949,
+      "overview": {
+        "about": "Beautiful Rio de Janeiro Waterfalls in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1080",
+      "name": "Southern Barreirinhas Marina",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 13460,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.3903,
+      "lng": -61.0077,
+      "overview": {
+        "about": "Southern Barreirinhas Marina in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1082",
+      "name": "Northern Foz do Iguaçu Bay",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 32386,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -19.0629,
+      "lng": -63.3911,
+      "overview": {
+        "about": "Northern Foz do Iguaçu Bay in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1084",
+      "name": "New Rio de Janeiro National Park",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 55161,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.4442,
+      "lng": -47.4928,
+      "overview": {
+        "about": "New Rio de Janeiro National Park in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1086",
+      "name": "Beautiful Rio de Janeiro Waterfalls",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 172099,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.6416,
+      "lng": -62.4974,
+      "overview": {
+        "about": "Beautiful Rio de Janeiro Waterfalls in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1088",
+      "name": "Grand Manaus Historic District",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 57720,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -15.6213,
+      "lng": -62.6057,
+      "overview": {
+        "about": "Grand Manaus Historic District in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1090",
+      "name": "Grand Salvador Highlands",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4,
+      "reviewCount": 173702,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.0794,
+      "lng": -52.9096,
+      "overview": {
+        "about": "Grand Salvador Highlands in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1092",
+      "name": "Northern Manaus Luxury Resort",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 93312,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -25.946,
+      "lng": -64.962,
+      "overview": {
+        "about": "Northern Manaus Luxury Resort in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1094",
+      "name": "Royal Barreirinhas Cathedral",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 15697,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.9124,
+      "lng": -51.2846,
+      "overview": {
+        "about": "Royal Barreirinhas Cathedral in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1096",
+      "name": "Central Foz do Iguaçu Valley",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 114174,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -6.6077,
+      "lng": -43.7823,
+      "overview": {
+        "about": "Central Foz do Iguaçu Valley in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1098",
+      "name": "New Salvador Palace",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 191014,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.0324,
+      "lng": -50.0116,
+      "overview": {
+        "about": "New Salvador Palace in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1100",
+      "name": "Beautiful Rio de Janeiro Mountain Range",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4,
+      "reviewCount": 113142,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -17.9859,
+      "lng": -54.6701,
+      "overview": {
+        "about": "Beautiful Rio de Janeiro Mountain Range in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1102",
+      "name": "Historic Barreirinhas Exclusive Club",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 48457,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.6679,
+      "lng": -60.4661,
+      "overview": {
+        "about": "Historic Barreirinhas Exclusive Club in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1104",
+      "name": "Old Barreirinhas Financial District",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 194937,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.8487,
+      "lng": -56.3493,
+      "overview": {
+        "about": "Old Barreirinhas Financial District in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1106",
+      "name": "Royal Barreirinhas Marina",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 173085,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.4572,
+      "lng": -58.7598,
+      "overview": {
+        "about": "Royal Barreirinhas Marina in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1108",
+      "name": "New Foz do Iguaçu Spa Retreat",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 186396,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.6783,
+      "lng": -49.3887,
+      "overview": {
+        "about": "New Foz do Iguaçu Spa Retreat in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1110",
+      "name": "Central Foz do Iguaçu Caves",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 92568,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -24.752,
+      "lng": -55.293,
+      "overview": {
+        "about": "Central Foz do Iguaçu Caves in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1112",
+      "name": "Grand Manaus Activity Center",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 77789,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": -17.026,
+      "lng": -46.897,
+      "overview": {
+        "about": "Grand Manaus Activity Center in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1114",
+      "name": "Central Barreirinhas Cathedral",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 138613,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.3202,
+      "lng": -62.9578,
+      "overview": {
+        "about": "Central Barreirinhas Cathedral in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1116",
+      "name": "Southern Rio de Janeiro Exclusive Club",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 182596,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -24.9627,
+      "lng": -56.9993,
+      "overview": {
+        "about": "Southern Rio de Janeiro Exclusive Club in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1118",
+      "name": "Beautiful Rio de Janeiro Cove",
+      "location": "Rio de Janeiro, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 100801,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.0091,
+      "lng": -52.3409,
+      "overview": {
+        "about": "Beautiful Rio de Janeiro Cove in Rio de Janeiro, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1120",
+      "name": "Old Salvador Premium Villa",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 124657,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -15.5042,
+      "lng": -61.6578,
+      "overview": {
+        "about": "Old Salvador Premium Villa in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1122",
+      "name": "Scenic Barreirinhas Summit",
+      "location": "Barreirinhas, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.4,
+      "reviewCount": 25009,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.4605,
+      "lng": -61.5765,
+      "overview": {
+        "about": "Scenic Barreirinhas Summit in Barreirinhas, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1124",
+      "name": "Royal Manaus Central Market",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 44529,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.5543,
+      "lng": -64.8537,
+      "overview": {
+        "about": "Royal Manaus Central Market in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1126",
+      "name": "Beautiful Salvador Downtown",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 50141,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -20.0696,
+      "lng": -44.4594,
+      "overview": {
+        "about": "Beautiful Salvador Downtown in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1128",
+      "name": "Historic Salvador Fortress",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 179379,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -10.1663,
+      "lng": -45.5157,
+      "overview": {
+        "about": "Historic Salvador Fortress in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1130",
+      "name": "Grand Foz do Iguaçu Island",
+      "location": "Foz do Iguaçu, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 81895,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -21.685,
+      "lng": -57.541,
+      "overview": {
+        "about": "Grand Foz do Iguaçu Island in Foz do Iguaçu, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1132",
+      "name": "Royal Manaus Canyon",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 167107,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -2.5574,
+      "lng": -38.0676,
+      "overview": {
+        "about": "Royal Manaus Canyon in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1134",
+      "name": "Grand Salvador Lake",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 28131,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -3.1895,
+      "lng": -43.1865,
+      "overview": {
+        "about": "Grand Salvador Lake in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable natural wonder destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1136",
+      "name": "Central Salvador Marina",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.1,
+      "reviewCount": 24079,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -22.7386,
+      "lng": -38.9884,
+      "overview": {
+        "about": "Central Salvador Marina in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1138",
+      "name": "Royal Manaus Shopping District",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 157113,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.454,
+      "lng": -55.943,
+      "overview": {
+        "about": "Royal Manaus Shopping District in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable city destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1140",
+      "name": "Beautiful Salvador Caves",
+      "location": "Salvador, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 156365,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.1262,
+      "lng": -53.2888,
+      "overview": {
+        "about": "Beautiful Salvador Caves in Salvador, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1142",
+      "name": "Beautiful São Paulo Summit",
+      "location": "São Paulo, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 56718,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -16.7919,
+      "lng": -45.0011,
+      "overview": {
+        "about": "Beautiful São Paulo Summit in São Paulo, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable mountain destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1144",
+      "name": "Scenic Manaus Luxury Resort",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 167420,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -17.5879,
+      "lng": -51.4471,
+      "overview": {
+        "about": "Scenic Manaus Luxury Resort in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable destination destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1146",
+      "name": "Old Manaus Island",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.8,
+      "reviewCount": 10368,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.8084,
+      "lng": -61.6036,
+      "overview": {
+        "about": "Old Manaus Island in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable beach paradise destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "R$"
+      }
+    },
+    {
+      "id": "br-1148",
+      "name": "Grand Manaus Fortress",
+      "location": "Manaus, BR",
+      "country": "BR",
+      "countryCode": "BR",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.6,
+      "reviewCount": 115077,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -16.5578,
+      "lng": -43.1052,
+      "overview": {
+        "about": "Grand Manaus Fortress in Manaus, BR captures the lively soul of Brazil — a country of extraordinary natural beauty, vibrant culture and infectious energy. This remarkable heritage landmark destination blends tropical landscapes, rich heritage and the warm hospitality that makes Brazil one of the world's most beloved travel destinations.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Apr – Oct",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "R$80 Adults",
+        "entryFeeSub": "R$40 Half-price",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "R$"
+      }
+    }
+  ]
+}

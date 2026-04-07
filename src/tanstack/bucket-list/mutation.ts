@@ -3,13 +3,16 @@ import axiosInstance from "../../utils/axios-instance";
 import { useSnackbar } from "react-snackify";
 import type {
   BucketListRequestDto,
+  PlaceBucketListRequestDto,
   BucketList,
   BucketListStats,
 } from "../../types/bucket-list";
 import { bucketListKeys } from "./keys";
 import { vaultKeys } from "../vault/keys";
 
-// Helper to update any vault's isBucketListed flag deeply within the react-query cache
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+/** Patch isBucketListed flag on every cached vault query that contains vaultId */
 const optimisticallyUpdateVaults = (
   queryClient: any,
   vaultId: string,
@@ -17,10 +20,7 @@ const optimisticallyUpdateVaults = (
 ) => {
   queryClient.setQueriesData({ queryKey: vaultKeys.all() }, (old: any) => {
     if (!old) return old;
-    // Single Vault detail
     if (old.id === vaultId) return { ...old, isBucketListed };
-
-    // PagedResponse array of vaults
     if (old.data && Array.isArray(old.data)) {
       return {
         ...old,
@@ -29,8 +29,6 @@ const optimisticallyUpdateVaults = (
         ),
       };
     }
-
-    // Infinite queries or nested pages
     if (old.pages) {
       return {
         ...old,
@@ -42,31 +40,26 @@ const optimisticallyUpdateVaults = (
         })),
       };
     }
-
-    // Direct flat array
     if (Array.isArray(old)) {
       return old.map((v: any) =>
         v.id === vaultId ? { ...v, isBucketListed } : v,
       );
     }
-
     return old;
   });
 };
 
-const optimisticallyUpdateBucketList = (
+/** Prepend a new item to every cached bucket-list page (skips duplicates) */
+const optimisticallyPrependToBucketList = (
   queryClient: any,
   newItem: BucketList,
+  dedupeKey: "vaultId" | "placeId",
 ) => {
   queryClient.setQueriesData({ queryKey: bucketListKeys.all() }, (old: any) => {
     if (!old) return old;
 
-    // PagedResponse
     if (old.data && Array.isArray(old.data)) {
-      // Avoid duplicate if it somehow exists
-      if (
-        old.data.find((item: BucketList) => item.vaultId === newItem.vaultId)
-      ) {
+      if (old.data.find((item: BucketList) => item[dedupeKey] && item[dedupeKey] === newItem[dedupeKey])) {
         return old;
       }
       return {
@@ -77,7 +70,7 @@ const optimisticallyUpdateBucketList = (
     }
 
     if (Array.isArray(old)) {
-      if (old.find((item: BucketList) => item.vaultId === newItem.vaultId)) {
+      if (old.find((item: BucketList) => item[dedupeKey] && item[dedupeKey] === newItem[dedupeKey])) {
         return old;
       }
       return [newItem, ...old];
@@ -87,12 +80,14 @@ const optimisticallyUpdateBucketList = (
   });
 };
 
+// ─── Vault bucket list ────────────────────────────────────────────────────────
+
 export const useAddToBucketList = () => {
   const queryClient = useQueryClient();
   const { showSnackbar } = useSnackbar();
 
   return useMutation({
-    mutationKey: bucketListKeys.add(""), // Placeholder since we need vaultId from variables, but React Query usually takes variables in mutationFn. Actually for mutationKey it's better to use a static one unless it varies.
+    mutationKey: bucketListKeys.add(""),
     mutationFn: async ({
       vaultId,
       data,
@@ -107,11 +102,9 @@ export const useAddToBucketList = () => {
       return response.data;
     },
     onMutate: async ({ vaultId, data }) => {
-      // Cancel relevant queries
       await queryClient.cancelQueries({ queryKey: bucketListKeys.all() });
       await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
 
-      // Snapshot previous state
       const previousStats = queryClient.getQueryData<BucketListStats>(
         bucketListKeys.stats(),
       );
@@ -135,10 +128,10 @@ export const useAddToBucketList = () => {
         });
       }
 
-      // Optimistically update vaults
+      // Optimistically update vault isBucketListed flag
       optimisticallyUpdateVaults(queryClient, vaultId, true);
 
-      // Find vault data to construct optimistic BucketList item
+      // Find vault data in cache to build optimistic bucket list item
       const vaultQueriesData = queryClient.getQueriesData<any>({
         queryKey: vaultKeys.all(),
       });
@@ -146,10 +139,7 @@ export const useAddToBucketList = () => {
       let vault: any;
       for (const [, cache] of vaultQueriesData) {
         if (!cache) continue;
-        if (cache.id === vaultId) {
-          vault = cache;
-          break;
-        }
+        if (cache.id === vaultId) { vault = cache; break; }
         if (cache.data && Array.isArray(cache.data)) {
           vault = cache.data.find((v: any) => v.id === vaultId);
           if (vault) break;
@@ -167,14 +157,14 @@ export const useAddToBucketList = () => {
 
       if (vault) {
         const newItem: BucketList = {
-          id: -Math.floor(Math.random() * 1000000), // Temp negative ID
+          id: -Math.floor(Math.random() * 1_000_000),
           vaultId,
           vault,
           targetYear: data.targetYear,
           priority: data.priority,
           createdAt: new Date().toISOString(),
         };
-        optimisticallyUpdateBucketList(queryClient, newItem);
+        optimisticallyPrependToBucketList(queryClient, newItem, "vaultId");
       }
 
       return { previousStats, previousVaults, previousBucketList };
@@ -205,12 +195,93 @@ export const useAddToBucketList = () => {
   });
 };
 
+// ─── Place bucket list ────────────────────────────────────────────────────────
+
+export const useAddPlaceToBucketList = () => {
+  const queryClient = useQueryClient();
+  const { showSnackbar } = useSnackbar();
+
+  return useMutation({
+    mutationKey: [...bucketListKeys.all(), "add-place"],
+    mutationFn: async (data: PlaceBucketListRequestDto) => {
+      const response = await axiosInstance.post("/bucket-list/place", data);
+      return response.data;
+    },
+    onMutate: async (data) => {
+      await queryClient.cancelQueries({ queryKey: bucketListKeys.all() });
+
+      const previousStats = queryClient.getQueryData<BucketListStats>(
+        bucketListKeys.stats(),
+      );
+      const previousBucketList = queryClient.getQueriesData({
+        queryKey: bucketListKeys.all(),
+      });
+
+      // Optimistically bump stats
+      if (previousStats) {
+        queryClient.setQueryData<BucketListStats>(bucketListKeys.stats(), {
+          ...previousStats,
+          totalPlaces: previousStats.totalPlaces + 1,
+          highPriority:
+            data.priority === "HIGH"
+              ? previousStats.highPriority + 1
+              : previousStats.highPriority,
+          countries: previousStats.countries,
+        });
+      }
+
+      // Optimistically prepend the new place item to the bucket list
+      const newItem: BucketList = {
+        id: -Math.floor(Math.random() * 1_000_000), // temp negative id
+        placeId: data.placeId,
+        placeName: data.placeName,
+        placeLocation: data.placeLocation,
+        placeCountry: data.placeCountry,
+        placeCountryCode: data.placeCountryCode,
+        placeImage: data.placeImage,
+        placeLat: data.placeLat,
+        placeLng: data.placeLng,
+        placeType: data.placeType,
+        placeEmoji: data.placeEmoji,
+        targetYear: data.targetYear,
+        priority: data.priority,
+        createdAt: new Date().toISOString(),
+      };
+      optimisticallyPrependToBucketList(queryClient, newItem, "placeId");
+
+      return { previousStats, previousBucketList };
+    },
+    onSuccess: () => {
+      showSnackbar({ message: "Place added to bucket list!", variant: "success" });
+      // Invalidate to get the real server-assigned id
+      queryClient.invalidateQueries({ queryKey: bucketListKeys.all() });
+    },
+    onError: (error: any, _variables, context: any) => {
+      if (context?.previousStats) {
+        queryClient.setQueryData(bucketListKeys.stats(), context.previousStats);
+      }
+      if (context?.previousBucketList) {
+        for (const [queryKey, data] of context.previousBucketList) {
+          queryClient.setQueryData(queryKey, data);
+        }
+      }
+      showSnackbar({
+        message:
+          error.response?.data?.message || "Failed to add to bucket list",
+        variant: "error",
+      });
+    },
+  });
+};
+
+// ─── Remove ───────────────────────────────────────────────────────────────────
+
 export const useRemoveFromBucketList = () => {
   const queryClient = useQueryClient();
   const { showSnackbar } = useSnackbar();
 
   return useMutation({
-    mutationKey: bucketListKeys.all(), // Use a base key or specific if possible
+    mutationKey: bucketListKeys.all(),
     mutationFn: async (id: number) => {
       const response = await axiosInstance.delete(`/bucket-list/${id}`);
       return response.data;
@@ -241,7 +312,7 @@ export const useRemoveFromBucketList = () => {
         }
       }
 
-      // Optimistically remove from all cached bucket-list pages
+      // Remove from all cached bucket-list pages
       queryClient.setQueriesData<{
         data: BucketList[];
         page: number;
@@ -256,12 +327,12 @@ export const useRemoveFromBucketList = () => {
         };
       });
 
-      // Optimistically update vaults flags
+      // If it was vault-based, flip the vault's isBucketListed flag
       if (removedItem?.vaultId) {
         optimisticallyUpdateVaults(queryClient, removedItem.vaultId, false);
       }
 
-      // Optimistically update stats
+      // Update stats
       if (previousStats && removedItem) {
         queryClient.setQueryData<BucketListStats>(bucketListKeys.stats(), {
           ...previousStats,

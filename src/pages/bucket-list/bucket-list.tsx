@@ -383,10 +383,18 @@ export default function BucketList() {
 
             <div className="p-8 flex flex-col gap-4 bg-white">
               {listData?.data?.slice(0, 5).map((item, idx) => {
+                const isVaultBased = !!item.vaultId && !!item.vault;
                 const vault = item.vault;
-                const img = vault.attachments?.find(
-                  (a: any) => a.type === "image",
-                )?.url;
+                
+                const img = isVaultBased 
+                  ? vault?.attachments?.find((a: any) => a.type === "image")?.url 
+                  : item.placeImage;
+                  
+                const title = isVaultBased ? vault?.title : item.placeName;
+                const locationLabel = isVaultBased 
+                  ? vault?.location?.label?.split(",").pop()?.trim() 
+                  : item.placeCountry;
+
                 return (
                   <div
                     key={item.id}
@@ -403,7 +411,7 @@ export default function BucketList() {
                     </div>
                     <div className="flex flex-col flex-1">
                       <span className="font-extrabold text-gray-900 text-lg line-clamp-1">
-                        {vault.title}
+                        {title || "Destination"}
                       </span>
                       <div className="flex items-center gap-3 text-xs font-bold mt-1">
                         <span className="text-gray-500">
@@ -411,9 +419,7 @@ export default function BucketList() {
                             icon={faMapLocationDot}
                             className="mr-1"
                           />
-                          {vault.location?.label
-                            ? vault.location.label.split(",").pop()?.trim()
-                            : "Unknown"}
+                          {locationLabel || "Unknown"}
                         </span>
                         <span className="text-purple-600">
                           Target: {item.targetYear}

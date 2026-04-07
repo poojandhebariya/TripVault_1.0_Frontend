@@ -1,0 +1,4090 @@
+{
+  "code": "PE",
+  "name": "Peru",
+  "emoji": "🇵🇪",
+  "continent": "Americas",
+  "gradient": "from-blue-600 via-indigo-600 to-purple-700",
+  "tagline": "Explore Peru (80 Places)",
+  "places": [
+    {
+      "id": "pe-0",
+      "name": "Machu Picchu",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 5,
+      "reviewCount": 285000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.1631,
+      "lng": -72.545,
+      "overview": {
+        "about": "Machu Picchu, the 15th-century Inca citadel set at 2,430m in the Peruvian Andes, was built around 1450 as the royal estate of Inca emperor Pachacuti. It was abandoned during the Spanish conquest and remained unknown to the outside world until American historian Hiram Bingham rediscovered it in 1911.",
+        "highlights": [
+          {
+            "icon": "faCrown",
+            "label": "Inca Royal Citadel — 1450 AD",
+            "desc": "Built by emperor Pachacuti at 2,430m — abandoned during the Spanish conquest and hidden for 350 years"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Cloud Forest Elevation",
+            "desc": "Nestled between dramatic Andean peaks — morning mist rolling across the citadel as the sun rises over Wayna Picchu"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "Legendary 4-Day Inca Trail",
+            "desc": "43km through cloud forest, high Andean passes and ancient ruins — one of the world's most celebrated trekking routes"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sun Gate — Inti Punku Sunrise",
+            "desc": "Reaching the Sun Gate at dawn and seeing Machu Picchu emerge below through the mist is the ultimate trail reward"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Dry season Andes",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–3 Days",
+        "tourDaysSub": "Combined with Aguas Calientes",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1",
+      "name": "Sacred Valley",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 145000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.0464,
+      "lng": -77.0428,
+      "overview": {
+        "about": "Sacred Valley in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-2",
+      "name": "Cusco Historic Center",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 185000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": -3.7491,
+      "lng": -73.2538,
+      "overview": {
+        "about": "Cusco Historic Center in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-3",
+      "name": "Lake Titicaca",
+      "location": "Puno, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 95000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.5319,
+      "lng": -71.9675,
+      "overview": {
+        "about": "Lake Titicaca in Puno, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-4",
+      "name": "Colca Canyon",
+      "location": "Arequipa, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 88000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -15.8402,
+      "lng": -70.0219,
+      "overview": {
+        "about": "Colca Canyon in Arequipa, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-5",
+      "name": "Nazca Lines",
+      "location": "Nazca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 65000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.1153,
+      "lng": -75.9921,
+      "overview": {
+        "about": "Nazca Lines in Nazca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-6",
+      "name": "Plaza de Armas",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 112000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": -6.771,
+      "lng": -79.837,
+      "overview": {
+        "about": "Plaza de Armas in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-7",
+      "name": "Huacachina Oasis",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.8,
+      "reviewCount": 78000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.1116,
+      "lng": -79.0289,
+      "overview": {
+        "about": "Huacachina Oasis in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-8",
+      "name": "Rainbow Mountain",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 92000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.8333,
+      "lng": -74.9333,
+      "overview": {
+        "about": "Rainbow Mountain in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-9",
+      "name": "Paracas National Reserve",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 55000,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -16.409,
+      "lng": -71.5375,
+      "overview": {
+        "about": "Paracas National Reserve in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1010",
+      "name": "Old Paracas Plaza",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 182039,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -10.1443,
+      "lng": -71.9868,
+      "overview": {
+        "about": "Old Paracas Plaza in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1012",
+      "name": "Southern Lima Waterfalls",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 173065,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.4273,
+      "lng": -72.6932,
+      "overview": {
+        "about": "Southern Lima Waterfalls in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1014",
+      "name": "Beautiful Paracas Luxury Resort",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 66357,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -10.4956,
+      "lng": -73.6883,
+      "overview": {
+        "about": "Beautiful Paracas Luxury Resort in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1016",
+      "name": "Northern Pitumarca Old Town",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 159562,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.9914,
+      "lng": -73.9997,
+      "overview": {
+        "about": "Northern Pitumarca Old Town in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1018",
+      "name": "Southern Puno Luxury Resort",
+      "location": "Puno, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 135532,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.6916,
+      "lng": -76.7267,
+      "overview": {
+        "about": "Southern Puno Luxury Resort in Puno, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1020",
+      "name": "Southern Aguas Calientes Historic District",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 162713,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.5143,
+      "lng": -77.9572,
+      "overview": {
+        "about": "Southern Aguas Calientes Historic District in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1022",
+      "name": "Grand Cusco Summit",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 138667,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.7498,
+      "lng": -72.8299,
+      "overview": {
+        "about": "Grand Cusco Summit in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1024",
+      "name": "Beautiful Nazca Luxury Resort",
+      "location": "Nazca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 179273,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.5058,
+      "lng": -78.5801,
+      "overview": {
+        "about": "Beautiful Nazca Luxury Resort in Nazca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1026",
+      "name": "New Lima Summit",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.1,
+      "reviewCount": 17486,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.4281,
+      "lng": -75.4506,
+      "overview": {
+        "about": "New Lima Summit in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1028",
+      "name": "Southern Paracas Highlands",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 178482,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.0573,
+      "lng": -74.3188,
+      "overview": {
+        "about": "Southern Paracas Highlands in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1030",
+      "name": "Beautiful Ica Marina",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 108738,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.1898,
+      "lng": -77.7142,
+      "overview": {
+        "about": "Beautiful Ica Marina in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1032",
+      "name": "Southern Aguas Calientes Historic District",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 140209,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": -3.721,
+      "lng": -71.2652,
+      "overview": {
+        "about": "Southern Aguas Calientes Historic District in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1034",
+      "name": "Northern Cusco Highlands",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 29431,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.0422,
+      "lng": -75.6709,
+      "overview": {
+        "about": "Northern Cusco Highlands in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1036",
+      "name": "Southern Paracas Gourmet Restaurant",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 87665,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.0276,
+      "lng": -77.5926,
+      "overview": {
+        "about": "Southern Paracas Gourmet Restaurant in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1038",
+      "name": "Grand Lima Downtown",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 103590,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1600&auto=format&fit=crop",
+      "lat": -7.564,
+      "lng": -74.6834,
+      "overview": {
+        "about": "Grand Lima Downtown in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1040",
+      "name": "New Lima Canyon",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 183185,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.5363,
+      "lng": -78.0636,
+      "overview": {
+        "about": "New Lima Canyon in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1042",
+      "name": "Central Pitumarca Caves",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 152243,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.8344,
+      "lng": -77.4179,
+      "overview": {
+        "about": "Central Pitumarca Caves in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1044",
+      "name": "Northern Nazca Spa Retreat",
+      "location": "Nazca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 156809,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.956,
+      "lng": -73.1642,
+      "overview": {
+        "about": "Northern Nazca Spa Retreat in Nazca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1046",
+      "name": "New Ica Shopping District",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.1,
+      "reviewCount": 114925,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.0548,
+      "lng": -73.6427,
+      "overview": {
+        "about": "New Ica Shopping District in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1048",
+      "name": "New Ica Ski Resort",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 149237,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -7.5091,
+      "lng": -74.4175,
+      "overview": {
+        "about": "New Ica Ski Resort in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1050",
+      "name": "Beautiful Paracas Beach",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 71273,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.5818,
+      "lng": -76.195,
+      "overview": {
+        "about": "Beautiful Paracas Beach in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1052",
+      "name": "New Lima Luxury Resort",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 188871,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.4053,
+      "lng": -72.5869,
+      "overview": {
+        "about": "New Lima Luxury Resort in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1054",
+      "name": "Royal Puno Exclusive Club",
+      "location": "Puno, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 32511,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -10.858,
+      "lng": -75.443,
+      "overview": {
+        "about": "Royal Puno Exclusive Club in Puno, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1056",
+      "name": "Historic Arequipa Valley",
+      "location": "Arequipa, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 198285,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.651,
+      "lng": -72.3514,
+      "overview": {
+        "about": "Historic Arequipa Valley in Arequipa, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1058",
+      "name": "New Paracas Highlands",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4,
+      "reviewCount": 198378,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.2151,
+      "lng": -73.6579,
+      "overview": {
+        "about": "New Paracas Highlands in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1060",
+      "name": "Grand Cusco Lake",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 179790,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.0995,
+      "lng": -76.6128,
+      "overview": {
+        "about": "Grand Cusco Lake in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1062",
+      "name": "Grand Aguas Calientes Spa Retreat",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 100465,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.1959,
+      "lng": -76.4153,
+      "overview": {
+        "about": "Grand Aguas Calientes Spa Retreat in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1064",
+      "name": "Central Cusco Safari Park",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.3,
+      "reviewCount": 76517,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.2313,
+      "lng": -77.2508,
+      "overview": {
+        "about": "Central Cusco Safari Park in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1066",
+      "name": "New Lima Canyon",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4,
+      "reviewCount": 178807,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -7.1907,
+      "lng": -72.8755,
+      "overview": {
+        "about": "New Lima Canyon in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1068",
+      "name": "Grand Arequipa Exclusive Club",
+      "location": "Arequipa, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 35284,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.9288,
+      "lng": -77.1141,
+      "overview": {
+        "about": "Grand Arequipa Exclusive Club in Arequipa, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1070",
+      "name": "Grand Aguas Calientes Safari Park",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 72442,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.956,
+      "lng": -73.1642,
+      "overview": {
+        "about": "Grand Aguas Calientes Safari Park in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1072",
+      "name": "Northern Pitumarca Old Town",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 25634,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.8849,
+      "lng": -76.9014,
+      "overview": {
+        "about": "Northern Pitumarca Old Town in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1074",
+      "name": "Scenic Lima Highlands",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 183939,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.483,
+      "lng": -75.7164,
+      "overview": {
+        "about": "Scenic Lima Highlands in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1076",
+      "name": "Scenic Nazca Fortress",
+      "location": "Nazca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.1,
+      "reviewCount": 47280,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.7347,
+      "lng": -74.182,
+      "overview": {
+        "about": "Scenic Nazca Fortress in Nazca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1078",
+      "name": "Royal Aguas Calientes Financial District",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 191431,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.9068,
+      "lng": -77.0077,
+      "overview": {
+        "about": "Royal Aguas Calientes Financial District in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1080",
+      "name": "Historic Pitumarca Palace",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 3006,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1600&auto=format&fit=crop",
+      "lat": -6.433,
+      "lng": -76.8027,
+      "overview": {
+        "about": "Historic Pitumarca Palace in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1082",
+      "name": "Old Nazca Beach",
+      "location": "Nazca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.3,
+      "reviewCount": 71111,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.4753,
+      "lng": -71.5006,
+      "overview": {
+        "about": "Old Nazca Beach in Nazca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1084",
+      "name": "Northern Puno Bay",
+      "location": "Puno, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 88339,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": -10.0015,
+      "lng": -71.2956,
+      "overview": {
+        "about": "Northern Puno Bay in Puno, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1086",
+      "name": "Central Arequipa Beach",
+      "location": "Arequipa, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.7,
+      "reviewCount": 130775,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.6697,
+      "lng": -76.6204,
+      "overview": {
+        "about": "Central Arequipa Beach in Arequipa, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1088",
+      "name": "Old Paracas Ski Resort",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.3,
+      "reviewCount": 147715,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.2008,
+      "lng": -77.7673,
+      "overview": {
+        "about": "Old Paracas Ski Resort in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1090",
+      "name": "Central Lima Historic District",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 32501,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1548679847-19aa8920bc0a?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.0024,
+      "lng": -74.0529,
+      "overview": {
+        "about": "Central Lima Historic District in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1092",
+      "name": "Southern Pitumarca Diving Spot",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 85569,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.3935,
+      "lng": -77.3724,
+      "overview": {
+        "about": "Southern Pitumarca Diving Spot in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1094",
+      "name": "Historic Pitumarca Beach",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.4,
+      "reviewCount": 145846,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.2752,
+      "lng": -77.4635,
+      "overview": {
+        "about": "Historic Pitumarca Beach in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1096",
+      "name": "Old Lima Gourmet Restaurant",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.7,
+      "reviewCount": 81243,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -10.3309,
+      "lng": -72.8907,
+      "overview": {
+        "about": "Old Lima Gourmet Restaurant in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1098",
+      "name": "Grand Aguas Calientes Cove",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 162364,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.5143,
+      "lng": -77.9572,
+      "overview": {
+        "about": "Grand Aguas Calientes Cove in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1100",
+      "name": "Grand Pitumarca Summit",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.8,
+      "reviewCount": 78421,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.3167,
+      "lng": -77.0002,
+      "overview": {
+        "about": "Grand Pitumarca Summit in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1102",
+      "name": "Beautiful Pitumarca Gourmet Restaurant",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.8,
+      "reviewCount": 17436,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.8739,
+      "lng": -76.8482,
+      "overview": {
+        "about": "Beautiful Pitumarca Gourmet Restaurant in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1104",
+      "name": "Old Pitumarca Museum",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 83907,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.8791,
+      "lng": -72.792,
+      "overview": {
+        "about": "Old Pitumarca Museum in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1106",
+      "name": "Grand Lima Spa Retreat",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4.6,
+      "reviewCount": 20016,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -7.9483,
+      "lng": -76.5444,
+      "overview": {
+        "about": "Grand Lima Spa Retreat in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1108",
+      "name": "Northern Paracas Downtown",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 178102,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.771,
+      "lng": -77.7749,
+      "overview": {
+        "about": "Northern Paracas Downtown in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1110",
+      "name": "Historic Pitumarca Spa Retreat",
+      "location": "Pitumarca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "luxury",
+      "tags": [
+        "Explore",
+        "LUXURY"
+      ],
+      "rating": 4,
+      "reviewCount": 192012,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "💎",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.8731,
+      "lng": -74.0909,
+      "overview": {
+        "about": "Historic Pitumarca Spa Retreat in Pitumarca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1112",
+      "name": "Beautiful Paracas Waterfalls",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.5,
+      "reviewCount": 42140,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.0337,
+      "lng": -76.2937,
+      "overview": {
+        "about": "Beautiful Paracas Waterfalls in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1114",
+      "name": "Northern Ica Historic District",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 45918,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1588825227189-e1ae6e611e1f?q=80&w=1600&auto=format&fit=crop",
+      "lat": -4.5555,
+      "lng": -75.3062,
+      "overview": {
+        "about": "Northern Ica Historic District in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1116",
+      "name": "Royal Ica Shopping District",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.4,
+      "reviewCount": 162853,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.1484,
+      "lng": -78.1775,
+      "overview": {
+        "about": "Royal Ica Shopping District in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1118",
+      "name": "Old Lima Castle",
+      "location": "Lima, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "heritage",
+      "tags": [
+        "Explore",
+        "HERITAGE"
+      ],
+      "rating": 4.2,
+      "reviewCount": 20109,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏛️",
+      "image": "https://images.unsplash.com/photo-1605650117070-07bf1d3c0356?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.5143,
+      "lng": -77.9572,
+      "overview": {
+        "about": "Old Lima Castle in Lima, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary heritage landmark heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "Half – 1 Day",
+        "tourDaysSub": "3–6 hrs recommended",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1120",
+      "name": "Scenic Paracas Highlands",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.2,
+      "reviewCount": 89745,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.346,
+      "lng": -71.5386,
+      "overview": {
+        "about": "Scenic Paracas Highlands in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1122",
+      "name": "Beautiful Ica Summit",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.7,
+      "reviewCount": 31507,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
+      "lat": -14.0312,
+      "lng": -75.6177,
+      "overview": {
+        "about": "Beautiful Ica Summit in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1124",
+      "name": "Northern Aguas Calientes Financial District",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.2,
+      "reviewCount": 81994,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -5.4558,
+      "lng": -72.0703,
+      "overview": {
+        "about": "Northern Aguas Calientes Financial District in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1126",
+      "name": "Old Aguas Calientes Beach",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "beach",
+      "tags": [
+        "Explore",
+        "BEACH"
+      ],
+      "rating": 4.6,
+      "reviewCount": 140127,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏖️",
+      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.7819,
+      "lng": -77.8281,
+      "overview": {
+        "about": "Old Aguas Calientes Beach in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary beach paradise heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faUmbrellaBeach",
+            "label": "Pristine Award-Winning Shores",
+            "desc": "Crystal-clear azure waters fringing powder-white sands — consistently ranked among the world's most stunning coastlines"
+          },
+          {
+            "icon": "faWater",
+            "label": "Premier Water Sports Hub",
+            "desc": "Snorkelling, scuba diving, surfing and sailing in ideal conditions — equipment and instructors available year-round"
+          },
+          {
+            "icon": "faSun",
+            "label": "Exceptional Sunset Views",
+            "desc": "Catch the sky blaze in vivid gold and pink as the sun sets over the horizon — cited as a life-changing moment"
+          },
+          {
+            "icon": "faLeaf",
+            "label": "Protected Marine Ecosystem",
+            "desc": "Vibrant coral reefs, sea turtles and tropical fish — responsible tourism preserves these habitats for generations"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Sunrise/sunset best",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1128",
+      "name": "Royal Puno Canyon",
+      "location": "Puno, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.4,
+      "reviewCount": 11284,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+      "lat": -8.0691,
+      "lng": -77.1293,
+      "overview": {
+        "about": "Royal Puno Canyon in Puno, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1130",
+      "name": "Northern Nazca Downtown",
+      "location": "Nazca, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 184067,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.6916,
+      "lng": -76.7267,
+      "overview": {
+        "about": "Northern Nazca Downtown in Nazca, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1132",
+      "name": "Historic Cusco Safari Park",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.9,
+      "reviewCount": 47960,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.1857,
+      "lng": -71.5234,
+      "overview": {
+        "about": "Historic Cusco Safari Park in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1134",
+      "name": "Old Paracas Old Town",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 171365,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1600&auto=format&fit=crop",
+      "lat": -12.0768,
+      "lng": -73.7491,
+      "overview": {
+        "about": "Old Paracas Old Town in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1136",
+      "name": "Grand Ica Old Town",
+      "location": "Ica, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4,
+      "reviewCount": 23705,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.6705,
+      "lng": -71.7817,
+      "overview": {
+        "about": "Grand Ica Old Town in Ica, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1138",
+      "name": "Northern Aguas Calientes Lake",
+      "location": "Aguas Calientes, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "nature",
+      "tags": [
+        "Explore",
+        "NATURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 17102,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🌿",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1600&auto=format&fit=crop",
+      "lat": -11.7034,
+      "lng": -71.9412,
+      "overview": {
+        "about": "Northern Aguas Calientes Lake in Aguas Calientes, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary natural wonder heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faLeaf",
+            "label": "Biodiversity Hotspot",
+            "desc": "Home to rare and endemic species — flora and fauna found nowhere else on the planet within pristine ecosystems"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Renowned Trekking",
+            "desc": "Trails from leisurely nature walks to multi-day high-altitude expeditions with breathtaking panoramic rewards"
+          },
+          {
+            "icon": "faBinoculars",
+            "label": "Wildlife Encounters",
+            "desc": "Spot iconic wildlife in their natural habitat — guided walks dramatically increase sighting rates of rare species"
+          },
+          {
+            "icon": "faMountainSun",
+            "label": "Dramatic Natural Landscapes",
+            "desc": "Awe-inspiring vistas of mountains, gorges, waterfalls and geological formations sculpted over millions of years"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–3 Days",
+        "tourDaysSub": "Full-day excursions",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1140",
+      "name": "Royal Cusco Diving Spot",
+      "location": "Cusco, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "adventure",
+      "tags": [
+        "Explore",
+        "ADVENTURE"
+      ],
+      "rating": 4.7,
+      "reviewCount": 137412,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🪂",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13bf0eb?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.8885,
+      "lng": -74.9264,
+      "overview": {
+        "about": "Royal Cusco Diving Spot in Cusco, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faScroll",
+            "label": "Centuries of Living History",
+            "desc": "Structures standing for hundreds to thousands of years — each stone a silent chronicle of empires and civilisations"
+          },
+          {
+            "icon": "faCrown",
+            "label": "UNESCO World Heritage Site",
+            "desc": "Recognised globally for outstanding universal value and protected as one of Earth's most significant cultural landmarks"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Iconic Photography Spot",
+            "desc": "Panoramic vistas, intricate carvings and sunrise silhouettes that appear on bucket lists worldwide — every angle tells a story"
+          },
+          {
+            "icon": "faLandmark",
+            "label": "Architectural Masterpiece",
+            "desc": "Precision engineering predating modern tools — symmetry, scale and craftsmanship that continues to baffle experts today"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "1–2 Days",
+        "tourDaysSub": "At your own pace",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1142",
+      "name": "Northern Paracas Ski Resort",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4,
+      "reviewCount": 172413,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1600&auto=format&fit=crop",
+      "lat": -9.1671,
+      "lng": -74.8505,
+      "overview": {
+        "about": "Northern Paracas Ski Resort in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1144",
+      "name": "Southern Puno Central Market",
+      "location": "Puno, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.3,
+      "reviewCount": 165101,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1600&auto=format&fit=crop",
+      "lat": -13.592,
+      "lng": -73.4908,
+      "overview": {
+        "about": "Southern Puno Central Market in Puno, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1146",
+      "name": "Royal Paracas Highlands",
+      "location": "Paracas, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "mountain",
+      "tags": [
+        "Explore",
+        "MOUNTAIN"
+      ],
+      "rating": 4.6,
+      "reviewCount": 143034,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏔️",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
+      "lat": -6.8722,
+      "lng": -71.3335,
+      "overview": {
+        "about": "Royal Paracas Highlands in Paracas, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary mountain destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faMountainSun",
+            "label": "Awe-Inspiring Peaks",
+            "desc": "Stand beneath peaks that pierce the clouds — some of the highest, most dramatic mountain ranges on the planet"
+          },
+          {
+            "icon": "faPersonHiking",
+            "label": "World-Class Trekking Routes",
+            "desc": "Legendary trails traversing alpine meadows, glacial passes and ancient shepherd paths used for centuries"
+          },
+          {
+            "icon": "faSnowflake",
+            "label": "Snow Adventures",
+            "desc": "Skiing, snowboarding and ice-trekking on slopes that remain covered well into spring and summer months"
+          },
+          {
+            "icon": "faCamera",
+            "label": "Sunrise Panoramas",
+            "desc": "Golden hour from high-altitude viewpoints paints surrounding valleys in colours no photograph fully captures"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–5 Days",
+        "tourDaysSub": "Trek + acclimatise",
+        "currency": "S/."
+      }
+    },
+    {
+      "id": "pe-1148",
+      "name": "Historic Puno Old Town",
+      "location": "Puno, PE",
+      "country": "PE",
+      "countryCode": "PE",
+      "type": "city",
+      "tags": [
+        "Explore",
+        "CITY"
+      ],
+      "rating": 4.5,
+      "reviewCount": 14302,
+      "gradient": "from-blue-500 to-teal-400",
+      "emoji": "🏙️",
+      "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop",
+      "lat": -7.3444,
+      "lng": -73.6199,
+      "overview": {
+        "about": "Historic Puno Old Town in Puno, PE reveals the majesty of Andean civilisation at its peak. Peru's extraordinary city destination heritage blends breathtaking high-altitude landscapes with the archaeological legacy of the Inca Empire — an empire that built wonders in stone with no metal tools, no wheels and no written language.",
+        "highlights": [
+          {
+            "icon": "faCity",
+            "label": "Iconic Skyline & Architecture",
+            "desc": "A skyline recognised across the globe — towers, bridges and boulevards that define an entire era of human design"
+          },
+          {
+            "icon": "faMasksTheater",
+            "label": "World-Class Arts & Culture",
+            "desc": "World-class museums, galleries, theatres and street art that shape global trends in fashion, film and music"
+          },
+          {
+            "icon": "faPalette",
+            "label": "Legendary Cuisine & Markets",
+            "desc": "A melting pot of culinary traditions — street food, fine dining and bustling markets all within easy reach"
+          },
+          {
+            "icon": "faMoon",
+            "label": "Vibrant Nightlife & Events",
+            "desc": "Rooftop bars, jazz clubs, night markets and international festivals keep the city electric long after dark"
+          }
+        ],
+        "bestTime": "Jun – Aug",
+        "bestTimeSub": "Peak travel season",
+        "entryFee": "S/.70 Adults",
+        "entryFeeSub": "S/.35 Students",
+        "tourDays": "2–4 Days",
+        "tourDaysSub": "Walk + local transit",
+        "currency": "S/."
+      }
+    }
+  ]
+}
