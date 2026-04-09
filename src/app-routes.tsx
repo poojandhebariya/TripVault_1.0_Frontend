@@ -28,6 +28,7 @@ import MapPage from "./pages/map/map";
 import Explore from "./pages/explore/explore";
 import CountryDetail from "./pages/explore/country-detail";
 import PlaceDetail from "./pages/explore/place-detail";
+import PlanTripPage from "./pages/plan-trip/plan-trip";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -60,6 +61,7 @@ const AppRoutes = () => {
           <Route path={ROUTES.EXPLORE} element={<Explore />} />
           <Route path={ROUTES.EXPLORE_COUNTRY_DETAIL} element={<CountryDetail />} />
           <Route path={ROUTES.EXPLORE_PLACE_DETAIL} element={<PlaceDetail />} />
+          <Route path={ROUTES.PLAN_TRIP} element={<PlanTripPage />} />
 
           {/* Public profile pages — accessible without auth */}
           <Route path={ROUTES.USER.PUBLIC_PROFILE} element={<Profile />}>

@@ -8,6 +8,7 @@ import {
   faCheckCircle,
   faPlus,
   faRoute,
+  faWandMagicSparkles,
 } from "@fortawesome/free-solid-svg-icons";
 import { ROUTES } from "../../utils/constants";
 import type { Place } from "../../types/explore";
@@ -89,19 +90,24 @@ export const PlaceDetailActionPanel: React.FC<PlaceDetailActionPanelProps> = ({
         </button>
 
         {/* Plan Trip */}
-        <button className="w-full flex items-center justify-between px-4 py-3.5 bg-white border border-gray-100 text-gray-700 rounded-xl hover:border-violet-200 hover:bg-violet-50/30 active:scale-[0.98] transition-all group cursor-pointer">
+        <button
+          onClick={() => navigate(ROUTES.PLAN_TRIP, { state: { place } })}
+          className="w-full flex items-center justify-between px-4 py-3.5 bg-white border border-gray-100 text-gray-700 rounded-xl hover:border-violet-200 hover:bg-violet-50/30 active:scale-[0.98] transition-all group cursor-pointer"
+        >
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-violet-50 text-violet-400 group-hover:bg-violet-100 flex items-center justify-center transition-all">
               <FontAwesomeIcon icon={faRoute} className="text-sm" />
             </div>
-            <span className="text-[11px] font-bold uppercase tracking-wider">
-              Plan Trip
-            </span>
+            <div className="text-left">
+              <span className="text-[11px] font-bold uppercase tracking-wider block">
+                Plan Trip
+              </span>
+              <span className="text-[9px] text-gray-400 font-medium">AI-powered itinerary</span>
+            </div>
           </div>
-          <FontAwesomeIcon
-            icon={faPlus}
-            className="text-gray-200 group-hover:text-violet-400 transition-colors text-sm"
-          />
+          <div className="flex items-center gap-1 px-2 py-1 bg-violet-50 border border-violet-100 rounded-lg">
+            <FontAwesomeIcon icon={faWandMagicSparkles} className="text-violet-400 text-[9px]" />
+          </div>
         </button>
       </div>
 

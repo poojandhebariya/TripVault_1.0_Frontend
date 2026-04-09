@@ -31,6 +31,7 @@ export const ROUTES = {
   EXPLORE_COUNTRY_DETAIL: "/explore/country/:code",
   EXPLORE_PLACE_DETAIL: "/explore/place/:id",
   EXPLORE_PLACE_DETAIL_PATH: (id: string) => `/explore/place/${id}`,
+  PLAN_TRIP: "/plan-trip",
   SEARCH: "/search",
   HOME: "/",
   NOTIFICATIONS: "/notifications",
