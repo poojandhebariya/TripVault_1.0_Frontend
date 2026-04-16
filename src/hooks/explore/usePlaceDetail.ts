@@ -9,6 +9,7 @@ import { calculateDistance } from "../../utils/geo";
 import { formatDistance } from "../../utils/formatters";
 import type { Place } from "../../types/explore";
 import { DUMMY_PLACE } from "../../data/explore/dummy";
+import { fetchCountryData } from "../../utils/country-data-cache";
 
 // ─── Hook ─────────────────────────────────────────────────────────────────────
 
@@ -93,16 +94,17 @@ export const usePlaceDetail = () => {
       setLoading(true);
       try {
         const cc = id.split("-")[0].toUpperCase();
-        const r = await fetch(`/data/countries/${cc}.json`);
-        if (r.ok) {
-          const data = await r.json();
+        const data = await fetchCountryData(cc);
+        if (data) {
           const target = data.places.find((p: Place) => p.id === id);
           if (target) {
             setPlace({ ...target, country: data.name });
           } else {
             setPlace(DUMMY_PLACE);
           }
-        } else setPlace(DUMMY_PLACE);
+        } else {
+          setPlace(DUMMY_PLACE);
+        }
       } catch {
         setPlace(DUMMY_PLACE);
       } finally {

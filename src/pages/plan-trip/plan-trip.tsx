@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
@@ -11,8 +11,8 @@ import type { Place } from "../../types/explore";
 import type { TripPlan } from "../../types/trip";
 import { generateTripPlan } from "../../utils/gemini";
 import { generateTripPlanPdf } from "../../utils/GenerateTripPlanPdf";
-import { ROUTES } from "../../utils/constants";
 import MobileStickyHeader from "../../components/mobile-sticky-header";
+import PlanSearchPage from "./plan-search-page";
 
 // Components
 import {
@@ -28,7 +28,6 @@ import {
 
 const PlanTripPage = () => {
   const location = useLocation();
-  const navigate = useNavigate();
   const place = location.state?.place as Place | undefined;
 
   const [duration, setDuration] = React.useState(3);
@@ -39,11 +38,7 @@ const PlanTripPage = () => {
   const [generated, setGenerated] = React.useState(false);
   const [isGeneratingPdf, setIsGeneratingPdf] = React.useState(false);
 
-  React.useEffect(() => {
-    if (!place) navigate(ROUTES.EXPLORE);
-  }, [place, navigate]);
-
-  if (!place) return null;
+  if (!place) return <PlanSearchPage />;
 
   const handleGenerate = async () => {
     setLoading(true);

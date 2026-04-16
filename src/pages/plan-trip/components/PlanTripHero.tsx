@@ -7,7 +7,7 @@ export const PlanTripHero = ({ place }: { place: Place }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="relative z-10 w-full min-h-[35vh] md:min-h-[45vh] flex flex-col justify-end bg-gray-900 overflow-hidden">
+    <div className="relative z-10 w-full min-h-[35vh] md:min-h-[55vh] flex flex-col justify-end bg-gray-900 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src={
@@ -20,16 +20,7 @@ export const PlanTripHero = ({ place }: { place: Place }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-black/20" />
       </div>
 
-      <div className="absolute top-0 inset-x-0 p-4 md:p-8 z-20 hidden md:flex justify-between items-start pointer-events-none">
-        <button
-          onClick={() => navigate(-1)}
-          className="pointer-events-auto flex items-center gap-2 px-5 py-2.5 bg-black/20 backdrop-blur-xl border border-white/10 rounded-full text-white hover:bg-black/40 transition-colors cursor-pointer text-xs font-bold uppercase tracking-widest shadow-lg"
-        >
-          <FontAwesomeIcon icon={faArrowLeft} /> Back to Planner
-        </button>
-      </div>
-
-      <div className="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12 pt-24 mt-auto">
+      <div className="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 pt-24 mt-auto">
         <div className="flex-1 text-left">
           <div className="flex items-center justify-start gap-2.5 mb-3">
             <span className="px-3.5 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 text-white rounded-full text-[10px] font-black uppercase tracking-widest shadow-sm">

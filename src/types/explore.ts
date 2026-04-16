@@ -1,3 +1,7 @@
+import { EXPLORE_TABS } from "../data/explore/constants";
+
+export type TabName = (typeof EXPLORE_TABS)[number];
+
 export interface PlaceHighlight {
   icon: string;
   label: string;
@@ -32,4 +36,24 @@ export interface Place {
   lat?: number;
   lng?: number;
   overview?: PlaceOverview;
+}
+
+export interface CountryDetail {
+  code: string;
+  name: string;
+  emoji: string;
+  continent: string;
+  gradient: string;
+  tagline: string;
+  places: Place[];
+}
+
+export interface CountryIndex {
+  code: string;
+  name: string;
+  emoji: string;
+  continent: string;
+  gradient: string;
+  tagline: string;
+  places_count: number;
 }

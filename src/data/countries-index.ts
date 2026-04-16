@@ -1,12 +1,4 @@
-export interface CountryIndex {
-  code: string;
-  name: string;
-  emoji: string;
-  continent: string;
-  gradient: string;
-  tagline: string;
-  places_count: number;
-}
+import { type CountryIndex } from "../types/explore";
 
 export const COUNTRIES_INDEX: CountryIndex[] = [
   {

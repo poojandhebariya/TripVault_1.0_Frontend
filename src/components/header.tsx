@@ -18,6 +18,7 @@ import {
   faUser,
   faBell,
   faSearch,
+  faWandMagicSparkles,
 } from "@fortawesome/free-solid-svg-icons";
 import useIsMobile from "../hooks/isMobile";
 import { useState } from "react";
@@ -35,11 +36,12 @@ const NonloggedInNavigation = [
 
 const LoggedInNavigation = [
   { label: "Explore", href: ROUTES.EXPLORE },
-  { label: "Plan Trip", href: ROUTES.USER.BUCKETLIST },
+  { label: "Plan Trip", href: ROUTES.PLAN_TRIP },
 ];
 
 const LoggedInProfileNavigation = [
   { label: "My Profile", href: ROUTES.USER.PROFILE, icon: faUser },
+  { label: "Plan Trip", href: "__plan_trip__", icon: faWandMagicSparkles },
   { label: "Bucket List", href: ROUTES.USER.BUCKETLIST, icon: faList },
   { label: "Saved", href: ROUTES.USER.SAVED, icon: faHeart },
   { label: "Map", href: ROUTES.USER.MAP, icon: faMap },
@@ -212,6 +214,8 @@ const Header = () => {
                       onClick: () => {
                         if (item.label === "Logout") {
                           handleLogout();
+                        } else if (item.label === "Plan Trip") {
+                          navigate(ROUTES.PLAN_TRIP);
                         } else {
                           navigate(item.href, { replace: true });
                         }

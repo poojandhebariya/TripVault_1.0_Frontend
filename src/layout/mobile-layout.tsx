@@ -15,11 +15,10 @@ import BottomNavModal from "../components/ui/bottom-nav-modal";
 import { useUserContext } from "../contexts/user/user";
 import { LoginPrompt } from "../components/login-prompt-sheet/login-prompt-sheet";
 
-type ModalKey = "profile" | "plan" | "create";
+type ModalKey = "profile" | "create";
 
 const MODAL_ROUTES: Record<string, ModalKey> = {
   [ROUTES.USER.PROFILE]: "profile",
-  "/saved": "plan",
   [ROUTES.VAULT.CREATE_VAULT]: "create",
 };
 
@@ -46,7 +45,7 @@ const MobileLayout = () => {
       path: ROUTES.VAULT.CREATE_VAULT,
       isCenter: true,
     },
-    { icon: faMapLocation, label: "Plan", path: "/saved" },
+    { icon: faMapLocation, label: "Plan", path: ROUTES.PLAN_TRIP },
     { icon: faUser, label: "Profile", path: ROUTES.USER.PROFILE },
   ];
 
@@ -145,15 +144,6 @@ const MobileLayout = () => {
         icon={faUser}
       >
         <LoginPrompt onClose={closeModal} context="profile" />
-      </BottomNavModal>
-
-      <BottomNavModal
-        isOpen={activeModal === "plan"}
-        onClose={closeModal}
-        title="My Plans"
-        icon={faMapLocation}
-      >
-        <LoginPrompt onClose={closeModal} context="plan" />
       </BottomNavModal>
 
       <BottomNavModal

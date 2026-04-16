@@ -13,16 +13,7 @@ import { type Place } from "../../types/explore";
 import Input from "../../components/ui/input";
 import { PLACE_TYPES } from "../../data/explore/constants";
 
-// ─── Types ────────────────────────────────────────────────────────────────────
-interface CountryDetail {
-  code: string;
-  name: string;
-  emoji: string;
-  continent: string;
-  gradient: string;
-  tagline: string;
-  places: Place[];
-}
+import { fetchCountryData, type CountryDetail } from "../../utils/country-data-cache";
 
 // ─── Component ─────────────────────────────────────────────────────────────────
 
@@ -41,22 +32,17 @@ const CountryDetailView = () => {
   React.useEffect(() => {
     const fetchCountry = async () => {
       if (!code) return;
+      
       setLoading(true);
-      try {
-        setFetchError(null);
-        const resp = await fetch(`/data/countries/${code.toUpperCase()}.json`);
-        if (resp.ok) {
-          setCountryDetail(await resp.json());
-        } else {
-          setFetchError(`HTTP Error: ${resp.status} ${resp.statusText}`);
-          console.error(`Failed with status: ${resp.status}`);
-        }
-      } catch (err) {
-        console.error("Failed to load country:", err);
-        setFetchError(err instanceof Error ? err.message : String(err));
-      } finally {
-        setLoading(false);
+      setFetchError(null);
+      
+      const data = await fetchCountryData(code);
+      if (data) {
+        setCountryDetail(data);
+      } else {
+        setFetchError("Failed to load country data.");
       }
+      setLoading(false);
     };
     fetchCountry();
     window.scrollTo({ top: 0, behavior: "smooth" });

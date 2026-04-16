@@ -7,7 +7,8 @@ import {
   faGlobe,
   faEarthAmericas,
 } from "@fortawesome/free-solid-svg-icons";
-import { COUNTRIES_INDEX, type CountryIndex } from "../../data/countries-index";
+import { COUNTRIES_INDEX } from "../../data/countries-index";
+import { type CountryIndex } from "../../types/explore";
 import { CountryCard } from "../../components/explore/country-card";
 import { CONTINENTS, COUNTRY_PALETTES } from "../../data/explore/constants";
 

@@ -13,12 +13,10 @@ import BucketListModal from "../../components/ui/bucket-list-modal";
 import { useAuthGuard } from "../../contexts/auth-guard-context";
 import { usePlaceDetail } from "../../hooks/explore/usePlaceDetail";
 import { EXPLORE_TABS } from "../../data/explore/constants";
-
-// ─── Types ─────────────────────────────────────────────────────────────────────
+import { type TabName } from "../../types/explore";
 
 // ─── Tabs logic ───────────────────────────────────────────────────────────────
 const PLACE_TABS = EXPLORE_TABS.map((label) => ({ id: label, label }));
-type TabName = (typeof EXPLORE_TABS)[number];
 
 const PlaceDetail = () => {
   const {

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { type CountryIndex } from "../../data/countries-index";
+import { type CountryIndex } from "../../types/explore";
 
 export const CountryCard = ({
   country,
