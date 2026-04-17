@@ -317,6 +317,94 @@ export const vaultMutation = () => {
   };
 
   // ─────────────────────────────────────────────────────────────────────────
+  // Not Interested in Vault
+  // ─────────────────────────────────────────────────────────────────────────
+
+  const notInterestedMutation = {
+    mutationKey: vaultKeys.all(),
+    mutationFn: async (vaultId: string): Promise<void> => {
+      await axiosInstance.post(`/vault/${vaultId}/not-interested`);
+    },
+    onMutate: async (vaultId: string) => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+      const queryCache = queryClient.getQueryCache();
+      const allVaultQueries = queryCache.findAll({ queryKey: vaultKeys.all() });
+      const previousQueries = allVaultQueries.map((query) => ({
+        queryKey: query.queryKey,
+        data: query.state.data,
+      }));
+
+      // Remove the vault eagerly from all lists
+      allVaultQueries.forEach((query) => {
+        const data = query.state.data;
+        if (!data) return;
+        if (Array.isArray(data)) {
+          queryClient.setQueryData(query.queryKey, (old: any) =>
+            Array.isArray(old) ? old.filter((v: any) => v.id !== vaultId) : old,
+          );
+        } else if (
+          typeof data === "object" &&
+          "data" in data &&
+          Array.isArray((data as any).data)
+        ) {
+          queryClient.setQueryData(query.queryKey, (old: any) => {
+            if (!old || !old.data) return old;
+            return {
+              ...old,
+              data: old.data.filter((v: any) => v.id !== vaultId),
+            };
+          });
+        }
+      });
+
+      showSnackbar({
+        message: "We'll show you fewer posts like this.",
+        variant: "info",
+        classname: "text-white",
+      });
+
+      return { previousQueries };
+    },
+    onError: (_err: unknown, _vaultId: string, context: any) => {
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) => {
+          queryClient.setQueryData(queryKey, data);
+        });
+      }
+    },
+  };
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // Report Vault
+  // ─────────────────────────────────────────────────────────────────────────
+
+  const reportVaultMutation = {
+    mutationKey: vaultKeys.all(),
+    mutationFn: async ({
+      vaultId,
+      reason,
+      comment,
+    }: {
+      vaultId: string;
+      reason: string;
+      comment: string;
+    }): Promise<void> => {
+      await axiosInstance.post(`/vault/${vaultId}/report`, { reason, comment });
+    },
+    onMutate: async (_vars: { vaultId: string; reason: string; comment: string }) => {
+      // No optimistic UI change needed for reports — just cancel in-flight vault queries
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+    },
+    onError: () => {
+      showSnackbar({
+        message: "Failed to submit report. Please try again.",
+        variant: "error",
+        classname: "text-white",
+      });
+    },
+  };
+
+  // ─────────────────────────────────────────────────────────────────────────
   // Update Vault
   // ─────────────────────────────────────────────────────────────────────────
 
@@ -947,5 +1035,7 @@ export const vaultMutation = () => {
     deleteCommentMutation,
     saveVaultMutation,
     unsaveVaultMutation,
+    notInterestedMutation,
+    reportVaultMutation,
   };
 };

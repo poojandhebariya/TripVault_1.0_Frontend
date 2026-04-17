@@ -74,17 +74,27 @@ const SignIn = () => {
       }
     } catch (error: any) {
       setIsFetchingProfile(false);
-      // Login failed or profile fetch failed
-      if (error?.response?.status === 404) {
-        // Profile just doesn't exist yet
+      const status = error?.response?.status;
+      const isLoginEndpoint = error?.config?.url?.includes("/sign-in");
+
+      if (isLoginEndpoint) {
+        // Login itself failed — show error and stay on page
+        const message =
+          status === 401
+            ? "Invalid email or password."
+            : error?.response?.data?.message ?? "Sign in failed. Please try again.";
+      } else if (status === 404) {
+        // Login succeeded but this user has no profile yet — send them to setup
         markLoggedIn();
         navigate(ROUTES.USER.PROFILE_SETUP, { replace: true });
-      } else if (!error.config?.url?.includes('/login')) {
-        // If login succeeded but profile failed for some other reason
-        markLoggedIn();
-        navigate(ROUTES.USER.PROFILE_SETUP, { replace: true });
+      } else {
+        // Login succeeded but profile fetch had a transient error — stay on page
+        showSnackbar({
+          message: "Couldn't load your profile. Please try again.",
+          variant: "error",
+          classname: "text-white",
+        });
       }
-      // Otherwise, login error is handled by useMutation or snackbar elsewhere
     }
   };
 

@@ -18,6 +18,7 @@ import Modal from "./ui/modal";
 import ShareModal from "./ui/share-modal";
 import { getVaultShareUrl, ROUTES } from "../utils/constants";
 import BucketListModal from "./ui/bucket-list-modal";
+import ReportModal from "./ui/report-modal";
 import { userMutation } from "../tanstack/user/mutation";
 import { useAuthGuard } from "../contexts/auth-guard-context";
 
@@ -52,6 +53,7 @@ const VaultCard = ({
   const [canExpand, setCanExpand] = useState(false);
   const [showComments, setShowComments] = useState(false);
   const [showBucketListModal, setShowBucketListModal] = useState(false);
+  const [showReport, setShowReport] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const descRef = useRef<HTMLDivElement>(null);
 
@@ -64,6 +66,8 @@ const VaultCard = ({
     unlikeVaultMutation,
     saveVaultMutation,
     unsaveVaultMutation,
+    notInterestedMutation,
+    reportVaultMutation,
   } = vaultMutation();
   const { mutate: deleteVault, isPending: isDeleting } =
     useMutation(deleteVaultMutation);
@@ -71,6 +75,9 @@ const VaultCard = ({
   const { mutate: unlikeVault } = useMutation(unlikeVaultMutation);
   const { mutate: saveVault } = useMutation(saveVaultMutation);
   const { mutate: unsaveVault } = useMutation(unsaveVaultMutation);
+  const { mutate: notInterested } = useMutation(notInterestedMutation);
+  const { mutate: reportVault, isPending: isReporting } =
+    useMutation(reportVaultMutation);
   const { mutate: incrementView } = useMutation({
     ...incrementViewMutation,
     mutationKey: [...(incrementViewMutation.mutationKey as any[]), vault.id],
@@ -213,9 +220,14 @@ const VaultCard = ({
               isPublished={vault.status === "publish"}
               isBucketListed={vault.isBucketListed}
               onFollow={handleFollow}
-              onReport={() => console.log("report")}
+              onReport={() =>
+                guard(
+                  () => setShowReport(true),
+                  "report this post",
+                )
+              }
               onNavigateMap={handleNavigateMap}
-              onNotInterested={() => console.log("not interested")}
+              onNotInterested={() => guard(() => { if (vault.id) notInterested(vault.id) }, "hide this post")}
               onEdit={() => navigate(`/vault/edit/${vault.id}`)}
               onDelete={() => setShowDeleteConfirm(true)}
               onPin={() => console.log("pin")}
@@ -244,6 +256,20 @@ const VaultCard = ({
             vaultId={vault.id}
           />
         )}
+
+        {/* ── Report Modal ── */}
+        <ReportModal
+          isOpen={showReport}
+          onClose={() => setShowReport(false)}
+          isLoading={isReporting}
+          onSubmit={(reason, comment) => {
+            if (!vault.id) return;
+            reportVault(
+              { vaultId: vault.id, reason, comment },
+              { onSuccess: () => setShowReport(false) },
+            );
+          }}
+        />
 
         {/* ── Media Carousel ── */}
         <VaultMediaCarousel
