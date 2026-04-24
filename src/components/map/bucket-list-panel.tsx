@@ -132,12 +132,17 @@ const BucketListPanel: React.FC<BucketListPanelProps> = ({
             <div className="w-14 h-14 rounded-full bg-amber-50 border border-amber-100 flex items-center justify-center text-2xl mb-3">
               map
             </div>
-            <p className="text-sm font-bold text-gray-700">No bucket list items</p>
-            <p className="text-xs text-gray-400 mt-1">Add destinations from vault pages</p>
+            <p className="text-sm font-bold text-gray-700">
+              No bucket list items
+            </p>
+            <p className="text-xs text-gray-400 mt-1">
+              Add destinations from vault pages
+            </p>
           </div>
         ) : (
           filteredBucket.map((item, idx) => {
             const vault = item.vault;
+            if (!vault) return null;
             const img = vault.attachments.find((a) => a.type === "image")?.url;
             const pc = priorityConfig[item.priority] ?? priorityConfig["LOW"];
             const isSelected = selectedBucket?.id === item.id;

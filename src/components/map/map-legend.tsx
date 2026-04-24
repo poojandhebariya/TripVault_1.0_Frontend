@@ -3,7 +3,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const MapLegend = () => {
   return (
-    <div className="absolute bottom-4 md:bottom-4 left-4 z-500 bg-white/95 backdrop-blur-md border border-gray-200/80 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] px-4 py-3 flex flex-col gap-2.5 transition-all">
+    <div className="absolute bottom-4 md:bottom-4 left-4 z-10 bg-white/95 backdrop-blur-md border border-gray-200/80 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] px-4 py-3 flex flex-col gap-2.5 transition-all">
       <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mb-0.5 flex items-center gap-1.5">
         <FontAwesomeIcon icon={faGlobe} className="text-gray-300" />
         Legend

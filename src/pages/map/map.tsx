@@ -153,7 +153,7 @@ export default function MapPage() {
 
     bucketItems.forEach((item) => {
       const vault = item.vault;
-      if (!vault.location?.lat || !vault.location?.lon) return;
+      if (!vault || !vault.location?.lat || !vault.location?.lon) return;
       const lat = vault.location.lat;
       const lon = vault.location.lon;
 
@@ -189,7 +189,7 @@ export default function MapPage() {
   const flyToBucketItem = useCallback(
     (item: BucketList) => {
       const vault = item.vault;
-      if (!vault.location?.lat || !vault.location?.lon) return;
+      if (!vault || !vault.location?.lat || !vault.location?.lon) return;
       const map = mapRef.current;
       if (!map) return;
       map.flyTo([vault.location.lat, vault.location.lon], 10, {
@@ -215,7 +215,7 @@ export default function MapPage() {
       allCoords.push([v.location!.lat, v.location!.lon]),
     );
     bucketItems.forEach((b) => {
-      if (b.vault.location?.lat && b.vault.location?.lon) {
+      if (b.vault && b.vault.location?.lat && b.vault.location?.lon) {
         allCoords.push([b.vault.location.lat, b.vault.location.lon]);
       }
     });
@@ -242,7 +242,7 @@ export default function MapPage() {
 
   const totalVaultsOnMap = locatedVaults.length;
   const totalBucketOnMap = bucketItems.filter(
-    (b) => b.vault.location?.lat,
+    (b) => b.vault?.location?.lat,
   ).length;
 
   return (

@@ -54,18 +54,18 @@ const SignIn = () => {
       setIsFetchingProfile(true);
 
       const { data: profileData } = await refetchUser();
-      
+
       if (profileData) {
         // This sets both isLoggedIn AND isProfileSetup in one state update,
         // preventing any interim redirects to the setup page.
         await updateUser(profileData);
-        
+
         showSnackbar({
           message: "Welcome back!",
           variant: "success",
           classname: "text-white",
         });
-        
+
         navigate(ROUTES.HOME, { replace: true });
       } else {
         // No profile exists - mark as logged in so the guard lets them reach setup
@@ -75,15 +75,8 @@ const SignIn = () => {
     } catch (error: any) {
       setIsFetchingProfile(false);
       const status = error?.response?.status;
-      const isLoginEndpoint = error?.config?.url?.includes("/sign-in");
 
-      if (isLoginEndpoint) {
-        // Login itself failed — show error and stay on page
-        const message =
-          status === 401
-            ? "Invalid email or password."
-            : error?.response?.data?.message ?? "Sign in failed. Please try again.";
-      } else if (status === 404) {
+      if (status === 404) {
         // Login succeeded but this user has no profile yet — send them to setup
         markLoggedIn();
         navigate(ROUTES.USER.PROFILE_SETUP, { replace: true });
@@ -218,10 +211,10 @@ const SignIn = () => {
       />
 
       {isFetchingProfile && (
-        <ScreenLoading 
-          type="profile" 
-          title="Verifying your account..." 
-          subtitle="One stay away from your next adventure" 
+        <ScreenLoading
+          type="profile"
+          title="Verifying your account..."
+          subtitle="One stay away from your next adventure"
         />
       )}
     </div>

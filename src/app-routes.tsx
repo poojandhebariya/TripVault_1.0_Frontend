@@ -29,6 +29,7 @@ import Explore from "./pages/explore/explore";
 import CountryDetail from "./pages/explore/country-detail";
 import PlaceDetail from "./pages/explore/place-detail";
 import PlanTripPage from "./pages/plan-trip/plan-trip";
+import SearchPage from "./pages/search/search-page";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -53,9 +54,7 @@ const AppRoutes = () => {
           />
           <Route
             path={ROUTES.SEARCH}
-            element={
-              <div className="animate-[slideDown_0.3s_ease-out]">Search</div>
-            }
+            element={<SearchPage />}
           />
           <Route path={ROUTES.VAULT.VAULT_DETAIL} element={<VaultDetail />} />
           <Route path={ROUTES.EXPLORE} element={<Explore />} />
