@@ -1,9 +1,15 @@
 import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
+import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), nodePolyfills()],
+  optimizeDeps: {
+    // bad-words is CommonJS — tell Vite to pre-bundle it as ESM.
+    // nsfwjs + tfjs are also pre-bundled to avoid chunking issues.
+    include: ["bad-words", "nsfwjs", "@tensorflow/tfjs"],
+  },
   server: {
     proxy: {
       "/nominatim": {
@@ -28,3 +34,4 @@ export default defineConfig({
     },
   },
 });
+

@@ -135,12 +135,14 @@ const AttachmentsSection = ({
           if (att) {
             const isActive = i === safeIndex && attachments.length > 0;
             return (
-              <button
+              <div
                 key={att.id}
-                type="button"
+                role="button"
+                tabIndex={0}
                 onClick={() => setActiveIndex(i)}
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") setActiveIndex(i); }}
                 className={cn(
-                  "relative aspect-square rounded-md overflow-hidden border-2 bg-gray-100 focus:outline-none",
+                  "relative aspect-square rounded-md overflow-hidden border-2 bg-gray-100 focus:outline-none cursor-pointer select-none",
                   isActive ? "border-blue-500" : "border-gray-200",
                 )}
               >
@@ -196,7 +198,7 @@ const AttachmentsSection = ({
                     <FontAwesomeIcon icon={faXmark} />
                   </button>
                 )}
-              </button>
+              </div>
             );
           }
 

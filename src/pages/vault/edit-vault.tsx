@@ -11,6 +11,11 @@ import {
   faPen,
 } from "@fortawesome/free-solid-svg-icons";
 import { useSnackbar } from "react-snackify";
+import {
+  moderateText,
+  moderateImage,
+  prewarmNsfwModel,
+} from "../../utils/content-moderation";
 
 import { ImageCropModal } from "../../utils/image-upload";
 import { mediaMutation } from "../../tanstack/media/mutation";
@@ -88,6 +93,11 @@ const EditVault = () => {
   const { mutateAsync: updateVault, isPending: isUpdatingVault } = useMutation(
     updateVaultMutation(id!),
   );
+
+  // Pre-warm the NSFW model in the background so the first image check is fast
+  useEffect(() => {
+    prewarmNsfwModel();
+  }, []);
 
   // Pre-populate data
   useEffect(() => {
@@ -213,6 +223,20 @@ const EditVault = () => {
       const isVideo = file.type.startsWith("video/");
       const previewUrl = URL.createObjectURL(file);
       const id = `att-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+
+      // ── Image NSFW moderation (skip for video) ──────────────────────────
+      if (!isVideo) {
+        const imgResult = await moderateImage(file);
+        if (!imgResult.passed) {
+          URL.revokeObjectURL(previewUrl);
+          showSnackbar({
+            message: `Image blocked: inappropriate content detected (${imgResult.flaggedCategory ?? "NSFW"}). Please use a different photo.`,
+            variant: "error",
+          });
+          continue; // skip this file, check next
+        }
+      }
+      // ────────────────────────────────────────────────────────────────────
 
       if (isVideo) {
         setAttachments((p) => [
@@ -458,6 +482,28 @@ const EditVault = () => {
       showSnackbar({ message: "Please add a title.", variant: "warning" });
       return;
     }
+
+    // ── Text moderation: title ───────────────────────────────────────────
+    const titleCheck = await moderateText(title);
+    if (!titleCheck.passed) {
+      showSnackbar({
+        message: `Your title contains inappropriate language. Please revise it.`,
+        variant: "error",
+      });
+      return;
+    }
+
+    // ── Text moderation: description ─────────────────────────────────────
+    const rawDesc = descRef.current?.innerHTML?.trim() ?? "";
+    const descCheck = await moderateText(rawDesc);
+    if (!descCheck.passed) {
+      showSnackbar({
+        message: `Your description contains inappropriate language. Please revise it.`,
+        variant: "error",
+      });
+      return;
+    }
+    // ────────────────────────────────────────────────────────────────────
 
     if (mode !== "draft") {
       if (tags.length < 3) {

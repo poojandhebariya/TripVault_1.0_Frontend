@@ -1,6 +1,7 @@
 import { useState, useRef, type KeyboardEvent } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faTag } from "@fortawesome/free-solid-svg-icons";
+import { moderateText } from "../../utils/content-moderation";
 
 interface TagInputProps {
   tags: string[];
@@ -10,11 +11,23 @@ interface TagInputProps {
 
 const TagInput = ({ tags, onAdd, onRemove }: TagInputProps) => {
   const [inputVal, setInputVal] = useState("");
+  const [tagError, setTagError] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const submit = () => {
     const t = inputVal.trim().toLowerCase().replace(/^#/, "");
-    if (t && !tags.includes(t)) onAdd(t);
+    if (!t) return;
+
+    // ── Moderation check ────────────────────────────────────────────────────
+    const check = moderateText(t);
+    if (!check.passed) {
+      setTagError("This tag contains inappropriate language.");
+      return;
+    }
+    // ────────────────────────────────────────────────────────────────────────
+
+    setTagError(null);
+    if (!tags.includes(t)) onAdd(t);
     setInputVal("");
     inputRef.current?.focus();
   };
@@ -24,6 +37,7 @@ const TagInput = ({ tags, onAdd, onRemove }: TagInputProps) => {
       e.preventDefault();
       submit();
     } else if (e.key === "Backspace" && !inputVal && tags.length) {
+      setTagError(null);
       onRemove(tags[tags.length - 1]);
     }
   };
@@ -75,13 +89,19 @@ const TagInput = ({ tags, onAdd, onRemove }: TagInputProps) => {
         </div>
       )}
 
-      <p className="text-xs text-gray-400">
-        Type and press{" "}
-        <kbd className="bg-gray-100 px-1 py-0.5 rounded text-gray-600 font-mono text-[10px]">
-          Enter
-        </kbd>{" "}
-        or tap <strong>Add</strong>
-      </p>
+      {tagError ? (
+        <p className="text-xs text-red-500 font-medium animate-[popIn_0.15s_ease-out]">
+          {tagError}
+        </p>
+      ) : (
+        <p className="text-xs text-gray-400">
+          Type and press{" "}
+          <kbd className="bg-gray-100 px-1 py-0.5 rounded text-gray-600 font-mono text-[10px]">
+            Enter
+          </kbd>{" "}
+          or tap <strong>Add</strong>
+        </p>
+      )}
     </div>
   );
 };
