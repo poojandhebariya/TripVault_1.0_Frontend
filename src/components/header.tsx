@@ -45,16 +45,16 @@ const LoggedInProfileNavigation = [
   { label: "Bucket List", href: ROUTES.USER.BUCKETLIST, icon: faList },
   { label: "Saved", href: ROUTES.USER.SAVED, icon: faHeart },
   { label: "Map", href: ROUTES.USER.MAP, icon: faMap },
-  { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
-  { label: "Logout", href: ROUTES.EXPLORE, icon: faSignOut },
+  { label: "Settings", href: ROUTES.USER.SETTINGS_SECURITY, icon: faCog },
+  { label: "Logout", href: "__logout__", icon: faSignOut },
 ];
 
 const LoggedInMobileNavigation = [
   { label: "Bucket List", href: ROUTES.USER.BUCKETLIST, icon: faList },
   { label: "Saved", href: ROUTES.USER.SAVED, icon: faHeart },
   { label: "Map", href: ROUTES.USER.MAP, icon: faMap },
-  { label: "Settings", href: ROUTES.EXPLORE, icon: faCog },
-  { label: "Logout", href: ROUTES.EXPLORE, icon: faSignOut },
+  { label: "Settings", href: ROUTES.USER.SETTINGS, icon: faCog },
+  { label: "Logout", href: "__logout__", icon: faSignOut },
 ];
 
 const NonloggedInMobileNavigation = [

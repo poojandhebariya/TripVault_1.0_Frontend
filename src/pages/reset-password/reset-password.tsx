@@ -16,6 +16,7 @@ import { authMutation } from "../../tanstack/auth/mutation";
 import { useMutation } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { ROUTES } from "../../utils/constants";
+import { PASSWORD_RULES, CONFIRM_PASSWORD_RULES } from "../../utils/password-validation";
 
 interface FormData {
   email: string;
@@ -99,25 +100,14 @@ const ResetPassword = () => {
           <Password
             placeholder="Enter Your New Password"
             label="New Password"
-            {...register("newPassword", {
-              required: "New password is required",
-              pattern: {
-                value:
-                  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/, // At least 8 characters, including uppercase, lowercase, number, and special character
-                message: "Invalid password",
-              },
-            })}
+            {...register("newPassword", PASSWORD_RULES)}
             error={errors.newPassword?.message}
             disabled={resetPasswordPending}
           />
           <Password
             placeholder="Confirm Your New Password"
             label="Confirm Password"
-            {...register("confirmPassword", {
-              required: "Confirm password is required",
-              validate: (value) =>
-                value === getValues("newPassword") || "Passwords do not match",
-            })}
+            {...register("confirmPassword", CONFIRM_PASSWORD_RULES(() => getValues("newPassword")))}
             error={errors.confirmPassword?.message}
             disabled={resetPasswordPending}
           />

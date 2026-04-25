@@ -22,6 +22,7 @@ import {
   faUserPlus,
   faUserMinus,
   faSpinner,
+  faGear,
 } from "@fortawesome/free-solid-svg-icons";
 import Tabs from "../../components/ui/tabs";
 import { ROUTES, APP_BASE_URL } from "../../utils/constants";
@@ -288,6 +289,18 @@ const Profile = () => {
           }
           outlineClassName={mobile ? "w-auto rounded-full" : "w-full"}
           onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
+        />
+        <Button
+          variant="outline"
+          text={mobile ? "" : "Settings"}
+          icon={faGear}
+          className={
+            mobile
+              ? "text-xs py-[5.2px] px-3 rounded-full w-auto"
+              : "text-sm py-2 px-4 w-full rounded-lg"
+          }
+          outlineClassName={mobile ? "w-auto rounded-full" : "w-full"}
+          onClick={() => navigate(ROUTES.USER.SETTINGS)}
         />
         <Button
           variant="default"

@@ -62,10 +62,22 @@ export const authMutation = () => {
     },
   };
 
+  const changePasswordMutation = {
+    mutationKey: authKeys.changePassword(),
+    mutationFn: async (data: { currentPassword: string; newPassword: string }) => {
+      const response = await axiosInstance.post<ApiResponse<null>>(
+        "/auth/change-password",
+        data,
+      );
+      return response.data;
+    },
+  };
+
   return {
     loginMutation,
     signUpMutation,
     forgotPasswordMutation,
     resetPasswordMutation,
+    changePasswordMutation,
   };
 };

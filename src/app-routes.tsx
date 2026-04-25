@@ -30,6 +30,12 @@ import CountryDetail from "./pages/explore/country-detail";
 import PlaceDetail from "./pages/explore/place-detail";
 import PlanTripPage from "./pages/plan-trip/plan-trip";
 import SearchPage from "./pages/search/search-page";
+import SettingsLayout from "./pages/settings/settings-layout";
+import SettingsMenuPage from "./pages/settings/settings-menu-page";
+import SecurityPanel from "./pages/settings/panels/security-panel";
+import PrivacyPanel from "./pages/settings/panels/privacy-panel";
+import AppearancePanel from "./pages/settings/panels/appearance-panel";
+import DangerPanel from "./pages/settings/panels/danger-panel";
 
 const AppRoutes = () => {
   const isMobile = useIsMobile();
@@ -111,6 +117,16 @@ const AppRoutes = () => {
             element={<NotificationsPage />}
           />
           <Route path={ROUTES.USER.MAP} element={<MapPage />} />
+
+          {/* Settings — nested routes with shared layout */}
+          <Route path={ROUTES.USER.SETTINGS} element={<SettingsLayout />}>
+            {/* Index: mobile shows menu page; desktop redirects to /security */}
+            <Route index element={<SettingsMenuPage />} />
+            <Route path="security" element={<SecurityPanel />} />
+            <Route path="privacy" element={<PrivacyPanel />} />
+            <Route path="appearance" element={<AppearancePanel />} />
+            <Route path="danger" element={<DangerPanel />} />
+          </Route>
         </Route>
       </Route>
     </Routes>

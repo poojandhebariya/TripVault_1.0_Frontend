@@ -18,6 +18,7 @@ import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../utils/constants";
 import { useSnackbar } from "react-snackify";
 import { useUserContext } from "../../contexts/user/user";
+import { PASSWORD_RULES, CONFIRM_PASSWORD_RULES } from "../../utils/password-validation";
 
 interface FormData {
   email: string;
@@ -39,7 +40,7 @@ const SignUp = () => {
     handleSubmit,
     getValues,
     formState: { errors },
-  } = useForm<FormData>();
+  } = useForm<FormData>({ mode: "onBlur" });
 
   const onSubmit = async (data: FormData) => {
     await signUpMutate(data);
@@ -80,40 +81,14 @@ const SignUp = () => {
             placeholder="Enter Your Password"
             label="Password"
             disabled={signUpPending}
-            {...register("password", {
-              required: "Password is required",
-              minLength: {
-                value: 8,
-                message: "Password must be at least 8 characters",
-              },
-              pattern: {
-                value:
-                  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
-                message:
-                  "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character",
-              },
-            })}
+            {...register("password", PASSWORD_RULES)}
             error={errors.password?.message}
           />
           <Password
             placeholder="Confirm Your Password"
             label="Confirm Password"
             disabled={signUpPending}
-            {...register("confirmPassword", {
-              required: "Confirm Password is required",
-              minLength: {
-                value: 8,
-                message: "Confirm Password must be at least 8 characters",
-              },
-              pattern: {
-                value:
-                  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
-                message:
-                  "Confirm Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character",
-              },
-              validate: (value) =>
-                value === getValues("password") || "Passwords do not match",
-            })}
+            {...register("confirmPassword", CONFIRM_PASSWORD_RULES(() => getValues("password")))}
             error={errors.confirmPassword?.message}
           />
           <Button

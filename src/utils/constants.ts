@@ -21,6 +21,12 @@ export const ROUTES = {
     PUBLIC_FOLLOWERS: (id: string) => `/user/${id}/followers`,
     PUBLIC_FOLLOWING: (id: string) => `/user/${id}/following`,
     MAP: "/user/profile/map",
+    SETTINGS: "/user/profile/settings",
+    SETTINGS_SECURITY: "/user/profile/settings/security",
+    SETTINGS_ACCOUNT: "/user/profile/settings/account",
+    SETTINGS_PRIVACY: "/user/profile/settings/privacy",
+    SETTINGS_APPEARANCE: "/user/profile/settings/appearance",
+    SETTINGS_DANGER: "/user/profile/settings/danger",
   },
   VAULT: {
     CREATE_VAULT: "/vault/create",

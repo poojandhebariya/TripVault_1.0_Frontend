@@ -4,4 +4,5 @@ export const authKeys = {
   signUp: () => [...authKeys.all(), "signUp"],
   forgotPassword: () => [...authKeys.all(), "forgotPassword"],
   resetPassword: () => [...authKeys.all(), "resetPassword"],
+  changePassword: () => [...authKeys.all(), "changePassword"],
 };
