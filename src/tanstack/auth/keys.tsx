@@ -10,4 +10,7 @@ export const authKeys = {
   twoFaVerify: () => [...authKeys.all(), "twoFaVerify"],
   twoFaDisable: () => [...authKeys.all(), "twoFaDisable"],
   twoFaLoginVerify: () => [...authKeys.all(), "twoFaLoginVerify"],
+  linkedEmail: () => [...authKeys.all(), "linkedEmail"],
+  changeEmailInitiate: () => [...authKeys.all(), "changeEmailInitiate"],
+  changeEmailConfirm: () => [...authKeys.all(), "changeEmailConfirm"],
 };

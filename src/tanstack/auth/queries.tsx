@@ -11,3 +11,14 @@ export const twoFaStatusQuery = () => ({
     return response.data.data;
   },
 });
+
+export const linkedEmailQuery = () => ({
+  queryKey: authKeys.linkedEmail(),
+  queryFn: async () => {
+    const response = await axiosInstance.get<ApiResponse<string>>(
+      "/auth/linked-email",
+    );
+    return response.data.data; // plain email string
+  },
+  staleTime: 1000 * 60 * 5, // 5 min — email rarely changes
+});

@@ -12,12 +12,13 @@ import { TwoFAModal } from "../../../components/settings/modals/two-fa-modal";
 import { DisableTwoFAModal } from "../../../components/settings/modals/disable-two-fa-modal";
 import { ActiveSessionsModal } from "../../../components/settings/modals/active-sessions-modal";
 import { LoginActivityModal } from "../../../components/settings/modals/login-activity-modal";
-import { twoFaStatusQuery } from "../../../tanstack/auth/queries";
+import { twoFaStatusQuery, linkedEmailQuery } from "../../../tanstack/auth/queries";
+import { ChangeEmailModal } from "../../../components/settings/modals/change-email-modal";
 
 /* ─────────────────────── Panel ─────────────────────── */
 const SecurityPanel = () => {
   const [modal, setModal] = useState<
-    "password" | "2fa-enable" | "2fa-disable" | "sessions" | "activity" | null
+    "password" | "2fa-enable" | "2fa-disable" | "sessions" | "activity" | "change-email" | null
   >(null);
 
   // Live 2FA status from the server
@@ -25,6 +26,9 @@ const SecurityPanel = () => {
     ...twoFaStatusQuery(),
     staleTime: 0, // Always re-fetch when navigating to this panel
   });
+
+  // Linked email
+  const { data: linkedEmail } = useQuery(linkedEmailQuery());
 
   const twoFaEnabled = twoFaStatus?.enabled ?? false;
 
@@ -55,6 +59,12 @@ const SecurityPanel = () => {
         open={modal === "activity"}
         onClose={() => setModal(null)}
       />
+      <ChangeEmailModal
+        open={modal === "change-email"}
+        onClose={() => setModal(null)}
+        currentEmail={linkedEmail}
+        onChanged={() => setModal(null)}
+      />
 
       <div className="p-5 md:p-0">
         <PanelTitle>Security</PanelTitle>
@@ -80,8 +90,13 @@ const SecurityPanel = () => {
             />
             <RowItem
               label="Linked Email"
-              description="Your registered email address"
-              onClick={() => {}}
+              description="Change your registered email address"
+              right={
+                <span className="text-xs font-medium text-gray-400 truncate max-w-[140px] sm:max-w-none">
+                  {linkedEmail ?? "—"}
+                </span>
+              }
+              onClick={() => setModal("change-email")}
             />
           </SettingsCard>
 
