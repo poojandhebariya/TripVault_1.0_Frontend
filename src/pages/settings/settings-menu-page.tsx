@@ -55,10 +55,10 @@ const SettingsMenuPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gray-50 animate-[slideDown_0.3s_ease-out]">
+    <div className="animate-[slideDown_0.3s_ease-out]">
       <MobileStickyHeader title="Settings" />
 
-      <div className="px-4 pt-4 pb-24 space-y-2">
+      <div className="p-5 space-y-2">
         {MENU_ITEMS.map((item) => (
           <button
             key={item.to}

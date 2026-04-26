@@ -73,11 +73,62 @@ export const authMutation = () => {
     },
   };
 
+  // ─────────────────────── 2FA ───────────────────────
+
+  const twoFaSetupMutation = {
+    mutationKey: authKeys.twoFaSetup(),
+    mutationFn: async () => {
+      const response = await axiosInstance.post<ApiResponse<null>>("/auth/2fa/setup");
+      return response.data;
+    },
+  };
+
+  const twoFaVerifyMutation = {
+    mutationKey: authKeys.twoFaVerify(),
+    mutationFn: async (data: { code: string }) => {
+      const response = await axiosInstance.post<ApiResponse<null>>("/auth/2fa/verify", data);
+      return response.data;
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: authKeys.twoFaStatus() });
+    },
+  };
+
+  const twoFaDisableMutation = {
+    mutationKey: authKeys.twoFaDisable(),
+    mutationFn: async () => {
+      const response = await axiosInstance.delete<ApiResponse<null>>("/auth/2fa/disable");
+      return response.data;
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: authKeys.twoFaStatus() });
+    },
+  };
+
+  const twoFaLoginVerifyMutation = {
+    mutationKey: authKeys.twoFaLoginVerify(),
+    mutationFn: async (data: { email: string; code: string }) => {
+      const response = await axiosInstance.post<ApiResponse<AuthResponse>>(
+        "/auth/2fa/login-verify",
+        data
+      );
+      return response.data;
+    },
+    onSuccess: async (data: ApiResponse<AuthResponse>) => {
+      await saveTokens(data.data);
+      queryClient.clear();
+    },
+  };
+
   return {
     loginMutation,
     signUpMutation,
     forgotPasswordMutation,
     resetPasswordMutation,
     changePasswordMutation,
+    twoFaSetupMutation,
+    twoFaVerifyMutation,
+    twoFaDisableMutation,
+    twoFaLoginVerifyMutation,
   };
 };

@@ -44,7 +44,7 @@ const NAV_ITEMS = [
  */
 const SettingsLayout = () => {
   return (
-    <div className="animate-[slideDown_0.3s_ease-out] min-h-screen pb-24 bg-gray-50">
+    <div className="animate-[slideDown_0.3s_ease-out]">
       {/* Desktop page title — hidden on mobile */}
       <div className="hidden md:block max-w-7xl mx-auto px-6 pt-8 pb-4">
         <h1 className="text-2xl font-bold text-gray-900 tracking-tight">Settings</h1>
@@ -53,7 +53,7 @@ const SettingsLayout = () => {
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row gap-4 md:gap-8 pt-2 md:pt-0">
+      <div className="max-w-7xl mx-auto md:px-6 flex flex-col md:flex-row gap-4 md:gap-8">
 
         {/* ── Left sidebar: desktop only ── */}
         <aside className="hidden md:block w-52 shrink-0">

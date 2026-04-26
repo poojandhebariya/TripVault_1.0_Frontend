@@ -5,4 +5,9 @@ export const authKeys = {
   forgotPassword: () => [...authKeys.all(), "forgotPassword"],
   resetPassword: () => [...authKeys.all(), "resetPassword"],
   changePassword: () => [...authKeys.all(), "changePassword"],
+  twoFaStatus: () => [...authKeys.all(), "twoFaStatus"],
+  twoFaSetup: () => [...authKeys.all(), "twoFaSetup"],
+  twoFaVerify: () => [...authKeys.all(), "twoFaVerify"],
+  twoFaDisable: () => [...authKeys.all(), "twoFaDisable"],
+  twoFaLoginVerify: () => [...authKeys.all(), "twoFaLoginVerify"],
 };

@@ -38,15 +38,20 @@ export const RowItem = ({
     )}
   >
     <div className="flex-1 min-w-0 pr-4">
-      <p className={clsx("text-sm font-semibold", danger ? "text-red-600" : "text-gray-800")}>
+      <p
+        className={clsx(
+          "text-sm font-semibold",
+          danger ? "text-red-600" : "text-gray-800",
+        )}
+      >
         {label}
       </p>
       {description && (
         <p className="text-xs text-gray-400 mt-0.5">{description}</p>
       )}
     </div>
-    {right ?? (
-      onClick && (
+    {right ??
+      (onClick && (
         <FontAwesomeIcon
           icon={faChevronRight}
           className={clsx(
@@ -56,8 +61,7 @@ export const RowItem = ({
               : "text-gray-300 group-hover:text-gray-500",
           )}
         />
-      )
-    )}
+      ))}
   </div>
 );
 
