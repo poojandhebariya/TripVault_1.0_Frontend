@@ -1,11 +1,10 @@
-export interface Session {
+export interface LoginActivity {
   id: string;
   deviceType: "desktop" | "mobile" | "tablet";
   deviceName: string;
   browser: string;
-  platform: string;
   ipAddress: string;
   location: string;
-  lastActive: string;
-  current: boolean;
+  timestamp: string;
+  status: "success" | "failed";
 }

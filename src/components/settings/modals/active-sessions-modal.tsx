@@ -70,10 +70,12 @@ export const ActiveSessionsModal = ({
                   </span>
                 </div>
                 <p className="text-xs text-gray-500 mt-0.5">{currentSession.browser}</p>
-                {currentSession.ipAddress && (
+                {(currentSession.location || currentSession.ipAddress) && (
                   <div className="flex items-center gap-1 text-xs text-gray-400 mt-1">
                     <FontAwesomeIcon icon={faLocationDot} className="text-[10px] text-rose-400" />
-                    {currentSession.ipAddress}
+                    {currentSession.location && currentSession.ipAddress
+                      ? `${currentSession.location} • ${currentSession.ipAddress}`
+                      : currentSession.location || currentSession.ipAddress}
                   </div>
                 )}
               </div>
@@ -129,10 +131,12 @@ export const ActiveSessionsModal = ({
                     <p className="text-sm font-semibold text-gray-800">{session.deviceName}</p>
                     <p className="text-xs text-gray-500">{session.browser}</p>
                     <div className="flex items-center gap-3 mt-1 flex-wrap">
-                      {session.ipAddress && (
+                      {(session.location || session.ipAddress) && (
                         <span className="flex items-center gap-1 text-xs text-gray-400">
                           <FontAwesomeIcon icon={faLocationDot} className="text-[10px] text-rose-400" />
-                          {session.ipAddress}
+                          {session.location && session.ipAddress
+                            ? `${session.location} • ${session.ipAddress}`
+                            : session.location || session.ipAddress}
                         </span>
                       )}
                       <span className="text-xs text-gray-400">{session.lastActive}</span>

@@ -2,6 +2,7 @@ import { authKeys } from "./keys";
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse } from "../../types/api-response";
 import type { Session } from "../../types/session";
+import type { LoginActivity } from "../../types/login-activity";
 
 export const twoFaStatusQuery = () => ({
   queryKey: authKeys.twoFaStatus(),
@@ -36,4 +37,15 @@ export const sessionsQuery = () => ({
     return response.data.data ?? [];
   },
   staleTime: 0, // always fresh
+});
+
+export const loginActivityQuery = () => ({
+  queryKey: authKeys.loginActivity(),
+  queryFn: async (): Promise<LoginActivity[]> => {
+    const response = await axiosInstance.get<ApiResponse<LoginActivity[]>>(
+      "/auth/login-activity",
+    );
+    return response.data.data ?? [];
+  },
+  staleTime: 0,
 });
