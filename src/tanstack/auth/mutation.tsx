@@ -3,9 +3,26 @@ import axiosInstance, { saveTokens } from "../../utils/axios-instance";
 import type { AuthResponse } from "../../types/auth-response";
 import type { ApiResponse } from "../../types/api-response";
 import { useQueryClient } from "@tanstack/react-query";
+import { getDeviceInfo } from "../../utils/device-info";
 
 export const authMutation = () => {
   const queryClient = useQueryClient();
+
+  // ─── Helper: register device session after login ────────────────────────────
+  const registerSessionAfterLogin = async () => {
+    try {
+      const info = getDeviceInfo();
+      const response = await axiosInstance.post<ApiResponse<string>>(
+        "/auth/sessions/register",
+        info,
+      );
+      const sessionId = response.data.data;
+      if (sessionId) localStorage.setItem("sessionId", sessionId);
+    } catch {
+      // Non-critical — session tracking is best-effort
+    }
+  };
+
   const loginMutation = {
     mutationKey: authKeys.login(),
     mutationFn: async (data: { email: string; password: string }) => {
@@ -18,6 +35,7 @@ export const authMutation = () => {
     onSuccess: async (data: ApiResponse<AuthResponse>) => {
       await saveTokens(data.data);
       queryClient.clear();
+      await registerSessionAfterLogin();
     },
   };
 
@@ -125,6 +143,7 @@ export const authMutation = () => {
     onSuccess: async (data: ApiResponse<AuthResponse>) => {
       await saveTokens(data.data);
       queryClient.clear();
+      await registerSessionAfterLogin();
     },
   };
 
@@ -171,6 +190,36 @@ export const authMutation = () => {
     },
   };
 
+  const revokeSessionMutation = {
+    mutationKey: [...authKeys.sessions(), "revoke"],
+    mutationFn: async (sessionId: string) => {
+      const currentSessionId = localStorage.getItem("sessionId");
+      const response = await axiosInstance.delete<ApiResponse<null>>(
+        `/auth/sessions/${sessionId}`,
+        { headers: currentSessionId ? { "X-Session-Id": currentSessionId } : {} },
+      );
+      return response.data;
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: authKeys.sessions() });
+    },
+  };
+
+  const revokeOtherSessionsMutation = {
+    mutationKey: [...authKeys.sessions(), "revoke-others"],
+    mutationFn: async () => {
+      const currentSessionId = localStorage.getItem("sessionId");
+      const response = await axiosInstance.delete<ApiResponse<null>>(
+        "/auth/sessions/others",
+        { headers: currentSessionId ? { "X-Session-Id": currentSessionId } : {} },
+      );
+      return response.data;
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: authKeys.sessions() });
+    },
+  };
+
   return {
     loginMutation,
     signUpMutation,
@@ -183,5 +232,7 @@ export const authMutation = () => {
     twoFaLoginVerifyMutation,
     changeEmailInitiateMutation,
     changeEmailConfirmMutation,
+    revokeSessionMutation,
+    revokeOtherSessionsMutation,
   };
 };

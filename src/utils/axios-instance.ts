@@ -75,6 +75,12 @@ axiosInstance.interceptors.request.use(
       // Ensure no stale token remains (especially important after logout)
       delete config.headers.Authorization;
     }
+
+    // Attach session ID so the server can validate it hasn't been revoked
+    const sessionId = localStorage.getItem("sessionId");
+    if (sessionId) {
+      config.headers["X-Session-Id"] = sessionId;
+    }
     config.baseURL = import.meta.env.VITE_API_BASE_URL;
 
     if (!config.url) return config;
@@ -114,6 +120,14 @@ axiosInstance.interceptors.response.use(
       !originalRequest._retry &&
       originalRequest.url !== REFRESH_ENDPOINT
     ) {
+      // Session was explicitly revoked on another device — log out immediately.
+      // Do NOT attempt a token refresh; the new token would still be rejected.
+      if (error.response?.data?.message === "SESSION_REVOKED") {
+        await logoutUser();
+        window.location.href = "/";
+        return Promise.reject(error);
+      }
+
       // Check if the refresh token is still within its 3-day lifespan
       const refreshValid = await isRefreshTokenValid();
       if (!refreshValid) {

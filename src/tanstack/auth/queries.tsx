@@ -1,6 +1,7 @@
 import { authKeys } from "./keys";
 import axiosInstance from "../../utils/axios-instance";
 import type { ApiResponse } from "../../types/api-response";
+import type { Session } from "../../types/session";
 
 export const twoFaStatusQuery = () => ({
   queryKey: authKeys.twoFaStatus(),
@@ -21,4 +22,18 @@ export const linkedEmailQuery = () => ({
     return response.data.data; // plain email string
   },
   staleTime: 1000 * 60 * 5, // 5 min — email rarely changes
+});
+
+
+export const sessionsQuery = () => ({
+  queryKey: authKeys.sessions(),
+  queryFn: async (): Promise<Session[]> => {
+    const sessionId = localStorage.getItem("sessionId");
+    const response = await axiosInstance.get<ApiResponse<Session[]>>(
+      "/auth/sessions",
+      { headers: sessionId ? { "X-Session-Id": sessionId } : {} },
+    );
+    return response.data.data ?? [];
+  },
+  staleTime: 0, // always fresh
 });

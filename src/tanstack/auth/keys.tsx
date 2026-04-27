@@ -13,4 +13,5 @@ export const authKeys = {
   linkedEmail: () => [...authKeys.all(), "linkedEmail"],
   changeEmailInitiate: () => [...authKeys.all(), "changeEmailInitiate"],
   changeEmailConfirm: () => [...authKeys.all(), "changeEmailConfirm"],
+  sessions: () => [...authKeys.all(), "sessions"],
 };

@@ -276,7 +276,7 @@ const Profile = () => {
 
     return (
       <div
-        className={`flex ${mobile ? "items-center gap-2 mt-5" : "flex-col gap-2 self-start"}`}
+        className={`flex ${mobile ? "items-center gap-2 mt-5" : "flex-col gap-2 justify-center"}`}
       >
         <Button
           variant="outline"
@@ -289,18 +289,6 @@ const Profile = () => {
           }
           outlineClassName={mobile ? "w-auto rounded-full" : "w-full"}
           onClick={() => navigate(ROUTES.USER.PROFILE_EDIT)}
-        />
-        <Button
-          variant="outline"
-          text={mobile ? "" : "Settings"}
-          icon={faGear}
-          className={
-            mobile
-              ? "text-xs py-[5.2px] px-3 rounded-full w-auto"
-              : "text-sm py-2 px-4 w-full rounded-lg"
-          }
-          outlineClassName={mobile ? "w-auto rounded-full" : "w-full"}
-          onClick={() => navigate(ROUTES.USER.SETTINGS)}
         />
         <Button
           variant="default"
