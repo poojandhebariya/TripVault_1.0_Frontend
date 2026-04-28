@@ -23,16 +23,20 @@ const PrivacyPanel = () => {
   const updatePrivacy = useMutation(updatePrivacyMutation());
 
   const isPrivate = profile?.privateAccount ?? false;
+  const showInSearch = profile?.showInSearch ?? true;
 
   const [allowTagging, setAllowTagging] = useState(true);
-  const [showInSearch, setShowInSearch] = useState(true);
   const [followApproval, setFollowApproval] =
     useState<FollowApproval>("everyone");
   const [blockedOpen, setBlockedOpen] = useState(false);
   const [requestsOpen, setRequestsOpen] = useState(false);
 
   const handlePrivateToggle = (val: boolean) => {
-    updatePrivacy.mutate(val);
+    updatePrivacy.mutate({ privateAccount: val, showInSearch });
+  };
+
+  const handleSearchToggle = (val: boolean) => {
+    updatePrivacy.mutate({ privateAccount: isPrivate, showInSearch: val });
   };
 
   return (
@@ -75,7 +79,7 @@ const PrivacyPanel = () => {
               label="Show in Search Results"
               description="Allow others to discover your profile via search"
               right={
-                <Toggle enabled={showInSearch} onChange={setShowInSearch} />
+                <Toggle enabled={showInSearch} onChange={handleSearchToggle} />
               }
             />
           </SettingsCard>

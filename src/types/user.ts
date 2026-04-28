@@ -18,6 +18,7 @@ export interface User {
   followingCount?: number;
   vaultsCount?: number;
   privateAccount?: boolean;
+  showInSearch?: boolean;
 }
 
 export interface PublicProfile extends Omit<
@@ -35,6 +36,7 @@ export interface PublicProfile extends Omit<
   vaultsCount: number;
   isFollowing: boolean;
   privateAccount?: boolean;
+  showInSearch?: boolean;
   requestPending?: boolean;
   authUserId?: string;
 }

@@ -479,20 +479,21 @@ export const userMutation = () => {
 
   const updatePrivacyMutation = () => ({
     mutationKey: userKeys.updatePrivacy(),
-    mutationFn: async (privateAccount: boolean) => {
-      const response = await axiosInstance.patch<ApiResponse<boolean>>(
+    mutationFn: async (settings: { privateAccount: boolean; showInSearch: boolean }) => {
+      const response = await axiosInstance.patch<ApiResponse<null>>(
         "/user/privacy",
-        { privateAccount },
+        settings,
       );
       return response.data;
     },
-    onMutate: async (privateAccount: boolean) => {
+    onMutate: async (settings: { privateAccount: boolean; showInSearch: boolean }) => {
       await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
       const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
       if (previousUser) {
         queryClient.setQueryData<User>(userKeys.getProfile(), {
           ...previousUser,
-          privateAccount,
+          privateAccount: settings.privateAccount,
+          showInSearch: settings.showInSearch,
         });
       }
       return { previousUser };
@@ -506,12 +507,13 @@ export const userMutation = () => {
         queryClient.setQueryData(userKeys.getProfile(), context.previousUser);
       }
     },
-    onSuccess: async (data: ApiResponse<boolean>) => {
+    onSuccess: async (_data, settings) => {
       const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
       if (previousUser) {
         const updatedUser = {
           ...previousUser,
-          privateAccount: data.data,
+          privateAccount: settings.privateAccount,
+          showInSearch: settings.showInSearch,
         };
         await set("user", updatedUser);
         await queryClient.setQueryData(userKeys.getProfile(), updatedUser);
