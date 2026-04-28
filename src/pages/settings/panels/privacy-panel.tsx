@@ -22,17 +22,21 @@ const PrivacyPanel = () => {
 
   const isPrivate = profile?.privateAccount ?? false;
   const showInSearch = profile?.showInSearch ?? true;
+  const allowTagging = profile?.allowTagging ?? true;
 
-  const [allowTagging, setAllowTagging] = useState(true);
   const [blockedOpen, setBlockedOpen] = useState(false);
   const [requestsOpen, setRequestsOpen] = useState(false);
 
   const handlePrivateToggle = (val: boolean) => {
-    updatePrivacy.mutate({ privateAccount: val, showInSearch });
+    updatePrivacy.mutate({ privateAccount: val, showInSearch, allowTagging });
   };
 
   const handleSearchToggle = (val: boolean) => {
-    updatePrivacy.mutate({ privateAccount: isPrivate, showInSearch: val });
+    updatePrivacy.mutate({ privateAccount: isPrivate, showInSearch: val, allowTagging });
+  };
+
+  const handleTaggingToggle = (val: boolean) => {
+    updatePrivacy.mutate({ privateAccount: isPrivate, showInSearch, allowTagging: val });
   };
 
   return (
@@ -89,7 +93,7 @@ const PrivacyPanel = () => {
               label="Allow Tagging"
               description="Others can tag you in their vaults"
               right={
-                <Toggle enabled={allowTagging} onChange={setAllowTagging} />
+                <Toggle enabled={allowTagging} onChange={handleTaggingToggle} />
               }
             />
             <RowItem

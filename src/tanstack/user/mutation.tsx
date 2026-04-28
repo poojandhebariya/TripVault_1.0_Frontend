@@ -479,14 +479,14 @@ export const userMutation = () => {
 
   const updatePrivacyMutation = () => ({
     mutationKey: userKeys.updatePrivacy(),
-    mutationFn: async (settings: { privateAccount: boolean; showInSearch: boolean }) => {
+    mutationFn: async (settings: { privateAccount: boolean; showInSearch: boolean; allowTagging: boolean }) => {
       const response = await axiosInstance.patch<ApiResponse<null>>(
         "/user/privacy",
         settings,
       );
       return response.data;
     },
-    onMutate: async (settings: { privateAccount: boolean; showInSearch: boolean }) => {
+    onMutate: async (settings: { privateAccount: boolean; showInSearch: boolean; allowTagging: boolean }) => {
       await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
       const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
       if (previousUser) {
@@ -494,6 +494,7 @@ export const userMutation = () => {
           ...previousUser,
           privateAccount: settings.privateAccount,
           showInSearch: settings.showInSearch,
+          allowTagging: settings.allowTagging,
         });
       }
       return { previousUser };
@@ -514,6 +515,7 @@ export const userMutation = () => {
           ...previousUser,
           privateAccount: settings.privateAccount,
           showInSearch: settings.showInSearch,
+          allowTagging: settings.allowTagging,
         };
         await set("user", updatedUser);
         await queryClient.setQueryData(userKeys.getProfile(), updatedUser);
