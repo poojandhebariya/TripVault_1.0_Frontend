@@ -13,8 +13,6 @@ import { FollowRequestsModal } from "../../../components/settings/modals/follow-
 import { userQueries } from "../../../tanstack/user/queries";
 import { userMutation } from "../../../tanstack/user/mutation";
 
-type FollowApproval = "everyone" | "manual";
-
 const PrivacyPanel = () => {
   const { getProfile } = userQueries();
   const { updatePrivacyMutation } = userMutation();
@@ -26,8 +24,6 @@ const PrivacyPanel = () => {
   const showInSearch = profile?.showInSearch ?? true;
 
   const [allowTagging, setAllowTagging] = useState(true);
-  const [followApproval, setFollowApproval] =
-    useState<FollowApproval>("everyone");
   const [blockedOpen, setBlockedOpen] = useState(false);
   const [requestsOpen, setRequestsOpen] = useState(false);
 
@@ -84,59 +80,6 @@ const PrivacyPanel = () => {
             />
           </SettingsCard>
 
-          <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest px-1">
-            Follow Requests
-          </p>
-          <SettingsCard>
-            <div className="py-4">
-              <p className="text-sm font-semibold text-gray-800 mb-1">
-                Who can follow you
-              </p>
-              <p className="text-xs text-gray-400 mb-3">
-                Control whether followers need your approval
-              </p>
-              <div className="flex gap-2">
-                {(
-                  [
-                    {
-                      val: "everyone",
-                      label: "Everyone",
-                      desc: "Auto-approve all requests",
-                    },
-                    {
-                      val: "manual",
-                      label: "Approve manually",
-                      desc: "Review each request",
-                    },
-                  ] as const
-                ).map((opt) => (
-                  <button
-                    key={opt.val}
-                    type="button"
-                    onClick={() => setFollowApproval(opt.val)}
-                    className={clsx(
-                      "flex-1 flex flex-col items-start gap-0.5 p-3 rounded-xl border text-left transition-all cursor-pointer",
-                      followApproval === opt.val
-                        ? "border-blue-500 bg-blue-50"
-                        : "border-gray-200 hover:border-gray-300 hover:bg-gray-50",
-                    )}
-                  >
-                    <span
-                      className={clsx(
-                        "text-sm font-semibold",
-                        followApproval === opt.val
-                          ? "text-blue-700"
-                          : "text-gray-700",
-                      )}
-                    >
-                      {opt.label}
-                    </span>
-                    <span className="text-xs text-gray-400">{opt.desc}</span>
-                  </button>
-                ))}
-              </div>
-            </div>
-          </SettingsCard>
 
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest px-1">
             Interactions
