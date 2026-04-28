@@ -86,6 +86,7 @@ const VaultCard = ({
   const { followMutation, unfollowMutation } = userMutation();
   const authorId = vault.author?.id;
   const isFollowing = !!vault.author?.isFollowing;
+  const requestPending = !!vault.author?.requestPending;
 
   const followMut = useMutation(followMutation(authorId ?? ""));
   const unfollowMut = useMutation(unfollowMutation(authorId ?? ""));
@@ -93,12 +94,12 @@ const VaultCard = ({
   const handleFollow = () => {
     if (!authorId || isOwner) return;
     guard(() => {
-      if (isFollowing) {
+      if (isFollowing || requestPending) {
         unfollowMut.mutate(authorId);
       } else {
         followMut.mutate(authorId);
       }
-    }, isFollowing ? "unfollow this traveller" : "follow this traveller");
+    }, isFollowing ? "unfollow this traveller" : requestPending ? "cancel this follow request" : "follow this traveller");
   };
 
   // Is the logged-in user the owner of this vault?
@@ -215,6 +216,7 @@ const VaultCard = ({
             <VaultPostMenu
               isOwner={isOwner}
               isFollowing={isFollowing}
+              requestPending={requestPending}
               hasLocation={!!vault.location}
               isPinned={!!vault.isPinned}
               isPublished={vault.status === "publish"}

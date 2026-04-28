@@ -4,6 +4,8 @@ export interface VaultAuthor {
   name: string | null;
   profilePicUrl: string | null;
   isFollowing?: boolean;
+  requestPending?: boolean;
+  privateAccount?: boolean;
 }
 
 export type TagStatus = "pending" | "accepted" | "declined";

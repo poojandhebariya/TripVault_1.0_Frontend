@@ -8,6 +8,7 @@ import {
   faUser,
   faUserPlus,
   faUserMinus,
+  faUserClock,
   faSpinner,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
@@ -45,13 +46,13 @@ const UserRow = ({
     if (isSelf) return;
     guard(
       () => {
-        if (profile.isFollowing) {
+        if (profile.isFollowing || profile.requestPending) {
           unfollowMut.mutate(profile.id);
         } else {
           followMut.mutate(profile.id);
         }
       },
-      profile.isFollowing ? "unfollow this traveller" : "follow this traveller",
+      profile.isFollowing ? "unfollow this traveller" : profile.requestPending ? "cancel this follow request" : "follow this traveller",
     );
   };
 
@@ -91,7 +92,9 @@ const UserRow = ({
           className={`shrink-0 flex items-center gap-1.5 text-xs font-semibold px-4 py-1.5 rounded-full border transition-all duration-200 ${
             profile.isFollowing
               ? "border-gray-300 text-gray-600 hover:border-red-300 hover:text-red-500 hover:bg-red-50"
-              : "border-indigo-500 text-indigo-600 hover:bg-indigo-50"
+              : profile.requestPending
+                ? "border-gray-200 text-gray-400 bg-gray-50"
+                : "border-indigo-500 text-indigo-600 hover:bg-indigo-50"
           } disabled:opacity-60`}
         >
           {isToggling ? (
@@ -100,6 +103,11 @@ const UserRow = ({
             <>
               <FontAwesomeIcon icon={faUserMinus} />
               <span>Unfollow</span>
+            </>
+          ) : profile.requestPending ? (
+            <>
+              <FontAwesomeIcon icon={faUserClock} className="text-[10px]" />
+              <span>Requested</span>
             </>
           ) : (
             <>

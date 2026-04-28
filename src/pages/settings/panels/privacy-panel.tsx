@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { clsx } from "clsx";
+import { useQuery, useMutation } from "@tanstack/react-query";
 import {
   PanelTitle,
   PanelSubtitle,
@@ -8,22 +9,41 @@ import {
   Toggle,
 } from "../settings-primitives";
 import { BlockedUsersModal } from "../../../components/settings/modals/blocked-users-modal";
+import { FollowRequestsModal } from "../../../components/settings/modals/follow-requests-modal";
+import { userQueries } from "../../../tanstack/user/queries";
+import { userMutation } from "../../../tanstack/user/mutation";
 
 type FollowApproval = "everyone" | "manual";
 
 const PrivacyPanel = () => {
-  const [privateAccount, setPrivateAccount] = useState(false);
+  const { getProfile } = userQueries();
+  const { updatePrivacyMutation } = userMutation();
+
+  const { data: profile } = useQuery(getProfile());
+  const updatePrivacy = useMutation(updatePrivacyMutation());
+
+  const isPrivate = profile?.privateAccount ?? false;
+
   const [allowTagging, setAllowTagging] = useState(true);
   const [showInSearch, setShowInSearch] = useState(true);
   const [followApproval, setFollowApproval] =
     useState<FollowApproval>("everyone");
   const [blockedOpen, setBlockedOpen] = useState(false);
+  const [requestsOpen, setRequestsOpen] = useState(false);
+
+  const handlePrivateToggle = (val: boolean) => {
+    updatePrivacy.mutate(val);
+  };
 
   return (
     <>
       <BlockedUsersModal
         open={blockedOpen}
         onClose={() => setBlockedOpen(false)}
+      />
+      <FollowRequestsModal
+        open={requestsOpen}
+        onClose={() => setRequestsOpen(false)}
       />
 
       <div className="p-5 md:p-0">
@@ -38,9 +58,19 @@ const PrivacyPanel = () => {
               label="Private Account"
               description="Only approved followers can see your vaults"
               right={
-                <Toggle enabled={privateAccount} onChange={setPrivateAccount} />
+                <Toggle
+                  enabled={isPrivate}
+                  onChange={handlePrivateToggle}
+                />
               }
             />
+            {isPrivate && (
+              <RowItem
+                label="Follow Requests"
+                description="Review and manage pending follow requests"
+                onClick={() => setRequestsOpen(true)}
+              />
+            )}
             <RowItem
               label="Show in Search Results"
               description="Allow others to discover your profile via search"

@@ -19,6 +19,8 @@ export type NotificationType =
   | "COMMENT_TAG"
   | "COMMENT_REPLY"
   | "FOLLOW"
+  | "FOLLOW_REQUEST"
+  | "FOLLOW_ACCEPTED"
   | "TAG_ACCEPTED"
   | "SAVE";
 

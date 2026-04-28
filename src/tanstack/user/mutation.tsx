@@ -102,18 +102,25 @@ export const userMutation = () => {
 
       // Optimistically update public profile status
       if (previousPublicProfile) {
+        const isTargetPrivate = previousPublicProfile.privateAccount;
         queryClient.setQueryData<PublicProfile>(userKeys.getPublicProfile(id), {
           ...previousPublicProfile,
-          isFollowing: true,
-          followersCount: (previousPublicProfile.followersCount || 0) + 1,
+          isFollowing: !isTargetPrivate,
+          requestPending: isTargetPrivate,
+          followersCount: isTargetPrivate
+            ? previousPublicProfile.followersCount
+            : (previousPublicProfile.followersCount || 0) + 1,
         });
       }
 
       // Optimistically update own following count
       if (previousOwnProfile) {
+        const isTargetPrivate = previousPublicProfile?.privateAccount;
         queryClient.setQueryData<User>(userKeys.getProfile(), {
           ...previousOwnProfile,
-          followingCount: (previousOwnProfile.followingCount || 0) + 1,
+          followingCount: isTargetPrivate
+            ? previousOwnProfile.followingCount
+            : (previousOwnProfile.followingCount || 0) + 1,
         });
       }
 
@@ -121,10 +128,20 @@ export const userMutation = () => {
       queryClient.setQueriesData({ queryKey: ["vault"] }, (old: any) => {
         if (!old) return old;
 
-        const updateAuthor = (v: any) =>
-          v.author?.id === id
-            ? { ...v, author: { ...v.author, isFollowing: true } }
-            : v;
+        const isTargetPrivate = previousPublicProfile?.privateAccount;
+        const updateAuthor = (v: any) => {
+          if (v.author?.id !== id) return v;
+
+          const isTargetPrivate = previousPublicProfile?.privateAccount ?? v.author.privateAccount;
+          return {
+            ...v,
+            author: {
+              ...v.author,
+              isFollowing: !isTargetPrivate,
+              requestPending: isTargetPrivate,
+            },
+          };
+        };
 
         if (old.author?.id) return updateAuthor(old);
         if (Array.isArray(old)) return old.map(updateAuthor);
@@ -142,39 +159,39 @@ export const userMutation = () => {
         return old;
       });
 
-      // Update following status in ALL user lists (followers, following, suggested, etc.)
+      // Update following status in ALL user lists (followers, following, search, suggestions, etc.)
       queryClient.setQueriesData({ queryKey: userKeys.all() }, (old: any) => {
         if (!Array.isArray(old)) return old;
-        return old.map((p: any) =>
-          p.id === id
-            ? {
-                ...p,
-                isFollowing: true,
-                followersCount: (p.followersCount || 0) + 1,
-              }
-            : p,
-        );
+        return old.map((p: any) => {
+          if (p.id !== id) return p;
+          
+          const isTargetPrivate = previousPublicProfile?.privateAccount ?? p.privateAccount ?? false;
+          return {
+            ...p,
+            isFollowing: !isTargetPrivate,
+            requestPending: isTargetPrivate,
+            followersCount: isTargetPrivate
+              ? p.followersCount
+              : (p.followersCount || 0) + 1,
+          };
+        });
       });
 
       // SPECIAL: Inject the newly followed user into the current user's following list
-      // so that navigating to the "Following" tab shows them immediately.
       if (previousOwnProfile?.id) {
-        // Find the profile data from any available cache source
         const followedProfile: PublicProfile | undefined =
           previousPublicProfile ??
-          // Try searching suggested profiles cache for the user
           (
             queryClient.getQueryData<PublicProfile[]>(
               userKeys.getSuggestedProfiles(),
             ) ?? []
           ).find((p: PublicProfile) => p.id === id);
 
-        if (followedProfile) {
+        if (followedProfile && !followedProfile.privateAccount) {
           queryClient.setQueryData(
             userKeys.getFollowing(previousOwnProfile.id),
             (old: any) => {
               const list: PublicProfile[] = Array.isArray(old) ? old : [];
-              // Avoid duplicates
               if (list.some((p) => p.id === id)) return list;
               return [{ ...followedProfile, isFollowing: true }, ...list];
             },
@@ -204,6 +221,10 @@ export const userMutation = () => {
         );
       }
     },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: userKeys.all() });
+      queryClient.invalidateQueries({ queryKey: ["vault"] });
+    },
   });
 
   const unfollowMutation = (id: string) => ({
@@ -215,11 +236,9 @@ export const userMutation = () => {
       return response.data;
     },
     onMutate: async () => {
-      // Cancel related queries to prevent background refreshes from overwriting optimistic state
       await queryClient.cancelQueries({ queryKey: userKeys.all() });
       await queryClient.cancelQueries({ queryKey: ["vault"] });
 
-      // Snapshot the previous values
       const previousPublicProfile = queryClient.getQueryData<PublicProfile>(
         userKeys.getPublicProfile(id),
       );
@@ -227,11 +246,11 @@ export const userMutation = () => {
         userKeys.getProfile(),
       );
 
-      // Optimistically update public profile status
       if (previousPublicProfile) {
         queryClient.setQueryData<PublicProfile>(userKeys.getPublicProfile(id), {
           ...previousPublicProfile,
           isFollowing: false,
+          requestPending: false,
           followersCount: Math.max(
             0,
             (previousPublicProfile.followersCount || 0) - 1,
@@ -239,7 +258,6 @@ export const userMutation = () => {
         });
       }
 
-      // Optimistically update own following count
       if (previousOwnProfile) {
         queryClient.setQueryData<User>(userKeys.getProfile(), {
           ...previousOwnProfile,
@@ -250,13 +268,15 @@ export const userMutation = () => {
         });
       }
 
-      // Optimistically update author status in ALL vault lists
       queryClient.setQueriesData({ queryKey: ["vault"] }, (old: any) => {
         if (!old) return old;
 
         const updateAuthor = (v: any) =>
           v.author?.id === id
-            ? { ...v, author: { ...v.author, isFollowing: false } }
+            ? {
+                ...v,
+                author: { ...v.author, isFollowing: false, requestPending: false },
+              }
             : v;
 
         if (old.author?.id) return updateAuthor(old);
@@ -275,7 +295,6 @@ export const userMutation = () => {
         return old;
       });
 
-      // Update following status in ALL user lists
       queryClient.setQueriesData({ queryKey: userKeys.all() }, (old: any) => {
         if (!Array.isArray(old)) return old;
         return old.map((p: any) =>
@@ -283,13 +302,13 @@ export const userMutation = () => {
             ? {
                 ...p,
                 isFollowing: false,
+                requestPending: false,
                 followersCount: Math.max(0, (p.followersCount || 0) - 1),
               }
             : p,
         );
       });
 
-      // SPECIAL: Remove from own following list immediately
       if (previousOwnProfile?.id) {
         queryClient.setQueryData(
           userKeys.getFollowing(previousOwnProfile.id),
@@ -300,7 +319,6 @@ export const userMutation = () => {
         );
       }
 
-      // SPECIAL: Remove their vaults from the following feed immediately
       queryClient.setQueriesData(
         { queryKey: ["vault", "following"] },
         (old: any) => {
@@ -339,6 +357,10 @@ export const userMutation = () => {
           context.previousOwnProfile,
         );
       }
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: userKeys.all() });
+      queryClient.invalidateQueries({ queryKey: ["vault"] });
     },
   });
 
@@ -455,6 +477,142 @@ export const userMutation = () => {
     },
   });
 
+  const updatePrivacyMutation = () => ({
+    mutationKey: userKeys.updatePrivacy(),
+    mutationFn: async (privateAccount: boolean) => {
+      const response = await axiosInstance.patch<ApiResponse<boolean>>(
+        "/user/privacy",
+        { privateAccount },
+      );
+      return response.data;
+    },
+    onMutate: async (privateAccount: boolean) => {
+      await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
+      const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
+      if (previousUser) {
+        queryClient.setQueryData<User>(userKeys.getProfile(), {
+          ...previousUser,
+          privateAccount,
+        });
+      }
+      return { previousUser };
+    },
+    onError: (
+      _err: unknown,
+      _vars: unknown,
+      context: { previousUser?: User } | undefined,
+    ) => {
+      if (context?.previousUser) {
+        queryClient.setQueryData(userKeys.getProfile(), context.previousUser);
+      }
+    },
+    onSuccess: async (data: ApiResponse<boolean>) => {
+      const previousUser = queryClient.getQueryData<User>(userKeys.getProfile());
+      if (previousUser) {
+        const updatedUser = {
+          ...previousUser,
+          privateAccount: data.data,
+        };
+        await set("user", updatedUser);
+        await queryClient.setQueryData(userKeys.getProfile(), updatedUser);
+      }
+    },
+  });
+
+  const acceptFollowRequestMutation = (requestorId: string) => ({
+    mutationKey: [...userKeys.followRequests(), "accept", requestorId],
+    mutationFn: async () => {
+      const response = await axiosInstance.post<ApiResponse<null>>(
+        `/user/follow-requests/${requestorId}/accept`,
+      );
+      return response.data;
+    },
+    onMutate: async () => {
+      await queryClient.cancelQueries({ queryKey: userKeys.notifications() });
+      await queryClient.cancelQueries({ queryKey: userKeys.getProfile() });
+
+      const previousNotifications = queryClient.getQueryData<VaultNotification[]>(userKeys.notifications());
+      const previousProfile = queryClient.getQueryData<import('../../types/user').User>(userKeys.getProfile());
+
+      // Optimistically remove the FOLLOW_REQUEST card from the notifications list
+      if (previousNotifications) {
+        queryClient.setQueryData<VaultNotification[]>(
+          userKeys.notifications(),
+          previousNotifications.filter(
+            (n) => !(n.type === "FOLLOW_REQUEST" && n.actor?.id === requestorId),
+          ),
+        );
+      }
+
+      // Optimistically bump followers count on own profile
+      if (previousProfile) {
+        queryClient.setQueryData(userKeys.getProfile(), {
+          ...previousProfile,
+          followersCount: (previousProfile.followersCount || 0) + 1,
+        });
+      }
+
+      return { previousNotifications, previousProfile };
+    },
+    onError: (
+      _err: unknown,
+      _vars: unknown,
+      context: { previousNotifications?: VaultNotification[]; previousProfile?: import('../../types/user').User } | undefined,
+    ) => {
+      if (context?.previousNotifications) {
+        queryClient.setQueryData(userKeys.notifications(), context.previousNotifications);
+      }
+      if (context?.previousProfile) {
+        queryClient.setQueryData(userKeys.getProfile(), context.previousProfile);
+      }
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: userKeys.notifications() });
+      queryClient.invalidateQueries({ queryKey: userKeys.followRequests() });
+      queryClient.invalidateQueries({ queryKey: userKeys.getProfile() });
+    },
+  });
+
+  const declineFollowRequestMutation = (requestorId: string) => ({
+    mutationKey: [...userKeys.followRequests(), "decline", requestorId],
+    mutationFn: async () => {
+      const response = await axiosInstance.delete<ApiResponse<null>>(
+        `/user/follow-requests/${requestorId}`,
+      );
+      return response.data;
+    },
+    onMutate: async () => {
+      await queryClient.cancelQueries({ queryKey: userKeys.notifications() });
+
+      const previousNotifications = queryClient.getQueryData<VaultNotification[]>(userKeys.notifications());
+
+      // Optimistically remove the FOLLOW_REQUEST card from the notifications list
+      if (previousNotifications) {
+        queryClient.setQueryData<VaultNotification[]>(
+          userKeys.notifications(),
+          previousNotifications.filter(
+            (n) => !(n.type === "FOLLOW_REQUEST" && n.actor?.id === requestorId),
+          ),
+        );
+      }
+
+      return { previousNotifications };
+    },
+    onError: (
+      _err: unknown,
+      _vars: unknown,
+      context: { previousNotifications?: VaultNotification[] } | undefined,
+    ) => {
+      if (context?.previousNotifications) {
+        queryClient.setQueryData(userKeys.notifications(), context.previousNotifications);
+      }
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: userKeys.notifications() });
+      queryClient.invalidateQueries({ queryKey: userKeys.followRequests() });
+    },
+  });
+
   return {
     profileMutation,
     updateProfileMutation,
@@ -462,5 +620,8 @@ export const userMutation = () => {
     unfollowMutation,
     respondToTagMutation,
     markNotificationsAsReadMutation,
+    updatePrivacyMutation,
+    acceptFollowRequestMutation,
+    declineFollowRequestMutation,
   };
 };

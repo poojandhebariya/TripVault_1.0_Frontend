@@ -128,6 +128,16 @@ export const userQueries = () => {
     staleTime: 1000 * 30, // 30s
   });
 
+  const getFollowRequests = () => ({
+    queryKey: userKeys.followRequests(),
+    queryFn: async (): Promise<PublicProfile[]> => {
+      const response = await axiosInstance.get<ApiResponse<PublicProfile[]>>(
+        `/user/follow-requests`,
+      );
+      return response.data.data ?? [];
+    },
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -135,10 +145,11 @@ export const userQueries = () => {
     getFollowers,
     getFollowing,
     getSuggestedProfiles,
-    getNotifications, 
+    getNotifications,
     getTaggedVaults,
     getPublicTaggedVaults,
     tagFollowersInVault,
     searchUsers,
+    getFollowRequests,
   };
 };

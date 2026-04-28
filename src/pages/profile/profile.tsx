@@ -21,6 +21,7 @@ import {
   faUser,
   faUserPlus,
   faUserMinus,
+  faUserClock,
   faSpinner,
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
@@ -170,10 +171,13 @@ const Profile = () => {
     guard(() => {
       if (publicProfile.isFollowing) {
         unfollowMut.mutate(publicProfile.id);
+      } else if (publicProfile.isRequestPending) {
+        // Cancel the pending request by unfollowing (deletes the pending row)
+        unfollowMut.mutate(publicProfile.id);
       } else {
         followMut.mutate(publicProfile.id);
       }
-    }, publicProfile.isFollowing ? "unfollow this traveller" : "follow this traveller");
+    }, publicProfile.isFollowing ? "unfollow this traveller" : publicProfile.isRequestPending ? "cancel this follow request" : "follow this traveller");
   };
 
   const handleFollowersClick = () => {
@@ -241,12 +245,18 @@ const Profile = () => {
         >
           <Button
             variant="outline"
-            text={publicProfile?.isFollowing ? "Unfollow" : "Follow"}
+            text={
+              publicProfile?.isFollowing
+                ? "Unfollow"
+                : publicProfile?.requestPending
+                  ? "Requested"
+                  : "Follow"
+            }
             icon={
-              isToggling
-                ? faSpinner
-                : publicProfile?.isFollowing
-                  ? faUserMinus
+              publicProfile?.isFollowing
+                ? faUserMinus
+                : publicProfile?.requestPending
+                  ? faUserClock
                   : faUserPlus
             }
             className={

@@ -5,6 +5,7 @@ import CommentNotificationCard from "./comment-notification-card";
 import FollowNotificationCard from "./follow-notification-card";
 import TagAcceptedNotificationCard from "./tag-accepted-notification-card";
 import SaveNotificationCard from "./save-notification-card";
+import FollowAcceptedNotificationCard from "./follow-accepted-notification-card";
 
 const NotificationCard = ({
   notification,
@@ -21,7 +22,10 @@ const NotificationCard = ({
     case "COMMENT_REPLY":
       return <CommentNotificationCard notification={notification} />;
     case "FOLLOW":
+    case "FOLLOW_REQUEST":
       return <FollowNotificationCard notification={notification} />;
+    case "FOLLOW_ACCEPTED":
+      return <FollowAcceptedNotificationCard notification={notification} />;
     case "TAG_ACCEPTED":
       return <TagAcceptedNotificationCard notification={notification} />;
     case "SAVE":

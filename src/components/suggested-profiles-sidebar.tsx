@@ -8,6 +8,7 @@ import {
   faUser,
   faUserPlus,
   faUserMinus,
+  faUserClock,
   faSpinner,
   faUsers,
   faLocationDot,
@@ -37,12 +38,12 @@ const SuggestedProfileCard = ({
     e.stopPropagation();
     if (isSelf) return;
     guard(() => {
-      if (profile.isFollowing) {
+      if (profile.isFollowing || profile.requestPending) {
         unfollowMut.mutate(profile.id);
       } else {
         followMut.mutate(profile.id);
       }
-    }, profile.isFollowing ? "unfollow this traveller" : "follow this traveller");
+    }, profile.isFollowing ? "unfollow this traveller" : profile.requestPending ? "cancel this follow request" : "follow this traveller");
   };
 
   const handleNavigate = () => {
@@ -98,7 +99,9 @@ const SuggestedProfileCard = ({
           className={`shrink-0 flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full border transition-all duration-200 ${
             profile.isFollowing
               ? "border-gray-200 text-gray-500 bg-gray-50 hover:border-red-200 hover:text-red-500 hover:bg-red-50"
-              : "border-indigo-400 text-indigo-600 hover:bg-indigo-50"
+              : profile.requestPending
+                ? "border-gray-200 text-gray-400 bg-gray-50"
+                : "border-indigo-400 text-indigo-600 hover:bg-indigo-50"
           } disabled:opacity-60`}
         >
           {isToggling ? (
@@ -108,10 +111,12 @@ const SuggestedProfileCard = ({
             />
           ) : profile.isFollowing ? (
             <FontAwesomeIcon icon={faUserMinus} className="text-[10px]" />
+          ) : profile.requestPending ? (
+            <FontAwesomeIcon icon={faUserClock} className="text-[10px]" />
           ) : (
             <FontAwesomeIcon icon={faUserPlus} className="text-[10px]" />
           )}
-          <span>{profile.isFollowing ? "Following" : "Follow"}</span>
+          <span>{profile.isFollowing ? "Following" : profile.requestPending ? "Requested" : "Follow"}</span>
         </button>
       )}
       </div>

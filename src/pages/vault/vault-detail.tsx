@@ -46,6 +46,7 @@ const VaultDetail = () => {
 
   const authorId = vault?.author?.id;
   const isFollowing = !!vault?.author?.isFollowing;
+  const requestPending = !!vault?.author?.requestPending;
   const isOwner = currentUser?.id === authorId;
 
   const followMut = useMutation(followMutation(authorId ?? ""));
@@ -57,12 +58,12 @@ const VaultDetail = () => {
     if (!authorId || isToggling || isOwner) return;
 
     guard(() => {
-      if (isFollowing) {
+      if (isFollowing || requestPending) {
         unfollowMut.mutate(authorId);
       } else {
         followMut.mutate(authorId);
       }
-    }, isFollowing ? "unfollow this traveller" : "follow this traveller");
+    }, isFollowing ? "unfollow this traveller" : requestPending ? "cancel this follow request" : "follow this traveller");
   };
 
   const navigateToProfile = () => {
@@ -130,7 +131,7 @@ const VaultDetail = () => {
                     !isOwner && (
                       <Button
                         variant={isFollowing ? "outline" : "default"}
-                        text={isFollowing ? "Unfollow" : "Follow"}
+                        text={isFollowing ? "Unfollow" : requestPending ? "Requested" : "Follow"}
                         loading={isToggling}
                         onClick={handleFollowToggle}
                         className="w-auto! py-1.5! md:py-2! px-4! md:px-5! text-xs md:text-sm rounded-full!"

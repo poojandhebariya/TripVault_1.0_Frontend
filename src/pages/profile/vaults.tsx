@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
+import { faLayerGroup, faLock } from "@fortawesome/free-solid-svg-icons";
 import { vaultQueries } from "../../tanstack/vault/queries";
 import type { Vault } from "../../types/vault";
+import { userQueries } from "../../tanstack/user/queries";
 import VaultGridItem from "./components/vault-grid-item";
 import VaultViewer from "./components/vault-viewer";
 import VaultGridSkeleton from "../../components/skeletons/vault-grid-skeleton";
@@ -27,27 +28,33 @@ interface VaultsProps {
 const EmptyState = ({
   filter,
   publicMode,
+  isPrivate,
 }: {
   filter: StatusFilter;
   publicMode?: boolean;
+  isPrivate?: boolean;
 }) => (
   <div className="col-span-3 flex flex-col items-center justify-center py-20 text-center px-6">
     <div className="w-16 h-16 rounded-full bg-linear-to-br from-violet-100 to-blue-100 flex items-center justify-center text-2xl text-indigo-400 mb-4 shadow-sm">
-      <FontAwesomeIcon icon={faLayerGroup} />
+      <FontAwesomeIcon icon={isPrivate ? faLock : faLayerGroup} />
     </div>
     <p className="text-[15px] font-bold text-gray-900">
-      {publicMode
-        ? "No public vaults yet"
-        : filter === "all"
-          ? "No vaults yet"
-          : `No ${filter === "publish" ? "published" : filter} vaults`}
+      {isPrivate
+        ? "This account is private"
+        : publicMode
+          ? "No public vaults yet"
+          : filter === "all"
+            ? "No vaults yet"
+            : `No ${filter === "publish" ? "published" : filter} vaults`}
     </p>
     <p className="text-[13px] text-gray-400 mt-1.5 max-w-[200px] leading-relaxed">
-      {publicMode
-        ? "This user hasn't published any vaults yet."
-        : filter === "all"
-          ? "Your travel memories will show up here."
-          : `You don't have any ${filter} vaults yet.`}
+      {isPrivate
+        ? "Follow this user to see their vaults."
+        : publicMode
+          ? "This user hasn't published any vaults yet."
+          : filter === "all"
+            ? "Your travel memories will show up here."
+            : `You don't have any ${filter} vaults yet.`}
     </p>
   </div>
 );
@@ -68,6 +75,14 @@ const Vaults = ({ publicMode = false, id = "" }: VaultsProps) => {
     isLoading: pubLoading,
     isError: pubError,
   } = useQuery({ ...getUserPublicVaults(id), enabled: publicMode && !!id });
+
+  const { getPublicProfile } = userQueries();
+  const { data: profile } = useQuery({
+    ...getPublicProfile(id),
+    enabled: publicMode && !!id,
+  });
+
+  const isPrivate = publicMode && profile?.privateAccount && !profile?.isFollowing;
 
   const vaults = publicMode ? pubVaults : myVaults;
   const isLoading = publicMode ? pubLoading : myLoading;
@@ -126,12 +141,17 @@ const Vaults = ({ publicMode = false, id = "" }: VaultsProps) => {
           </p>
         )}
 
-        {!isLoading && !isError && filtered.length === 0 && (
-          <EmptyState filter={filter} publicMode={publicMode} />
+        {!isLoading && !isError && (filtered.length === 0 || isPrivate) && (
+          <EmptyState
+            filter={filter}
+            publicMode={publicMode}
+            isPrivate={isPrivate}
+          />
         )}
 
         {!isLoading &&
           !isError &&
+          !isPrivate &&
           filtered.map((vault, i) => (
             <VaultGridItem
               key={vault.id ?? i}

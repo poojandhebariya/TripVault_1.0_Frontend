@@ -7,6 +7,7 @@ import {
   faCheck,
   faClock,
   faThumbTack,
+  faLock,
 } from "@fortawesome/free-solid-svg-icons";
 import { userQueries } from "../../tanstack/user/queries";
 import type { Vault } from "../../types/vault";
@@ -128,6 +129,14 @@ const Tagged = () => {
     isError,
   } = useQuery(queryToUse);
 
+  const { getPublicProfile } = userQueries();
+  const { data: profile } = useQuery({
+    ...getPublicProfile(id ?? ""),
+    enabled: isPublic,
+  });
+
+  const isPrivate = isPublic && profile?.privateAccount && !profile?.isFollowing;
+
   const [filter, setFilter] = useState<TagFilter>("all");
   const [selectedVault, setSelectedVault] = useState<Vault | null>(null);
 
@@ -188,7 +197,7 @@ const Tagged = () => {
       )}
 
       {/* Empty state */}
-      {!isLoading && !isError && filteredVaults.length === 0 && (
+      {!isLoading && !isError && (filteredVaults.length === 0 || isPrivate) && (
         <div className="flex flex-col items-center justify-center py-20 text-center px-6">
           <div
             className="w-16 h-16 rounded-full flex items-center justify-center text-2xl mb-4 shadow-sm"
@@ -197,27 +206,31 @@ const Tagged = () => {
                 "linear-gradient(135deg, #e0e7ff 0%, #ede9fe 50%, #fce7f3 100%)",
             }}
           >
-            <FontAwesomeIcon icon={faTag} className="text-indigo-400" />
+            <FontAwesomeIcon icon={isPrivate ? faLock : faTag} className="text-indigo-400" />
           </div>
           <p className="text-[15px] font-bold text-gray-900">
-            {isPublic 
-              ? "No tagged posts" 
-              : filter === "all" 
-                ? "No tagged posts yet" 
-                : `No ${filter} tagged posts`}
+            {isPrivate
+              ? "This account is private"
+              : isPublic 
+                ? "No tagged posts" 
+                : filter === "all" 
+                  ? "No tagged posts yet" 
+                  : `No ${filter} tagged posts`}
           </p>
           <p className="text-[13px] text-gray-400 mt-1.5 max-w-[200px] leading-relaxed">
-            {isPublic
-              ? "This traveller hasn't been accepted in any tagged vaults yet."
-              : filter === "all"
-                ? "When someone tags you in a vault and you accept, it'll appear here."
-                : `You don't have any ${filter} tagged vaults yet.`}
+            {isPrivate
+              ? "Follow this user to see their tagged vaults."
+              : isPublic
+                ? "This traveller hasn't been accepted in any tagged vaults yet."
+                : filter === "all"
+                  ? "When someone tags you in a vault and you accept, it'll appear here."
+                  : `You don't have any ${filter} tagged vaults yet.`}
           </p>
         </div>
       )}
 
       {/* Grid */}
-      {!isLoading && !isError && filteredVaults.length > 0 && (
+      {!isLoading && !isError && !isPrivate && filteredVaults.length > 0 && (
         <div className="grid grid-cols-3 gap-px mt-2 md:max-w-4xl md:mx-auto md:gap-0.5 md:bg-transparent">
           {filteredVaults.map((vault) => (
             <TaggedVaultCard
