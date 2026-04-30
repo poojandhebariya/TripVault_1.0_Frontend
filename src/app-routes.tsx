@@ -35,6 +35,12 @@ import SettingsMenuPage from "./pages/settings/settings-menu-page";
 import SecurityPanel from "./pages/settings/panels/security-panel";
 import PrivacyPanel from "./pages/settings/panels/privacy-panel";
 import AppearancePanel from "./pages/settings/panels/appearance-panel";
+import InsightsPanel from "./pages/settings/panels/insights-panel";
+import ProfileVisitsPage from "./pages/settings/panels/insights/profile-visits-page";
+import AvgTimeSpentPage from "./pages/settings/panels/insights/avg-time-spent-page";
+import GlobalReachPage from "./pages/settings/panels/insights/global-reach-page";
+import TotalDistancePage from "./pages/settings/panels/insights/total-distance-page";
+import MostEngagingMoodPage from "./pages/settings/panels/insights/most-engaging-mood-page";
 import DangerPanel from "./pages/settings/panels/danger-panel";
 
 const AppRoutes = () => {
@@ -125,6 +131,12 @@ const AppRoutes = () => {
             <Route path="security" element={<SecurityPanel />} />
             <Route path="privacy" element={<PrivacyPanel />} />
             <Route path="appearance" element={<AppearancePanel />} />
+            <Route path="insights" element={<InsightsPanel />} />
+            <Route path="insights/visits" element={<ProfileVisitsPage />} />
+            <Route path="insights/time" element={<AvgTimeSpentPage />} />
+            <Route path="insights/reach" element={<GlobalReachPage />} />
+            <Route path="insights/distance" element={<TotalDistancePage />} />
+            <Route path="insights/mood" element={<MostEngagingMoodPage />} />
             <Route path="danger" element={<DangerPanel />} />
           </Route>
         </Route>

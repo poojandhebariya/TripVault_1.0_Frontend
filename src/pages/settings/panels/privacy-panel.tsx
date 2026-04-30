@@ -8,12 +8,13 @@ import {
   SettingsCard,
   Toggle,
 } from "../settings-primitives";
-import { BlockedUsersModal } from "../../../components/settings/modals/blocked-users-modal";
 import { FollowRequestsModal } from "../../../components/settings/modals/follow-requests-modal";
 import { userQueries } from "../../../tanstack/user/queries";
 import { userMutation } from "../../../tanstack/user/mutation";
+import { useSnackbar } from "react-snackify";
 
 const PrivacyPanel = () => {
+  const { showSnackbar } = useSnackbar();
   const { getProfile } = userQueries();
   const { updatePrivacyMutation } = userMutation();
 
@@ -24,8 +25,35 @@ const PrivacyPanel = () => {
   const showInSearch = profile?.showInSearch ?? true;
   const allowTagging = profile?.allowTagging ?? true;
 
-  const [blockedOpen, setBlockedOpen] = useState(false);
   const [requestsOpen, setRequestsOpen] = useState(false);
+
+  // ─── Dummy Data Actions ─────────────────────────────────────────────────────
+
+  const handleDeleteAllVaults = () => {
+    // Dummy implementation
+    showSnackbar({
+      message: "This would permanently delete all your vaults.",
+      variant: "warning"
+    });
+  };
+
+  const handleMakeAllPrivate = () => {
+    // Dummy implementation
+    showSnackbar({
+      message: "All your vaults are now private.",
+      variant: "success"
+    });
+  };
+
+  const handleClearSearchHistory = () => {
+    // Dummy implementation
+    showSnackbar({
+      message: "Search history cleared.",
+      variant: "success"
+    });
+  };
+
+  // ────────────────────────────────────────────────────────────────────────────
 
   const handlePrivateToggle = (val: boolean) => {
     updatePrivacy.mutate({ privateAccount: val, showInSearch, allowTagging });
@@ -41,10 +69,6 @@ const PrivacyPanel = () => {
 
   return (
     <>
-      <BlockedUsersModal
-        open={blockedOpen}
-        onClose={() => setBlockedOpen(false)}
-      />
       <FollowRequestsModal
         open={requestsOpen}
         onClose={() => setRequestsOpen(false)}
@@ -56,7 +80,8 @@ const PrivacyPanel = () => {
           Control who can see your content and interact with you.
         </PanelSubtitle>
 
-        <div className="space-y-4">
+        <div className="space-y-6">
+          {/* Account Privacy */}
           <SettingsCard>
             <RowItem
               label="Private Account"
@@ -84,7 +109,24 @@ const PrivacyPanel = () => {
             />
           </SettingsCard>
 
+          {/* Activity & History */}
+          <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest px-1">
+            Activity & History
+          </p>
+          <SettingsCard>
+            <RowItem
+              label="Clear Search History"
+              description="Remove all recent search terms and locations"
+              onClick={handleClearSearchHistory}
+            />
+            <RowItem
+              label="Make All Vaults Private"
+              description="Instantly hide all your published trips from others"
+              onClick={handleMakeAllPrivate}
+            />
+          </SettingsCard>
 
+          {/* Interactions */}
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest px-1">
             Interactions
           </p>
@@ -95,11 +137,6 @@ const PrivacyPanel = () => {
               right={
                 <Toggle enabled={allowTagging} onChange={handleTaggingToggle} />
               }
-            />
-            <RowItem
-              label="Blocked Users"
-              description="Manage users you have blocked"
-              onClick={() => setBlockedOpen(true)}
             />
           </SettingsCard>
         </div>

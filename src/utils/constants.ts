@@ -26,6 +26,12 @@ export const ROUTES = {
     SETTINGS_ACCOUNT: "/user/profile/settings/account",
     SETTINGS_PRIVACY: "/user/profile/settings/privacy",
     SETTINGS_APPEARANCE: "/user/profile/settings/appearance",
+    SETTINGS_INSIGHTS: "/user/profile/settings/insights",
+    SETTINGS_INSIGHTS_VISITS: "/user/profile/settings/insights/visits",
+    SETTINGS_INSIGHTS_TIME: "/user/profile/settings/insights/time",
+    SETTINGS_INSIGHTS_REACH: "/user/profile/settings/insights/reach",
+    SETTINGS_INSIGHTS_DISTANCE: "/user/profile/settings/insights/distance",
+    SETTINGS_INSIGHTS_MOOD: "/user/profile/settings/insights/mood",
     SETTINGS_DANGER: "/user/profile/settings/danger",
   },
   VAULT: {

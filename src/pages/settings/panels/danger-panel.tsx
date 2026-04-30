@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import {
   PanelTitle,
   PanelSubtitle,
@@ -9,9 +9,18 @@ import {
 } from "../settings-primitives";
 import { DeleteAccountModal } from "../../../components/settings/modals/delete-account-modal";
 import { DeactivateModal } from "../../../components/settings/modals/deactivate-modal";
+import { useSnackbar } from "react-snackify";
 
 const DangerPanel = () => {
+  const { showSnackbar } = useSnackbar();
   const [modal, setModal] = useState<"delete" | "deactivate" | null>(null);
+
+  const handleDeleteAllVaults = () => {
+    showSnackbar({
+      message: "This would permanently delete all your vaults.",
+      variant: "warning"
+    });
+  };
 
   return (
     <>
@@ -46,7 +55,24 @@ const DangerPanel = () => {
             />
           </SettingsCard>
 
+          <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest px-1">
+            Account Management
+          </p>
           <SettingsCard danger>
+            <RowItem
+              label="Delete All Vaults"
+              description="Permanently remove every memory from your vault"
+              danger
+              right={
+                <button
+                  type="button"
+                  onClick={handleDeleteAllVaults}
+                  className="text-xs font-semibold text-red-600 bg-red-50 border border-red-200 px-3 py-1.5 rounded-lg hover:bg-red-100 transition-colors cursor-pointer"
+                >
+                  <FontAwesomeIcon icon={faTrashCan} className="mr-1.5" /> Delete All
+                </button>
+              }
+            />
             <RowItem
               label="Deactivate Account"
               description="Temporarily hide your profile — reactivate anytime by logging in"

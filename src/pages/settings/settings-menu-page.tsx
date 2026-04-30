@@ -6,6 +6,7 @@ import {
   faPalette,
   faTriangleExclamation,
   faChevronRight,
+  faChartLine,
 } from "@fortawesome/free-solid-svg-icons";
 import { ROUTES } from "../../utils/constants";
 import MobileStickyHeader from "../../components/mobile-sticky-header";
@@ -34,6 +35,14 @@ const MENU_ITEMS = [
     description: "Theme and language preferences",
     icon: faPalette,
     iconBg: "bg-gradient-to-br from-indigo-500 to-indigo-700",
+    danger: false,
+  },
+  {
+    to: ROUTES.USER.SETTINGS_INSIGHTS,
+    label: "Insights",
+    description: "Visits, engagement, and travel reach",
+    icon: faChartLine,
+    iconBg: "bg-gradient-to-br from-emerald-500 to-emerald-700",
     danger: false,
   },
   {
