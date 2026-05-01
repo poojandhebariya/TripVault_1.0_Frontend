@@ -29,14 +29,14 @@ const MENU_ITEMS = [
     iconBg: "bg-gradient-to-br from-purple-500 to-purple-700",
     danger: false,
   },
-  {
-    to: ROUTES.USER.SETTINGS_APPEARANCE,
-    label: "Appearance",
-    description: "Theme and language preferences",
-    icon: faPalette,
-    iconBg: "bg-gradient-to-br from-indigo-500 to-indigo-700",
-    danger: false,
-  },
+  // {
+  //   to: ROUTES.USER.SETTINGS_APPEARANCE,
+  //   label: "Appearance",
+  //   description: "Theme and language preferences",
+  //   icon: faPalette,
+  //   iconBg: "bg-gradient-to-br from-indigo-500 to-indigo-700",
+  //   danger: false,
+  // },
   {
     to: ROUTES.USER.SETTINGS_INSIGHTS,
     label: "Insights",

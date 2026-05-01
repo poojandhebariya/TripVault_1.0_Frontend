@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { Outlet, useNavigate, useParams } from "react-router-dom";
 import { userQueries } from "../../tanstack/user/queries";
@@ -140,7 +140,7 @@ const Profile = () => {
   }, [id, currentUser, navigate]);
 
   const { getProfile, getPublicProfile } = userQueries();
-  const { followMutation, unfollowMutation } = userMutation();
+  const { followMutation, unfollowMutation, recordProfileVisitMutation } = userMutation();
 
   // Own profile query
   const { data: ownProfile, isLoading: ownLoading } = useQuery({
@@ -179,6 +179,16 @@ const Profile = () => {
       }
     }, publicProfile.isFollowing ? "unfollow this traveller" : publicProfile.isRequestPending ? "cancel this follow request" : "follow this traveller");
   };
+
+  // Record profile visit — once per profile ID, guarded against StrictMode double-fire
+  const visitMut = useMutation(recordProfileVisitMutation(id ?? ""));
+  const visitedIdRef = useRef<string | null>(null);
+  useEffect(() => {
+    if (isPublic && id && visitedIdRef.current !== id) {
+      visitedIdRef.current = id;
+      visitMut.mutate();
+    }
+  }, [id, isPublic]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleFollowersClick = () => {
     if (isPublic && id) {

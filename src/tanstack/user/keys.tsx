@@ -17,4 +17,5 @@ export const userKeys = {
   tagFollowersInVault: (q: string) => [...userKeys.all(), "tagFollowersInVault", q],
   searchUsers: (q: string) => [...userKeys.all(), "searchUsers", q],
   followRequests: () => [...userKeys.all(), "followRequests"],
+  profileVisitStats: () => [...userKeys.all(), "profileVisitStats"],
 };

@@ -23,12 +23,12 @@ const NAV_ITEMS = [
     icon: faLock,
     danger: false,
   },
-  {
-    to: ROUTES.USER.SETTINGS_APPEARANCE,
-    label: "Appearance",
-    icon: faPalette,
-    danger: false,
-  },
+  // {
+  //   to: ROUTES.USER.SETTINGS_APPEARANCE,
+  //   label: "Appearance",
+  //   icon: faPalette,
+  //   danger: false,
+  // },
   {
     to: ROUTES.USER.SETTINGS_INSIGHTS,
     label: "Insights",

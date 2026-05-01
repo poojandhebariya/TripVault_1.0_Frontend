@@ -138,6 +138,25 @@ export const userQueries = () => {
     },
   });
 
+  const getProfileVisitStats = () => ({
+    queryKey: userKeys.profileVisitStats(),
+    queryFn: async (): Promise<{
+      totalVisits: number;
+      last30Days: number;
+      yearlyData: { year: number; visits: number }[];
+    }> => {
+      const response = await axiosInstance.get<
+        ApiResponse<{
+          totalVisits: number;
+          last30Days: number;
+          yearlyData: { year: number; visits: number }[];
+        }>
+      >(`/user/profile/visits/stats`);
+      return response.data.data;
+    },
+    staleTime: 1000 * 60 * 5, // 5 min
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -151,5 +170,6 @@ export const userQueries = () => {
     tagFollowersInVault,
     searchUsers,
     getFollowRequests,
+    getProfileVisitStats,
   };
 };

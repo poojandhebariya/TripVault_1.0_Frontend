@@ -617,6 +617,16 @@ export const userMutation = () => {
     },
   });
 
+  const recordProfileVisitMutation = (profileId: string) => ({
+    mutationKey: [...userKeys.all(), "profileVisit", profileId],
+    mutationFn: async () => {
+      const response = await axiosInstance.post<ApiResponse<null>>(
+        `/user/profile/${profileId}/visit`,
+      );
+      return response.data;
+    },
+  });
+
   return {
     profileMutation,
     updateProfileMutation,
@@ -627,5 +637,6 @@ export const userMutation = () => {
     updatePrivacyMutation,
     acceptFollowRequestMutation,
     declineFollowRequestMutation,
+    recordProfileVisitMutation,
   };
 };
