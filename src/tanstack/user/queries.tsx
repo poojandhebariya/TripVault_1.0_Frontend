@@ -178,6 +178,17 @@ export const userQueries = () => {
     staleTime: 1000 * 60 * 5, // 5 min
   });
 
+  const getReachStats = () => ({
+    queryKey: userKeys.reachStats(),
+    queryFn: async (): Promise<{ country: string; count: number; level: "high" | "medium" | "low" }[]> => {
+      const response = await axiosInstance.get<
+        ApiResponse<{ country: string; count: number; level: "high" | "medium" | "low" }[]>
+      >(`/user/profile/reach/stats`);
+      return response.data.data ?? [];
+    },
+    staleTime: 1000 * 60 * 5, // 5 min
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -193,5 +204,6 @@ export const userQueries = () => {
     getFollowRequests,
     getProfileVisitStats,
     getProfileTimeStats,
+    getReachStats,
   };
 };

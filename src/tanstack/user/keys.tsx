@@ -19,4 +19,5 @@ export const userKeys = {
   followRequests: () => [...userKeys.all(), "followRequests"],
   profileVisitStats: () => [...userKeys.all(), "profileVisitStats"],
   profileTimeStats: () => [...userKeys.all(), "profileTimeStats"],
+  reachStats: () => [...userKeys.all(), "reachStats"],
 };
