@@ -20,4 +20,5 @@ export const userKeys = {
   profileVisitStats: () => [...userKeys.all(), "profileVisitStats"],
   profileTimeStats: () => [...userKeys.all(), "profileTimeStats"],
   reachStats: () => [...userKeys.all(), "reachStats"],
+  distanceStats: () => [...userKeys.all(), "distanceStats"],
 };

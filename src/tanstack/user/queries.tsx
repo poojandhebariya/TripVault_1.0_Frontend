@@ -189,6 +189,33 @@ export const userQueries = () => {
     staleTime: 1000 * 60 * 5, // 5 min
   });
 
+  const getDistanceStats = () => ({
+    queryKey: userKeys.distanceStats(),
+    queryFn: async (): Promise<{
+      totalKm: number;
+      earthRatio: number;
+      nextMilestoneKm: number;
+      remainingKm: number;
+      totalVaultsWithLocation: number;
+      continents: { continent: string; vaults: number }[];
+      monthly: { month: string; vaults: number }[];
+    }> => {
+      const response = await axiosInstance.get<
+        ApiResponse<{
+          totalKm: number;
+          earthRatio: number;
+          nextMilestoneKm: number;
+          remainingKm: number;
+          totalVaultsWithLocation: number;
+          continents: { continent: string; vaults: number }[];
+          monthly: { month: string; vaults: number }[];
+        }>
+      >(`/user/profile/distance/stats`);
+      return response.data.data;
+    },
+    staleTime: 1000 * 60 * 5, // 5 min
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -205,5 +232,6 @@ export const userQueries = () => {
     getProfileVisitStats,
     getProfileTimeStats,
     getReachStats,
+    getDistanceStats,
   };
 };
