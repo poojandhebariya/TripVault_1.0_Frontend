@@ -5,6 +5,7 @@ import { faLayerGroup, faLock } from "@fortawesome/free-solid-svg-icons";
 import { vaultQueries } from "../../tanstack/vault/queries";
 import type { Vault } from "../../types/vault";
 import { userQueries } from "../../tanstack/user/queries";
+import { useOutletContext } from "react-router-dom";
 import VaultGridItem from "./components/vault-grid-item";
 import VaultViewer from "./components/vault-viewer";
 import VaultGridSkeleton from "../../components/skeletons/vault-grid-skeleton";
@@ -60,6 +61,7 @@ const EmptyState = ({
 );
 
 const Vaults = ({ publicMode = false, id = "" }: VaultsProps) => {
+  const { isProfileLoaded } = useOutletContext<{ isProfileLoaded?: boolean }>() || {};
   const { getMyVaults, getUserPublicVaults } = vaultQueries();
 
   // Own vaults
@@ -67,14 +69,14 @@ const Vaults = ({ publicMode = false, id = "" }: VaultsProps) => {
     data: myVaults = [],
     isLoading: myLoading,
     isError: myError,
-  } = useQuery({ ...getMyVaults(), enabled: !publicMode });
+  } = useQuery({ ...getMyVaults(), enabled: !publicMode && !!isProfileLoaded });
 
   // Public user vaults
   const {
     data: pubVaults = [],
     isLoading: pubLoading,
     isError: pubError,
-  } = useQuery({ ...getUserPublicVaults(id), enabled: publicMode && !!id });
+  } = useQuery({ ...getUserPublicVaults(id), enabled: publicMode && !!id && !!isProfileLoaded });
 
   const { getPublicProfile } = userQueries();
   const { data: profile } = useQuery({

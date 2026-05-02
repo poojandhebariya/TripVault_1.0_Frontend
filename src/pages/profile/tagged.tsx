@@ -13,7 +13,7 @@ import { userQueries } from "../../tanstack/user/queries";
 import type { Vault } from "../../types/vault";
 import VaultGridSkeleton from "../../components/skeletons/vault-grid-skeleton";
 import VaultViewer from "./components/vault-viewer";
-import { useParams } from "react-router-dom";
+import { useParams, useOutletContext } from "react-router-dom";
 
 const TagStatusIndicator = ({ status, isPinned }: { status: string; isPinned: boolean }) => {
   if (isPinned) return (
@@ -119,6 +119,7 @@ const TAG_TABS: { key: TagFilter; label: string }[] = [
 const Tagged = () => {
   const { id } = useParams<{ id: string }>();
   const isPublic = !!id;
+  const { isProfileLoaded } = useOutletContext<{ isProfileLoaded?: boolean }>() || {};
 
   const { getTaggedVaults, getPublicTaggedVaults } = userQueries();
   const queryToUse = id ? getPublicTaggedVaults(id) : getTaggedVaults();
@@ -127,7 +128,10 @@ const Tagged = () => {
     data: taggedVaults = [],
     isLoading,
     isError,
-  } = useQuery(queryToUse);
+  } = useQuery({
+    ...queryToUse,
+    enabled: !!isProfileLoaded && (queryToUse.enabled !== false)
+  });
 
   const { getPublicProfile } = userQueries();
   const { data: profile } = useQuery({

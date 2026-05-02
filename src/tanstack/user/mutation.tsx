@@ -638,6 +638,16 @@ export const userMutation = () => {
     },
   });
 
+  const markBadgeSeenMutation = () => ({
+    mutationKey: [...userKeys.all(), "markBadgeSeen"],
+    mutationFn: async (badgeId: string) => {
+      const response = await axiosInstance.post<ApiResponse<null>>(
+        `/user/profile/badges/${badgeId}/seen`,
+      );
+      return response.data;
+    },
+  });
+
   return {
     profileMutation,
     updateProfileMutation,
@@ -650,5 +660,6 @@ export const userMutation = () => {
     declineFollowRequestMutation,
     recordProfileVisitMutation,
     recordProfileTimeSpentMutation,
+    markBadgeSeenMutation,
   };
 };

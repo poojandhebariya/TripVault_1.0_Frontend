@@ -216,6 +216,39 @@ export const userQueries = () => {
     staleTime: 1000 * 60 * 5, // 5 min
   });
 
+  const getUserBadges = () => ({
+    queryKey: [...userKeys.all(), "badges"],
+    queryFn: async (): Promise<
+      {
+        id: string;
+        name: string;
+        emoji: string;
+        tier: "bronze" | "silver" | "gold" | "platinum" | "diamond" | "legend" | "mythic";
+        description: string;
+        threshold: number;
+        earned: boolean;
+        seen?: boolean;
+      }[]
+    > => {
+      const response = await axiosInstance.get<
+        ApiResponse<
+          {
+            id: string;
+            name: string;
+            emoji: string;
+            tier: "bronze" | "silver" | "gold" | "platinum" | "diamond" | "legend" | "mythic";
+            description: string;
+            threshold: number;
+            earned: boolean;
+            seen?: boolean;
+          }[]
+        >
+      >(`/user/profile/badges`);
+      return response.data.data;
+    },
+    staleTime: 1000 * 60 * 5, // 5 min
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -233,5 +266,6 @@ export const userQueries = () => {
     getProfileTimeStats,
     getReachStats,
     getDistanceStats,
+    getUserBadges,
   };
 };

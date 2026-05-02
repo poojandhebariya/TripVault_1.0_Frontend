@@ -24,6 +24,7 @@ import {
   faUserClock,
   faSpinner,
   faGear,
+  faMedal,
 } from "@fortawesome/free-solid-svg-icons";
 import Tabs from "../../components/ui/tabs";
 import { ROUTES, APP_BASE_URL } from "../../utils/constants";
@@ -33,6 +34,55 @@ import { useScheduledVaultPublisher } from "../../hooks/useScheduledVaultPublish
 import ShareModal from "../../components/ui/share-modal";
 import { ProfileSkeleton } from "../../components/skeletons/profile-skeleton";
 import { useAuthGuard } from "../../contexts/auth-guard-context";
+import { JourneyBadge, BadgeCelebrationModal } from "../../components/ui/journey-badge";
+
+// ── Journey Badges strip (own profile) ────────────────────────────────────────
+const JourneyBadgesStrip = ({ enabled }: { enabled: boolean }) => {
+  const { user } = useUserContext();
+  const { getUserBadges } = userQueries();
+  const { data: badges, isLoading } = useQuery({
+    ...getUserBadges(),
+    enabled,
+  });
+  const { markBadgeSeenMutation } = userMutation();
+  const { mutate: markSeen } = useMutation(markBadgeSeenMutation());
+
+  const earned = (badges ?? []).filter((b) => b.earned);
+
+  if (isLoading || earned.length === 0) return null;
+
+  return (
+    <>
+      {badges && badges.length > 0 && (
+        <BadgeCelebrationModal 
+          badges={badges} 
+          userName={user?.name} 
+          onMarkSeen={(id) => markSeen(id)} 
+        />
+      )}
+      <div className="mx-4 mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
+        <div className="rounded-2xl border border-gray-200 bg-white p-4">
+          <div className="flex items-center gap-2 mb-3">
+            <FontAwesomeIcon icon={faMedal} className="text-amber-500 text-xs" />
+            <p className="text-[11px] font-black uppercase tracking-widest text-gray-400">
+              Journey Badges
+            </p>
+            <span className="ml-auto text-[10px] font-bold text-amber-600 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-full">
+              {earned.length} earned
+            </span>
+          </div>
+          <div className="flex gap-6 overflow-x-auto pb-1 scrollbar-hide">
+            {earned.map((badge) => (
+              <div key={badge.id} className="flex-shrink-0">
+                <JourneyBadge badge={badge} size="sm" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 const CoverPlaceholder = ({ onClick }: { onClick?: () => void }) => (
   <div
@@ -143,7 +193,7 @@ const Profile = () => {
   const { followMutation, unfollowMutation, recordProfileVisitMutation, recordProfileTimeSpentMutation } = userMutation();
 
   // Own profile query
-  const { data: ownProfile, isLoading: ownLoading } = useQuery({
+  const { data: ownProfile, isLoading: ownLoading, isSuccess: ownSuccess } = useQuery({
     ...getProfile(),
     enabled: !isPublic,
   });
@@ -153,6 +203,7 @@ const Profile = () => {
     data: publicProfile,
     isLoading: pubLoading,
     isError: pubError,
+    isSuccess: pubSuccess,
   } = useQuery({
     ...getPublicProfile(id ?? ""),
     enabled: isPublic,
@@ -160,6 +211,7 @@ const Profile = () => {
 
   const profile = isPublic ? publicProfile : ownProfile;
   const isLoading = isPublic ? pubLoading : ownLoading;
+  const isProfileLoaded = isPublic ? pubSuccess : ownSuccess;
 
   // Follow / unfollow mutations (only relevant when public)
   const followMut = useMutation(followMutation(id ?? ""));
@@ -191,7 +243,7 @@ const Profile = () => {
   }, [id, isPublic]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Record time spent on profile
-  const profileIdToTrack = isPublic ? id : ownProfile?.id;
+  const profileIdToTrack = isPublic ? id : undefined;
   const recordTimeMut = useMutation(recordProfileTimeSpentMutation(profileIdToTrack ?? ""));
   const enterTimeRef = useRef<number>(Date.now());
 
@@ -689,6 +741,9 @@ const Profile = () => {
               </div>
             )}
 
+          {/* ── Journey Badges (own profile only) ─────────────────── */}
+          {!isPublic && <JourneyBadgesStrip enabled={isProfileLoaded} />}
+
           <div className="mt-4 lg:mt-6 lg:max-w-4xl lg:mx-auto">
             <Tabs
               tabs={[
@@ -706,7 +761,7 @@ const Profile = () => {
             />
           </div>
 
-          <Outlet />
+          <Outlet context={{ isProfileLoaded }} />
 
           <ImagePreviewModal
             src={previewSrc ?? undefined}
