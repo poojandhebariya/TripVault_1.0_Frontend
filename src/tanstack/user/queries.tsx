@@ -249,6 +249,33 @@ export const userQueries = () => {
     staleTime: 1000 * 60 * 5, // 5 min
   });
 
+  const getMoodStats = () => ({
+    queryKey: userKeys.moodStats(),
+    queryFn: async (): Promise<
+      {
+        id: string;
+        label: string;
+        vaultCount: number;
+        impressions: number;
+        engagementPct: number;
+      }[]
+    > => {
+      const response = await axiosInstance.get<
+        ApiResponse<
+          {
+            id: string;
+            label: string;
+            vaultCount: number;
+            impressions: number;
+            engagementPct: number;
+          }[]
+        >
+      >(`/user/profile/mood/stats`);
+      return response.data.data;
+    },
+    staleTime: 1000 * 60 * 5,
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -267,5 +294,6 @@ export const userQueries = () => {
     getReachStats,
     getDistanceStats,
     getUserBadges,
+    getMoodStats,
   };
 };

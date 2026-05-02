@@ -21,4 +21,5 @@ export const userKeys = {
   profileTimeStats: () => [...userKeys.all(), "profileTimeStats"],
   reachStats: () => [...userKeys.all(), "reachStats"],
   distanceStats: () => [...userKeys.all(), "distanceStats"],
+  moodStats: () => [...userKeys.all(), "moodStats"],
 };
