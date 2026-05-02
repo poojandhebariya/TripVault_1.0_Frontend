@@ -27,8 +27,8 @@ const InsightsPanel = () => {
               onClick={() => navigate(ROUTES.USER.SETTINGS_INSIGHTS_VISITS)}
             />
             <RowItem
-              label="Avg. Time Spent"
-              description="Average duration users spend exploring your vaults"
+              label="Engagement & Performance"
+              description="Analyze views, interactions, and session duration"
               onClick={() => navigate(ROUTES.USER.SETTINGS_INSIGHTS_TIME)}
             />
           </SettingsCard>

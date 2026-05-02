@@ -124,6 +124,54 @@ export const vaultQueries = () => {
     enabled: !!placeName.trim(),
   });
 
+  const getVaultTimeStats = () => ({
+    queryKey: vaultKeys.vaultTimeStats(),
+    queryFn: async (): Promise<{
+      avgSessionSeconds: number;
+      industryAvgSeconds: number;
+      aboveIndustryPct: number;
+      topVaults: {
+        vaultId: string;
+        title: string;
+        avgSeconds: number;
+        totalSessions: number;
+      }[];
+    }> => {
+      const response = await axiosInstance.get<
+        ApiResponse<{
+          avgSessionSeconds: number;
+          industryAvgSeconds: number;
+          aboveIndustryPct: number;
+          topVaults: {
+            vaultId: string;
+            title: string;
+            avgSeconds: number;
+            totalSessions: number;
+          }[];
+        }>
+      >(`/vault/time/stats`);
+      return response.data.data;
+    },
+    staleTime: 1000 * 60 * 5,
+  });
+
+  const getVaultEngagementStats = () => ({
+    queryKey: [...vaultKeys.all(), "engagement-stats"],
+    queryFn: async (): Promise<{
+      topByImpressions: Vault[];
+      topByEngagement: Vault[];
+    }> => {
+      const response = await axiosInstance.get<
+        ApiResponse<{
+          topByImpressions: Vault[];
+          topByEngagement: Vault[];
+        }>
+      >(`/vault/stats/engagement`);
+      return response.data.data;
+    },
+    staleTime: 1000 * 60 * 5,
+  });
+
   return {
     getMyVaults,
     getPublicVaults,
@@ -134,5 +182,7 @@ export const vaultQueries = () => {
     getUserPublicVaults,
     getFollowingVaults,
     getVaultsByPlace,
+    getVaultTimeStats,
+    getVaultEngagementStats,
   };
 };

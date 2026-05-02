@@ -18,4 +18,5 @@ export const userKeys = {
   searchUsers: (q: string) => [...userKeys.all(), "searchUsers", q],
   followRequests: () => [...userKeys.all(), "followRequests"],
   profileVisitStats: () => [...userKeys.all(), "profileVisitStats"],
+  profileTimeStats: () => [...userKeys.all(), "profileTimeStats"],
 };

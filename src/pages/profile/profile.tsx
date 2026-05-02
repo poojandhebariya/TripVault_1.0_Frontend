@@ -140,7 +140,7 @@ const Profile = () => {
   }, [id, currentUser, navigate]);
 
   const { getProfile, getPublicProfile } = userQueries();
-  const { followMutation, unfollowMutation, recordProfileVisitMutation } = userMutation();
+  const { followMutation, unfollowMutation, recordProfileVisitMutation, recordProfileTimeSpentMutation } = userMutation();
 
   // Own profile query
   const { data: ownProfile, isLoading: ownLoading } = useQuery({
@@ -189,6 +189,24 @@ const Profile = () => {
       visitMut.mutate();
     }
   }, [id, isPublic]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Record time spent on profile
+  const profileIdToTrack = isPublic ? id : ownProfile?.id;
+  const recordTimeMut = useMutation(recordProfileTimeSpentMutation(profileIdToTrack ?? ""));
+  const enterTimeRef = useRef<number>(Date.now());
+
+  useEffect(() => {
+    enterTimeRef.current = Date.now();
+
+    return () => {
+      const durationMs = Date.now() - enterTimeRef.current;
+      const durationSecs = Math.round(durationMs / 1000);
+      
+      if (profileIdToTrack && durationSecs >= 3) {
+        recordTimeMut.mutate(durationSecs);
+      }
+    };
+  }, [profileIdToTrack]); // Intentionally omitting recordTimeMut from deps to avoid re-running on every mutation state change
 
   const handleFollowersClick = () => {
     if (isPublic && id) {

@@ -157,6 +157,27 @@ export const userQueries = () => {
     staleTime: 1000 * 60 * 5, // 5 min
   });
 
+  const getProfileTimeStats = () => ({
+    queryKey: userKeys.profileTimeStats(),
+    queryFn: async (): Promise<{
+      avgSessionSeconds: number;
+      industryAvgSeconds: number;
+      aboveIndustryPct: number;
+      topVaults: { id: string; title: string; pct: number; views: number }[];
+    }> => {
+      const response = await axiosInstance.get<
+        ApiResponse<{
+          avgSessionSeconds: number;
+          industryAvgSeconds: number;
+          aboveIndustryPct: number;
+          topVaults: { id: string; title: string; pct: number; views: number }[];
+        }>
+      >(`/user/profile/time/stats`);
+      return response.data.data;
+    },
+    staleTime: 1000 * 60 * 5, // 5 min
+  });
+
   return {
     getProfile,
     checkUsername,
@@ -171,5 +192,6 @@ export const userQueries = () => {
     searchUsers,
     getFollowRequests,
     getProfileVisitStats,
+    getProfileTimeStats,
   };
 };

@@ -1022,6 +1022,7 @@ export const vaultMutation = () => {
     },
   };
 
+
   return {
     createVaultMutation,
     togglePinMutation,

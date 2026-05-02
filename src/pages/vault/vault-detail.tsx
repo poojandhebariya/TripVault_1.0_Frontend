@@ -85,6 +85,7 @@ const VaultDetail = () => {
     }
   }, [tab, isLoading]);
 
+
   return (
     <div className="animate-[slideDown_0.3s_ease-out] min-h-screen bg-white">
       {isLoading ? (
