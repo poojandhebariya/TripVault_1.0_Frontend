@@ -10,6 +10,8 @@ import {
 import { DeleteAccountModal } from "../../../components/settings/modals/delete-account-modal";
 import { DeactivateModal } from "../../../components/settings/modals/deactivate-modal";
 import { useSnackbar } from "react-snackify";
+import { useMutation } from "@tanstack/react-query";
+import { userMutation } from "../../../tanstack/user/mutation";
 
 const DangerPanel = () => {
   const { showSnackbar } = useSnackbar();
@@ -19,6 +21,36 @@ const DangerPanel = () => {
     showSnackbar({
       message: "This would permanently delete all your vaults.",
       variant: "warning"
+    });
+  };
+
+  const { exportDataMutation } = userMutation();
+  const exportData = useMutation(exportDataMutation());
+
+  const handleExportData = () => {
+    exportData.mutate(undefined, {
+      onSuccess: (data) => {
+        const url = window.URL.createObjectURL(new Blob([data]));
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', 'tripvault_data.zip');
+        document.body.appendChild(link);
+        link.click();
+        link.parentNode?.removeChild(link);
+        window.URL.revokeObjectURL(url);
+        
+        showSnackbar({
+          message: "Data exported successfully",
+          variant: "success"
+        });
+      },
+      onError: (error) => {
+        console.error(error);
+        showSnackbar({
+          message: "Failed to export data",
+          variant: "error"
+        });
+      }
     });
   };
 
@@ -47,9 +79,11 @@ const DangerPanel = () => {
               right={
                 <button
                   type="button"
-                  className="flex items-center gap-1.5 text-xs font-semibold text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1.5 rounded-lg hover:bg-blue-100 transition-colors cursor-pointer"
+                  onClick={handleExportData}
+                  disabled={exportData.isPending}
+                  className="flex items-center gap-1.5 text-xs font-semibold text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1.5 rounded-lg hover:bg-blue-100 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  <FontAwesomeIcon icon={faDownload} /> Export
+                  <FontAwesomeIcon icon={faDownload} /> {exportData.isPending ? "Exporting..." : "Export"}
                 </button>
               }
             />

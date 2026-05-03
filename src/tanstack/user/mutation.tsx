@@ -648,6 +648,17 @@ export const userMutation = () => {
     },
   });
 
+  const exportDataMutation = () => ({
+    mutationKey: [...userKeys.all(), "exportData"],
+    mutationFn: async () => {
+      const response = await axiosInstance.get(
+        "/user/export-data",
+        { responseType: "blob" }
+      );
+      return response.data;
+    },
+  });
+
   return {
     profileMutation,
     updateProfileMutation,
@@ -661,5 +672,6 @@ export const userMutation = () => {
     recordProfileVisitMutation,
     recordProfileTimeSpentMutation,
     markBadgeSeenMutation,
+    exportDataMutation,
   };
 };

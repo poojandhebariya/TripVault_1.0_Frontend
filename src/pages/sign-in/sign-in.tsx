@@ -117,12 +117,11 @@ const SignIn = () => {
 
   return (
     <div className="flex items-center overflow-y-auto justify-center md:h-full h-auto w-full relative">
-      <form
-        onSubmit={handleSubmit(onSubmit)}
-        className="flex z-1 bg-white flex-col gap-4 w-lg p-5 md:border border-gray-200 rounded-lg md:shadow-lg animate-[slideDown_0.3s_ease-out]"
-      >
         {step === "credentials" ? (
-          <>
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            className="flex z-1 bg-white flex-col gap-4 w-lg p-5 md:border border-gray-200 rounded-lg md:shadow-lg animate-[slideDown_0.3s_ease-out]"
+          >
             <p className="text-3xl leading-10 font-semibold gradient-text w-fit mx-auto">
               Sign In
             </p>
@@ -202,9 +201,12 @@ const SignIn = () => {
                 Create account
               </span>
             </p>
-          </>
+          </form>
         ) : (
-          <div className="flex flex-col gap-4 animate-[slideDown_0.3s_ease-out]">
+          <form 
+            onSubmit={handleVerify2Fa}
+            className="flex z-1 bg-white flex-col gap-4 w-lg p-5 md:border border-gray-200 rounded-lg md:shadow-lg animate-[slideDown_0.3s_ease-out]"
+          >
             <p className="text-3xl leading-10 font-semibold gradient-text w-fit mx-auto">
               Two-Factor Auth
             </p>
@@ -230,8 +232,7 @@ const SignIn = () => {
               text="Verify Code"
               loading={verify2FaPending}
               disabled={verify2FaPending || twoFaCode.length < 6}
-              onClick={handleVerify2Fa}
-              type="button"
+              type="submit"
             />
             <button
               type="button"
@@ -243,9 +244,8 @@ const SignIn = () => {
             >
               Back to login
             </button>
-          </div>
+          </form>
         )}
-      </form>
       <FontAwesomeIcon
         icon={faPlane}
         className="absolute top-20 left-20 text-8xl text-blue-100 animate-[slideRight_0.5s_ease-in-out]"
