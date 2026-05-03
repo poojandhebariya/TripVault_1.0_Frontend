@@ -596,11 +596,8 @@ const EditVault = () => {
         variant: "success",
       });
       navigate(-1);
-    } catch {
-      showSnackbar({
-        message: "Something went wrong. Please try again.",
-        variant: "error",
-      });
+    } catch (error) {
+      console.error(error);
     }
   };
 

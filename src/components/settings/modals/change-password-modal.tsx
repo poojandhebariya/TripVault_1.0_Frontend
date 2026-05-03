@@ -24,10 +24,11 @@ export const ChangePasswordModal = ({ open, onClose }: { open: boolean; onClose:
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const pwdError = validatePassword(form.newPass);
-    setNewPassError(pwdError ?? "");
+    const samePasswordError = form.newPass === form.current ? "New password cannot be the same as the current password." : "";
+    setNewPassError(pwdError || samePasswordError);
     const mismatch = form.newPass !== form.confirm ? "Passwords do not match." : "";
     setConfirmError(mismatch);
-    if (pwdError || mismatch) return;
+    if (pwdError || samePasswordError || mismatch) return;
     mutate({ currentPassword: form.current, newPassword: form.newPass });
   };
 
@@ -59,7 +60,9 @@ export const ChangePasswordModal = ({ open, onClose }: { open: boolean; onClose:
             onChange={(e) => {
               const val = e.target.value;
               setForm({ ...form, newPass: val });
-              setNewPassError(validatePassword(val) ?? "");
+              const pwdError = validatePassword(val);
+              const sameError = val === form.current ? "New password cannot be the same as the current password." : "";
+              setNewPassError(pwdError || sameError);
               if (form.confirm) setConfirmError(val !== form.confirm ? "Passwords do not match." : "");
             }}
             error={newPassError}
@@ -73,7 +76,7 @@ export const ChangePasswordModal = ({ open, onClose }: { open: boolean; onClose:
             }}
             error={confirmError}
             required />
-          <Button type="submit" text={isPending ? "Updating…" : "Update Password"} loading={isPending} disabled={isPending} />
+          <Button type="submit" text={isPending ? "Updating…" : "Update Password"} loading={isPending} disabled={isPending || !form.current || !form.newPass || !form.confirm || !!newPassError || !!confirmError} />
         </form>
       )}
     </Modal>
