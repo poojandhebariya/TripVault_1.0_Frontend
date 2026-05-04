@@ -9,23 +9,21 @@ import {
 } from "../settings-primitives";
 import { DeleteAccountModal } from "../../../components/settings/modals/delete-account-modal";
 import { DeactivateModal } from "../../../components/settings/modals/deactivate-modal";
+import { DeleteAllVaultsModal } from "../../../components/settings/modals/delete-all-vaults-modal";
 import { useSnackbar } from "react-snackify";
 import { useMutation } from "@tanstack/react-query";
 import { userMutation } from "../../../tanstack/user/mutation";
 
 const DangerPanel = () => {
   const { showSnackbar } = useSnackbar();
-  const [modal, setModal] = useState<"delete" | "deactivate" | null>(null);
-
-  const handleDeleteAllVaults = () => {
-    showSnackbar({
-      message: "This would permanently delete all your vaults.",
-      variant: "warning"
-    });
-  };
+  const [modal, setModal] = useState<"delete" | "deactivate" | "deleteAll" | null>(null);
 
   const { exportDataMutation } = userMutation();
   const exportData = useMutation(exportDataMutation());
+
+  const handleDeleteAllVaults = () => {
+    setModal("deleteAll");
+  };
 
   const handleExportData = () => {
     exportData.mutate(undefined, {
@@ -62,6 +60,10 @@ const DangerPanel = () => {
       />
       <DeactivateModal
         open={modal === "deactivate"}
+        onClose={() => setModal(null)}
+      />
+      <DeleteAllVaultsModal
+        open={modal === "deleteAll"}
         onClose={() => setModal(null)}
       />
 

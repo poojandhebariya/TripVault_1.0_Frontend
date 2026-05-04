@@ -94,6 +94,14 @@ export const vaultMutation = () => {
         old ? [optimisticVault, ...old] : [optimisticVault],
       );
 
+      queryClient.setQueryData<User>(userKeys.getProfile(), (old) => {
+        if (!old) return old;
+        return {
+          ...old,
+          vaultsCount: (old.vaultsCount ?? 0) + 1,
+        };
+      });
+
       if (payload.visibility === "public" && payload.status === "publish") {
         queryClient.setQueryData(
           [...vaultKeys.getPublicVaults(), 1],
@@ -104,7 +112,7 @@ export const vaultMutation = () => {
         );
       }
 
-      return { previousMyVaults, previousPublicVaults };
+      return { previousMyVaults, previousPublicVaults, previousProfile };
     },
     onError: (_err: unknown, _payload: Vault, context: any) => {
       if (context?.previousMyVaults !== undefined) {
@@ -117,6 +125,12 @@ export const vaultMutation = () => {
         queryClient.setQueryData(
           [...vaultKeys.getPublicVaults(), 1],
           context.previousPublicVaults,
+        );
+      }
+      if (context?.previousProfile !== undefined) {
+        queryClient.setQueryData(
+          userKeys.getProfile(),
+          context.previousProfile,
         );
       }
     },
@@ -310,6 +324,78 @@ export const vaultMutation = () => {
     onSuccess: () => {
       showSnackbar({
         message: "Vault deleted successfully",
+        variant: "success",
+        classname: "text-white",
+      });
+    },
+  };
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // Delete All Vaults
+  // ─────────────────────────────────────────────────────────────────────────
+
+  const deleteAllVaultsMutation = {
+    mutationKey: vaultKeys.deleteVault(), // reusing deleteVault key for invalidation
+    mutationFn: async (): Promise<void> => {
+      await axiosInstance.delete(`/vault/all`);
+    },
+    onMutate: async () => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+      const queryCache = queryClient.getQueryCache();
+      const allVaultQueries = queryCache.findAll({ queryKey: vaultKeys.all() });
+      const previousQueries = allVaultQueries.map((query) => ({
+        queryKey: query.queryKey,
+        data: query.state.data,
+      }));
+
+      const previousProfile = queryClient.getQueryData<User>(userKeys.getProfile());
+
+      // Empty all vault lists
+      allVaultQueries.forEach((query) => {
+        const data = query.state.data;
+        if (!data) return;
+        if (Array.isArray(data)) {
+          queryClient.setQueryData(query.queryKey, []);
+        } else if (
+          typeof data === "object" &&
+          "data" in data &&
+          Array.isArray((data as any).data)
+        ) {
+          queryClient.setQueryData(query.queryKey, (old: any) => {
+            if (!old || !old.data) return old;
+            return { ...old, data: [] };
+          });
+        }
+      });
+
+      // Update profile count and clear travel stats
+      queryClient.setQueryData<User>(userKeys.getProfile(), (old) => {
+        if (!old) return old;
+        return { 
+          ...old, 
+          vaultsCount: 0,
+          countriesVisited: [],
+          placesVisited: []
+        };
+      });
+
+      return { previousQueries, previousProfile };
+    },
+    onError: (_err: unknown, _vars: void, context: any) => {
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) => {
+          queryClient.setQueryData(queryKey, data);
+        });
+      }
+      if (context?.previousProfile) {
+        queryClient.setQueryData(userKeys.getProfile(), context.previousProfile);
+      }
+    },
+    onSuccess: () => {
+      queryClient.removeQueries({ queryKey: vaultKeys.all() });
+      queryClient.invalidateQueries({ queryKey: userKeys.getProfile() });
+      showSnackbar({
+        message: "All vaults deleted successfully",
         variant: "success",
         classname: "text-white",
       });
@@ -1032,6 +1118,7 @@ export const vaultMutation = () => {
     publishVaultMutation,
     likeVaultMutation,
     unlikeVaultMutation,
+    deleteAllVaultsMutation,
     postCommentMutation,
     deleteCommentMutation,
     saveVaultMutation,

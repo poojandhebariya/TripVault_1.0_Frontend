@@ -25,7 +25,7 @@ export const DeleteAccountModal = ({ open, onClose }: { open: boolean; onClose: 
           <p className="text-sm font-semibold text-red-700 flex items-center gap-2">
             <FontAwesomeIcon icon={faTriangleExclamation} /> This action is permanent
           </p>
-          <ul className="text-xs text-red-600 space-y-0.5 list-disc list-inside mt-1">
+          <ul className="text-xs text-red-600 space-y-1 list-disc ml-4 mt-2">
             <li>All your vaults and posts will be deleted</li>
             <li>Your bucket list and travel data will be removed</li>
             <li>Your followers / following relationships will be lost</li>
