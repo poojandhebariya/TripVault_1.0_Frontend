@@ -2,12 +2,11 @@ import { useState } from "react";
 import { clsx } from "clsx";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import {
-  PanelTitle,
-  PanelSubtitle,
   RowItem,
   SettingsCard,
   Toggle,
 } from "../settings-primitives";
+import MobileStickyHeader from "../../../components/mobile-sticky-header";
 import { FollowRequestsModal } from "../../../components/settings/modals/follow-requests-modal";
 import { userQueries } from "../../../tanstack/user/queries";
 import { userMutation } from "../../../tanstack/user/mutation";
@@ -74,12 +73,9 @@ const PrivacyPanel = () => {
         onClose={() => setRequestsOpen(false)}
       />
 
-      <div className="p-5 md:p-0">
-        <PanelTitle>Privacy</PanelTitle>
-        <PanelSubtitle>
-          Control who can see your content and interact with you.
-        </PanelSubtitle>
+      <MobileStickyHeader title="Privacy" />
 
+      <div className="p-5 md:p-0">
         <div className="space-y-6">
           {/* Account Privacy */}
           <SettingsCard>

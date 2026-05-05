@@ -18,7 +18,8 @@ const MENU_ITEMS = [
     label: "Security",
     description: "Password, 2FA, active sessions",
     icon: faShield,
-    iconBg: "bg-gradient-to-br from-blue-500 to-blue-700",
+    iconColor: "text-blue-600",
+    stubBg: "bg-blue-50/40 group-hover:bg-blue-50/80",
     danger: false,
   },
   {
@@ -26,23 +27,17 @@ const MENU_ITEMS = [
     label: "Privacy",
     description: "Account visibility, tagging, blocked users",
     icon: faLock,
-    iconBg: "bg-gradient-to-br from-purple-500 to-purple-700",
+    iconColor: "text-purple-600",
+    stubBg: "bg-purple-50/40 group-hover:bg-purple-50/80",
     danger: false,
   },
-  // {
-  //   to: ROUTES.USER.SETTINGS_APPEARANCE,
-  //   label: "Appearance",
-  //   description: "Theme and language preferences",
-  //   icon: faPalette,
-  //   iconBg: "bg-gradient-to-br from-indigo-500 to-indigo-700",
-  //   danger: false,
-  // },
   {
     to: ROUTES.USER.SETTINGS_INSIGHTS,
     label: "Insights",
     description: "Visits, engagement, and travel reach",
     icon: faChartLine,
-    iconBg: "bg-gradient-to-br from-emerald-500 to-emerald-700",
+    iconColor: "text-emerald-600",
+    stubBg: "bg-emerald-50/40 group-hover:bg-emerald-50/80",
     danger: false,
   },
   {
@@ -50,7 +45,8 @@ const MENU_ITEMS = [
     label: "Danger Zone",
     description: "Deactivate or delete your account",
     icon: faTriangleExclamation,
-    iconBg: "bg-gradient-to-br from-red-500 to-red-700",
+    iconColor: "text-red-600",
+    stubBg: "bg-red-50/40 group-hover:bg-red-50/80",
     danger: true,
   },
 ] as const;
@@ -67,30 +63,50 @@ const SettingsMenuPage = () => {
     <div className="animate-[slideDown_0.3s_ease-out]">
       <MobileStickyHeader title="Settings" />
 
-      <div className="p-5 space-y-2">
+      <div className="max-w-2xl mx-auto p-4 sm:p-6 space-y-4">
         {MENU_ITEMS.map((item) => (
           <button
             key={item.to}
             type="button"
             onClick={() => navigate(item.to)}
-            className={clsx(
-              "w-full flex items-center gap-4 bg-white rounded-2xl px-4 py-4 border shadow-sm text-left transition-all active:scale-[0.98] cursor-pointer",
-              item.danger ? "border-red-100" : "border-gray-200",
-            )}
+            className="group w-full flex bg-white border border-gray-200 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-gray-300 hover:-translate-y-1 cursor-pointer"
           >
-            <div className={clsx("w-11 h-11 rounded-xl flex items-center justify-center shrink-0", item.iconBg)}>
-              <FontAwesomeIcon icon={item.icon} className="text-white text-base" />
+            {/* Ticket Stub (Left Side) - Faint tinted bg, but no bg box behind the icon! */}
+            <div className={clsx(
+              "w-20 sm:w-24 flex items-center justify-center shrink-0 border-r border-dashed border-gray-200 transition-colors duration-300",
+              item.stubBg
+            )}>
+              <FontAwesomeIcon 
+                icon={item.icon} 
+                className={clsx("text-[22px] transition-transform duration-300 group-hover:scale-110", item.iconColor)} 
+              />
             </div>
-            <div className="flex-1 min-w-0">
-              <p className={clsx("text-sm font-semibold", item.danger ? "text-red-600" : "text-gray-800")}>
-                {item.label}
-              </p>
-              <p className="text-xs text-gray-400 mt-0.5 truncate">{item.description}</p>
+            
+            {/* Ticket Body (Right Side) */}
+            <div className="flex-1 p-4 sm:p-5 flex items-center justify-between min-w-0">
+              <div className="text-left pr-4">
+                <h3 className={clsx(
+                  "text-[15px] sm:text-base font-bold tracking-tight mb-0.5", 
+                  item.danger ? "text-red-600" : "text-gray-900"
+                )}>
+                  {item.label}
+                </h3>
+                <p className="text-[13px] text-gray-500 font-medium line-clamp-2 leading-snug">
+                  {item.description}
+                </p>
+              </div>
+
+              {/* End Chevron */}
+              <div className="w-8 h-8 rounded-full border border-transparent group-hover:border-gray-100 group-hover:bg-gray-50 flex items-center justify-center transition-all duration-300 shrink-0">
+                <FontAwesomeIcon 
+                  icon={faChevronRight} 
+                  className={clsx(
+                    "text-[12px] transition-transform duration-300 group-hover:translate-x-0.5", 
+                    item.danger ? "text-red-300" : "text-gray-400"
+                  )} 
+                />
+              </div>
             </div>
-            <FontAwesomeIcon
-              icon={faChevronRight}
-              className={clsx("text-xs shrink-0", item.danger ? "text-red-300" : "text-gray-300")}
-            />
           </button>
         ))}
       </div>
@@ -99,3 +115,4 @@ const SettingsMenuPage = () => {
 };
 
 export default SettingsMenuPage;
+

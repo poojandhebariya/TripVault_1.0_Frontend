@@ -2,11 +2,10 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import {
-  PanelTitle,
-  PanelSubtitle,
   RowItem,
   SettingsCard,
 } from "../settings-primitives";
+import MobileStickyHeader from "../../../components/mobile-sticky-header";
 import { DeleteAccountModal } from "../../../components/settings/modals/delete-account-modal";
 import { DeleteAllVaultsModal } from "../../../components/settings/modals/delete-all-vaults-modal";
 import { useSnackbar } from "react-snackify";
@@ -63,12 +62,9 @@ const DangerPanel = () => {
         onClose={() => setModal(null)}
       />
 
-      <div className="p-5 md:p-0">
-        <PanelTitle>Danger Zone</PanelTitle>
-        <PanelSubtitle>
-          Irreversible actions — please read carefully before proceeding.
-        </PanelSubtitle>
+      <MobileStickyHeader title="Danger Zone" />
 
+      <div className="p-5 md:p-0">
         <div className="space-y-4">
           <SettingsCard>
             <RowItem

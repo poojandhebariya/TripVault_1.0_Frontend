@@ -61,7 +61,10 @@ const RequestRow = ({ profile }: { profile: PublicProfile }) => {
           className="w-9 h-9 rounded-full bg-indigo-500 hover:bg-indigo-600 active:scale-95 text-white flex items-center justify-center transition-all disabled:opacity-50 cursor-pointer"
         >
           {accept.isPending ? (
-            <FontAwesomeIcon icon={faSpinner} className="animate-spin text-xs" />
+            <FontAwesomeIcon
+              icon={faSpinner}
+              className="animate-spin text-xs"
+            />
           ) : (
             <FontAwesomeIcon icon={faCheck} className="text-xs" />
           )}
@@ -74,7 +77,10 @@ const RequestRow = ({ profile }: { profile: PublicProfile }) => {
           className="w-9 h-9 rounded-full bg-gray-100 hover:bg-red-50 hover:text-red-500 active:scale-95 text-gray-500 flex items-center justify-center transition-all disabled:opacity-50 cursor-pointer border border-gray-200"
         >
           {decline.isPending ? (
-            <FontAwesomeIcon icon={faSpinner} className="animate-spin text-xs" />
+            <FontAwesomeIcon
+              icon={faSpinner}
+              className="animate-spin text-xs"
+            />
           ) : (
             <FontAwesomeIcon icon={faXmark} className="text-sm" />
           )}

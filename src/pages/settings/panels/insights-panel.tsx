@@ -1,10 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import {
-  PanelTitle,
-  PanelSubtitle,
   RowItem,
   SettingsCard,
 } from "../settings-primitives";
+import MobileStickyHeader from "../../../components/mobile-sticky-header";
 import { ROUTES } from "../../../utils/constants";
 
 const InsightsPanel = () => {
@@ -12,12 +11,8 @@ const InsightsPanel = () => {
 
   return (
     <div className="animate-[slideDown_0.3s_ease-out]">
+      <MobileStickyHeader title="Insights" />
       <div className="p-5 md:p-0">
-        <PanelTitle>Insights & Analytics</PanelTitle>
-        <PanelSubtitle>
-          Track your travel influence and engagement across the globe.
-        </PanelSubtitle>
-
         <div className="space-y-6">
           {/* Core Metrics */}
           <SettingsCard>

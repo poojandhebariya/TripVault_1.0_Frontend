@@ -2,15 +2,6 @@ import { clsx } from "clsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-/* ── Panel heading ── */
-export const PanelTitle = ({ children }: { children: React.ReactNode }) => (
-  <h2 className="text-lg font-bold text-gray-900 mb-1">{children}</h2>
-);
-
-export const PanelSubtitle = ({ children }: { children: React.ReactNode }) => (
-  <p className="text-sm text-gray-400 mb-5">{children}</p>
-);
-
 /* ── Toggle switch ── */
 export { default as Toggle } from "../../components/ui/toggle";
 

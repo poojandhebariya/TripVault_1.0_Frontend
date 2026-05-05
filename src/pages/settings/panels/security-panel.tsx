@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
-  PanelTitle,
-  PanelSubtitle,
   RowItem,
   SettingsCard,
 } from "../settings-primitives";
@@ -66,12 +64,9 @@ const SecurityPanel = () => {
         onChanged={() => setModal(null)}
       />
 
-      <div className="p-5 md:p-0">
-        <PanelTitle>Security</PanelTitle>
-        <PanelSubtitle>
-          Manage your login credentials and account security.
-        </PanelSubtitle>
+      <MobileStickyHeader title="Security" />
 
+      <div className="p-5 md:p-0">
         <div className="space-y-4">
           <SettingsCard>
             <RowItem
