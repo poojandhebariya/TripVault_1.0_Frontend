@@ -15,4 +15,5 @@ export const authKeys = {
   changeEmailConfirm: () => [...authKeys.all(), "changeEmailConfirm"],
   sessions: () => [...authKeys.all(), "sessions"],
   loginActivity: () => [...authKeys.all(), "loginActivity"],
+  deleteAccount: () => [...authKeys.all(), "deleteAccount"],
 };

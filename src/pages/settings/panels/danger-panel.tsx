@@ -8,7 +8,6 @@ import {
   SettingsCard,
 } from "../settings-primitives";
 import { DeleteAccountModal } from "../../../components/settings/modals/delete-account-modal";
-import { DeactivateModal } from "../../../components/settings/modals/deactivate-modal";
 import { DeleteAllVaultsModal } from "../../../components/settings/modals/delete-all-vaults-modal";
 import { useSnackbar } from "react-snackify";
 import { useMutation } from "@tanstack/react-query";
@@ -16,7 +15,7 @@ import { userMutation } from "../../../tanstack/user/mutation";
 
 const DangerPanel = () => {
   const { showSnackbar } = useSnackbar();
-  const [modal, setModal] = useState<"delete" | "deactivate" | "deleteAll" | null>(null);
+  const [modal, setModal] = useState<"delete" | "deleteAll" | null>(null);
 
   const { exportDataMutation } = userMutation();
   const exportData = useMutation(exportDataMutation());
@@ -58,10 +57,7 @@ const DangerPanel = () => {
         open={modal === "delete"}
         onClose={() => setModal(null)}
       />
-      <DeactivateModal
-        open={modal === "deactivate"}
-        onClose={() => setModal(null)}
-      />
+
       <DeleteAllVaultsModal
         open={modal === "deleteAll"}
         onClose={() => setModal(null)}
@@ -106,20 +102,6 @@ const DangerPanel = () => {
                   className="text-xs font-semibold text-red-600 bg-red-50 border border-red-200 px-3 py-1.5 rounded-lg hover:bg-red-100 transition-colors cursor-pointer"
                 >
                   <FontAwesomeIcon icon={faTrashCan} className="mr-1.5" /> Delete All
-                </button>
-              }
-            />
-            <RowItem
-              label="Deactivate Account"
-              description="Temporarily hide your profile — reactivate anytime by logging in"
-              danger
-              right={
-                <button
-                  type="button"
-                  onClick={() => setModal("deactivate")}
-                  className="text-xs font-semibold text-orange-600 bg-orange-50 border border-orange-200 px-3 py-1.5 rounded-lg hover:bg-orange-100 transition-colors cursor-pointer"
-                >
-                  Deactivate
                 </button>
               }
             />

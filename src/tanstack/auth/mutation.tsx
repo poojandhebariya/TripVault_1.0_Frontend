@@ -4,6 +4,7 @@ import type { AuthResponse } from "../../types/auth-response";
 import type { ApiResponse } from "../../types/api-response";
 import { useQueryClient } from "@tanstack/react-query";
 import { getDeviceInfo } from "../../utils/device-info";
+import { clear } from "idb-keyval";
 
 export const authMutation = () => {
   const queryClient = useQueryClient();
@@ -196,7 +197,9 @@ export const authMutation = () => {
       const currentSessionId = localStorage.getItem("sessionId");
       const response = await axiosInstance.delete<ApiResponse<null>>(
         `/auth/sessions/${sessionId}`,
-        { headers: currentSessionId ? { "X-Session-Id": currentSessionId } : {} },
+        {
+          headers: currentSessionId ? { "X-Session-Id": currentSessionId } : {},
+        },
       );
       return response.data;
     },
@@ -211,12 +214,29 @@ export const authMutation = () => {
       const currentSessionId = localStorage.getItem("sessionId");
       const response = await axiosInstance.delete<ApiResponse<null>>(
         "/auth/sessions/others",
-        { headers: currentSessionId ? { "X-Session-Id": currentSessionId } : {} },
+        {
+          headers: currentSessionId ? { "X-Session-Id": currentSessionId } : {},
+        },
       );
       return response.data;
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: authKeys.sessions() });
+    },
+  };
+
+  const deleteAccountMutation = {
+    mutationKey: authKeys.deleteAccount(),
+    mutationFn: async () => {
+      const response =
+        await axiosInstance.delete<ApiResponse<string>>("/auth/account");
+      return response.data;
+    },
+    onSuccess: async () => {
+      localStorage.clear();
+      await clear();
+      queryClient.clear();
+      window.location.href = "/";
     },
   };
 
@@ -234,5 +254,6 @@ export const authMutation = () => {
     changeEmailConfirmMutation,
     revokeSessionMutation,
     revokeOtherSessionsMutation,
+    deleteAccountMutation,
   };
 };
