@@ -54,7 +54,7 @@ export interface Vault {
 }
 
 export type VaultVisibility = "public" | "friends" | "private";
-export type VaultAudience = "everyone" | "followers";
+export type VaultAudience = "everyone" | "followers" | "private";
 
 export interface VaultAttachment {
   url: string;

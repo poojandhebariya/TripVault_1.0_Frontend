@@ -3,11 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { clsx } from "clsx";
 import {
-  PanelTitle,
-  PanelSubtitle,
   RowItem,
   SettingsCard,
 } from "../settings-primitives";
+import MobileStickyHeader from "../../../components/mobile-sticky-header";
 
 type Theme = "light" | "dark" | "system";
 type Language = "en" | "hi" | "es" | "fr";
@@ -26,18 +25,15 @@ const LANGUAGES: { val: Language; flag: string; label: string }[] = [
 ];
 
 const AppearancePanel = () => {
+  // Demo states (not persisted to backend for this UI demo)
   const [theme, setTheme] = useState<Theme>("light");
   const [language, setLanguage] = useState<Language>("en");
 
   return (
-    <>
+    <div className="animate-[slideDown_0.3s_ease-out]">
+      <MobileStickyHeader title="Appearance" />
       <div className="p-5 md:p-0">
-        <PanelTitle>Appearance</PanelTitle>
-        <PanelSubtitle>
-          Personalise how TripVault looks and feels for you.
-        </PanelSubtitle>
-
-        <div className="space-y-4">
+        <div className="space-y-6">
           <SettingsCard>
             <RowItem
               label="Theme"
@@ -95,7 +91,7 @@ const AppearancePanel = () => {
           </SettingsCard>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

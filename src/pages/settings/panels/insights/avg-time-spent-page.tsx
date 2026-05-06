@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faArrowTrendUp, faArrowTrendDown, faCirclePlay, faRankingStar, faChartBar, faEye } from "@fortawesome/free-solid-svg-icons";
+import { faClock, faArrowTrendUp, faArrowTrendDown, faRankingStar, faChartBar, faEye } from "@fortawesome/free-solid-svg-icons";
 import MobileStickyHeader from "../../../../components/mobile-sticky-header";
 import { userQueries } from "../../../../tanstack/user/queries";
 import { ROUTES } from "../../../../utils/constants";
-import { PanelTitle, PanelSubtitle } from "../../settings-primitives";
+
 
 const AvgTimeSpentPage = () => {
   const navigate = useNavigate();
@@ -66,8 +66,7 @@ const AvgTimeSpentPage = () => {
 
       {/* Desktop Header */}
       <div className="hidden md:block mb-6">
-        <PanelTitle>Avg. Time Spent</PanelTitle>
-        <PanelSubtitle>Average duration users spend exploring your profile</PanelSubtitle>
+
       </div>
 
       <div className="p-4 md:p-0 space-y-5">

@@ -1,69 +1,62 @@
 import { useState } from "react";
 import { clsx } from "clsx";
 import { useQuery, useMutation } from "@tanstack/react-query";
-import {
-  RowItem,
-  SettingsCard,
-  Toggle,
-} from "../settings-primitives";
+import { RowItem, SettingsCard, Toggle } from "../settings-primitives";
 import MobileStickyHeader from "../../../components/mobile-sticky-header";
 import { FollowRequestsModal } from "../../../components/settings/modals/follow-requests-modal";
+import { MakeAllPrivateModal } from "../../../components/settings/modals/make-all-private-modal";
 import { userQueries } from "../../../tanstack/user/queries";
 import { userMutation } from "../../../tanstack/user/mutation";
+import { vaultMutation } from "../../../tanstack/vault/mutation";
 import { useSnackbar } from "react-snackify";
+import { RECENT_KEY } from "../../../components/search/search-utils";
 
 const PrivacyPanel = () => {
   const { showSnackbar } = useSnackbar();
   const { getProfile } = userQueries();
   const { updatePrivacyMutation } = userMutation();
+  const { makeAllVaultsPrivateMutation } = vaultMutation();
 
   const { data: profile } = useQuery(getProfile());
   const updatePrivacy = useMutation(updatePrivacyMutation());
+  const [requestsOpen, setRequestsOpen] = useState(false);
+  const [makePrivateOpen, setMakePrivateOpen] = useState(false);
 
   const isPrivate = profile?.privateAccount ?? false;
   const showInSearch = profile?.showInSearch ?? true;
   const allowTagging = profile?.allowTagging ?? true;
 
-  const [requestsOpen, setRequestsOpen] = useState(false);
-
-  // ─── Dummy Data Actions ─────────────────────────────────────────────────────
-
-  const handleDeleteAllVaults = () => {
-    // Dummy implementation
-    showSnackbar({
-      message: "This would permanently delete all your vaults.",
-      variant: "warning"
-    });
-  };
-
   const handleMakeAllPrivate = () => {
-    // Dummy implementation
-    showSnackbar({
-      message: "All your vaults are now private.",
-      variant: "success"
-    });
+    setMakePrivateOpen(true);
   };
 
   const handleClearSearchHistory = () => {
-    // Dummy implementation
+    localStorage.removeItem(RECENT_KEY);
     showSnackbar({
-      message: "Search history cleared.",
-      variant: "success"
+      message: "Recent search history and locations cleared from this device.",
+      variant: "success",
+      classname: "text-white",
     });
   };
-
-  // ────────────────────────────────────────────────────────────────────────────
 
   const handlePrivateToggle = (val: boolean) => {
     updatePrivacy.mutate({ privateAccount: val, showInSearch, allowTagging });
   };
 
   const handleSearchToggle = (val: boolean) => {
-    updatePrivacy.mutate({ privateAccount: isPrivate, showInSearch: val, allowTagging });
+    updatePrivacy.mutate({
+      privateAccount: isPrivate,
+      showInSearch: val,
+      allowTagging,
+    });
   };
 
   const handleTaggingToggle = (val: boolean) => {
-    updatePrivacy.mutate({ privateAccount: isPrivate, showInSearch, allowTagging: val });
+    updatePrivacy.mutate({
+      privateAccount: isPrivate,
+      showInSearch,
+      allowTagging: val,
+    });
   };
 
   return (
@@ -71,6 +64,11 @@ const PrivacyPanel = () => {
       <FollowRequestsModal
         open={requestsOpen}
         onClose={() => setRequestsOpen(false)}
+      />
+
+      <MakeAllPrivateModal
+        open={makePrivateOpen}
+        onClose={() => setMakePrivateOpen(false)}
       />
 
       <MobileStickyHeader title="Privacy" />
@@ -83,10 +81,7 @@ const PrivacyPanel = () => {
               label="Private Account"
               description="Only approved followers can see your vaults"
               right={
-                <Toggle
-                  enabled={isPrivate}
-                  onChange={handlePrivateToggle}
-                />
+                <Toggle enabled={isPrivate} onChange={handlePrivateToggle} />
               }
             />
             {isPrivate && (

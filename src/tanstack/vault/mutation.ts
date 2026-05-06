@@ -1109,6 +1109,61 @@ export const vaultMutation = () => {
   };
 
 
+  const makeAllVaultsPrivateMutation = {
+    mutationKey: vaultKeys.all(),
+    mutationFn: async (): Promise<void> => {
+      await axiosInstance.post("/vault/make-all-private");
+    },
+    onMutate: async () => {
+      await queryClient.cancelQueries({ queryKey: vaultKeys.all() });
+      const queryCache = queryClient.getQueryCache();
+      const allVaultQueries = queryCache.findAll({ queryKey: vaultKeys.all() });
+      const previousQueries = allVaultQueries.map((query) => ({
+        queryKey: query.queryKey,
+        data: query.state.data,
+      }));
+
+      // Optimistically set all my vaults to private
+      queryClient.setQueryData<Vault[]>(vaultKeys.getMyVaults(), (old) => {
+        if (!old) return old;
+        return old.map((v) => ({ ...v, visibility: "private", audience: "private" }));
+      });
+      // For public vaults, remove any vaults authored by the current user
+      const currentUser = queryClient.getQueryData<User>(userKeys.getProfile());
+      if (currentUser) {
+        queryClient.setQueryData([...vaultKeys.getPublicVaults(), 1], (old: any) => {
+          if (!old || !old.data) return old;
+          return {
+            ...old,
+            data: old.data.filter((v: Vault) => v.author?.id !== currentUser.id)
+          };
+        });
+      }
+
+      return { previousQueries };
+    },
+    onError: (_err: unknown, _vars: void, context: any) => {
+      if (context?.previousQueries) {
+        context.previousQueries.forEach(({ queryKey, data }: any) => {
+          queryClient.setQueryData(queryKey, data);
+        });
+      }
+      showSnackbar({
+        message: "Failed to make vaults private. Please try again.",
+        variant: "error",
+        classname: "text-white",
+      });
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: vaultKeys.all() });
+      showSnackbar({
+        message: "All your vaults are now private.",
+        variant: "success",
+        classname: "text-white",
+      });
+    },
+  };
+
   return {
     createVaultMutation,
     togglePinMutation,
@@ -1125,5 +1180,6 @@ export const vaultMutation = () => {
     unsaveVaultMutation,
     notInterestedMutation,
     reportVaultMutation,
+    makeAllVaultsPrivateMutation,
   };
 };
